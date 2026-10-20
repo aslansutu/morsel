@@ -64,10 +64,13 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
 - iOS simulator: "iPhone Duo", UDID `C7FFE678-DB2A-440F-B880-237C322CD1D1`, the only model
   the iOS 27.1 runtime supports. Xcode 27's simulator app is DeviceHub. It has no camera, so
   no document scanner, and Vision's cut-out fails there ("Could not create inference context").
+  Screenshots: `xcrun simctl io <udid> screenshot --display=primary`; without the flag it
+  captures a second display that is always black.
 - Don't run other `flutter` commands while an iOS build runs: they regenerate
   `ios/Flutter/ephemeral` and the build fails on missing files.
-- Android: the owner's Galaxy S22 Ultra, adb id `R5CT60CS8KE`, USB only (wireless adb is
-  blocked on this Mac). Build with `flutter build apk --release --target-platform android-arm64`,
+- Android: the owner's Galaxy S22 Ultra, adb id `R5CT60CS8KE`, over USB, or over wireless
+  debugging when the owner turns it on (it connected on 2026-10-20; `adb mdns services` lists
+  it). Build with `flutter build apk --release --target-platform android-arm64`,
   install with `adb install -r` (keeps data), and don't launch it over what the owner is doing.
 - Android SDK: `/opt/homebrew/share/android-commandlinetools`, JDK 21, both set via `flutter config`.
 - Web: `flutter build web --no-wasm-dry-run`.
