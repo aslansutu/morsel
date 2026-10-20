@@ -1,0 +1,130 @@
+{
+ "code": "8690629437855",
+ "name": "Çikolatalı Hindistan Cevizli Puding Toz Karışımı",
+ "truth": "Şeker, nişasta, yağı azaltılmış kakao tozu, hindistan cevizi (%2), bitter çikolata parçaları (%1,6), aroma vericiler, kıvam arttırıcı (ksantan gam), tuz. Soya, süt ve sert kabuklu meyve içerebilir.",
+ "contains": [],
+ "traces": [
+  "en:soybeans",
+  "en:milk",
+  "en:nuts"
+ ],
+ "note": "Open Food Facts leaves out the \"may contain\" line the photo shows. Coconut is not a tree nut.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 0.8881,
+    "text": "Içindekiler: Şeker, nişasta, yağı azaltılmış",
+    "top": 0.0697,
+    "slope": -0.0323,
+    "bottom": 0.2238,
+    "left": 0.062
+   },
+   {
+    "left": 0.0661,
+    "top": 0.1698,
+    "right": 0.9672,
+    "text": "kakao tozu, hindistan cevizi (%2), bitter çikolata",
+    "bottom": 0.3347,
+    "slope": -0.0339
+   },
+   {
+    "bottom": 0.4433,
+    "right": 0.9627,
+    "left": 0.0692,
+    "slope": -0.0321,
+    "text": "parçaları (%1,6), aroma vericiler, kivam arttiricı",
+    "top": 0.2905
+   },
+   {
+    "top": 0.4229,
+    "right": 0.4497,
+    "bottom": 0.5601,
+    "slope": -0.0444,
+    "text": "(kantan gam), tuz.",
+    "left": 0.0691
+   },
+   {
+    "text": "Soya, süt ve sert kabuklu meyve içerebilir.",
+    "slope": -0.0424,
+    "right": 0.9801,
+    "top": 0.539,
+    "bottom": 0.7065,
+    "left": 0.0707
+   },
+   {
+    "slope": -0.0269,
+    "bottom": 0.8136,
+    "right": 0.8826,
+    "text": "Domuz yağı ve domuzdan elde edilmiş",
+    "left": 0.0723,
+    "top": 0.6769
+   },
+   {
+    "bottom": 0.9379,
+    "slope": -0.028,
+    "right": 0.525,
+    "text": "hiçbir ürünü içermez.",
+    "left": 0.0708,
+    "top": 0.8078
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Içindekiler: Şeker, nişasta, yağı azaltılmış",
+    "left": 0.0629,
+    "top": 0.077,
+    "right": 0.8867,
+    "bottom": 0.2147,
+    "slope": -0.0281
+   },
+   {
+    "text": "kakao tozu, hindistan cevizi (%2), bitter çikolata",
+    "left": 0.0659,
+    "top": 0.1659,
+    "right": 0.9673,
+    "bottom": 0.3371,
+    "slope": -0.0444
+   },
+   {
+    "text": "parçaları (%1,6), aroma vericiler, kıvam arttırıcı",
+    "left": 0.0697,
+    "top": 0.2909,
+    "right": 0.9609,
+    "bottom": 0.4493,
+    "slope": -0.0382
+   },
+   {
+    "text": "(ksantan gam), tuz.",
+    "left": 0.0704,
+    "top": 0.4292,
+    "right": 0.4477,
+    "bottom": 0.5502,
+    "slope": -0.0
+   },
+   {
+    "text": "Soya, süt ve sert kabuklu meyve içerebilir.",
+    "left": 0.0679,
+    "top": 0.5282,
+    "right": 0.979,
+    "bottom": 0.7149,
+    "slope": -0.0519
+   },
+   {
+    "text": "Domuz yağı ve domuzdan elde edilmiş",
+    "left": 0.0718,
+    "top": 0.6761,
+    "right": 0.8795,
+    "bottom": 0.8143,
+    "slope": -0.0334
+   },
+   {
+    "text": "hiçbir ürünü içermez.",
+    "left": 0.0719,
+    "top": 0.8086,
+    "right": 0.5255,
+    "bottom": 0.9344,
+    "slope": -0.0176
+   }
+  ]
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "code": "8690526018065",
+ "name": "Karamela",
+ "truth": "Bol Sütlü Çikolata %74 [Şeker, Kakao Yağı, Kakao Kitlesi, Süt Kreması Tozu, Süt Tozu, Laktoz (Süt Ürünü), Emülgatör (Ayçiçek Lesitini), Aroma Verici (Vanilin). Kakao Kuru Maddesi En Az %33,5, Süt Kuru Maddesi En Az %29'dur.], Karamel %26 [Şeker, Bitkisel Yağ (Tam Hidrojenize Palm), İnvert Şeker Şurubu, Süt Tozu, Nem Vericiler (Sorbitol, Gliserin), Peynir Altı Suyu Tozu (Süt Ürünü), İnülin, Buğday Unu (Gluten içerir), Tuz, Emülgatör (Yağ Asitlerinin Mono ve Digliseridleri), Asitliği Düzenleyici (Sodyum Hidrojen Karbonat), Aroma Vericiler, İnvertaz Enzimi]. Eser miktarda Antep Fıstığı, Badem, Fındık, Soya Ürünü ve Yer Fıstığı içerebilir.",
+ "contains": [
+  "en:milk",
+  "en:gluten"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:soybeans",
+  "en:peanuts"
+ ],
+ "note": "Corrected to the photo. Nutrition follows the list in the same paragraph.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "ETİ KARAMELA - KARAMEL DOLGULU BOL SÜTLÜ ÇIKOLATA - içindekiler: Bol Sütlü Çikolata %74 (Şeker, Kakao Yağı, Kakao Kidesi, Sucaremasc Tozu,",
+    "bottom": 0.2412,
+    "left": 0.0032,
+    "right": 0.9968,
+    "top": 0.1021,
+    "slope": -0.0106
+   },
+   {
+    "bottom": 0.4265,
+    "top": 0.163,
+    "text": "Süt Tozu, Laktoz (Süt Ürünü), Emülgatör (Ayçicek Lesitini), Aroma Verici (Vanilin). Kakao Kuru Maddesi En Az %33,5, Süt Kuru Maddesi En Az-",
+    "slope": -0.0759,
+    "right": 0.9996,
+    "left": 0.003
+   },
+   {
+    "left": 0.0044,
+    "right": 0.9976,
+    "bottom": 0.5636,
+    "slope": -0.0409,
+    "top": 0.3316,
+    "text": "%29'dur.], Karamel %26 (Şeker, Bitkisel Yağ (Tam Hidrojenize Palm), İnvert Şeker Şurubu, Süt Tozu, Nem Vericiler (Sorbitol, Gliserin), Peynir Altır"
+   },
+   {
+    "top": 0.464,
+    "left": 0.0083,
+    "right": 0.995,
+    "slope": -0.0512,
+    "text": "Suyu Tozu (Süt Ürünü), İnülin, Buğday Unu (Gluten içerir), Tuz, Emülgatör (Yağ Asitlerinin Mono ve Diliseridleri), Asitliği Düzenleyici (Sodyum",
+    "bottom": 0.7009
+   },
+   {
+    "slope": -0.0859,
+    "text": "Hidrojen Karbonat), Aroma Vericiler, İnvertaz Enzimi]. Eser miktarda Antep Fıstığı, Badem, Fındık, Soya Ürünü ve Ver Fıstığı içerebilir.",
+    "left": 0.0115,
+    "right": 0.9943,
+    "top": 0.5825,
+    "bottom": 0.835
+   },
+   {
+    "text": "Enerji ve Besin Öğeleri (100 g'da): Enerji 2142 kJ/ 513 kcal, Yağ 29,9 g (Doymuş Yağ 20,2 g, Trans Yağ 0 g), Karbonhidrat 53,4 g (Şekerler 48,4 g). LiF2,3 g, Protein 6,5g, Tuz 0,5 g.",
+    "right": 0.9807,
+    "left": 0.0141,
+    "bottom": 0.9463,
+    "slope": -0.0882,
+    "top": 0.7233
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "ETİ KARAMELA - KARAMEL DOLGULU BOL SÜTLÜ ÇİKOLATA - İçindekiler: Bol Sütlü Çıkolata %74 (Şeker, Kakao vağı, Kakao kılesi, sückceması focu,",
+    "left": -0.0,
+    "top": 0.0945,
+    "right": 0.9936,
+    "bottom": 0.2521,
+    "slope": -0.0155
+   },
+   {
+    "text": "Süt Tozu, Laktoz (Süt Ürünüü), Emülgatör (Ayçiçek Lesitini), Aroma Verici (Vanilin). Kakao Kuru Maddesi En Az %33,5, Süt Kuru Maddesi En Az",
+    "left": 0.0022,
+    "top": 0.2055,
+    "right": 0.9978,
+    "bottom": 0.3973,
+    "slope": -0.0
+   },
+   {
+    "text": "%29'dur.], Karamel %26 [Şeker, Bitkisel Yağ (Tam Hidrojenize Palm), İnvert Şeker Şurubu, Süt Tozu, Nem Vericiler (Sorbitol, Gliserin), Peynir Altı",
+    "left": 0.002,
+    "top": 0.3263,
+    "right": 0.9959,
+    "bottom": 0.5591,
+    "slope": -0.0578
+   },
+   {
+    "text": "Suyu Tozu (Süt Ürünü), İnülin, Buğday Unu (Gluten içerir), Tuz, Emülgatör (Yağ Asitlerinin Mono ve Digliseridleri), Asitliği Düzenleyici (Sodyum",
+    "left": 0.0085,
+    "top": 0.4744,
+    "right": 0.9937,
+    "bottom": 0.6698,
+    "slope": -0.0531
+   },
+   {
+    "text": "Hidrojen Karbonat), Aroma Vericiler, İnvertaz Enzimi]. Eser miktarda Antep Fıstığı, Badem, Fındık, Soya Ürünü ve Yer Fıstığı içerebilir.",
+    "left": 0.0106,
+    "top": 0.5851,
+    "right": 0.9895,
+    "bottom": 0.8076,
+    "slope": -0.088
+   },
+   {
+    "text": "Enerji ve Besin Öğeleri (100 g'da): Enerji 2142 kJ/ 513 kcal, Yağ 29,9 g (Doymuş Yağ 20,2 g, Trans Yağ 0 g), Karbonhidrat 53,4 g (Sekerler 48,4 g), Lif 2,3 g, Protein 6,5g, Tuz 0,5 g.",
+    "left": 0.0106,
+    "top": 0.7079,
+    "right": 0.9787,
+    "bottom": 0.9412,
+    "slope": -0.0897
+   }
+  ]
+ }
+}

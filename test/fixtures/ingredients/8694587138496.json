@@ -1,0 +1,630 @@
+{
+ "code": "8694587138496",
+ "name": "Meyveli Topping Sos",
+ "truth": "Glucose syrup, water, sugar, strawberry (%5), sourcherry (%5), raspberry (%2), modified potato starch, colour (black carrot juice concentrate), thickener (pectin,carrageenan), acidity regulator (citric acid, tri sodium citrate, malic acid), artificial flavours (raspberry, sourcherry), preservative (potassium sorbate). May contain trace amounts of gluten, soy product, sulphite, milk product, celery, egg, almond, hazelnut and pistachio.",
+ "contains": [],
+ "traces": [
+  "en:gluten",
+  "en:soybeans",
+  "en:sulphur-dioxide-and-sulphites",
+  "en:milk",
+  "en:celery",
+  "en:eggs",
+  "en:nuts"
+ ],
+ "note": "Turkish, English, Azerbaijani and Russian. Open Food Facts lists the may-contains as allergens.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "Nasıl Kullanılır?",
+    "left": 0.4314,
+    "top": 0.0938,
+    "bottom": 0.1247,
+    "right": 0.6774,
+    "slope": -0.0291
+   },
+   {
+    "right": 0.6518,
+    "bottom": 0.1472,
+    "left": 0.4567,
+    "top": 0.1192,
+    "text": "How to Use?",
+    "slope": 0.0157
+   },
+   {
+    "left": 0.2823,
+    "slope": -0.0179,
+    "right": 0.7911,
+    "bottom": 0.2518,
+    "top": 0.2176,
+    "text": "Meyveli Sos • Kullanım Alan: Tüm kek, pasta, dondurma, tar, waffle, cheesecake,"
+   },
+   {
+    "right": 0.7872,
+    "bottom": 0.2672,
+    "slope": -0.017,
+    "top": 0.2365,
+    "text": "vo, tati çeşitlerinde susleme amaci veya sos olarak ya da tabak, bardak",
+    "left": 0.2824
+   },
+   {
+    "left": 0.2843,
+    "right": 0.7871,
+    "text": "dekorasyonunda kullanılır. Oda scakliğında direkt olarak uygulanır. İçindekiler:",
+    "bottom": 0.2814,
+    "top": 0.2512,
+    "slope": -0.0162
+   },
+   {
+    "text": "Gikoz surubu, su, seker, cilek (5), vişne (5), frambuaz (%ž), modifye patates",
+    "bottom": 0.2971,
+    "top": 0.2696,
+    "left": 0.2864,
+    "right": 0.7832,
+    "slope": -0.0111
+   },
+   {
+    "slope": -0.0155,
+    "top": 0.2886,
+    "text": "fisastasi, renklendirii sıyan navuç suyu konsantresi, kwam arttricı (pektin",
+    "left": 0.2902,
+    "right": 0.7754,
+    "bottom": 0.3142
+   },
+   {
+    "bottom": 0.3305,
+    "left": 0.2884,
+    "text": "karragenan), astik duzenleyiciler (sitrik asit, tri sodyum sitrat, malik asit, aroma",
+    "top": 0.3038,
+    "right": 0.7754,
+    "slope": -0.0162
+   },
+   {
+    "top": 0.3217,
+    "right": 0.7792,
+    "text": "vericiler frambuaz visne), koruyucu (potasyum sorbat). Eser miktarda gluten, süt",
+    "bottom": 0.3461,
+    "slope": -0.007,
+    "left": 0.2885
+   },
+   {
+    "top": 0.3389,
+    "right": 0.7733,
+    "left": 0.2886,
+    "slope": -0.0036,
+    "bottom": 0.3622,
+    "text": "ürünü, soya proteini, sülfit, kereviz, yumurta, badem, fındık ve antep fistiğı"
+   },
+   {
+    "slope": -0.1071,
+    "text": "Içereb",
+    "top": 0.3649,
+    "left": 0.2884,
+    "right": 0.3278,
+    "bottom": 0.3833
+   },
+   {
+    "text": "sauce on all types of desserts like cakes, pastries, ice creams, tarts, wafles,",
+    "right": 0.7657,
+    "bottom": 0.4304,
+    "left": 0.2904,
+    "top": 0.4065,
+    "slope": -0.0095
+   },
+   {
+    "bottom": 0.4433,
+    "top": 0.4273,
+    "left": 0.2907,
+    "right": 0.7636,
+    "slope": 0,
+    "text": "cheesecakes etc. Ingredients: Glucose syrup, water, sugar, strawberry (5),"
+   },
+   {
+    "text": "sourcherry (%5), raspberry (2), modified potato starch, colour (black carrot juice",
+    "left": 0.2925,
+    "top": 0.4419,
+    "right": 0.7656,
+    "slope": -0.0051,
+    "bottom": 0.4602
+   },
+   {
+    "top": 0.4578,
+    "right": 0.7655,
+    "bottom": 0.4782,
+    "left": 0.2926,
+    "slope": 0,
+    "text": "concentrate), thickener (pectin,carrageenan), acidity regulator (citric acid, tri sodium"
+   },
+   {
+    "bottom": 0.4956,
+    "text": "citrate, malic acid, artificial flavours (raspberry, sourcherry), preservative (potassium",
+    "left": 0.2926,
+    "slope": 0,
+    "top": 0.4752,
+    "right": 0.7636
+   },
+   {
+    "left": 0.2946,
+    "text": "sorbate). May contain trace amounts of gluten, soy product, sulphite, milk",
+    "bottom": 0.5117,
+    "slope": 0,
+    "top": 0.4942,
+    "right": 0.7616
+   },
+   {
+    "right": 0.7617,
+    "left": 0.2945,
+    "bottom": 0.5281,
+    "slope": -0.0044,
+    "text": "product, celery, egg, almond, hazelnut and pistachio. Keep in a cool, dry and",
+    "top": 0.5088
+   },
+   {
+    "top": 0.5275,
+    "right": 0.7578,
+    "bottom": 0.5451,
+    "text": "doress place. Refrigerate after opening. Best before date and lot number are on the",
+    "left": 0.3004,
+    "slope": 0
+   },
+   {
+    "slope": 0,
+    "bottom": 0.5596,
+    "top": 0.5422,
+    "left": 0.3004,
+    "right": 0.7539,
+    "text": "ackage. AD Meyvali Sos• Tarkibi: Qlikoza sarbati, su, sakar, cyalak (%), vişna (65"
+   },
+   {
+    "right": 0.7598,
+    "left": 0.3003,
+    "top": 0.5609,
+    "text": "armbuaz (koz), modifiye kartof nişastası, ranglandirici (çara yerkoku suyu",
+    "slope": -0.0056,
+    "bottom": 0.5792
+   },
+   {
+    "text": "konsentasyasi, konsistensiya veric (pektin, karragenan), turşusu tenzimlayicsi (strik,",
+    "slope": -0.0032,
+    "bottom": 0.5993,
+    "left": 0.2926,
+    "top": 0.577,
+    "right": 0.7637
+   },
+   {
+    "right": 0.7616,
+    "bottom": 0.6119,
+    "left": 0.2926,
+    "text": "turu, trisodyum sitrat, malik tursu), abr verici (frambuaz, vişna), goruyucu kallum",
+    "top": 0.5945,
+    "slope": 0
+   },
+   {
+    "right": 0.6978,
+    "bottom": 0.6314,
+    "top": 0.6103,
+    "text": "sorbat. Çox az miqdarda, gluten, süd mahsulu, soya mahsulu, sun",
+    "slope": 0.0077,
+    "left": 0.2924
+   },
+   {
+    "left": 0.2946,
+    "top": 0.6279,
+    "right": 0.7674,
+    "bottom": 0.6468,
+    "slope": 0,
+    "text": "yumurta, badam, findiq va püsta ehtiva eda bilar. QU Фруктовый Соус •"
+   },
+   {
+    "slope": 0,
+    "text": "Ингредиенть: Глюкозный сироп, вода, сахар, клубника (%5), вишня (%5), малина (12,",
+    "top": 0.6438,
+    "left": 0.2926,
+    "bottom": 0.6642,
+    "right": 0.7636
+   },
+   {
+    "text": "МОДИ",
+    "left": 0.2888,
+    "right": 0.3159,
+    "slope": 0,
+    "top": 0.6628,
+    "bottom": 0.6759
+   },
+   {
+    "slope": -0.0107,
+    "top": 0.6583,
+    "text": "крованный картофельный крахмал, красители (концентрация сока черной",
+    "left": 0.3351,
+    "right": 0.7659,
+    "bottom": 0.6855
+   },
+   {
+    "text": "моркови), загуститель (пектин, каррагинан), регуляторы кислотности (лимонная",
+    "left": 0.2888,
+    "bottom": 0.7006,
+    "top": 0.6788,
+    "right": 0.7655,
+    "slope": 0
+   },
+   {
+    "left": 0.2868,
+    "right": 0.7637,
+    "bottom": 0.7175,
+    "text": "кислота, тринатрийцитрат, яблочная кислота), ароматизатор (малина вишня,",
+    "top": 0.6947,
+    "slope": -0.0031
+   },
+   {
+    "left": 0.2849,
+    "slope": 0,
+    "top": 0.7108,
+    "text": "монсервит ( калий сорбат). Может содержать следы глютена, молочных продуктов,",
+    "right": 0.7713,
+    "bottom": 0.7355
+   },
+   {
+    "text": "соевый белок, сульфида, сельдерея, яиц, миндаля, фундука и фисташек. Хранить в",
+    "top": 0.7267,
+    "right": 0.7733,
+    "bottom": 0.7515,
+    "slope": 0,
+    "left": 0.2829
+   },
+   {
+    "text": "прокладном и сухом месте без посторонних запаков. После вскрытия упаковки, хранить",
+    "bottom": 0.7683,
+    "slope": 0.0031,
+    "left": 0.2828,
+    "top": 0.7441,
+    "right": 0.7733
+   },
+   {
+    "top": 0.7584,
+    "right": 0.7,
+    "bottom": 0.7889,
+    "slope": 0.0148,
+    "left": 0.2804,
+    "text": "в коподильнике. Для срок годности и партия номер смотрите на упаковне."
+   },
+   {
+    "slope": 0.0057,
+    "left": 0.3991,
+    "top": 0.8066,
+    "bottom": 0.8267,
+    "text": "İşletme Kayit Numaras: TR-34-K-002801",
+    "right": 0.6668
+   },
+   {
+    "slope": 0.0099,
+    "right": 0.6339,
+    "bottom": 0.8426,
+    "top": 0.8266,
+    "text": "lense Ulke: Türkiye Made in Turke",
+    "left": 0.4281
+   },
+   {
+    "left": 0.436,
+    "right": 0.5174,
+    "bottom": 0.8517,
+    "text": "Turk Gida Kod",
+    "slope": 0,
+    "top": 0.8385
+   },
+   {
+    "left": 0.4218,
+    "right": 0.6393,
+    "slope": -0.0127,
+    "text": "Net: 320 ge",
+    "top": 0.8695,
+    "bottom": 0.9097
+   },
+   {
+    "right": 0.721,
+    "top": 0.9825,
+    "bottom": 1.0001,
+    "slope": 0.0045,
+    "left": 0.3526,
+    "text": "Uretici / Producer • Souvisit Gida San. ve Tic. A.S.e"
+   },
+   {
+    "top": 0.3958,
+    "right": 0.7669,
+    "left": 0.7207,
+    "bottom": 0.407,
+    "text": "5LY53",
+    "slope": 0
+   },
+   {
+    "top": 0.8552,
+    "left": 0.5007,
+    "slope": 0,
+    "bottom": 0.8679,
+    "right": 0.5605,
+    "text": "eT0496"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Nasıl Kullanılır?",
+    "left": 0.4299,
+    "top": 0.093,
+    "right": 0.6765,
+    "bottom": 0.1248,
+    "slope": -0.0341
+   },
+   {
+    "text": "How to Use?",
+    "left": 0.4534,
+    "top": 0.1199,
+    "right": 0.6529,
+    "bottom": 0.1473,
+    "slope": 0.0133
+   },
+   {
+    "text": "口X",
+    "left": 0.2845,
+    "top": 0.1659,
+    "right": 0.3247,
+    "bottom": 0.1854,
+    "slope": -0.0
+   },
+   {
+    "text": "astasi, renklendinici (siyan navuç suyu konsantresi, kivam artonic pekt",
+    "left": 0.2984,
+    "top": 0.2877,
+    "right": 0.7675,
+    "bottom": 0.3132,
+    "slope": -0.0152
+   },
+   {
+    "text": "aragenan), aşitlk düzenleyiciler (strik asit, tri sodyum strat, malik asit, arom",
+    "left": 0.2927,
+    "top": 0.302,
+    "right": 0.7675,
+    "bottom": 0.3302,
+    "slope": -0.0147
+   },
+   {
+    "text": "concentrate, thickener pectin, carrageenan), acidity regulator (citric acid, tri sodium",
+    "left": 0.293,
+    "top": 0.4589,
+    "right": 0.7616,
+    "bottom": 0.4795,
+    "slope": -0.0052
+   },
+   {
+    "text": "modifiye kartof nişastasi, ranglandinic gara ye",
+    "left": 0.3734,
+    "top": 0.5578,
+    "right": 0.6985,
+    "bottom": 0.5821,
+    "slope": 0.0082
+   },
+   {
+    "text": "konsentrasiyas, konsistensiya verici (pektin, karagenan), furşusu tanzin",
+    "left": 0.2902,
+    "top": 0.5775,
+    "right": 0.6925,
+    "bottom": 0.5971,
+    "slope": -0.0
+   },
+   {
+    "text": "tuşu, trisodyum strat, malik turu), atr veridi (frambuaz, visna), qonu",
+    "left": 0.2902,
+    "top": 0.5925,
+    "right": 0.6925,
+    "bottom": 0.6143,
+    "slope": -0.0
+   },
+   {
+    "text": "soroat. Çox az migdarda, gluten, süd mahsulu, soya mahsulu, su",
+    "left": 0.2902,
+    "top": 0.6121,
+    "right": 0.6925,
+    "bottom": 0.6293,
+    "slope": -0.0
+   },
+   {
+    "text": "nurta, badam, fındıg va püsta ehtiva eda bilar. RU Opyk",
+    "left": 0.3103,
+    "top": 0.6293,
+    "right": 0.6839,
+    "bottom": 0.6466,
+    "slope": -0.0
+   },
+   {
+    "text": "рециентыс: ілюкозный сироп, вода, сахар, клубника (%5), вишня (та",
+    "left": 0.3103,
+    "top": 0.6464,
+    "right": 0.6841,
+    "bottom": 0.6653,
+    "slope": -0.0061
+   },
+   {
+    "text": ", малина 9421",
+    "left": 0.6912,
+    "top": 0.6407,
+    "right": 0.7633,
+    "bottom": 0.6615,
+    "slope": -0.0937
+   },
+   {
+    "text": "рованный картофельный крахмал, красители (концентрация сока черной",
+    "left": 0.3387,
+    "top": 0.6593,
+    "right": 0.7619,
+    "bottom": 0.6846,
+    "slope": -0.0134
+   },
+   {
+    "text": "моркови), запуститель (пектин, каррапинан), регуляторы кислотности (римонная",
+    "left": 0.2845,
+    "top": 0.6767,
+    "right": 0.7644,
+    "bottom": 0.7004,
+    "slope": -0.0
+   },
+   {
+    "text": "кислота, тринатрийцитрат, яблочная кислота), ароматизатор (малина вишня)",
+    "left": 0.2874,
+    "top": 0.6939,
+    "right": 0.7644,
+    "bottom": 0.7134,
+    "slope": -0.0
+   },
+   {
+    "text": "консервант (калий сорбат). Может содержать следы глютена, молочных продуктов,",
+    "left": 0.2845,
+    "top": 0.7111,
+    "right": 0.7672,
+    "bottom": 0.735,
+    "slope": -0.0
+   },
+   {
+    "text": "соевый белок, сульфида, сельдерея, яиц, миндаля, фундука и фисташек. Хранить в",
+    "left": 0.2815,
+    "top": 0.7239,
+    "right": 0.7703,
+    "bottom": 0.7535,
+    "slope": -0.005
+   },
+   {
+    "text": "прокладном и сухом месте без посторонних запаков. После вскрытия упаковки, хранить",
+    "left": 0.2786,
+    "top": 0.7413,
+    "right": 0.7731,
+    "bottom": 0.7686,
+    "slope": 0.0045
+   },
+   {
+    "text": "в холодильние. Для срок годности и партия номер смотрите на упаковне.",
+    "left": 0.278,
+    "top": 0.7579,
+    "right": 0.7015,
+    "bottom": 0.7891,
+    "slope": 0.0169
+   },
+   {
+    "text": "Igletme Kayrt Numarass: TR-34K-002801",
+    "left": 0.3962,
+    "top": 0.8038,
+    "right": 0.6669,
+    "bottom": 0.8293,
+    "slope": 0.0085
+   },
+   {
+    "text": "ense Ulke:Türkive Made in Turke",
+    "left": 0.4339,
+    "top": 0.8275,
+    "right": 0.6293,
+    "bottom": 0.8384,
+    "slope": -0.0
+   },
+   {
+    "text": "irk Gıda Kodeksi'ne uygundu",
+    "left": 0.448,
+    "top": 0.8382,
+    "right": 0.6181,
+    "bottom": 0.8541,
+    "slope": 0.0136
+   },
+   {
+    "text": "ET0496",
+    "left": 0.4971,
+    "top": 0.8534,
+    "right": 0.5632,
+    "bottom": 0.8707,
+    "slope": -0.0
+   },
+   {
+    "text": "Net: 320 ge",
+    "left": 0.428,
+    "top": 0.8659,
+    "right": 0.6323,
+    "bottom": 0.9013,
+    "slope": 0.0043
+   },
+   {
+    "text": "Uretici / Producer, Somen Cada San. Ve Tic. A.S.",
+    "left": 0.3504,
+    "top": 0.9805,
+    "right": 0.6927,
+    "bottom": 0.9999,
+    "slope": 0.0066
+   },
+   {
+    "text": "S85. PJwfL•n fvd pA ta¢",
+    "left": 0.3534,
+    "top": 0.2193,
+    "right": 0.6738,
+    "bottom": 0.2458,
+    "slope": -0.0
+   },
+   {
+    "text": "505 ya da t*4",
+    "left": 0.5703,
+    "top": 0.2395,
+    "right": 0.7363,
+    "bottom": 0.2576,
+    "slope": -0.0
+   },
+   {
+    "text": "(*dt d&a",
+    "left": 0.5605,
+    "top": 0.2551,
+    "right": 0.6426,
+    "bottom": 0.2703,
+    "slope": -0.0
+   },
+   {
+    "text": "kLkn L*",
+    "left": 0.4297,
+    "top": 0.3567,
+    "right": 0.5169,
+    "bottom": 0.3723,
+    "slope": -0.0
+   },
+   {
+    "text": "5LY53",
+    "left": 0.7207,
+    "top": 0.3958,
+    "right": 0.7669,
+    "bottom": 0.407,
+    "slope": -0.0
+   },
+   {
+    "text": "Ke ueffj",
+    "left": 0.6152,
+    "top": 0.4119,
+    "right": 0.6836,
+    "bottom": 0.4246,
+    "slope": -0.0
+   },
+   {
+    "text": "I ie.",
+    "left": 0.2979,
+    "top": 0.4839,
+    "right": 0.3145,
+    "bottom": 0.4897,
+    "slope": -0.0
+   },
+   {
+    "text": ", • FAzehrt kq) m a (d (yy",
+    "left": 0.3776,
+    "top": 0.509,
+    "right": 0.7357,
+    "bottom": 0.5305,
+    "slope": -0.0
+   },
+   {
+    "text": "Irr,",
+    "left": 0.5215,
+    "top": 0.5496,
+    "right": 0.5361,
+    "bottom": 0.5562,
+    "slope": -0.0
+   }
+  ]
+ }
+}

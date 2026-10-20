@@ -1,0 +1,171 @@
+{
+ "code": "7622210750495",
+ "name": "MMMAX Oreo",
+ "truth": "Şeker, bitkisel yağlar (palm, palm çekirdeği), BUĞDAY unu, yağsız SÜT tozu, kakao yağı, kakao kitlesi, peynir altı suyu tozu (SÜT içerir), SÜT yağı, yağı azaltılmış kakao tozu (%1), BUĞDAY nişastası, glukoz şurubu, emülgatör (SOYA lesitini), FINDIK ezmesi, kabartıcılar (sodyum hidrojen karbonat, amonyum hidrojen karbonat), tuz, aroma vericiler, asitlik düzenleyiciler (potasyum hidrojen karbonat, sodyum hidroksit). Sütlü çikolatada kakao kuru maddesi en az %28'dir. DİĞER SERT KABUKLU MEYVELER İÇEREBİLİR.",
+ "contains": [
+  "en:gluten",
+  "en:milk",
+  "en:soybeans",
+  "en:nuts"
+ ],
+ "traces": [],
+ "note": "Corrected to the photo; Open Food Facts has another recipe. Storage and origin follow the list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "TR",
+    "slope": 0,
+    "left": 0.032,
+    "right": 0.0872,
+    "bottom": 0.1896,
+    "top": 0.1078
+   },
+   {
+    "text": "SÜTLÜ ÇİKOLATA KAPLAMALI (%41), VANİLYA AROMALI",
+    "slope": -0.04,
+    "top": 0.0439,
+    "right": 0.909,
+    "left": 0.1027,
+    "bottom": 0.222
+   },
+   {
+    "slope": -0.0563,
+    "text": "DOLGU (%43) VE KAKAOLU BİSKÜVİ (%16). İçindekiler: Şeker, bitkisel yağlar",
+    "right": 0.9135,
+    "bottom": 0.3416,
+    "top": 0.1613,
+    "left": 0.0224
+   },
+   {
+    "text": "(palm, palm çekirdeği), BUĞDAY unu, yağsız SÜT tozu, kakao yağı, kakao kitlesi, peynirat suyu",
+    "top": 0.2616,
+    "bottom": 0.4578,
+    "slope": -0.0857,
+    "left": 0.0194,
+    "right": 0.918
+   },
+   {
+    "right": 0.9236,
+    "top": 0.3693,
+    "bottom": 0.5617,
+    "slope": -0.0836,
+    "text": "tozu (SÜT içerir), SÜT yağı, yağı azaltılmış kakao tozu (%1), BUĞDAY nişastası, glukoz şurubu,",
+    "left": 0.0196
+   },
+   {
+    "top": 0.4806,
+    "slope": -0.0875,
+    "bottom": 0.6621,
+    "left": 0.0209,
+    "right": 0.9253,
+    "text": "emülgatör (SOYA esitini), FINDIK ezmesi, kabartıcılar (sodyum hidrojen karbonat, amonyum"
+   },
+   {
+    "left": 0.021,
+    "bottom": 0.7681,
+    "slope": -0.0867,
+    "right": 0.9308,
+    "top": 0.5835,
+    "text": "hidrojen karbonat), tuz, aroma vericiler, asitik düzenleyiciler (potasyum hidrojen karbonat,"
+   },
+   {
+    "left": 0.0205,
+    "right": 0.9358,
+    "bottom": 0.8768,
+    "top": 0.6583,
+    "text": "sodyum hidroksit). Süttü çikolatada kakao kuru maddesi en az %28'dir. DIĞER SERT KABUKLU",
+    "slope": -0.1209
+   },
+   {
+    "slope": -0.0734,
+    "top": 0.7865,
+    "text": "MEYVELER İÇEREBİLİR. Sıcaktan koruyarak, kuru yerde saklayınız. Menşei: Avusturya.",
+    "left": 0.0195,
+    "right": 0.9384,
+    "bottom": 0.9669
+   },
+   {
+    "text": "oddalar San ve Tic. A.S. Cumhurivet Mah. 2253. Sokak No:11,",
+    "top": 0.8996,
+    "bottom": 0.9963,
+    "left": 0.2471,
+    "slope": 0,
+    "right": 0.9433
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "TR",
+    "left": 0.0375,
+    "top": 0.1125,
+    "right": 0.0847,
+    "bottom": 0.1875,
+    "slope": -0.0
+   },
+   {
+    "text": "SÜTLÜ ÇİKOLATA KAPLAMALI (%41), VANİLYA AROMALI",
+    "left": 0.0924,
+    "top": 0.0468,
+    "right": 0.9078,
+    "bottom": 0.2155,
+    "slope": -0.036
+   },
+   {
+    "text": "DOLGU (%43) VE KAKAOLU BİSKÜVİ (%16). Içindekiler: Şeker, bitkisel yağlar",
+    "left": 0.0221,
+    "top": 0.1577,
+    "right": 0.9127,
+    "bottom": 0.3373,
+    "slope": -0.043
+   },
+   {
+    "text": "(palm, palm çekirdeği, BUĞDAY unu, yağsız SÜTtozu, kakao yağı, kakao kitlesi, peyniraltı suyu",
+    "left": 0.0202,
+    "top": 0.2748,
+    "right": 0.9145,
+    "bottom": 0.4507,
+    "slope": -0.0726
+   },
+   {
+    "text": "tozu (SÜT içerir), SÜT yağı, yağı azaltılmış kakao tozu (%1), BUĞDAY nişastası, glukoz şurubu,",
+    "left": 0.02,
+    "top": 0.3573,
+    "right": 0.9192,
+    "bottom": 0.5593,
+    "slope": -0.0895
+   },
+   {
+    "text": "emülgatör (SOYA lesitini), FINDIK ezmesi, kabartıcılar (sodyum hidrojen karbonat, amonyum",
+    "left": 0.0204,
+    "top": 0.4826,
+    "right": 0.9227,
+    "bottom": 0.6591,
+    "slope": -0.0825
+   },
+   {
+    "text": "hidrojen karbonat), tuz, aroma vericiler, asitik düzenleyiciler (potasyum hidrojen karbonat,",
+    "left": 0.0204,
+    "top": 0.5798,
+    "right": 0.9274,
+    "bottom": 0.7663,
+    "slope": -0.0918
+   },
+   {
+    "text": "sodyum hidroksit). Sütlü çikolatada kakao kuru maddesi en az %28'dir. DİĞER SERT KABUKLU",
+    "left": 0.0199,
+    "top": 0.665,
+    "right": 0.9328,
+    "bottom": 0.8751,
+    "slope": -0.1182
+   },
+   {
+    "text": "MEYVELER IÇEREBİLIR. Sıcaktan koruyarak, kuru yerde saklayınız. Menşei: Avusturya",
+    "left": 0.0187,
+    "top": 0.7891,
+    "right": 0.9358,
+    "bottom": 0.9663,
+    "slope": -0.0781
+   }
+  ]
+ }
+}

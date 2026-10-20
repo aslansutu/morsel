@@ -1,0 +1,59 @@
+{
+ "code": "7300400112734",
+ "name": "Sesam",
+ "truth": "Wheat flour (87%), sesame seeds (10%), yeast, rapeseed oil, sugar, salt. May contain traces of milk.",
+ "contains": [
+  "en:gluten",
+  "en:sesame-seeds"
+ ],
+ "traces": [
+  "en:milk"
+ ],
+ "note": "English list, then Spanish and Portuguese.",
+ "lines": {
+  "vision-macos": [
+   {
+    "bottom": 0.6066,
+    "text": "* Ingredients: Wheat fłour (87%), sesame seeds (10%), yeast, rapeseed oil, sugar, salt. May contain traces of",
+    "left": 0.0076,
+    "slope": -0.2773,
+    "top": -0.0685,
+    "right": 0.9923
+   },
+   {
+    "top": 0.3226,
+    "right": 0.9993,
+    "left": 0.0227,
+    "text": "fnilk./Ingredientes: Harina de trigo (87%), semillas de sésamo (10%), levadura, aceite de colza, azúcar, sal. Pu",
+    "slope": -0.3082,
+    "bottom": 0.9753
+   },
+   {
+    "right": 0.9958,
+    "bottom": 0.9545,
+    "text": "170 ser atos de sácamo (10%) levedura, óleo de colza, a",
+    "slope": 0,
+    "left": 0.3542,
+    "top": 0.6364
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "* Ingredients: Wheat flour (87%), sesame seeds (10%; yeast, rapeseed oil, sugar, salt. May contain traces of",
+    "left": 0.0081,
+    "top": 0.003,
+    "right": 0.9986,
+    "bottom": 0.6822,
+    "slope": -0.3147
+   },
+   {
+    "text": "fnilk./Ingredientes: Harina de trigo (87%), semillas de sésamo (10%), levadura, aceite de colza, azúcar, sal. Pı",
+    "left": 0.0202,
+    "top": 0.2883,
+    "right": 0.9967,
+    "bottom": 0.957,
+    "slope": -0.3117
+   }
+  ]
+ }
+}

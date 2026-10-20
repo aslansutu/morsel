@@ -1,0 +1,94 @@
+{
+ "code": "8690526069500",
+ "name": "Yulaf Ezmesi",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "The photo cuts the list off before its heading.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.2882,
+    "left": -0.0184,
+    "right": 0.153,
+    "text": "n bir",
+    "bottom": 0.6085,
+    "slope": -0.8453
+   },
+   {
+    "slope": -0.6748,
+    "text": "LİFALİF / Yulaf Ezmesi",
+    "right": 0.7093,
+    "top": 0.0854,
+    "left": 0.1874,
+    "bottom": 0.6319
+   },
+   {
+    "bottom": 0.8357,
+    "slope": -0.408,
+    "top": 0.2389,
+    "right": 1.0062,
+    "text": "Gluten içerir. Eser miktarda Fındık iç",
+    "left": 0.1722
+   },
+   {
+    "right": 1.0029,
+    "bottom": 1.0236,
+    "slope": -0.3343,
+    "text": "Twie Edilen Tüketim Tarihi (TETT) ve Part",
+    "left": 0.1522,
+    "top": 0.5116
+   },
+   {
+    "bottom": 0.9907,
+    "left": 0.7585,
+    "slope": -0.0107,
+    "top": 0.8198,
+    "right": 0.9963,
+    "text": "Unız Seri"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "in bir",
+    "left": -0.0184,
+    "top": 0.2905,
+    "right": 0.1536,
+    "bottom": 0.6137,
+    "slope": -0.9158
+   },
+   {
+    "text": "LİFALİF/ Yulaf Ezmesi",
+    "left": 0.1875,
+    "top": 0.0796,
+    "right": 0.7115,
+    "bottom": 0.6424,
+    "slope": -0.6989
+   },
+   {
+    "text": "Gluten içerir. Eser miktarda Fındık iç",
+    "left": 0.1714,
+    "top": 0.2368,
+    "right": 1.0059,
+    "bottom": 0.837,
+    "slope": -0.3964
+   },
+   {
+    "text": "Javxie Edilen Tüketim Tarihi (TETT) ve Part",
+    "left": 0.156,
+    "top": 0.5123,
+    "right": 1.0029,
+    "bottom": 1.0209,
+    "slope": -0.3326
+   },
+   {
+    "text": "เจนทาวนเกง Seri",
+    "left": 0.6052,
+    "top": 0.8286,
+    "right": 0.9963,
+    "bottom": 0.9924,
+    "slope": -0.0151
+   }
+  ]
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "code": "8695077044020",
+ "name": "Tam Yağlı Tost Peyniri",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "The photo shows a barcode, no list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "8",
+    "top": 0.7585,
+    "right": 0.0814,
+    "left": 0.0392,
+    "bottom": 0.8793,
+    "slope": 0
+   },
+   {
+    "slope": 0,
+    "bottom": 0.885,
+    "text": "695077 044020",
+    "right": 0.7042,
+    "left": 0.1208,
+    "top": 0.7522
+   },
+   {
+    "bottom": 0.9059,
+    "right": 0.8408,
+    "top": 0.0841,
+    "left": 0.7605,
+    "slope": 0,
+    "text": "26205, Rev:01-19"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": ":",
+    "left": -0.0,
+    "top": 0.2167,
+    "right": 0.0176,
+    "bottom": 0.2958,
+    "slope": -0.0
+   },
+   {
+    "text": "695077",
+    "left": 0.0933,
+    "top": 0.7493,
+    "right": 0.3911,
+    "bottom": 0.8918,
+    "slope": 0.0191
+   },
+   {
+    "text": "044020",
+    "left": 0.4231,
+    "top": 0.7289,
+    "right": 0.7019,
+    "bottom": 0.8984,
+    "slope": -0.0
+   },
+   {
+    "text": "26205, Rev:01-19",
+    "left": 0.7584,
+    "top": 0.084,
+    "right": 0.8424,
+    "bottom": 0.903,
+    "slope": 0.0
+   }
+  ]
+ }
+}

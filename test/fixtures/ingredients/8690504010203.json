@@ -1,0 +1,454 @@
+{
+ "code": "8690504010203",
+ "name": "İkram Fındık Kremalı Bisküvi 84 G",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "The photo is sideways: reading nothing is right.",
+ "lines": {
+  "vision-macos": [
+   {
+    "bottom": 0.4364,
+    "right": 0.834,
+    "top": 0.1434,
+    "text": "Gida işletmecisi / Food Business Operator:",
+    "slope": 25.6875,
+    "left": 0.791
+   },
+   {
+    "left": 0.7698,
+    "bottom": 0.3828,
+    "top": 0.1419,
+    "text": "Ülker - Kısıklı Mah. Ferah Cad. No: 1",
+    "slope": 23.4,
+    "right": 0.8106
+   },
+   {
+    "bottom": 0.3318,
+    "left": 0.7493,
+    "top": 0.1392,
+    "slope": 34.8749,
+    "right": 0.7845,
+    "text": "Üsküdar - İstanbul / Türkine"
+   },
+   {
+    "left": 0.7345,
+    "bottom": 0.1788,
+    "text": "Islor",
+    "top": 0.1395,
+    "slope": 0,
+    "right": 0.7558
+   },
+   {
+    "text": "Nat ٩٨",
+    "top": 0.8992,
+    "right": 0.8029,
+    "left": 0.772,
+    "bottom": 0.999,
+    "slope": 0
+   },
+   {
+    "right": 0.5138,
+    "bottom": 0.6178,
+    "slope": 116.9995,
+    "top": 0.0798,
+    "text": "TR Fındıklı Kremalı (%30) Sandviç Bisküvi , Içindekiler: Buğday unu,",
+    "left": 0.4796
+   },
+   {
+    "slope": 21.0,
+    "left": 0.4881,
+    "right": 0.536,
+    "text": "bitkisel yağlar (palm, ayçiçek, kanola),",
+    "top": 0.6142,
+    "bottom": 0.9162
+   },
+   {
+    "text": "Enerji ve Be",
+    "top": 0.9251,
+    "right": 0.5343,
+    "slope": 13.5,
+    "bottom": 0.9996,
+    "left": 0.501
+   },
+   {
+    "bottom": 0.9177,
+    "slope": 29.85,
+    "right": 0.5048,
+    "left": 0.4444,
+    "text": "seker, invert şeker şurubu, nişasta, peynir altı suyu tozu, fındık püresi (%2,3), tam yağlı süttozu, kabartıcılar",
+    "top": 0.0752
+   },
+   {
+    "text": "Nutrition Inf",
+    "bottom": 0.9985,
+    "slope": 0,
+    "left": 0.4806,
+    "top": 0.9273,
+    "right": 0.5058
+   },
+   {
+    "right": 0.4777,
+    "slope": 31.2272,
+    "top": 0.0752,
+    "left": 0.4167,
+    "text": "amonyum hidrojen karbonat, sodyum hidrojen karbonat, disodyum difosfat), yağsız süttozu, aroma verıcıler,",
+    "bottom": 0.9176
+   },
+   {
+    "left": 0.4477,
+    "bottom": 0.9985,
+    "top": 0.9331,
+    "text": "Enerji / Ene",
+    "right": 0.4787,
+    "slope": 0
+   },
+   {
+    "top": 0.0666,
+    "text": "zuz, emülgator (soya lesıtını), yağı azaltılmiş kakao tozu, un işlem maddesi (sodyum metabisülfit), asitlik",
+    "bottom": 0.9236,
+    "slope": 26.1819,
+    "right": 0.4532,
+    "left": 0.3854
+   },
+   {
+    "left": 0.4186,
+    "top": 0.9346,
+    "right": 0.4496,
+    "text": "Yağ / Fat",
+    "bottom": 0.9985,
+    "slope": 0
+   },
+   {
+    "top": 0.0636,
+    "slope": 32.3333,
+    "left": 0.3632,
+    "right": 0.4274,
+    "bottom": 0.9263,
+    "text": "düzenleyici (sitrik asit). Eser miktarda yumurta, sert kabuklu meyveler, susam ve yer fıstığı içerebilir."
+   },
+   {
+    "left": 0.3892,
+    "right": 0.4222,
+    "bottom": 0.9996,
+    "slope": 0,
+    "text": "- Doymus",
+    "top": 0.934
+   },
+   {
+    "top": 0.0637,
+    "bottom": 0.9292,
+    "text": "EN Sandwich Biscuits with Hazelnut Cream (30%), Ingredients: Wheat flour, vegetable oils (palm, suntlower,",
+    "left": 0.3344,
+    "slope": 33.4999,
+    "right": 0.3952
+   },
+   {
+    "slope": 0,
+    "right": 0.3915,
+    "text": "Karbonhi",
+    "top": 0.9404,
+    "left": 0.3624,
+    "bottom": 0.9985
+   },
+   {
+    "text": "canola), sugar, invert sugar syrup, starch, whey powder, hazelnut muree (2,3%), whole milk powder, raising",
+    "top": 0.0578,
+    "slope": 31.4423,
+    "bottom": 0.9279,
+    "left": 0.3048,
+    "right": 0.3675
+   },
+   {
+    "text": "- Sekerlel",
+    "left": 0.3379,
+    "top": 0.9412,
+    "right": 0.3615,
+    "bottom": 0.9992,
+    "slope": 15.0
+   },
+   {
+    "left": 0.2832,
+    "slope": 60.3752,
+    "top": 0.0521,
+    "right": 0.3242,
+    "text": "agents (ammonium hydrogen carbonate, sodium hydrogen carbon",
+    "bottom": 0.5976
+   },
+   {
+    "right": 0.3458,
+    "bottom": 0.9337,
+    "top": 0.6201,
+    "text": "disodium diphosphate), skimmed milk",
+    "slope": 30.75,
+    "left": 0.2987
+   },
+   {
+    "left": 0.314,
+    "top": 0.9448,
+    "slope": 0,
+    "text": "Lif / Fibre",
+    "bottom": 0.9985,
+    "right": 0.3333
+   },
+   {
+    "left": 0.2451,
+    "right": 0.3172,
+    "slope": 28.4464,
+    "bottom": 0.9338,
+    "top": 0.0504,
+    "text": "powder, flavourings, salt, emulsifier (soy lecithin), fat reduced cocoa powder, flour treatment agent (sodium"
+   },
+   {
+    "slope": 0,
+    "text": "Protein",
+    "left": 0.281,
+    "bottom": 0.9913,
+    "top": 0.9433,
+    "right": 0.3062
+   },
+   {
+    "left": 0.2327,
+    "slope": 77.2496,
+    "bottom": 0.6223,
+    "top": 0.0551,
+    "right": 0.2665,
+    "text": "metabisulphite), acidity regulator (citric acid). May contain traces"
+   },
+   {
+    "top": 0.6171,
+    "bottom": 0.6949,
+    "slope": 4.8,
+    "left": 0.2344,
+    "text": "aof ego.",
+    "right": 0.284
+   },
+   {
+    "right": 0.2733,
+    "text": "Dn dur f one pack is al",
+    "bottom": 0.8241,
+    "slope": 0,
+    "left": 0.2422,
+    "top": 0.6759
+   },
+   {
+    "slope": 16.5,
+    "top": 0.7478,
+    "text": "sesams and peanuts.",
+    "left": 0.2454,
+    "right": 0.29,
+    "bottom": 0.9267
+   },
+   {
+    "left": 0.2616,
+    "top": 0.9383,
+    "slope": 11.625,
+    "text": "Tuz / Sal",
+    "bottom": 0.9994,
+    "right": 0.2859
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Gıda İşletmecisi / Food Business Operator:",
+    "left": 0.7898,
+    "top": 0.1439,
+    "right": 0.8332,
+    "bottom": 0.4358,
+    "slope": 24.25
+   },
+   {
+    "text": "Ulker - Kısıklı Mah. Ferah Cad. No:1",
+    "left": 0.769,
+    "top": 0.1418,
+    "right": 0.8087,
+    "bottom": 0.3821,
+    "slope": 24.0
+   },
+   {
+    "text": "Usküdar - istanbul / Türkivo",
+    "left": 0.7459,
+    "top": 0.1396,
+    "right": 0.7844,
+    "bottom": 0.3325,
+    "slope": 22.125
+   },
+   {
+    "text": "Nol",
+    "left": 0.7721,
+    "top": 0.8971,
+    "right": 0.8042,
+    "bottom": 0.9476,
+    "slope": 0.0
+   },
+   {
+    "text": "TR Fındıklı Kremalı (9o30) Şandviç Bisküvi , Içindekiler: Buğday unu, bitkisel yağlar (palm, ayçiçek, kanola),",
+    "left": 0.4656,
+    "top": 0.0794,
+    "right": 0.5324,
+    "bottom": 0.9123,
+    "slope": 27.5626
+   },
+   {
+    "text": "Enerji ve Be",
+    "left": 0.5029,
+    "top": 0.9224,
+    "right": 0.5316,
+    "bottom": 0.9978,
+    "slope": 0.0
+   },
+   {
+    "text": "seker, invert şeker şurupu, nışasta, peynir altı suyu tozu, fındık püresi (%2,3), tam yağlı süttözu, kabartıcılar",
+    "left": 0.4381,
+    "top": 0.0749,
+    "right": 0.5083,
+    "bottom": 0.9166,
+    "slope": 23.7
+   },
+   {
+    "text": "Nutrition Inl",
+    "left": 0.4799,
+    "top": 0.9267,
+    "right": 0.5057,
+    "bottom": 0.9978,
+    "slope": 0.0
+   },
+   {
+    "text": "(amonyum hidrojen karbonat, sodyum hidrojen karbonat, disodyum difosfat), yağsız süttozu, aroma vericiler",
+    "left": 0.4167,
+    "top": 0.0729,
+    "right": 0.478,
+    "bottom": 0.9143,
+    "slope": 28.9687
+   },
+   {
+    "text": "Enerji / Ene",
+    "left": 0.4457,
+    "top": 0.9303,
+    "right": 0.4784,
+    "bottom": 0.9987,
+    "slope": 15.0
+   },
+   {
+    "text": "tuz, emülgatör (soya lesıtini), yağı azaltılmış kakao tozu, un işlem maddesi (sodyum metabisülit), asıtik",
+    "left": 0.3893,
+    "top": 0.0665,
+    "right": 0.4516,
+    "bottom": 0.9208,
+    "slope": 29.25
+   },
+   {
+    "text": "Yag/ Fat",
+    "left": 0.414,
+    "top": 0.9279,
+    "right": 0.4567,
+    "bottom": 0.9989,
+    "slope": 12.0
+   },
+   {
+    "text": "düzenleyici (sitrik asit). Eser miktarda yumurta, sert kabuklu meyveler, susam ve yer fıstığı içeredılir.",
+    "left": 0.3624,
+    "top": 0.0664,
+    "right": 0.4233,
+    "bottom": 0.9229,
+    "slope": 34.8215
+   },
+   {
+    "text": "- Doymus",
+    "left": 0.3905,
+    "top": 0.937,
+    "right": 0.4177,
+    "bottom": 0.9986,
+    "slope": 0.0
+   },
+   {
+    "text": "EN Sandwich Biscuits with Hazelnut Cream (30%), Ingredients: Wheat flour, vegetable oils (palm, suntlower,",
+    "left": 0.333,
+    "top": 0.06,
+    "right": 0.3983,
+    "bottom": 0.9294,
+    "slope": 35.0626
+   },
+   {
+    "text": "Karbonhi",
+    "left": 0.3678,
+    "top": 0.9353,
+    "right": 0.3937,
+    "bottom": 0.9978,
+    "slope": 0.0
+   },
+   {
+    "text": "canois (ampar ium hyarogen cartosale, soiln owdggen carioy e po ium diphrospmal), sudened ming",
+    "left": 0.2727,
+    "top": 0.0485,
+    "right": 0.3751,
+    "bottom": 0.934,
+    "slope": 28.95
+   },
+   {
+    "text": "- Sekerie",
+    "left": 0.3305,
+    "top": 0.9353,
+    "right": 0.3621,
+    "bottom": 0.9978,
+    "slope": 0.0
+   },
+   {
+    "text": "powder, flavourings, salt, emulsitier(stric acith). Mhay contain traces or.egp.",
+    "left": 0.2274,
+    "top": 0.0511,
+    "right": 0.3073,
+    "bottom": 0.6905,
+    "slope": 0.0
+   },
+   {
+    "text": "Lỉ / Fibr",
+    "left": 0.3132,
+    "top": 0.9397,
+    "right": 0.3391,
+    "bottom": 0.9978,
+    "slope": 0.0
+   },
+   {
+    "text": "rat reduced cocoa powder, flour treatment agent (sodium",
+    "left": 0.2617,
+    "top": 0.4736,
+    "right": 0.3141,
+    "bottom": 0.9317,
+    "slope": 18.875
+   },
+   {
+    "text": "metabisulphite), acidity regulator (citric acid).",
+    "left": 0.2315,
+    "top": 0.0538,
+    "right": 0.2647,
+    "bottom": 0.457,
+    "slope": 110.2497
+   },
+   {
+    "text": "mr nopsame and peanuls.",
+    "left": 0.238,
+    "top": 0.6952,
+    "right": 0.2912,
+    "bottom": 0.9238,
+    "slope": 13.35
+   },
+   {
+    "text": "ProtelA",
+    "left": 0.2816,
+    "top": 0.9418,
+    "right": 0.3017,
+    "bottom": 0.9871,
+    "slope": 0.0
+   },
+   {
+    "text": "Tuz /Sa",
+    "left": 0.262,
+    "top": 0.9385,
+    "right": 0.2871,
+    "bottom": 0.9885,
+    "slope": 5.625
+   }
+  ]
+ }
+}

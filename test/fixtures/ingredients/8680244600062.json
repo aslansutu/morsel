@@ -1,0 +1,309 @@
+{
+ "code": "8680244600062",
+ "name": "Çilek Vanilya Kakao Aromalı Bitkisel Yağlı Sütlü Buz",
+ "truth": "Vişne Aromalı Bitkisel Yağlı Sütlü Buz (%33,4) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar (Değişen Miktarlarda Hindistan Cevizi, Palm), Yağsız Süt Tozu (laktoz içerir), Süt Proteini (laktoz içerir), Renklendirici (Pancar Kökü Kırmızısı), Vişne Suyu Konsantresi (%1), Asitlik Düzenleyici (Sitrik Asit), Emülgatör (Yağ Asitlerinin Mono ve Digliseritleri), Aroma Verici (Vişne), Kivam Arttırıcılar (Guar Gam, Keçiboynuzu Gami, Sodyum Karboksi Metil Selüloz, Karragenan)], Çilek Aromalı Bitkisel Yağlı Sütlü Buz (%33,3) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar (Değişen Miktarlarda Hindistan Cevizi, Palm), Peynir Altı Suyu Tozu (laktoz içerir), Çilek Püre (%5), Yağsız Süt Tozu (laktoz içerir), Süt Proteini (laktoz içerir), Asitlik Düzenleyici (Sitrik Asit), Aroma Verici (Çilek), Emülgatör (Yağ Asitlerinin Mono ve Digliseritleri), Kivam Arttırıcılar (Guar Gam, Sodyum Karboksi Metil Selüloz, Keçiboynuzu Gamı, Karragenan), Renklendiriciler (Pancar Kökü Kırmızısı, Kurkumin)], Limon Aromalı Bitkisel Yağlı Sütlü Buz (%33,3) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar (Değişen Miktarlarda Hindistan Cevizi, Palm), Yağsız Süt Tozu (laktoz içerir), Süt Proteini (laktoz içerir), Limon Suyu Konsantresi (%0,5), Emülgatör (Yağ Asitlerinin Mono ve Digliseritleri), Asitlik Düzenleyici (Sitrik Asit), Kivam Arttırıcılar (Guar Gam, Keçiboynuzu Gami, Sodyum Karboksi Metil Selüloz, Karragenan), Aroma Verici (Limon), Renklendiriciler (Kurkumin, Anatto)]. Eser miktarda Antep fıstığı, fındık, ceviz, badem, yumurta, gluten ve susam içerebilir.",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:eggs",
+  "en:gluten",
+  "en:sesame-seeds"
+ ],
+ "note": "Three ice creams in one list; \"Net M\" in the next column. Open Food Facts' text, checked against the photo.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 0.6919,
+    "bottom": 0.1012,
+    "slope": 0,
+    "left": 0.0334,
+    "top": 0.0288,
+    "text": "MİGROS VİŞNE, ÇİLEK, LİMON AROMALI BİTKİSEL YAĞLI SÜTLÜ BUZ"
+   },
+   {
+    "bottom": 0.1718,
+    "slope": 0.021,
+    "text": "İçindekiler: Vişne Aromalı Bitkisel Yağlı Sütlü Buz (%33,4) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar",
+    "top": 0.0875,
+    "right": 0.99,
+    "left": 0.0317
+   },
+   {
+    "right": 0.9878,
+    "bottom": 0.2243,
+    "text": "(Değişen Miktarlarda Hindistan Cevizi, Palm), Yağsız Süt Tozu (laktoz içerir), Süt Proteini (laktoz içerir),",
+    "slope": 0.0191,
+    "left": 0.0373,
+    "top": 0.1385
+   },
+   {
+    "bottom": 0.2739,
+    "slope": 0.0221,
+    "text": "Renklendirici (Pancar Kokü Kırmızısı), Vişne Suyu Konsantresi (%1), Asitlik Düzenleyici (Sitrik Asit), Emülgator",
+    "left": 0.0376,
+    "right": 0.9857,
+    "top": 0.2029
+   },
+   {
+    "bottom": 0.3396,
+    "slope": 0.0256,
+    "left": 0.0361,
+    "top": 0.2513,
+    "right": 0.9844,
+    "text": "(Yağ Asitlerinin Mono ve Digliseritleri), Aroma Verici (Vişne), Kıvam Arttırıcılar (Guar Gam, Keçiboynuzu Gamı,"
+   },
+   {
+    "slope": 0.0209,
+    "left": 0.0347,
+    "top": 0.3089,
+    "bottom": 0.3932,
+    "right": 0.9828,
+    "text": "Sodyum Karboksi Metil Selüloz, Karragenan)], Çilek Aromalı Bitkisel Yağlı Süttü Buz (%33,3) [Su, Şeker, Glukoz"
+   },
+   {
+    "slope": 0.0053,
+    "text": "Şitek u e (%), Vagsz sut Dozu (laktoz içeni), sur rotani (elz eni, Astk Dizeney( (Soz asi),",
+    "top": 0.3685,
+    "left": 0.0347,
+    "right": 0.9827,
+    "bottom": 0.4985
+   },
+   {
+    "left": 0.0377,
+    "top": 0.4788,
+    "bottom": 0.5472,
+    "slope": 0.0119,
+    "text": "Aroma Verici (Çilek), Emülgatör (Yağ Asitlerinin Mono ve Digliseritleri), Kıvam Arttırılar (Guar Gam, Sodyum",
+    "right": 0.9783
+   },
+   {
+    "text": "Karboksi Metil Selüloz, Keçiboynuzu Gamı, Karragenan), Renklendiriciler (Pancar Kökü Kırmızısı, Kurkumin)],",
+    "left": 0.0377,
+    "bottom": 0.6016,
+    "top": 0.5367,
+    "right": 0.9768,
+    "slope": 0.0042
+   },
+   {
+    "slope": 0,
+    "top": 0.5924,
+    "right": 0.9767,
+    "text": "Limon Aromalı Bitkisel Yağlı Sütlü Buz (%33,3) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar (Değişen",
+    "bottom": 0.6505,
+    "left": 0.0392
+   },
+   {
+    "top": 0.6445,
+    "slope": 0,
+    "bottom": 0.7082,
+    "text": "Miktarlarda Hindistan Cevizi, Palm), Yağsız Süt Tozu (laktoz içerir), Süt Proteini (laktoz içerir), Limon Suyu",
+    "left": 0.0392,
+    "right": 0.9753
+   },
+   {
+    "right": 0.7283,
+    "top": 0.6993,
+    "text": "Konsantresi (%0,5), Emülgatör (Yağ Asitlerinin Mono ve Digliseritlei), Asitlik",
+    "bottom": 0.761,
+    "slope": -0.0051,
+    "left": 0.0406
+   },
+   {
+    "top": 0.7543,
+    "right": 0.7267,
+    "left": 0.0407,
+    "text": "Düzenleyici (Strik Asit), Kıvam Arttırıcılar (Guar Gam, Keçiboynuzu Gamı, Sodyum",
+    "slope": 0,
+    "bottom": 0.8121
+   },
+   {
+    "left": 0.042,
+    "top": 0.7995,
+    "bottom": 0.8736,
+    "text": "Karboksi Metil Selüloz, Karragenan), Aroma Verici (Limon), Renklendiriciler",
+    "right": 0.7269,
+    "slope": -0.0174
+   },
+   {
+    "right": 0.7267,
+    "text": "(Kurkumin, Anatto)]. Eser miktarda Antep fıstığı, fındık, ceviz, badem, yumurta,",
+    "slope": 0,
+    "left": 0.0422,
+    "bottom": 0.9191,
+    "top": 0.8582
+   },
+   {
+    "text": "gluten ve susam içerebilir.",
+    "left": 0.0434,
+    "bottom": 0.9766,
+    "slope": -0.0154,
+    "top": 0.9213,
+    "right": 0.2835
+   },
+   {
+    "left": 0.8953,
+    "text": "Net N",
+    "right": 0.9985,
+    "top": 0.8582,
+    "bottom": 0.9538,
+    "slope": 0
+   },
+   {
+    "slope": 0,
+    "text": "ambalain zarindadir",
+    "top": 0.9711,
+    "right": 0.7209,
+    "bottom": 0.9973,
+    "left": 0.5378
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "MİGROS VİŞNE, ÇİLEK, LİMON AROMALI BİTKİSEL YAĞLI SÜTLÜ BUZ",
+    "left": 0.0334,
+    "top": 0.024,
+    "right": 0.692,
+    "bottom": 0.0963,
+    "slope": 0.009
+   },
+   {
+    "text": "İçindekiler: Vişne Aromalı Bitkisel Yağlı Sütlü Buz (%33,4) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar",
+    "left": 0.0332,
+    "top": 0.082,
+    "right": 0.9898,
+    "bottom": 0.1763,
+    "slope": 0.0252
+   },
+   {
+    "text": "Değişen Miktarlarda Hindistan Cevizi, Palm), Yagsız Süt Tozu (laktoz içerır), Süt Proteini (laktoz içerir),",
+    "left": 0.0396,
+    "top": 0.1474,
+    "right": 0.9856,
+    "bottom": 0.2211,
+    "slope": 0.0206
+   },
+   {
+    "text": "Renkiendiricı (Pancar Koku Kırmızısı), Vişne Suyu Konsantresi (%1), Asitik Duzenleyici (Sitrik Asit), Emülgatör",
+    "left": 0.0355,
+    "top": 0.2083,
+    "right": 0.9834,
+    "bottom": 0.2767,
+    "slope": 0.0166
+   },
+   {
+    "text": "(Yağ Asitlerinin Mono ve Digliseritleri), Aroma Verici (Vişne), Kıvam Arttırıcılar (Guar Gam, Keçiboynuzu Gamı,",
+    "left": 0.0355,
+    "top": 0.2572,
+    "right": 0.9855,
+    "bottom": 0.3351,
+    "slope": 0.0135
+   },
+   {
+    "text": "Sodyum Karboksi Metil Selüloz, Karragenan)], Çilek Aromalı Bitkisel Yağlı Süttü Buz (%33,3) [Su, Şeker, Glukoz",
+    "left": 0.0353,
+    "top": 0.3043,
+    "right": 0.9835,
+    "bottom": 0.3949,
+    "slope": 0.0255
+   },
+   {
+    "text": "Şurubu (Misır), Bıtkisel Yağıar (Degişen Miktarlarda Hindistan Cevizi, Palm), Peynir Altı Suyu Tozu laktoz içerir),",
+    "left": 0.0375,
+    "top": 0.373,
+    "right": 0.9813,
+    "bottom": 0.4502,
+    "slope": 0.0139
+   },
+   {
+    "text": "Çllek Pure (%o5), Yagsız Süt Tozu (laktoz içerir), Süt Proteini (laktoz içerir), Asitlik Düzenleyici (Sitrik Asit),",
+    "left": 0.0377,
+    "top": 0.4333,
+    "right": 0.9769,
+    "bottom": 0.4875,
+    "slope": -0.0
+   },
+   {
+    "text": "Aroma Verici (Çilek), Emülgatör (Yağ Asitlerinin Mono ve Digliseritleri), Kivam Arttırıcılar (Guar Gam, Sodyum",
+    "left": 0.0375,
+    "top": 0.4793,
+    "right": 0.9792,
+    "bottom": 0.5372,
+    "slope": -0.0
+   },
+   {
+    "text": "Karboksı Metıl Seiuloz, keçıboynuzu Gamı, Karragenan), Renklendiriciler (Pancar Kökü Kırmızısı, Kurkumin)],",
+    "left": 0.0377,
+    "top": 0.5458,
+    "right": 0.9748,
+    "bottom": 0.5958,
+    "slope": -0.0
+   },
+   {
+    "text": "Limon Aromalı Bitkisel Yağlı Sütlü Buz (%33,3) [Su, Şeker, Glukoz Şurubu (Mısır), Bitkisel Yağlar (Değişen",
+    "left": 0.0376,
+    "top": 0.587,
+    "right": 0.977,
+    "bottom": 0.656,
+    "slope": 0.0085
+   },
+   {
+    "text": "Miktarlarda Hindistan Cevizi, Palm), Yağsız Süt Tozu (laktoz İçerir), Süt Proteini (laktoz içerir), Limon Suyu",
+    "left": 0.0377,
+    "top": 0.6458,
+    "right": 0.9769,
+    "bottom": 0.7085,
+    "slope": -0.0
+   },
+   {
+    "text": "Konsantresi (%0,5), Emülgatör (Yağ Asitlerinin Mono ve Digliseritleri), Asitlik",
+    "left": 0.0398,
+    "top": 0.6957,
+    "right": 0.7296,
+    "bottom": 0.7583,
+    "slope": -0.0
+   },
+   {
+    "text": "Düzenleyici (Sitrik Asit), Kıvam Arttırıcılar (Guar Gam, Keçiboynuzu Gamı, Sodyum",
+    "left": 0.0397,
+    "top": 0.7474,
+    "right": 0.7276,
+    "bottom": 0.8185,
+    "slope": -0.0091
+   },
+   {
+    "text": "Karboksi Metil Selüloz, Karragenan), Aroma Verici (Limon), Renklendiriciler",
+    "left": 0.0398,
+    "top": 0.8042,
+    "right": 0.7254,
+    "bottom": 0.8667,
+    "slope": -0.0
+   },
+   {
+    "text": "(Kurkumin, Anatto)]. Eser miktarda Antep fıstıgı, fındık, ceviz, badem, yumurta,",
+    "left": 0.044,
+    "top": 0.8667,
+    "right": 0.7254,
+    "bottom": 0.9167,
+    "slope": -0.0
+   },
+   {
+    "text": "gluten ve susam ıçerebilır.",
+    "left": 0.0419,
+    "top": 0.9291,
+    "right": 0.2809,
+    "bottom": 0.9709,
+    "slope": -0.0
+   },
+   {
+    "text": "Net N",
+    "left": 0.8931,
+    "top": 0.8539,
+    "right": 0.9979,
+    "bottom": 0.9583,
+    "slope": -0.0
+   }
+  ]
+ }
+}

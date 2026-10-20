@@ -1,0 +1,822 @@
+{
+ "code": "8682615107293",
+ "name": "Yulaf Ezmesi",
+ "truth": "Oatmeal (100%). Allergen Warning: Contains gluten. May contain traces of nuts, peanuts, dairy products, egg products and soy products.",
+ "contains": [
+  "en:gluten"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:peanuts",
+  "en:milk",
+  "en:eggs",
+  "en:soybeans"
+ ],
+ "note": "Turkish then English in one paragraph; storage follows.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 0.9816,
+    "text": "KOOPERATIFLERİ",
+    "bottom": 0.0769,
+    "slope": 0.0452,
+    "left": 0.4207,
+    "top": -0.017
+   },
+   {
+    "slope": 0.0095,
+    "text": "YULAF EZM",
+    "top": 0.1102,
+    "bottom": 0.2427,
+    "left": 0.2217,
+    "right": 0.9993
+   },
+   {
+    "slope": -0.0311,
+    "bottom": 0.4863,
+    "text": "İçindekiler: Yulaf Ezmesi (%100). Alerjen Uyarısı: Gluten içerir. Eser miktarda",
+    "right": 0.8712,
+    "left": 0.0767,
+    "top": 0.4348
+   },
+   {
+    "top": 0.4556,
+    "left": 0.08,
+    "right": 0.8735,
+    "bottom": 0.5116,
+    "slope": -0.0382,
+    "text": "sert kabuklu meyveler, yer fıstığı, süt ürünü, yumurta ürünü ve soya ürünü"
+   },
+   {
+    "top": 0.4774,
+    "right": 0.8749,
+    "bottom": 0.5359,
+    "text": "içerebilir. Ingredients: Oatmeal (100%). Allergen Warning: Contains gluten.",
+    "left": 0.0803,
+    "slope": -0.043
+   },
+   {
+    "left": 0.0858,
+    "text": "May contain traces of nuts, peanuts, dairy products, egg products and",
+    "top": 0.4975,
+    "right": 0.8738,
+    "bottom": 0.5606,
+    "slope": -0.0481
+   },
+   {
+    "bottom": 0.5864,
+    "right": 0.8752,
+    "text": "soy products. Muhafaza Koşulları: Doğrudan güneş ışığna maruz bırakmayınız.",
+    "slope": -0.0533,
+    "top": 0.5184,
+    "left": 0.0855
+   },
+   {
+    "top": 0.5428,
+    "right": 0.8772,
+    "bottom": 0.6067,
+    "text": "Serin ve rutubetsiz yerde muhafaza ediniz. Türk Gıda Kodeksine uygundur.",
+    "slope": -0.0507,
+    "left": 0.0892
+   },
+   {
+    "top": 0.5635,
+    "bottom": 0.6328,
+    "right": 0.8798,
+    "text": "Üretim Tarihi (ÜT), Tavsiye Edilen Tüketim Tarihi (TETT), Parti Numarası (L) olarak",
+    "slope": -0.0538,
+    "left": 0.0913
+   },
+   {
+    "right": 0.8482,
+    "text": "ambalajın üzerindedir. Üretim yeri Parti Numarası alanının başında belirtilmiştir.",
+    "left": 0.0943,
+    "top": 0.5834,
+    "bottom": 0.6595,
+    "slope": -0.0636
+   },
+   {
+    "top": 0.6473,
+    "right": 0.3762,
+    "slope": -0.0865,
+    "left": 0.1066,
+    "text": "ORTALAMA ENERJİ VE BESİN ÖĞELERİ",
+    "bottom": 0.6895
+   },
+   {
+    "bottom": 0.6648,
+    "slope": 0,
+    "left": 0.3912,
+    "text": "100 g için",
+    "right": 0.4751,
+    "top": 0.645
+   },
+   {
+    "bottom": 0.7026,
+    "left": 0.1087,
+    "top": 0.6764,
+    "right": 0.2402,
+    "slope": -0.0714,
+    "text": "NUTRITION FACTS"
+   },
+   {
+    "slope": 0,
+    "text": "Per 100g",
+    "top": 0.6611,
+    "right": 0.4768,
+    "left": 0.4007,
+    "bottom": 0.6812
+   },
+   {
+    "top": 0.6215,
+    "bottom": 0.6847,
+    "right": 0.6971,
+    "slope": -0.0507,
+    "text": "BiRLK",
+    "left": 0.4952
+   },
+   {
+    "top": 0.6272,
+    "text": "TARIM KREDI",
+    "left": 0.5324,
+    "bottom": 0.6404,
+    "right": 0.634,
+    "slope": 0
+   },
+   {
+    "left": 0.1122,
+    "bottom": 0.7302,
+    "slope": -0.0698,
+    "text": "Enerji / Energy (kJ/kcal)",
+    "top": 0.6945,
+    "right": 0.3143
+   },
+   {
+    "top": 0.6833,
+    "left": 0.3959,
+    "slope": -0.0652,
+    "text": "1492/357",
+    "right": 0.4746,
+    "bottom": 0.7056
+   },
+   {
+    "slope": -0.0366,
+    "top": 0.671,
+    "left": 0.6042,
+    "text": "TARIM ÜRÜNLERİ A.S.",
+    "right": 0.6982,
+    "bottom": 0.6836
+   },
+   {
+    "bottom": 0.7054,
+    "text": "Türkiye Tarım Kredi Kooperatifleri Şirketidir.",
+    "slope": -0.0543,
+    "top": 0.6808,
+    "right": 0.7025,
+    "left": 0.4971
+   },
+   {
+    "left": 0.1141,
+    "top": 0.7278,
+    "text": "Yağ / Fat (g)",
+    "right": 0.2252,
+    "slope": -0.0865,
+    "bottom": 0.7587
+   },
+   {
+    "text": "6,6",
+    "left": 0.4225,
+    "right": 0.4535,
+    "slope": 0,
+    "top": 0.7137,
+    "bottom": 0.7326
+   },
+   {
+    "slope": -0.0469,
+    "left": 0.4968,
+    "text": "Gıda İşletmecisi /Manufacturer",
+    "top": 0.6938,
+    "right": 0.7128,
+    "bottom": 0.7264
+   },
+   {
+    "left": 0.1161,
+    "right": 0.3798,
+    "text": "- Doymuş yağ/Saturated Fat (g)",
+    "top": 0.7376,
+    "bottom": 0.7802,
+    "slope": -0.0804
+   },
+   {
+    "text": "1,9",
+    "top": 0.7369,
+    "left": 0.4264,
+    "slope": 0,
+    "right": 0.4554,
+    "bottom": 0.7573
+   },
+   {
+    "right": 0.784,
+    "left": 0.4982,
+    "top": 0.7077,
+    "bottom": 0.7444,
+    "slope": -0.0553,
+    "text": "Tarım Kredi Birlik Tarım Ürünleri Hayv."
+   },
+   {
+    "top": 0.7285,
+    "bottom": 0.7662,
+    "left": 0.5001,
+    "right": 0.7862,
+    "slope": -0.0577,
+    "text": "Amb. Pet. Nak. İth. ihr. San. ve Tic. A.Ş."
+   },
+   {
+    "left": 0.1201,
+    "bottom": 0.8031,
+    "slope": -0.0682,
+    "text": "Karbonhidrat/Carbohydrate (g)",
+    "top": 0.7641,
+    "right": 0.3796
+   },
+   {
+    "left": 0.4225,
+    "text": "52,5",
+    "bottom": 0.782,
+    "slope": 0,
+    "right": 0.4651,
+    "top": 0.7631
+   },
+   {
+    "left": 0.5022,
+    "bottom": 0.7866,
+    "slope": -0.0636,
+    "text": "Merkez/ Head Office:",
+    "right": 0.6483,
+    "top": 0.7582
+   },
+   {
+    "top": 0.7961,
+    "bottom": 0.8292,
+    "slope": -0.0612,
+    "text": "- Şekerler / Sugars (g)",
+    "left": 0.1225,
+    "right": 0.31
+   },
+   {
+    "right": 0.686,
+    "bottom": 0.7965,
+    "slope": 0,
+    "text": "TÜKETICI",
+    "left": 0.6279,
+    "top": 0.7849
+   },
+   {
+    "text": "DANIŞMA HATTI",
+    "left": 0.6348,
+    "top": 0.7899,
+    "bottom": 0.8063,
+    "right": 0.7296,
+    "slope": -0.0682
+   },
+   {
+    "left": 0.1337,
+    "top": 0.8313,
+    "right": 0.2364,
+    "bottom": 0.8517,
+    "slope": 0,
+    "text": "Lif / Fiber (g)"
+   },
+   {
+    "bottom": 0.8358,
+    "right": 0.469,
+    "text": "12,9",
+    "slope": 0,
+    "left": 0.4283,
+    "top": 0.8183
+   },
+   {
+    "text": "444 18 57",
+    "top": 0.803,
+    "right": 0.7302,
+    "left": 0.6325,
+    "bottom": 0.8241,
+    "slope": -0.0714
+   },
+   {
+    "text": "Protein / Protein (g)",
+    "slope": 0,
+    "top": 0.8561,
+    "bottom": 0.8735,
+    "right": 0.2888,
+    "left": 0.1376
+   },
+   {
+    "bottom": 0.8418,
+    "slope": -0.0776,
+    "left": 0.6077,
+    "top": 0.8212,
+    "text": "tuketici@tarimkredibirlik.com.tr",
+    "right": 0.7415
+   },
+   {
+    "right": 0.469,
+    "top": 0.843,
+    "text": "15,4",
+    "left": 0.4302,
+    "bottom": 0.8619,
+    "slope": 0
+   },
+   {
+    "left": 0.6152,
+    "text": "www.tarimkredibirlik.com.tr",
+    "right": 0.7375,
+    "slope": -0.0781,
+    "bottom": 0.8531,
+    "top": 0.833
+   },
+   {
+    "top": 0.8745,
+    "text": "Tuz /Salt (g)**",
+    "left": 0.1401,
+    "right": 0.2546,
+    "bottom": 0.8984,
+    "slope": 0.0441
+   },
+   {
+    "right": 0.8036,
+    "left": 0.5101,
+    "text": "İşletme kayıt no (IKN) ambalaj üzerindedir.",
+    "top": 0.8516,
+    "bottom": 0.8889,
+    "slope": -0.0662
+   },
+   {
+    "top": 0.8981,
+    "slope": -0.0058,
+    "text": "ya değern tirtümün doğasında bulunan sodyumdan",
+    "left": 0.1608,
+    "right": 0.4362,
+    "bottom": 0.918
+   },
+   {
+    "right": 0.2079,
+    "bottom": 0.9325,
+    "left": 0.1624,
+    "top": 0.9142,
+    "text": "The salt",
+    "slope": 0.1364
+   },
+   {
+    "top": 0.9128,
+    "bottom": 0.923,
+    "slope": 0,
+    "left": 0.1996,
+    "right": 0.25,
+    "text": "maktadir."
+   },
+   {
+    "top": 0.8874,
+    "text": "Menşei:",
+    "slope": -0.0417,
+    "left": 0.7105,
+    "right": 0.7663,
+    "bottom": 0.9031
+   },
+   {
+    "bottom": 0.9414,
+    "right": 0.4634,
+    "slope": -0.0064,
+    "left": 0.2034,
+    "top": 0.9213,
+    "text": "solue is due to sodium inherent in the product."
+   },
+   {
+    "top": 0.9041,
+    "left": 0.7054,
+    "right": 0.7655,
+    "bottom": 0.9172,
+    "slope": 0,
+    "text": "Türkiye"
+   },
+   {
+    "bottom": 0.9375,
+    "slope": 0,
+    "left": 0.5368,
+    "top": 0.9288,
+    "right": 0.5523,
+    "text": "PP"
+   },
+   {
+    "text": "Net Mik",
+    "right": 1.0003,
+    "left": 0.8055,
+    "top": 0.7826,
+    "bottom": 0.8484,
+    "slope": -0.0682
+   },
+   {
+    "right": 0.9981,
+    "text": "500 g e",
+    "left": 0.8198,
+    "bottom": 0.9026,
+    "slope": 0,
+    "top": 0.8343
+   },
+   {
+    "left": 0.6873,
+    "bottom": 0.919,
+    "top": 0.8924,
+    "right": 0.6942,
+    "slope": 0,
+    "text": "I"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "KOOPERATIFLERİ",
+    "left": 0.4273,
+    "top": -0.017,
+    "right": 0.9816,
+    "bottom": 0.078,
+    "slope": 0.0457
+   },
+   {
+    "text": "YULAF EZM",
+    "left": 0.2114,
+    "top": 0.1127,
+    "right": 0.9994,
+    "bottom": 0.25,
+    "slope": -0.0034
+   },
+   {
+    "text": "Içindekıler: Yulaf Ezmesi (%100). Alerjen Uyarısı: Gluten içerir. Eser miktarda",
+    "left": 0.0741,
+    "top": 0.4374,
+    "right": 0.8688,
+    "bottom": 0.4842,
+    "slope": -0.0329
+   },
+   {
+    "text": "sert kabuklu meyveler, yer fıstığı, süt ürünü, yumurta ürünü ve soya ürünü",
+    "left": 0.0794,
+    "top": 0.4584,
+    "right": 0.8693,
+    "bottom": 0.5102,
+    "slope": -0.0375
+   },
+   {
+    "text": "içerebilir. Ingredients: Oatmeal (100%). Allergen Warning: Contains gluten.",
+    "left": 0.079,
+    "top": 0.4772,
+    "right": 0.8746,
+    "bottom": 0.5363,
+    "slope": -0.0408
+   },
+   {
+    "text": "May contain traces of nuts, peanuts, dairy products, egg products and",
+    "left": 0.085,
+    "top": 0.5013,
+    "right": 0.8722,
+    "bottom": 0.5582,
+    "slope": -0.0455
+   },
+   {
+    "text": "soy products. Muhafaza Koşulları: Doğrudan güneş ışığna maruz bırakmayınız.",
+    "left": 0.0846,
+    "top": 0.5203,
+    "right": 0.8689,
+    "bottom": 0.5841,
+    "slope": -0.0547
+   },
+   {
+    "text": "Serin ve rutubetsiz yerde muhafaza ediniz. Türk Gıda Kodeksi'ne uygundur.",
+    "left": 0.0869,
+    "top": 0.5424,
+    "right": 0.875,
+    "bottom": 0.607,
+    "slope": -0.0494
+   },
+   {
+    "text": "Üretim Tarihi (ÜT), Tavsiye Edilen Tüketim Tarihi (TETT), Parti Numarası (L) olarak",
+    "left": 0.09,
+    "top": 0.5633,
+    "right": 0.8781,
+    "bottom": 0.6319,
+    "slope": -0.0558
+   },
+   {
+    "text": "ambalajın üzerindedir. Üretim yeri Parti Numarası alanının başında belirtilmiştir.",
+    "left": 0.0922,
+    "top": 0.5849,
+    "right": 0.8463,
+    "bottom": 0.6584,
+    "slope": -0.0611
+   },
+   {
+    "text": "ORTALAMA ENERJİ VE BESİN ÖĞELERİ",
+    "left": 0.1045,
+    "top": 0.6485,
+    "right": 0.3732,
+    "bottom": 0.69,
+    "slope": -0.0833
+   },
+   {
+    "text": "100 g Için",
+    "left": 0.3937,
+    "top": 0.6464,
+    "right": 0.4741,
+    "bottom": 0.6618,
+    "slope": -0.0
+   },
+   {
+    "text": "NUTRITION FACTS",
+    "left": 0.1074,
+    "top": 0.676,
+    "right": 0.24,
+    "bottom": 0.7022,
+    "slope": -0.0625
+   },
+   {
+    "text": "Per 100g",
+    "left": 0.3963,
+    "top": 0.661,
+    "right": 0.4744,
+    "bottom": 0.6817,
+    "slope": 0.0164
+   },
+   {
+    "text": "BIRLIK",
+    "left": 0.4942,
+    "top": 0.621,
+    "right": 0.6931,
+    "bottom": 0.6809,
+    "slope": -0.0459
+   },
+   {
+    "text": "Enerji / Energy (kJ/kcal)",
+    "left": 0.1102,
+    "top": 0.695,
+    "right": 0.3128,
+    "bottom": 0.7298,
+    "slope": -0.0682
+   },
+   {
+    "text": "1492/357",
+    "left": 0.3931,
+    "top": 0.684,
+    "right": 0.4721,
+    "bottom": 0.7044,
+    "slope": 0.0059
+   },
+   {
+    "text": "Türkiye Tarım Kredi Kooperatifleri Şirketidi",
+    "left": 0.499,
+    "top": 0.6791,
+    "right": 0.6936,
+    "bottom": 0.7045,
+    "slope": -0.0625
+   },
+   {
+    "text": "Yağ / Fat (g)",
+    "left": 0.1132,
+    "top": 0.7302,
+    "right": 0.2232,
+    "bottom": 0.7587,
+    "slope": -0.0652
+   },
+   {
+    "text": "6,6",
+    "left": 0.4224,
+    "top": 0.7134,
+    "right": 0.4511,
+    "bottom": 0.7328,
+    "slope": -0.0
+   },
+   {
+    "text": "Gıda İşletmecisi /Manufacturer",
+    "left": 0.4955,
+    "top": 0.6935,
+    "right": 0.7114,
+    "bottom": 0.7248,
+    "slope": -0.0517
+   },
+   {
+    "text": "- Doymuşyağ/Saturated Fat (g)",
+    "left": 0.1154,
+    "top": 0.7382,
+    "right": 0.3759,
+    "bottom": 0.7803,
+    "slope": -0.0776
+   },
+   {
+    "text": "1,9",
+    "left": 0.4224,
+    "top": 0.7371,
+    "right": 0.454,
+    "bottom": 0.7543,
+    "slope": -0.0
+   },
+   {
+    "text": "Tarım Kredi Birlik Tarım Ürünleri Hayv.",
+    "left": 0.4957,
+    "top": 0.7069,
+    "right": 0.7801,
+    "bottom": 0.7456,
+    "slope": -0.061
+   },
+   {
+    "text": "Amb. Pet. Nak. İth. Ihr. San. ve Tic. A.Ş.",
+    "left": 0.4982,
+    "top": 0.7291,
+    "right": 0.7833,
+    "bottom": 0.7659,
+    "slope": -0.0565
+   },
+   {
+    "text": "Karbonhidrat/Carbohydrate (g)",
+    "left": 0.1187,
+    "top": 0.7657,
+    "right": 0.3727,
+    "bottom": 0.8012,
+    "slope": -0.0556
+   },
+   {
+    "text": "52,5",
+    "left": 0.4195,
+    "top": 0.7629,
+    "right": 0.4598,
+    "bottom": 0.7823,
+    "slope": -0.0
+   },
+   {
+    "text": "Merkez/ Head Orfice:",
+    "left": 0.5018,
+    "top": 0.7622,
+    "right": 0.6442,
+    "bottom": 0.7821,
+    "slope": -0.0
+   },
+   {
+    "text": "- Şekerler / Sugars (g)",
+    "left": 0.1277,
+    "top": 0.796,
+    "right": 0.3062,
+    "bottom": 0.829,
+    "slope": -0.0625
+   },
+   {
+    "text": "0",
+    "left": 0.4368,
+    "top": 0.7888,
+    "right": 0.4511,
+    "bottom": 0.8039,
+    "slope": -0.0
+   },
+   {
+    "text": "TÜKETİCI",
+    "left": 0.6351,
+    "top": 0.7845,
+    "right": 0.6868,
+    "bottom": 0.7953,
+    "slope": -0.0
+   },
+   {
+    "text": "DANISMA HATT",
+    "left": 0.6379,
+    "top": 0.7909,
+    "right": 0.7241,
+    "bottom": 0.8018,
+    "slope": -0.0
+   },
+   {
+    "text": "Lif / Fiber (g)",
+    "left": 0.1322,
+    "top": 0.8318,
+    "right": 0.2328,
+    "bottom": 0.8514,
+    "slope": 0.0013
+   },
+   {
+    "text": "12,9",
+    "left": 0.4253,
+    "top": 0.8168,
+    "right": 0.4655,
+    "bottom": 0.8341,
+    "slope": -0.0
+   },
+   {
+    "text": "444 18 57",
+    "left": 0.634,
+    "top": 0.802,
+    "right": 0.7282,
+    "bottom": 0.8217,
+    "slope": -0.05
+   },
+   {
+    "text": "Protein / Protein(g)",
+    "left": 0.1379,
+    "top": 0.8534,
+    "right": 0.2874,
+    "bottom": 0.8729,
+    "slope": -0.0
+   },
+   {
+    "text": "15,4",
+    "left": 0.4282,
+    "top": 0.8427,
+    "right": 0.4684,
+    "bottom": 0.8599,
+    "slope": -0.0
+   },
+   {
+    "text": "fuz. /Salt (g)**",
+    "left": 0.1465,
+    "top": 0.877,
+    "right": 0.2558,
+    "bottom": 0.8946,
+    "slope": 0.0037
+   },
+   {
+    "text": "0",
+    "left": 0.4397,
+    "top": 0.8685,
+    "right": 0.4598,
+    "bottom": 0.8858,
+    "slope": -0.0
+   },
+   {
+    "text": "ın doğasında bulunan sodyumdan",
+    "left": 0.2435,
+    "top": 0.8955,
+    "right": 0.4376,
+    "bottom": 0.9175,
+    "slope": -0.0417
+   },
+   {
+    "text": "odium inherent in the product.",
+    "left": 0.2895,
+    "top": 0.9185,
+    "right": 0.464,
+    "bottom": 0.9435,
+    "slope": -0.06
+   },
+   {
+    "text": "İşletme kayıt no (İKN) ambalaj üzerindedir.",
+    "left": 0.5127,
+    "top": 0.8499,
+    "right": 0.8003,
+    "bottom": 0.887,
+    "slope": -0.0708
+   },
+   {
+    "text": "Mensei:",
+    "left": 0.7126,
+    "top": 0.8858,
+    "right": 0.7644,
+    "bottom": 0.8987,
+    "slope": -0.0
+   },
+   {
+    "text": "Türkiye",
+    "left": 0.7155,
+    "top": 0.903,
+    "right": 0.7672,
+    "bottom": 0.9159,
+    "slope": -0.0
+   },
+   {
+    "text": "Net Miki",
+    "left": 0.8086,
+    "top": 0.7819,
+    "right": 1.0019,
+    "bottom": 0.844,
+    "slope": -0.0882
+   },
+   {
+    "text": "500 g C",
+    "left": 0.8161,
+    "top": 0.8318,
+    "right": 0.9971,
+    "bottom": 0.9009,
+    "slope": -0.0
+   },
+   {
+    "text": "I",
+    "left": 0.6873,
+    "top": 0.8924,
+    "right": 0.6942,
+    "bottom": 0.919,
+    "slope": -0.0
+   },
+   {
+    "text": "pp",
+    "left": 0.5372,
+    "top": 0.9287,
+    "right": 0.551,
+    "bottom": 0.9375,
+    "slope": -0.0
+   }
+  ]
+ }
+}

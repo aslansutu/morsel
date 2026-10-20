@@ -1,0 +1,30 @@
+{
+ "code": "5449000016645",
+ "name": "Coca-Cola",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "Text recognition reads one line of a can: no list to find.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 1.0086,
+    "top": 0.1909,
+    "left": 0.0056,
+    "bottom": 0.4069,
+    "slope": 0.0871,
+    "text": "ORIJINAL TA"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "ORİJİNAL TA",
+    "left": -0.0099,
+    "top": 0.1952,
+    "right": 1.0081,
+    "bottom": 0.3891,
+    "slope": 0.0577
+   }
+  ]
+ }
+}

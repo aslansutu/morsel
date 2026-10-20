@@ -1,0 +1,784 @@
+{
+ "code": "8692971433554",
+ "name": "Tam Yağlı Süzme Peynir",
+ "truth": "Pastörize inek sütü, tuz, peynir mayası, peynir kültürü. Kuru maddede en az %45 süt yağı içerir.",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "The heading reads as \"köndekler\": Morsel finds no list (missed, not wrong).",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.3948,
+    "right": 0.1962,
+    "text": "Togh Taze Beyaz Peynir",
+    "bottom": 0.4224,
+    "left": -0.0002,
+    "slope": 0.0043
+   },
+   {
+    "right": 0.4323,
+    "left": 0.3156,
+    "text": "Enerji ve Besin",
+    "slope": -0.0014,
+    "bottom": 0.4225,
+    "top": 0.3987
+   },
+   {
+    "slope": 0,
+    "top": 0.3983,
+    "text": "100 g",
+    "left": 0.4419,
+    "bottom": 0.4244,
+    "right": 0.4981
+   },
+   {
+    "text": "100 g",
+    "left": 0.5058,
+    "top": 0.3983,
+    "slope": 0,
+    "right": 0.5601,
+    "bottom": 0.4259
+   },
+   {
+    "text": "asyon leknii) - köndekler: Pastörize",
+    "top": 0.419,
+    "right": 0.2797,
+    "bottom": 0.4512,
+    "left": -0.0009,
+    "slope": -0.0231
+   },
+   {
+    "right": 0.3779,
+    "left": 0.312,
+    "top": 0.423,
+    "bottom": 0.4491,
+    "slope": 0,
+    "text": "Oğeleri"
+   },
+   {
+    "bottom": 0.4492,
+    "top": 0.4244,
+    "right": 0.5678,
+    "slope": 0,
+    "left": 0.5058,
+    "text": "iợn RA*"
+   },
+   {
+    "text": "yir mayas, peynir kaltiri.",
+    "bottom": 0.4842,
+    "right": 0.1906,
+    "top": 0.4451,
+    "slope": -0.0142,
+    "left": -0.0009
+   },
+   {
+    "right": 0.4194,
+    "bottom": 0.4776,
+    "left": 0.3132,
+    "slope": -0.0215,
+    "text": "Eneri (kJ/kcal)",
+    "top": 0.4512
+   },
+   {
+    "right": 0.5058,
+    "bottom": 0.4753,
+    "slope": 0,
+    "left": 0.4419,
+    "top": 0.452,
+    "text": "997/241"
+   },
+   {
+    "left": -0.0001,
+    "text": "yağidar. Koroyuca kale mastesi ermez.",
+    "top": 0.4794,
+    "slope": -0.0019,
+    "right": 0.2908,
+    "bottom": 0.5148
+   },
+   {
+    "left": 0.3101,
+    "top": 0.4797,
+    "bottom": 0.503,
+    "right": 0.3721,
+    "slope": 0,
+    "text": "Yoğ (g)"
+   },
+   {
+    "left": 0.4554,
+    "slope": 0,
+    "bottom": 0.5015,
+    "top": 0.4782,
+    "right": 0.4942,
+    "text": "20,5"
+   },
+   {
+    "slope": 0,
+    "left": -0.0002,
+    "top": 0.5088,
+    "text": "(ST) ve pri no (P) ambali inerinde olup",
+    "right": 0.2967,
+    "bottom": 0.5426
+   },
+   {
+    "text": "Doymus yat (a)",
+    "bottom": 0.5318,
+    "slope": -0.0199,
+    "top": 0.5038,
+    "left": 0.3327,
+    "right": 0.4464
+   },
+   {
+    "slope": 0,
+    "top": 0.5044,
+    "left": 0.4535,
+    "right": 0.4961,
+    "text": "133",
+    "bottom": 0.5262
+   },
+   {
+    "right": 0.5595,
+    "top": 0.5029,
+    "slope": 0,
+    "left": 0.5194,
+    "bottom": 0.5248,
+    "text": "36]"
+   },
+   {
+    "right": 0.262,
+    "bottom": 0.5724,
+    "text": "den önce tüketilmelidir. Buzdeklardo",
+    "top": 0.5366,
+    "slope": -0.0053,
+    "left": -0.0004
+   },
+   {
+    "bottom": 0.5541,
+    "top": 0.528,
+    "left": 0.3134,
+    "right": 0.4288,
+    "text": "Karbonhidrat (g)",
+    "slope": 0.0161
+   },
+   {
+    "right": 0.4903,
+    "bottom": 0.5538,
+    "left": 0.4612,
+    "top": 0.529,
+    "slope": 0,
+    "text": "30"
+   },
+   {
+    "text": "-Sekerter (g)",
+    "top": 0.5546,
+    "left": 0.3214,
+    "right": 0.4151,
+    "bottom": 0.5821,
+    "slope": 0.0146
+   },
+   {
+    "left": 0.4612,
+    "text": "20",
+    "top": 0.5552,
+    "slope": 0,
+    "bottom": 0.5799,
+    "right": 0.4922
+   },
+   {
+    "left": -0.0,
+    "bottom": 0.5975,
+    "text": "KL. Kuru moddede en oz 74) sul yaği kere.",
+    "slope": 0,
+    "right": 0.3081,
+    "top": 0.5756
+   },
+   {
+    "right": 0.5523,
+    "left": 0.5233,
+    "bottom": 0.5756,
+    "slope": 0,
+    "text": "·2",
+    "top": 0.5538
+   },
+   {
+    "slope": 0,
+    "bottom": 0.6091,
+    "top": 0.5843,
+    "left": 0.314,
+    "right": 0.3915,
+    "text": "Protein (g)"
+   },
+   {
+    "right": 0.4961,
+    "slope": 0,
+    "text": "120",
+    "top": 0.5828,
+    "left": 0.4593,
+    "bottom": 0.6076
+   },
+   {
+    "left": -0.0011,
+    "bottom": 0.632,
+    "right": 0.2649,
+    "text": "an. ve lIC. A.. Pamukova / SAKARYA",
+    "top": 0.599,
+    "slope": -0.0391
+   },
+   {
+    "text": "Tuz (g)",
+    "top": 0.6104,
+    "slope": 0,
+    "left": 0.312,
+    "bottom": 0.6352,
+    "right": 0.3682
+   },
+   {
+    "bottom": 0.6308,
+    "left": 0.4593,
+    "text": "1,5",
+    "top": 0.6076,
+    "right": 0.4922,
+    "slope": 0
+   },
+   {
+    "text": "inl c: 250 g e",
+    "top": 0.6268,
+    "slope": 0.0271,
+    "left": -0.0031,
+    "bottom": 0.7046,
+    "right": 0.2269
+   },
+   {
+    "text": "Cesit No:",
+    "bottom": 0.6628,
+    "slope": 0,
+    "left": 0.2209,
+    "right": 0.2926,
+    "top": 0.6352
+   },
+   {
+    "slope": -0.012,
+    "left": 0.3156,
+    "top": 0.6346,
+    "text": "Kakiyun (ng)",
+    "right": 0.4169,
+    "bottom": 0.6619
+   },
+   {
+    "text": "%25",
+    "bottom": 0.6279,
+    "left": 0.5213,
+    "top": 0.6061,
+    "right": 0.5601,
+    "slope": 0
+   },
+   {
+    "right": 0.5601,
+    "slope": 0,
+    "top": 0.6323,
+    "bottom": 0.6541,
+    "text": "·38",
+    "left": 0.5213
+   },
+   {
+    "top": 0.6638,
+    "bottom": 0.6845,
+    "left": 0.2227,
+    "right": 0.5621,
+    "slope": 0.006,
+    "text": "04337-06 Değerler ortalama bir yetiskının Keteran"
+   },
+   {
+    "slope": -0.0528,
+    "left": 0.313,
+    "top": 0.6812,
+    "right": 0.4628,
+    "text": "Ven Duzeyini belirtir (R)",
+    "bottom": 0.7057
+   },
+   {
+    "text": "hık: 300 g",
+    "right": 0.1556,
+    "slope": 0.0242,
+    "bottom": 0.7724,
+    "top": 0.7011,
+    "left": -0.0027
+   },
+   {
+    "bottom": 0.7965,
+    "slope": 0,
+    "top": 0.7805,
+    "left": 0.0,
+    "right": 0.0446,
+    "text": "4246"
+   },
+   {
+    "text": "TR",
+    "right": 0.1221,
+    "left": 0.0911,
+    "slope": 0,
+    "top": 0.7762,
+    "bottom": 0.7922
+   },
+   {
+    "top": 0.7561,
+    "right": 0.2574,
+    "text": "Menşe Ülke:",
+    "left": 0.1588,
+    "bottom": 0.7931,
+    "slope": -0.0577
+   },
+   {
+    "slope": 0,
+    "text": "54-0037",
+    "left": 0.0659,
+    "top": 0.7922,
+    "bottom": 0.8067,
+    "right": 0.1453
+   },
+   {
+    "right": 0.0446,
+    "slope": 0,
+    "left": 0.0,
+    "text": "m.tr",
+    "bottom": 0.8125,
+    "top": 0.8009
+   },
+   {
+    "text": "Türkiye",
+    "right": 0.2403,
+    "left": 0.1783,
+    "slope": 0,
+    "bottom": 0.814,
+    "top": 0.7878
+   },
+   {
+    "bottom": 0.8096,
+    "right": 0.2791,
+    "text": "8",
+    "left": 0.2578,
+    "slope": 0,
+    "top": 0.7892
+   },
+   {
+    "slope": -0.0208,
+    "right": 0.5549,
+    "bottom": 0.8099,
+    "text": "692971 433554",
+    "top": 0.782,
+    "left": 0.2939
+   },
+   {
+    "text": "ICIN6 19-BR-2",
+    "right": 0.5872,
+    "left": 0.562,
+    "top": 0.7282,
+    "bottom": 0.7907,
+    "slope": 0
+   },
+   {
+    "left": 0.5225,
+    "right": 0.5516,
+    "slope": 0,
+    "text": "%12",
+    "top": 0.4509,
+    "bottom": 0.4707
+   },
+   {
+    "left": 0.5251,
+    "text": "%24",
+    "top": 0.5799,
+    "slope": 0,
+    "right": 0.5542,
+    "bottom": 0.5997
+   },
+   {
+    "slope": 0,
+    "left": 0.0397,
+    "top": 0.6835,
+    "right": 0.3545,
+    "bottom": 0.8085,
+    "text": ", 3frJ9 .yjll"
+   },
+   {
+    "slope": 0,
+    "top": 0.6781,
+    "text": "kJnMk",
+    "left": 0.4881,
+    "right": 0.5608,
+    "bottom": 0.7009
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Yoğh Taze Beyaz Peynir",
+    "left": -0.0004,
+    "top": 0.3904,
+    "right": 0.2016,
+    "bottom": 0.4212,
+    "slope": -0.0047
+   },
+   {
+    "text": "Enerj ve besin",
+    "left": 0.3128,
+    "top": 0.3965,
+    "right": 0.4316,
+    "bottom": 0.4226,
+    "slope": -0.0078
+   },
+   {
+    "text": "100 g 100 g",
+    "left": 0.4425,
+    "top": 0.3964,
+    "right": 0.5632,
+    "bottom": 0.4246,
+    "slope": -0.0
+   },
+   {
+    "text": "syen lemiğj) Iöindekier: Pastirize",
+    "left": -0.0011,
+    "top": 0.4168,
+    "right": 0.2841,
+    "bottom": 0.4587,
+    "slope": -0.0167
+   },
+   {
+    "text": "Ogeleri",
+    "left": 0.3132,
+    "top": 0.4224,
+    "right": 0.3793,
+    "bottom": 0.4504,
+    "slope": -0.0
+   },
+   {
+    "text": "ện RA*",
+    "left": 0.5,
+    "top": 0.4224,
+    "right": 0.569,
+    "bottom": 0.4526,
+    "slope": -0.0
+   },
+   {
+    "text": "ynir moros, peynir kalhüri.",
+    "left": 0.0,
+    "top": 0.4482,
+    "right": 0.1897,
+    "bottom": 0.4807,
+    "slope": -0.0
+   },
+   {
+    "text": "Eneri (kl/kcal)",
+    "left": 0.313,
+    "top": 0.4499,
+    "right": 0.4198,
+    "bottom": 0.4768,
+    "slope": -0.0096
+   },
+   {
+    "text": "097/2411",
+    "left": 0.4397,
+    "top": 0.4483,
+    "right": 0.5144,
+    "bottom": 0.4741,
+    "slope": -0.0
+   },
+   {
+    "text": "%12",
+    "left": 0.5086,
+    "top": 0.4504,
+    "right": 0.5603,
+    "bottom": 0.4741,
+    "slope": -0.0
+   },
+   {
+    "text": "vnoğidr. Koroyucu kału moddesi kermez.",
+    "left": -0.0,
+    "top": 0.4784,
+    "right": 0.2902,
+    "bottom": 0.5086,
+    "slope": -0.0
+   },
+   {
+    "text": "Yog (g)",
+    "left": 0.3103,
+    "top": 0.4784,
+    "right": 0.3707,
+    "bottom": 0.5043,
+    "slope": -0.0
+   },
+   {
+    "text": "205",
+    "left": 0.454,
+    "top": 0.4763,
+    "right": 0.4971,
+    "bottom": 0.5,
+    "slope": -0.0
+   },
+   {
+    "text": "X29",
+    "left": 0.5172,
+    "top": 0.4741,
+    "right": 0.5603,
+    "bottom": 0.4978,
+    "slope": -0.0
+   },
+   {
+    "text": "(SIT) v pari no (P) ambalej inartnde dhep",
+    "left": -0.0005,
+    "top": 0.5059,
+    "right": 0.2963,
+    "bottom": 0.5416,
+    "slope": -0.0097
+   },
+   {
+    "text": "Doymus yet (d))",
+    "left": 0.3159,
+    "top": 0.5016,
+    "right": 0.4542,
+    "bottom": 0.5308,
+    "slope": -0.0085
+   },
+   {
+    "text": "13,3",
+    "left": 0.4483,
+    "top": 0.5043,
+    "right": 0.5086,
+    "bottom": 0.5259,
+    "slope": -0.0
+   },
+   {
+    "text": "307",
+    "left": 0.5172,
+    "top": 0.5,
+    "right": 0.5603,
+    "bottom": 0.5237,
+    "slope": -0.0
+   },
+   {
+    "text": "den ürce tuketimekdir, Burdekdende",
+    "left": -0.0008,
+    "top": 0.5355,
+    "right": 0.2649,
+    "bottom": 0.5697,
+    "slope": -0.0192
+   },
+   {
+    "text": "Karbonliarat (a)",
+    "left": 0.3127,
+    "top": 0.5249,
+    "right": 0.4288,
+    "bottom": 0.5535,
+    "slope": 0.0093
+   },
+   {
+    "text": "20",
+    "left": 0.4598,
+    "top": 0.528,
+    "right": 0.4943,
+    "bottom": 0.5517,
+    "slope": -0.0
+   },
+   {
+    "text": "uz. Kuru modlede en a. %45 sit yog ieri.",
+    "left": -0.0003,
+    "top": 0.5659,
+    "right": 0.305,
+    "bottom": 0.6019,
+    "slope": 0.009
+   },
+   {
+    "text": "Seketer (g)",
+    "left": 0.3161,
+    "top": 0.5539,
+    "right": 0.4167,
+    "bottom": 0.5797,
+    "slope": -0.0
+   },
+   {
+    "text": "20",
+    "left": 0.4598,
+    "top": 0.5539,
+    "right": 0.4943,
+    "bottom": 0.5776,
+    "slope": -0.0
+   },
+   {
+    "text": "Phrotein (g)",
+    "left": 0.3132,
+    "top": 0.5818,
+    "right": 0.3908,
+    "bottom": 0.6079,
+    "slope": -0.0
+   },
+   {
+    "text": "120",
+    "left": 0.454,
+    "top": 0.5797,
+    "right": 0.5,
+    "bottom": 0.6034,
+    "slope": -0.0
+   },
+   {
+    "text": "an. ve Tic AS. Pamukoro / SAVARYA",
+    "left": -0.0,
+    "top": 0.5991,
+    "right": 0.2644,
+    "bottom": 0.6272,
+    "slope": -0.0
+   },
+   {
+    "text": "Tuz (g)",
+    "left": 0.3132,
+    "top": 0.6099,
+    "right": 0.3707,
+    "bottom": 0.6336,
+    "slope": -0.0
+   },
+   {
+    "text": "1,5",
+    "left": 0.4598,
+    "top": 0.6056,
+    "right": 0.4943,
+    "bottom": 0.6293,
+    "slope": -0.0
+   },
+   {
+    "text": "X24",
+    "left": 0.5172,
+    "top": 0.5776,
+    "right": 0.5632,
+    "bottom": 0.6013,
+    "slope": -0.0
+   },
+   {
+    "text": "X25",
+    "left": 0.5201,
+    "top": 0.6034,
+    "right": 0.5632,
+    "bottom": 0.6272,
+    "slope": -0.0
+   },
+   {
+    "text": "unk: 250 g 0420",
+    "left": -0.0027,
+    "top": 0.6328,
+    "right": 0.2941,
+    "bottom": 0.7005,
+    "slope": -0.0433
+   },
+   {
+    "text": "Carun (mg)",
+    "left": 0.3132,
+    "top": 0.6336,
+    "right": 0.4263,
+    "bottom": 0.6596,
+    "slope": -0.0
+   },
+   {
+    "text": "300",
+    "left": 0.4598,
+    "top": 0.6315,
+    "right": 0.4971,
+    "bottom": 0.6552,
+    "slope": -0.0
+   },
+   {
+    "text": "• 04337-06 Değerler ortoioma bir vetiskanın keterans",
+    "left": 0.2009,
+    "top": 0.6615,
+    "right": 0.5662,
+    "bottom": 0.6871,
+    "slope": 0.0069
+   },
+   {
+    "text": "Alm Dizeyini belini (8400 kJ/2000 kcal)",
+    "left": 0.3034,
+    "top": 0.672,
+    "right": 0.582,
+    "bottom": 0.7101,
+    "slope": -0.0402
+   },
+   {
+    "text": "hk: 300 g",
+    "left": 0.0,
+    "top": 0.7004,
+    "right": 0.1523,
+    "bottom": 0.7694,
+    "slope": -0.0
+   },
+   {
+    "text": "4246",
+    "left": -0.0,
+    "top": 0.7802,
+    "right": 0.0431,
+    "bottom": 0.7974,
+    "slope": -0.0
+   },
+   {
+    "text": "TR",
+    "left": 0.092,
+    "top": 0.7759,
+    "right": 0.1207,
+    "bottom": 0.7931,
+    "slope": -0.0
+   },
+   {
+    "text": "Mense Ülke:",
+    "left": 0.1606,
+    "top": 0.7558,
+    "right": 0.2561,
+    "bottom": 0.7873,
+    "slope": -0.0139
+   },
+   {
+    "text": "m.tr",
+    "left": -0.0,
+    "top": 0.7996,
+    "right": 0.0431,
+    "bottom": 0.8103,
+    "slope": -0.0
+   },
+   {
+    "text": "54-0037",
+    "left": 0.0632,
+    "top": 0.7909,
+    "right": 0.1466,
+    "bottom": 0.8061,
+    "slope": -0.0
+   },
+   {
+    "text": "Türkiye",
+    "left": 0.1781,
+    "top": 0.7865,
+    "right": 0.2501,
+    "bottom": 0.8147,
+    "slope": 0.0026
+   },
+   {
+    "text": "8 692971 433554",
+    "left": 0.2522,
+    "top": 0.7812,
+    "right": 0.5552,
+    "bottom": 0.8108,
+    "slope": -0.0183
+   },
+   {
+    "text": "%2",
+    "left": 0.5291,
+    "top": 0.5541,
+    "right": 0.5489,
+    "bottom": 0.5729,
+    "slope": -0.0
+   },
+   {
+    "text": "O rth 8 692971 433554-",
+    "left": 0.0508,
+    "top": 0.7607,
+    "right": 0.5859,
+    "bottom": 0.8172,
+    "slope": -0.0
+   }
+  ]
+ }
+}

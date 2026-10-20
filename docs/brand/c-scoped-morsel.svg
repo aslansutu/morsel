@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Morsel">
+  <!-- C · Scoped morsel: a bitten cookie inside the scanner frame. -->
+  <defs>
+    <clipPath id="tile"><rect width="1024" height="1024" rx="232"/></clipPath>
+    <mask id="bite" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect width="1024" height="1024" fill="#FFFFFF"/>
+      <g fill="#000000">
+        <circle cx="676" cy="368" r="96"/>
+        <circle cx="580" cy="368" r="34"/>
+        <circle cx="608" cy="436" r="34"/>
+        <circle cx="676" cy="464" r="34"/>
+      </g>
+    </mask>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="1024" height="1024" fill="#6A3D8F"/>
+    <g fill="none" stroke="#FAF7F2" stroke-width="40" stroke-linecap="round">
+      <path d="M196 316 V246 A50 50 0 0 1 246 196 H316"/>
+      <path d="M708 196 H778 A50 50 0 0 1 828 246 V316"/>
+      <path d="M196 708 V778 A50 50 0 0 0 246 828 H316"/>
+      <path d="M708 828 H778 A50 50 0 0 0 828 778 V708"/>
+    </g>
+    <g mask="url(#bite)">
+      <circle cx="512" cy="524" r="200" fill="#FAF7F2"/>
+      <g fill="#6A3D8F">
+        <circle cx="432" cy="452" r="26"/>
+        <circle cx="560" cy="570" r="24"/>
+        <circle cx="436" cy="612" r="20"/>
+        <circle cx="610" cy="640" r="17"/>
+      </g>
+    </g>
+  </g>
+</svg>

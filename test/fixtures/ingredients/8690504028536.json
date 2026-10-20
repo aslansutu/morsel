@@ -1,0 +1,734 @@
+{
+ "code": "8690504028536",
+ "name": "Dido Sütlü Çikolatalı Gofret",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "The photo is sideways: reading nothing is right.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "TB Sütlü Çikolata Kaplamalı Gofret. Sütlü Çikolata (%74), İçindekiler: Şeker, Tam Yağ",
+    "bottom": 0.5495,
+    "right": 0.4776,
+    "left": 0.4539,
+    "slope": 135.7494,
+    "top": 0.1656
+   },
+   {
+    "text": "Hidrojenize Palm), Fındık Püresi, Nişasta, Emüf",
+    "top": 0.1672,
+    "right": 0.4574,
+    "slope": 0,
+    "bottom": 0.3721,
+    "left": 0.438
+   },
+   {
+    "bottom": 0.6599,
+    "text": "orter (Amonyum Fostatitler, Soya Lesitini. Polioliserol Polirisinolea)",
+    "right": 0.4591,
+    "slope": 71.2502,
+    "left": 0.4419,
+    "top": 0.3836
+   },
+   {
+    "left": 0.4221,
+    "text": "Yumurla Akı Tozu. Eser Miktarda Yerfıstığuve Sert Kabuklu Meyveler Içerebilir. EN Milk Chocolate Coated Wafer. Milk Chocolate (74%), Ingredients: Sugar",
+    "right": 0.4445,
+    "bottom": 0.8314,
+    "slope": 261.7547,
+    "top": 0.1671
+   },
+   {
+    "bottom": 0.8343,
+    "top": 0.1671,
+    "text": "Milk Powder, Cocoa Mass, Cocoa Butter, Wireat Flour, Vegetable Fats (Palm, Fully Hydrogenated Palm), Hazelnut Puree, Starch, Emulsifiers (Ammonium Phospt",
+    "left": 0.4027,
+    "right": 0.4258,
+    "slope": 138.0006
+   },
+   {
+    "left": 0.3857,
+    "bottom": 0.3154,
+    "right": 0.4031,
+    "slope": 0,
+    "top": 0.1672,
+    "text": "Say Lecithin, Polyglycerol Polyr"
+   },
+   {
+    "text": "Reduced Cocoa Powder, Salt, Fla",
+    "top": 0.3852,
+    "slope": 0,
+    "left": 0.3915,
+    "right": 0.405,
+    "bottom": 0.5422
+   },
+   {
+    "left": 0.079,
+    "right": 0.1332,
+    "bottom": 0.0789,
+    "text": "••••",
+    "slope": 0,
+    "top": 0.0675
+   },
+   {
+    "bottom": 0.0813,
+    "left": 0.1728,
+    "slope": 0,
+    "right": 0.2941,
+    "text": "• X-•• ••1",
+    "top": 0.0603
+   },
+   {
+    "right": 0.8874,
+    "text": "il-d,'ii2Éiai'.",
+    "top": 0.003,
+    "bottom": 0.0759,
+    "left": 0.6708,
+    "slope": 0
+   },
+   {
+    "top": 0.0627,
+    "slope": 0,
+    "right": 0.744,
+    "left": 0.6673,
+    "bottom": 0.1148,
+    "text": "IIIIG"
+   },
+   {
+    "bottom": 0.179,
+    "right": 0.9949,
+    "text": ",aiij,'Ilallj;jrf,'Ill12ii",
+    "slope": 0,
+    "left": 0.6388,
+    "top": 0.1007
+   },
+   {
+    "right": 0.8849,
+    "text": "'Illi",
+    "left": 0.8254,
+    "top": 0.2019,
+    "bottom": 0.2495,
+    "slope": 0
+   },
+   {
+    "right": 0.9847,
+    "slope": 0,
+    "left": 0.6952,
+    "bottom": 0.2934,
+    "text": ",111,4'1,'IL'dii'!i!'ij!i",
+    "top": 0.2225
+   },
+   {
+    "text": "IiIAiiiryillllJ:",
+    "right": 0.8767,
+    "bottom": 0.3227,
+    "slope": 0,
+    "left": 0.6452,
+    "top": 0.2634
+   },
+   {
+    "left": 0.6475,
+    "bottom": 0.348,
+    "text": "I,IilllMiLI",
+    "top": 0.3113,
+    "right": 0.7897,
+    "slope": 0
+   },
+   {
+    "slope": 0,
+    "text": "!!!!ItJill\"",
+    "top": 0.0774,
+    "right": 0.1933,
+    "bottom": 0.1426,
+    "left": 0.0111
+   },
+   {
+    "top": 0.158,
+    "text": "igiiii",
+    "bottom": 0.2081,
+    "slope": 0,
+    "left": 0.1802,
+    "right": 0.2847
+   },
+   {
+    "top": 0.1701,
+    "bottom": 0.2594,
+    "slope": 0,
+    "left": 0.1349,
+    "text": "'!i!iati,!iliHI",
+    "right": 0.3598
+   },
+   {
+    "text": "iazi",
+    "slope": 0,
+    "left": 0.9365,
+    "top": 0.1262,
+    "right": 0.9901,
+    "bottom": 0.1401
+   },
+   {
+    "left": 0.0026,
+    "bottom": 0.3673,
+    "slope": 0,
+    "text": "IIIR.",
+    "top": 0.3289,
+    "right": 0.0858
+   },
+   {
+    "left": 0.9854,
+    "text": "11",
+    "top": 0.343,
+    "right": 0.9987,
+    "slope": 0,
+    "bottom": 0.3544
+   },
+   {
+    "slope": 0,
+    "top": 0.3646,
+    "text": "••",
+    "left": 0.6667,
+    "right": 0.6792,
+    "bottom": 0.3708
+   },
+   {
+    "left": 0.1706,
+    "slope": 0,
+    "bottom": 0.4566,
+    "text": "- j'll!IX!",
+    "right": 0.3115,
+    "top": 0.408
+   },
+   {
+    "bottom": 0.6002,
+    "top": 0.5942,
+    "text": "••",
+    "right": 0.1472,
+    "slope": 0,
+    "left": 0.1276
+   },
+   {
+    "top": 0.6128,
+    "bottom": 0.6257,
+    "slope": 0,
+    "text": "qi",
+    "right": 0.0278,
+    "left": 0.0046
+   },
+   {
+    "left": 0.1621,
+    "bottom": 0.6203,
+    "right": 0.2863,
+    "slope": 0,
+    "text": ",Irirti ,",
+    "top": 0.5885
+   },
+   {
+    "right": 0.0946,
+    "left": 0.047,
+    "text": "Ilin",
+    "bottom": 0.6808,
+    "top": 0.6515,
+    "slope": 0
+   },
+   {
+    "bottom": 0.6758,
+    "slope": 0,
+    "top": 0.6629,
+    "right": 0.2566,
+    "text": "IT",
+    "left": 0.2394
+   },
+   {
+    "left": 0.1303,
+    "right": 0.2202,
+    "text": "Jr• Illlll",
+    "slope": 0,
+    "top": 0.6783,
+    "bottom": 0.6967
+   },
+   {
+    "left": 0.2897,
+    "text": "vlay,",
+    "slope": 0,
+    "right": 0.3796,
+    "top": 0.6724,
+    "bottom": 0.6987
+   },
+   {
+    "slope": 0,
+    "text": "21235:Fl",
+    "right": 0.7858,
+    "left": 0.6395,
+    "bottom": 0.6813,
+    "top": 0.6478
+   },
+   {
+    "top": 0.6774,
+    "text": "Jf4.::r:Ili I,,",
+    "right": 0.864,
+    "bottom": 0.7304,
+    "slope": 0,
+    "left": 0.6503
+   },
+   {
+    "right": 0.8492,
+    "bottom": 0.7488,
+    "slope": 0,
+    "left": 0.7784,
+    "text": "1511, l.l!:",
+    "top": 0.7235
+   },
+   {
+    "right": 0.8657,
+    "left": 0.7553,
+    "slope": 0,
+    "bottom": 0.7805,
+    "top": 0.7478,
+    "text": "..J11￿. '"
+   },
+   {
+    "left": 0.8548,
+    "bottom": 0.6786,
+    "text": "•1",
+    "top": 0.6716,
+    "right": 0.8661,
+    "slope": 0
+   },
+   {
+    "text": ",Ii 11",
+    "bottom": 0.776,
+    "left": 0.0661,
+    "top": 0.7428,
+    "slope": 0,
+    "right": 0.1237
+   },
+   {
+    "left": 0.7116,
+    "top": 0.7669,
+    "bottom": 0.7746,
+    "text": "•••",
+    "slope": 0,
+    "right": 0.7464
+   },
+   {
+    "text": "i&J",
+    "left": 0.3168,
+    "right": 0.3452,
+    "bottom": 0.8063,
+    "top": 0.7855,
+    "slope": 0
+   },
+   {
+    "right": 0.2364,
+    "bottom": 0.87,
+    "slope": 0,
+    "text": "Ii•i",
+    "left": 0.2077,
+    "top": 0.8619
+   },
+   {
+    "left": 0.6855,
+    "bottom": 0.9449,
+    "right": 0.8209,
+    "slope": 0,
+    "top": 0.821,
+    "text": "iriirf,"
+   },
+   {
+    "right": 0.7136,
+    "top": 0.9306,
+    "bottom": 0.9425,
+    "left": 0.6901,
+    "slope": 0,
+    "text": "ifli"
+   },
+   {
+    "bottom": 0.9447,
+    "slope": 0,
+    "top": 0.9013,
+    "right": 1.0013,
+    "left": 0.9412,
+    "text": "lj2J"
+   },
+   {
+    "top": 0.9112,
+    "right": 0.9656,
+    "bottom": 0.939,
+    "left": 0.8638,
+    "slope": 0,
+    "text": ",IIFli•il"
+   },
+   {
+    "bottom": 0.9834,
+    "left": 0.5341,
+    "right": 0.544,
+    "slope": 0,
+    "text": "11",
+    "top": 0.974
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "TR Süttu Çikolata Kaplamalı Gofret. Sütlü Çikolata (%74), İçindekiler: Şeker, Tam Vağlı Sültozı, Kekan Kitlesi, Kakao Yal",
+    "left": 0.4569,
+    "top": 0.1638,
+    "right": 0.477,
+    "bottom": 0.6918,
+    "slope": 0.0
+   },
+   {
+    "text": "Hidrojenize Palm), Findık Püresi, Nişasta, Emülgatörler (Amonyum Fostatitler, Soya Lesitin, Poligliserol Polirisinoleat), Yağ",
+    "left": 0.4397,
+    "top": 0.1659,
+    "right": 0.4569,
+    "bottom": 0.6853,
+    "slope": 0.0
+   },
+   {
+    "text": "Yumurta Akı Tozu. Eser Miktarda Yerfıstığüve Sert Kabuklu Meyveler Içerebilir. EN Milk Chocolate Coated Water. Milk Chocolate",
+    "left": 0.4193,
+    "top": 0.1659,
+    "right": 0.4445,
+    "bottom": 0.7242,
+    "slope": 102.75
+   },
+   {
+    "text": "Mlk Powder, Cocoa Masr, Cocovrute edlie atl Reduced Cocoa Powder, Sat Favouanes aae MaaematPuree sartem",
+    "left": 0.3879,
+    "top": 0.1659,
+    "right": 0.4224,
+    "bottom": 0.722,
+    "slope": 0.0
+   },
+   {
+    "text": "Soy Lecithin, Polyglycerol Polyricincleate",
+    "left": 0.3851,
+    "top": 0.1659,
+    "right": 0.4052,
+    "bottom": 0.3578,
+    "slope": 0.0
+   },
+   {
+    "text": "*1• •J",
+    "left": 0.0804,
+    "top": 0.057,
+    "right": 0.1432,
+    "bottom": 0.068,
+    "slope": -0.0
+   },
+   {
+    "text": "••••",
+    "left": 0.079,
+    "top": 0.0675,
+    "right": 0.1332,
+    "bottom": 0.0789,
+    "slope": -0.0
+   },
+   {
+    "text": "INIII",
+    "left": 0.9288,
+    "top": 0.032,
+    "right": 0.9958,
+    "bottom": 0.0737,
+    "slope": -0.0
+   },
+   {
+    "text": ",aiij,'Ilallj;jrf,'Ill12ii",
+    "left": 0.6388,
+    "top": 0.1007,
+    "right": 0.9949,
+    "bottom": 0.179,
+    "slope": -0.0
+   },
+   {
+    "text": "'Illi",
+    "left": 0.8254,
+    "top": 0.2019,
+    "right": 0.8849,
+    "bottom": 0.2495,
+    "slope": -0.0
+   },
+   {
+    "text": ",'ILUII'!I!'IIIi",
+    "left": 0.7865,
+    "top": 0.2364,
+    "right": 0.984,
+    "bottom": 0.2934,
+    "slope": -0.0
+   },
+   {
+    "text": "IllryIllllL",
+    "left": 0.7239,
+    "top": 0.2857,
+    "right": 0.8753,
+    "bottom": 0.3227,
+    "slope": -0.0
+   },
+   {
+    "text": ",jIN'IIiLI",
+    "left": 0.6601,
+    "top": 0.3108,
+    "right": 0.7897,
+    "bottom": 0.348,
+    "slope": -0.0
+   },
+   {
+    "text": "Iiil",
+    "left": 0.0149,
+    "top": 0.0789,
+    "right": 0.0582,
+    "bottom": 0.1101,
+    "slope": -0.0
+   },
+   {
+    "text": "• X-•• ••1",
+    "left": 0.1728,
+    "top": 0.0603,
+    "right": 0.2941,
+    "bottom": 0.0813,
+    "slope": -0.0
+   },
+   {
+    "text": "iaii",
+    "left": 0.9365,
+    "top": 0.1262,
+    "right": 0.9901,
+    "bottom": 0.1401,
+    "slope": -0.0
+   },
+   {
+    "text": "'liiih,4iyW:",
+    "left": 0.082,
+    "top": 0.1458,
+    "right": 0.3069,
+    "bottom": 0.2093,
+    "slope": -0.0
+   },
+   {
+    "text": "24SlIl'",
+    "left": 0.0098,
+    "top": 0.2041,
+    "right": 0.133,
+    "bottom": 0.2463,
+    "slope": -0.0
+   },
+   {
+    "text": "114LI,",
+    "left": 0.0099,
+    "top": 0.282,
+    "right": 0.0999,
+    "bottom": 0.3177,
+    "slope": -0.0
+   },
+   {
+    "text": "IIIR.",
+    "left": 0.0026,
+    "top": 0.3289,
+    "right": 0.0858,
+    "bottom": 0.3673,
+    "slope": -0.0
+   },
+   {
+    "text": "ja IIIA",
+    "left": 0.2209,
+    "top": 0.2259,
+    "right": 0.3102,
+    "bottom": 0.2562,
+    "slope": -0.0
+   },
+   {
+    "text": "••",
+    "left": 0.6667,
+    "top": 0.3646,
+    "right": 0.6792,
+    "bottom": 0.3708,
+    "slope": -0.0
+   },
+   {
+    "text": "iill1S11.",
+    "left": 0.6541,
+    "top": 0.3772,
+    "right": 0.7533,
+    "bottom": 0.4025,
+    "slope": -0.0
+   },
+   {
+    "text": "yllllll••41al",
+    "left": 0.004,
+    "top": 0.475,
+    "right": 0.1501,
+    "bottom": 0.5042,
+    "slope": -0.0
+   },
+   {
+    "text": "11;Illi",
+    "left": 0.838,
+    "top": 0.5543,
+    "right": 0.9332,
+    "bottom": 0.5826,
+    "slope": -0.0
+   },
+   {
+    "text": "••",
+    "left": 0.1276,
+    "top": 0.5942,
+    "right": 0.1472,
+    "bottom": 0.6002,
+    "slope": -0.0
+   },
+   {
+    "text": "11",
+    "left": 0.1627,
+    "top": 0.6034,
+    "right": 0.1792,
+    "bottom": 0.6188,
+    "slope": -0.0
+   },
+   {
+    "text": "il",
+    "left": 0.92,
+    "top": 0.6218,
+    "right": 0.9438,
+    "bottom": 0.6505,
+    "slope": -0.0
+   },
+   {
+    "text": "I p.111",
+    "left": 0.0027,
+    "top": 0.651,
+    "right": 0.0753,
+    "bottom": 0.6863,
+    "slope": -0.0
+   },
+   {
+    "text": "If",
+    "left": 0.2394,
+    "top": 0.6634,
+    "right": 0.2566,
+    "bottom": 0.6758,
+    "slope": -0.0
+   },
+   {
+    "text": "Jl4%:X41j",
+    "left": 0.6498,
+    "top": 0.6771,
+    "right": 0.8224,
+    "bottom": 0.7237,
+    "slope": -0.0
+   },
+   {
+    "text": "•1",
+    "left": 0.8548,
+    "top": 0.6716,
+    "right": 0.8661,
+    "bottom": 0.6786,
+    "slope": -0.0
+   },
+   {
+    "text": "Iiii",
+    "left": 0.078,
+    "top": 0.7428,
+    "right": 0.1243,
+    "bottom": 0.7701,
+    "slope": -0.0
+   },
+   {
+    "text": "•••",
+    "left": 0.7116,
+    "top": 0.7669,
+    "right": 0.7464,
+    "bottom": 0.7746,
+    "slope": -0.0
+   },
+   {
+    "text": "i&j",
+    "left": 0.3161,
+    "top": 0.7795,
+    "right": 0.3452,
+    "bottom": 0.8063,
+    "slope": -0.0
+   },
+   {
+    "text": "ry'k;1i1",
+    "left": 0.213,
+    "top": 0.7845,
+    "right": 0.3201,
+    "bottom": 0.8485,
+    "slope": -0.0
+   },
+   {
+    "text": "li afirl",
+    "left": 0.1263,
+    "top": 0.8574,
+    "right": 0.1931,
+    "bottom": 0.8762,
+    "slope": -0.0
+   },
+   {
+    "text": "Ii•i",
+    "left": 0.2077,
+    "top": 0.8619,
+    "right": 0.2364,
+    "bottom": 0.87,
+    "slope": -0.0
+   },
+   {
+    "text": "iriirf,",
+    "left": 0.6855,
+    "top": 0.821,
+    "right": 0.8209,
+    "bottom": 0.9449,
+    "slope": -0.0
+   },
+   {
+    "text": "!1•1190",
+    "left": 0.8353,
+    "top": 0.8604,
+    "right": 0.9081,
+    "bottom": 0.8797,
+    "slope": -0.0
+   },
+   {
+    "text": "ifli",
+    "left": 0.6901,
+    "top": 0.9306,
+    "right": 0.7136,
+    "bottom": 0.9425,
+    "slope": -0.0
+   },
+   {
+    "text": ",IIFli•il",
+    "left": 0.8638,
+    "top": 0.9112,
+    "right": 0.9656,
+    "bottom": 0.939,
+    "slope": -0.0
+   },
+   {
+    "text": "ailj.",
+    "left": 0.2156,
+    "top": 0.9467,
+    "right": 0.2983,
+    "bottom": 0.9849,
+    "slope": -0.0
+   },
+   {
+    "text": "aih",
+    "left": 0.2414,
+    "top": 0.972,
+    "right": 0.2712,
+    "bottom": 0.9849,
+    "slope": -0.0
+   },
+   {
+    "text": "11",
+    "left": 0.5341,
+    "top": 0.974,
+    "right": 0.544,
+    "bottom": 0.9834,
+    "slope": -0.0
+   }
+  ]
+ }
+}

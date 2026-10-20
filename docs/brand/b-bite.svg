@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Morsel">
+  <!-- B · Bite: a block of barcode with a bite out of the corner. Food + scan, nothing else. -->
+  <defs>
+    <clipPath id="tile"><rect width="1024" height="1024" rx="232"/></clipPath>
+    <mask id="bite" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect width="1024" height="1024" fill="#FFFFFF"/>
+      <g fill="#000000">
+        <circle cx="800" cy="224" r="150"/>
+        <circle cx="650" cy="224" r="46"/>
+        <circle cx="670" cy="299" r="46"/>
+        <circle cx="725" cy="354" r="46"/>
+        <circle cx="800" cy="374" r="46"/>
+      </g>
+    </mask>
+  </defs>
+  <g clip-path="url(#tile)">
+    <rect width="1024" height="1024" fill="#FAF7F2"/>
+    <g fill="#6A3D8F" mask="url(#bite)">
+      <rect x="232" y="232" width="60" height="560" rx="14"/>
+      <rect x="307" y="232" width="26" height="560" rx="13"/>
+      <rect x="348" y="232" width="44" height="560" rx="14"/>
+      <rect x="407" y="232" width="76" height="560" rx="14"/>
+      <rect x="498" y="232" width="26" height="560" rx="13"/>
+      <rect x="539" y="232" width="60" height="560" rx="14"/>
+      <rect x="614" y="232" width="36" height="560" rx="14"/>
+      <rect x="665" y="232" width="68" height="560" rx="14"/>
+      <rect x="748" y="232" width="44" height="560" rx="14"/>
+    </g>
+  </g>
+</svg>

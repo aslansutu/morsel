@@ -1,0 +1,400 @@
+{
+ "code": "8695077020512",
+ "name": "suzme peynir",
+ "truth": "Pastörize inek sütü, peynir kültürü, peynir mayası, tuz.",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "Open Food Facts leaves out the milk.",
+ "lines": {
+  "vision-macos": [
+   {
+    "left": 0.1865,
+    "top": 0.32,
+    "right": 0.8857,
+    "bottom": 0.3435,
+    "text": "DOST TAM YAĞLI TAZE SÜZME BEYAZ PEYNİR",
+    "slope": 0.0053
+   },
+   {
+    "bottom": 0.3679,
+    "text": "İçindekiler: Pastörize inek sütü,",
+    "left": 0.2813,
+    "right": 0.7712,
+    "slope": 0.0065,
+    "top": 0.3429
+   },
+   {
+    "left": 0.2815,
+    "bottom": 0.3857,
+    "slope": 0.0066,
+    "right": 0.7711,
+    "top": 0.3629,
+    "text": "peynir kültürü, peynir mayası, tuz."
+   },
+   {
+    "left": 0.3211,
+    "top": 0.3872,
+    "text": "(Ultrafiltrasyon-Süzme Tekniği)",
+    "right": 0.7348,
+    "bottom": 0.4071,
+    "slope": 0.0039
+   },
+   {
+    "top": 0.4077,
+    "slope": 0.0058,
+    "text": "Son tüketim tarihi (STT) ve parti no (P) ambalaj üzerinde",
+    "bottom": 0.4302,
+    "left": 0.1569,
+    "right": 0.8955
+   },
+   {
+    "left": 0.2326,
+    "top": 0.429,
+    "text": "olup son tüketim tarihine kadar tüketilmelidir.",
+    "right": 0.8199,
+    "bottom": 0.4477,
+    "slope": 0.0028
+   },
+   {
+    "slope": 0.0057,
+    "top": 0.4461,
+    "right": 0.8169,
+    "bottom": 0.4694,
+    "text": "Üretim yeri inkjet ile ambalaj üzerinde belirtilmiştir.",
+    "left": 0.2388
+   },
+   {
+    "bottom": 0.4887,
+    "top": 0.4678,
+    "right": 0.7839,
+    "slope": 0.005,
+    "left": 0.2423,
+    "text": "Buzdolabında (+4°C / +7°C'de) saklayınız."
+   },
+   {
+    "bottom": 0.5094,
+    "left": 0.2521,
+    "top": 0.4892,
+    "text": "Kuru maddede en az %45 süt yağı içerir.",
+    "right": 0.7774,
+    "slope": 0.0048
+   },
+   {
+    "slope": 0.0075,
+    "top": 0.5044,
+    "bottom": 0.5522,
+    "text": "Net Miktar: 1180 g e",
+    "left": 0.1529,
+    "right": 0.8898
+   },
+   {
+    "text": "Süzme Ağırlık: 1000 g",
+    "left": 0.1279,
+    "top": 0.548,
+    "right": 0.8885,
+    "bottom": 0.5902,
+    "slope": 0
+   },
+   {
+    "bottom": 0.6163,
+    "left": 0.3115,
+    "right": 0.5377,
+    "slope": 0,
+    "top": 0.5974,
+    "text": "Enerji ve Besin Oğeleri"
+   },
+   {
+    "top": 0.6003,
+    "bottom": 0.6163,
+    "text": "100 g için",
+    "left": 0.5738,
+    "right": 0.682,
+    "slope": 0
+   },
+   {
+    "right": 0.4656,
+    "left": 0.3081,
+    "bottom": 0.6339,
+    "text": "Enerji (kJ/kcal)",
+    "slope": 0.002,
+    "top": 0.619
+   },
+   {
+    "left": 0.577,
+    "top": 0.6206,
+    "bottom": 0.6337,
+    "text": "930/224",
+    "slope": 0,
+    "right": 0.6721
+   },
+   {
+    "right": 0.3914,
+    "left": 0.3033,
+    "top": 0.6346,
+    "bottom": 0.6518,
+    "slope": 0.0246,
+    "text": "Yağ (g)."
+   },
+   {
+    "bottom": 0.6484,
+    "slope": 0,
+    "text": "18.0",
+    "left": 0.6,
+    "top": 0.6366,
+    "right": 0.6492
+   },
+   {
+    "bottom": 0.6662,
+    "slope": -0.0047,
+    "right": 0.4956,
+    "text": "- Doymus yağ (g)",
+    "left": 0.3112,
+    "top": 0.6499
+   },
+   {
+    "top": 0.6607,
+    "right": 0.4832,
+    "bottom": 0.6824,
+    "text": "Karbonhidrat (g)",
+    "left": 0.3035,
+    "slope": 0.0211
+   },
+   {
+    "left": 0.3071,
+    "top": 0.6796,
+    "text": "Sekerler (g)",
+    "bottom": 0.6962,
+    "slope": 0,
+    "right": 0.4567
+   },
+   {
+    "slope": 0.0233,
+    "bottom": 0.7129,
+    "right": 0.4247,
+    "left": 0.3034,
+    "top": 0.6936,
+    "text": "Protein (g)"
+   },
+   {
+    "top": 0.7107,
+    "left": 0.3049,
+    "bottom": 0.7254,
+    "slope": 0,
+    "right": 0.3836,
+    "text": "Tuz (g)"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "DOST TAM YAĞLI TAZE SÜZME BEYAZ PEYNİR",
+    "left": 0.1829,
+    "top": 0.3194,
+    "right": 0.8797,
+    "bottom": 0.3439,
+    "slope": 0.0055
+   },
+   {
+    "text": "İçindekiler: Pastörize inek sütü,",
+    "left": 0.2789,
+    "top": 0.3437,
+    "right": 0.7671,
+    "bottom": 0.3661,
+    "slope": 0.0041
+   },
+   {
+    "text": "peynir kültürü, peynir mayası, tuz.",
+    "left": 0.2744,
+    "top": 0.3628,
+    "right": 0.7673,
+    "bottom": 0.3862,
+    "slope": 0.0074
+   },
+   {
+    "text": "(Ultrafiltrasyon-Süzme Tekniği)",
+    "left": 0.3164,
+    "top": 0.3858,
+    "right": 0.7338,
+    "bottom": 0.4069,
+    "slope": 0.005
+   },
+   {
+    "text": "Son tüketim tarihi (STT) ve parti no (P) ambalaj üzerinde",
+    "left": 0.1538,
+    "top": 0.4061,
+    "right": 0.8962,
+    "bottom": 0.4298,
+    "slope": 0.0038
+   },
+   {
+    "text": "olup son tüketim tarihine kadar tüketilmelidir.",
+    "left": 0.2292,
+    "top": 0.4288,
+    "right": 0.8208,
+    "bottom": 0.4473,
+    "slope": -0.0
+   },
+   {
+    "text": "Uretim yeri inkjet ile ambalaj üzerinde belirtilmiştir.",
+    "left": 0.2371,
+    "top": 0.4472,
+    "right": 0.8128,
+    "bottom": 0.4706,
+    "slope": 0.0041
+   },
+   {
+    "text": "Buzdolabında (+4°C / +7°C'de) saklayınız.",
+    "left": 0.2417,
+    "top": 0.4675,
+    "right": 0.7833,
+    "bottom": 0.488,
+    "slope": -0.0
+   },
+   {
+    "text": "Kuru maddede en az %45 süt yağı içerir.",
+    "left": 0.2496,
+    "top": 0.488,
+    "right": 0.7796,
+    "bottom": 0.5091,
+    "slope": 0.0054
+   },
+   {
+    "text": "Net Miktar: 1180 ge",
+    "left": 0.1522,
+    "top": 0.5005,
+    "right": 0.8897,
+    "bottom": 0.5526,
+    "slope": 0.0138
+   },
+   {
+    "text": "Süzme Ağırlık: 1000 g",
+    "left": 0.1208,
+    "top": 0.5471,
+    "right": 0.8875,
+    "bottom": 0.5915,
+    "slope": -0.0
+   },
+   {
+    "text": "Enerji ve Besin Öğeleri",
+    "left": 0.3081,
+    "top": 0.5966,
+    "right": 0.5377,
+    "bottom": 0.6178,
+    "slope": -0.004
+   },
+   {
+    "text": "100 g için",
+    "left": 0.5708,
+    "top": 0.5989,
+    "right": 0.6792,
+    "bottom": 0.6175,
+    "slope": -0.0
+   },
+   {
+    "text": "Enerji (kJ/kcal)",
+    "left": 0.304,
+    "top": 0.6187,
+    "right": 0.4669,
+    "bottom": 0.6345,
+    "slope": 0.0059
+   },
+   {
+    "text": "930/224",
+    "left": 0.575,
+    "top": 0.6192,
+    "right": 0.6708,
+    "bottom": 0.634,
+    "slope": -0.0
+   },
+   {
+    "text": "(وا وم٧",
+    "left": 0.2969,
+    "top": 0.6324,
+    "right": 0.3903,
+    "bottom": 0.6536,
+    "slope": 0.0444
+   },
+   {
+    "text": "18,0",
+    "left": 0.6,
+    "top": 0.6359,
+    "right": 0.65,
+    "bottom": 0.6488,
+    "slope": -0.0
+   },
+   {
+    "text": "• Doymuş yoğ (g).",
+    "left": 0.3208,
+    "top": 0.6506,
+    "right": 0.4917,
+    "bottom": 0.6673,
+    "slope": -0.0
+   },
+   {
+    "text": "11,2",
+    "left": 0.5958,
+    "top": 0.6506,
+    "right": 0.65,
+    "bottom": 0.6654,
+    "slope": -0.0
+   },
+   {
+    "text": "Karbonhidrat (g)",
+    "left": 0.2992,
+    "top": 0.6628,
+    "right": 0.4758,
+    "bottom": 0.6809,
+    "slope": 0.0033
+   },
+   {
+    "text": "3,5",
+    "left": 0.6,
+    "top": 0.6673,
+    "right": 0.6417,
+    "bottom": 0.6821,
+    "slope": -0.0
+   },
+   {
+    "text": ". Sekerler (g)",
+    "left": 0.3189,
+    "top": 0.6775,
+    "right": 0.4519,
+    "bottom": 0.6978,
+    "slope": 0.0341
+   },
+   {
+    "text": "35",
+    "left": 0.6,
+    "top": 0.6821,
+    "right": 0.6375,
+    "bottom": 0.6969,
+    "slope": -0.0
+   },
+   {
+    "text": "Protein (gl.",
+    "left": 0.3027,
+    "top": 0.6939,
+    "right": 0.4263,
+    "bottom": 0.7124,
+    "slope": 0.0222
+   },
+   {
+    "text": "12,0",
+    "left": 0.6,
+    "top": 0.6969,
+    "right": 0.6458,
+    "bottom": 0.7116,
+    "slope": -0.0
+   },
+   {
+    "text": "(luz (g)",
+    "left": 0.3,
+    "top": 0.7096,
+    "right": 0.3792,
+    "bottom": 0.7264,
+    "slope": -0.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "code": "8682214704916",
+ "name": "Tarçınlı Zencefilli Kurabiye",
+ "truth": "Buğday unu (gluten içerir), Bitkisel yağ (palm, pamuk, kanola, ayçiçek), Şeker, Invert şeker şurubu, Pekmezler (üzüm, incir), Tarçın (%1,5), Kabartıcı (sodyum hidrojen karbonat), Zencefil (%0,6), Karamelize şeker. Eser miktarda fındık, yumurta, süt, süt ürünü, soya ürünü, susam, ve badem içerebilir.",
+ "contains": [
+  "en:gluten"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:eggs",
+  "en:milk",
+  "en:soybeans",
+  "en:sesame-seeds"
+ ],
+ "note": "Open Food Facts' text, checked against the photo.",
+ "lines": {
+  "vision-macos": [
+   {
+    "bottom": 0.3963,
+    "text": "Içindekiler: Buğday unu (gluten içerir), Bitkisel yağ (palm, pamuk, kanola, ayçiçek),",
+    "left": 0.0548,
+    "top": 0.0872,
+    "right": 0.938,
+    "slope": -0.1084
+   },
+   {
+    "left": 0.0604,
+    "right": 0.9062,
+    "slope": -0.1066,
+    "bottom": 0.5902,
+    "text": "Şeker, Invert şeker şurubu, Pekmezler (üzüm, incir), Tarçın (%1,5), Kabartıcr (sodyum",
+    "top": 0.2924
+   },
+   {
+    "bottom": 0.7963,
+    "text": "hidrojen karbonat), Zencefil (%0,6), Karamelize şeker. Eser miktarda fındık, yumurta, süt,",
+    "top": 0.4609,
+    "slope": -0.1271,
+    "left": 0.0633,
+    "right": 0.9731
+   },
+   {
+    "left": 0.0649,
+    "right": 0.6211,
+    "top": 0.7196,
+    "slope": -0.0869,
+    "bottom": 0.9761,
+    "text": "süt ürünü, soya ürünü, susam, ve badem içerebilir."
+   },
+   {
+    "text": "Tic",
+    "right": 0.9215,
+    "left": 0.8823,
+    "slope": 0,
+    "top": 0.9236,
+    "bottom": 0.9931
+   },
+   {
+    "text": "٨ ٢",
+    "top": 0.9236,
+    "right": 0.9695,
+    "bottom": 0.9931,
+    "left": 0.9259,
+    "slope": 0
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Içindekiler: Buğday unu (gluten içerir), Bitkisel yağ (palm, pamuk, kanola, ayçiçek),",
+    "left": 0.0554,
+    "top": 0.086,
+    "right": 0.9381,
+    "bottom": 0.4017,
+    "slope": -0.1132
+   },
+   {
+    "text": "Şeker, Invert şeker şurubu, Pekmezler (üzüm, incir), Tarçın (% 1,5), Kabartıcı (sodyum",
+    "left": 0.0576,
+    "top": 0.2926,
+    "right": 0.906,
+    "bottom": 0.5987,
+    "slope": -0.1142
+   },
+   {
+    "text": "hidrojen karbonat), Zencefil (%0,6), Karamelize şeker. Eser miktarda fındık, yumurta, süt,",
+    "left": 0.0639,
+    "top": 0.4602,
+    "right": 0.9684,
+    "bottom": 0.794,
+    "slope": -0.1259
+   },
+   {
+    "text": "süt ürünü, soya ürünü, susam, ve badem içerebilir.",
+    "left": 0.0641,
+    "top": 0.7273,
+    "right": 0.6212,
+    "bottom": 0.9721,
+    "slope": -0.0898
+   },
+   {
+    "text": "AC",
+    "left": 0.9332,
+    "top": 0.9175,
+    "right": 0.9698,
+    "bottom": 0.9897,
+    "slope": -0.0
+   }
+  ]
+ }
+}

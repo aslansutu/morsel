@@ -1,0 +1,267 @@
+{
+ "code": "8699141056025",
+ "name": "Boom bastic burger",
+ "truth": "Sandviç Bisküvi (%58) (Buğday unu (gluten içerir), bitkisel yağ (palm), şeker, glukoz-fruktoz şurubu, kabartıcılar (sodyum bikarbonat, sodyum asit pirofosfat, amonyum bikarbonat), yağlı süt tozu, tuz, emülgatör (ayçiçek lesitini), aroma verici, yumurta akı tozu), Çikolatalı Krema (%25) (Şeker, sütlü çikolata (%20), bitkisel yağ (palm), fındık, kakao tozu, yağsız süt tozu, peyniraltı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), tuz, aroma verici), Sütlü Krema (%15) (Şeker, hindistan cevizi yağı, bitkisel yağ (palm), peyniraltı suyu tozu (süt ürünü), yağsız süt tozu, emülgatör (ayçiçek lesitini), aroma verici, renklendirici (beta karoten)), Pirinç Patlağı (%2) (Buğday irmiği (gluten içerir), pirinç unu, şeker, malt özütü (gluten içerir), tuz, emülgatörler (yağ asitlerinin mono ve digliseritleri), kabartıcı (sodyum bikarbonat)).",
+ "contains": [
+  "en:gluten",
+  "en:milk",
+  "en:eggs",
+  "en:nuts"
+ ],
+ "traces": [],
+ "note": "A curved cup: the photo loses the left edge of each line.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.1161,
+    "left": -0.0007,
+    "right": 0.9879,
+    "bottom": 0.227,
+    "slope": -0.0303,
+    "text": "Süt (%15) ve Çikolata Kremalı (%25) Pirinç Patlaklı (%z"
+   },
+   {
+    "bottom": 0.2685,
+    "slope": 0,
+    "left": 0.0044,
+    "right": 0.9913,
+    "text": "Sandvic Bisküvi (%58) İçindekiler : Sandviç Bisküvi (%58) (Buğday",
+    "top": 0.1841
+   },
+   {
+    "text": "umu (gluten içerir), bitkisel yağ (palm), şeker, glukoz-fruktoz şurubu",
+    "top": 0.2634,
+    "bottom": 0.3299,
+    "left": 0.0116,
+    "slope": 0,
+    "right": 0.984
+   },
+   {
+    "top": 0.312,
+    "bottom": 0.4122,
+    "right": 0.9795,
+    "slope": -0.0265,
+    "left": 0.0163,
+    "text": "abarticilar (sodyum bikarbonat, sodyum asit pirofosfat, amonyum"
+   },
+   {
+    "right": 0.9811,
+    "text": "akaronat), yaglı sut tozu, tuz, emulgator (ayçıçek lesıtını); aroma",
+    "top": 0.399,
+    "slope": 0,
+    "bottom": 0.466,
+    "left": 0.016
+   },
+   {
+    "right": 0.9782,
+    "text": "enc, yumurta akı tozu), Çikolatalı Krema (%25) (Şeker, sütlü çikolata",
+    "left": 0.0247,
+    "bottom": 0.5196,
+    "top": 0.4577,
+    "slope": 0
+   },
+   {
+    "left": 0.0347,
+    "right": 0.9769,
+    "top": 0.5134,
+    "slope": 0.0099,
+    "bottom": 0.5946,
+    "text": "d), bitkısel yağ (palm), fındık, kakao tozu, yağsız sut tozu,"
+   },
+   {
+    "top": 0.5644,
+    "text": "peyniralı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitini), tuz,",
+    "bottom": 0.6559,
+    "left": 0.0244,
+    "right": 0.974,
+    "slope": 0.012
+   },
+   {
+    "slope": 0.003,
+    "top": 0.6239,
+    "right": 0.9739,
+    "bottom": 0.7174,
+    "text": "na verici), Süttü Krema (%15) (Şeker, hindistan cevizi yağı, bitkisel",
+    "left": 0.0508
+   },
+   {
+    "bottom": 0.7801,
+    "right": 0.9669,
+    "left": 0.062,
+    "slope": 0.0186,
+    "top": 0.6797,
+    "text": "palm), peyniraltı suyu tozu (süt ürünü), yağsız süt tozu,"
+   },
+   {
+    "left": 0.0787,
+    "bottom": 0.8285,
+    "text": "ator (ayçiçek esitini), aroma verici, renklendirici (beta karoten))",
+    "right": 0.9544,
+    "slope": 0.0258,
+    "top": 0.7366
+   },
+   {
+    "slope": 0.0211,
+    "right": 0.9655,
+    "top": 0.7331,
+    "text": "agatör (ayçiçek lesitini), aroma verici, renklendirici (beta karoten)),",
+    "left": 0.0591,
+    "bottom": 0.8455
+   },
+   {
+    "slope": 0.0274,
+    "text": "s Patlaği (%2) (Buğday irmiği (gluten içerir), pirinç unu, şeker,",
+    "top": 0.7869,
+    "right": 0.9612,
+    "bottom": 0.9056,
+    "left": 0.0618
+   },
+   {
+    "right": 0.9567,
+    "top": 0.8432,
+    "bottom": 0.9691,
+    "text": "it özütü (gluten içerir), tuz, emülgatörler (yağ asitlerinin mono ve",
+    "slope": 0.0353,
+    "left": 0.0615
+   },
+   {
+    "bottom": 1.0187,
+    "top": 0.9202,
+    "left": 0.1496,
+    "slope": 0.0854,
+    "right": 0.5822,
+    "text": "kabartıci (sodvum bikarbonat)"
+   },
+   {
+    "bottom": 1.0205,
+    "text": "Sandwich Biscuit (58%)",
+    "top": 0.9287,
+    "right": 0.9584,
+    "slope": -0.1106,
+    "left": 0.6749
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "1D Süt (%15) ve Çikolata Kremalı (%25)_Pirinç Patlaklı (%2)",
+    "left": 0.0019,
+    "top": 0.1199,
+    "right": 0.9959,
+    "bottom": 0.2162,
+    "slope": -0.0118
+   },
+   {
+    "text": "Sandvic Bisküvi (%58) İçindekiler : Sandviç Bisküvi (%58) (Buğday",
+    "left": 0.0042,
+    "top": 0.1977,
+    "right": 0.9893,
+    "bottom": 0.2617,
+    "slope": -0.0043
+   },
+   {
+    "text": "unu (gluten içerir), bitkısel yag (palm), şeker, glukoz-truktoz şurubt",
+    "left": 0.0042,
+    "top": 0.2701,
+    "right": 0.975,
+    "bottom": 0.3361,
+    "slope": -0.0
+   },
+   {
+    "text": "abartıcılar (sodyum bikarbonat, sodyum asit pirofosfat, amonyum",
+    "left": 0.0151,
+    "top": 0.3295,
+    "right": 0.9806,
+    "bottom": 0.3902,
+    "slope": -0.0
+   },
+   {
+    "text": "sarbonat), yağlı süt tozu, tuz, emülgatör (ayçiçek lesitini); aroma",
+    "left": 0.0172,
+    "top": 0.3938,
+    "right": 0.9806,
+    "bottom": 0.4546,
+    "slope": -0.0
+   },
+   {
+    "text": "no, yumurta akı tozu), Çikolatalı Krema (%25) (Şeker, sütlü çikolata",
+    "left": 0.0292,
+    "top": 0.4526,
+    "right": 0.975,
+    "bottom": 0.5186,
+    "slope": -0.0
+   },
+   {
+    "text": "(.20), bitkisel yağ (palm), fındık, kakao tozu, yağsız süt tozu,",
+    "left": 0.0212,
+    "top": 0.4995,
+    "right": 0.9787,
+    "bottom": 0.5923,
+    "slope": 0.0137
+   },
+   {
+    "text": "ymırattı suyu tozu (süt ürünü), emülgatör (ayçiçek lesitını), tuz,",
+    "left": 0.0278,
+    "top": 0.571,
+    "right": 0.9743,
+    "bottom": 0.6546,
+    "slope": 0.0131
+   },
+   {
+    "text": "ora venıci), Sütlü Krema (%15) (Şeker, hindistan cevizi yağı, bitkisel",
+    "left": 0.0388,
+    "top": 0.6288,
+    "right": 0.972,
+    "bottom": 0.7045,
+    "slope": -0.0
+   },
+   {
+    "text": "pam), peyniraltı suyu tozů (süt ürünü), yağsız süt tozu,",
+    "left": 0.0384,
+    "top": 0.6843,
+    "right": 0.9679,
+    "bottom": 0.7743,
+    "slope": 0.0196
+   },
+   {
+    "text": "ugalor (ayçicek lesitini), aroma verici, renklendirici (beta karoten)),",
+    "left": 0.0534,
+    "top": 0.7336,
+    "right": 0.968,
+    "bottom": 0.8451,
+    "slope": 0.0181
+   },
+   {
+    "text": "; Patlaği (%2) (Buğday irmiği (gluten içerir), pirinç unu, şeker,",
+    "left": 0.0595,
+    "top": 0.783,
+    "right": 0.9639,
+    "bottom": 0.909,
+    "slope": 0.0315
+   },
+   {
+    "text": "al üzütü (gluten içerir), tuz, emülgatörler (yağ asitlerinin mono ve",
+    "left": 0.0397,
+    "top": 0.8325,
+    "right": 0.9596,
+    "bottom": 0.9751,
+    "slope": 0.0422
+   },
+   {
+    "text": "serilei), kabartıci (sodvum bikarbonat)",
+    "left": 0.0667,
+    "top": 0.8993,
+    "right": 0.5872,
+    "bottom": 1.0294,
+    "slope": 0.1156
+   },
+   {
+    "text": "Sandwich Biscuit (58%)/",
+    "left": 0.6713,
+    "top": 0.9245,
+    "right": 0.9652,
+    "bottom": 1.0245,
+    "slope": -0.1202
+   }
+  ]
+ }
+}

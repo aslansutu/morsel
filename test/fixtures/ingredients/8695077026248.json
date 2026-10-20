@@ -1,0 +1,136 @@
+{
+ "code": "8695077026248",
+ "name": "Hindistan Cevizi Dolgulu Sütlü Çikolata Kaplı Bar",
+ "truth": "Hindistan Cevizi (%31,2), Beyaz Şeker, Glikoz Şurubu, Kakao Yağı, Tam Yağlı Süttozu, Kakao Kitlesi, Tam Hidrojenize Bitkisel Yağ (Palm), Yağsız Süttozu, Nem Tutucular (Sorbitol, Gliserol), Peynir Altı Suyu Tozu (Süt Ürünü), Emülgatörler (Gliserin Mono Stearat, Soya Lesitini), Aroma Vericiler (Hindistan Cevizi, Vanilya), Tuz, Asitlik Düzenleyici (Sitrik Asit), Koruyucu (Potasyum Sorbat). Kakao Kuru Maddesi Min %32'dir. Alerjen Uyarısı: Eser Miktarda Gluten, Yumurta, Yer Fıstığı, Susam, Sülfit, Antep Fıstığı, Fındık İçerebilir.",
+ "contains": [
+  "en:milk",
+  "en:soybeans"
+ ],
+ "traces": [
+  "en:gluten",
+  "en:eggs",
+  "en:peanuts",
+  "en:sesame-seeds",
+  "en:sulphur-dioxide-and-sulphites",
+  "en:nuts"
+ ],
+ "note": "Coconut is not a tree nut. \"No pork\" follows the list. Open Food Facts' text, checked against the photo.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "Hindistan Cevizi Dolgulu (%65) Sütlü Çikolata (%35) Kaplı Bar İçindekiler: Hindistan Cevizi (%31,2),",
+    "left": 0.0607,
+    "top": 0.0474,
+    "right": 0.9577,
+    "bottom": 0.227,
+    "slope": 0.061
+   },
+   {
+    "right": 0.9576,
+    "bottom": 0.3388,
+    "left": 0.0617,
+    "slope": 0.0564,
+    "top": 0.1657,
+    "text": "Beyaz Şeker, Glikoz Şurubu, Kakao Yağı, Tam Yağlı Süttozu, Kakao Kitlesi, Tam Hidrojenize Bitkisel Yağ"
+   },
+   {
+    "left": 0.0608,
+    "right": 0.9605,
+    "top": 0.2787,
+    "bottom": 0.4434,
+    "slope": 0.0399,
+    "text": "(Palm), Yağsız Süttozu, Nem Tutucular (Sorbitol, Gliserol), Peynir Altı Suyu Tozu (Süt Urünü),"
+   },
+   {
+    "slope": 0.0582,
+    "top": 0.3869,
+    "text": "Emülgatörler (Gliserin Mono Stearat, Soya Lesitini), Aroma Vericiler (Hindistan Cevizi, Vanilya), Tuz,",
+    "right": 0.9586,
+    "bottom": 0.5671,
+    "left": 0.0627
+   },
+   {
+    "slope": 0.0463,
+    "right": 0.8961,
+    "bottom": 0.6445,
+    "text": "Asitlik Düzenleyici (Sitrik Asit), Koruyucu (Potasyum Sorbat). Kakao Kuru Maddesi Min %32dir.",
+    "left": 0.0622,
+    "top": 0.4796
+   },
+   {
+    "slope": 0.0412,
+    "right": 0.9673,
+    "top": 0.6327,
+    "left": 0.0666,
+    "text": "Alerjen Uyarısı: Eser Miktarda Gluten, Yumurta, Yer Fıstığı, Susam, Sülfit, Antep Fıstığı, Fındık İçerebilir.",
+    "bottom": 0.7986
+   },
+   {
+    "bottom": 0.8878,
+    "top": 0.7593,
+    "left": 0.0656,
+    "right": 0.4906,
+    "slope": 0.0666,
+    "text": "Domuz ve Domuz Ürünleri Muhteviyatı Içermez."
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Hindistan Cevizi Dolgulu (%65) Sütlü Çikolata (%35) Kaplı Bar İçindekiler: Hindistan Cevizi (%31,2),",
+    "left": 0.059,
+    "top": 0.0438,
+    "right": 0.9608,
+    "bottom": 0.2352,
+    "slope": 0.0675
+   },
+   {
+    "text": "Beyaz Şeker, Glikoz Şurubu, Kakao Yağı, Tam Yağlı Süttozu, Kakao Kitlesi, Tam Hidrojenize Bitkisel Yağ",
+    "left": 0.0622,
+    "top": 0.1645,
+    "right": 0.9586,
+    "bottom": 0.3386,
+    "slope": 0.0578
+   },
+   {
+    "text": "(Palm), Yağsız Süttozu, Nem Tutucular (Sorbitol, Gliserol), Peynir Altı Suyu Tozu (Süt Ürünü),",
+    "left": 0.0612,
+    "top": 0.276,
+    "right": 0.9607,
+    "bottom": 0.4439,
+    "slope": 0.0431
+   },
+   {
+    "text": "Emülgatörler (Gliserin Mono Stearat, Soya Lesitini), Aroma Vericiler (Hindistan Cevizi, Vanilya), Tuz,",
+    "left": 0.0621,
+    "top": 0.374,
+    "right": 0.9628,
+    "bottom": 0.5536,
+    "slope": 0.0621
+   },
+   {
+    "text": "Asitiik Düzenleyici (Sitrik Asit), Koruyucu (Potasyum Sorbat). Kakao Kuru Maddesi Min %32dir.",
+    "left": 0.0653,
+    "top": 0.5039,
+    "right": 0.8992,
+    "bottom": 0.6546,
+    "slope": 0.0525
+   },
+   {
+    "text": "Alerjen Uyarısı: Eser Miktarda Gluten, Yumurta, Yer Fiıstığı, Susam, Sülfit, Antep Fistığı, Fındık İçerebilir.",
+    "left": 0.0664,
+    "top": 0.6288,
+    "right": 0.9679,
+    "bottom": 0.8007,
+    "slope": 0.0387
+   },
+   {
+    "text": "Domuz ve Domuz Ürünleri Muhteviyatı içermez.",
+    "left": 0.0653,
+    "top": 0.7564,
+    "right": 0.4909,
+    "bottom": 0.8867,
+    "slope": 0.0659
+   }
+  ]
+ }
+}

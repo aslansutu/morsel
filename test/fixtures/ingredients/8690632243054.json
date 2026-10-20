@@ -1,0 +1,83 @@
+{
+ "code": "8690632243054",
+ "name": "1927 Sütlü Çikolata",
+ "truth": "Şeker, tam yağlı süttozu, kakao yağı, kakao kitlesi, yağsız süttozu, süt yağı, emülgatör (ayçiçek lesitini), tuz, doğal aroma verici (vanilya). [Fındık, antep fıstığı, badem ve buğday içerebilir]. Kakao kuru maddesi en az %29'dur. Süt kuru maddesi en az %30'dur.",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:gluten"
+ ],
+ "note": "Food code and \"no pork\" follow the list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "Bol Sütlü Çikolata - İçindekiler: Şeker, tam yağlı süttozu, kakao yağı, kakao kitlesi, yağsız süttozu, süt yağı, emülgatör",
+    "top": 0.0625,
+    "right": 0.9477,
+    "bottom": 0.3038,
+    "slope": 0,
+    "left": 0.0378
+   },
+   {
+    "top": 0.2857,
+    "left": 0.0417,
+    "bottom": 0.5362,
+    "slope": 0,
+    "text": "(ayçiçek esitini), tuz, doğal aroma verici (vanilya). [Fındık, antep fıstığı, badem ve buğday içerebilir]. Kakao kuru maddesi en",
+    "right": 0.9458
+   },
+   {
+    "top": 0.519,
+    "text": "az %29dur. Süt kuru maddesi en az %30 dur. Türk Gıda Kodeksi Kakao ve Çikolata Ürünleri Tebliği'ne uygundur. Ürünlerimizin",
+    "left": 0.0436,
+    "right": 0.939,
+    "bottom": 0.7468,
+    "slope": 0
+   },
+   {
+    "left": 0.045,
+    "text": "hiçbirinde domuz yağı ve katkılan yoktur. Gıda Işletmecisi/Food Business Operator: NESTLÉ TÜRKİYE GIDA SANAYİ A.S.",
+    "bottom": 1.0086,
+    "right": 0.9318,
+    "slope": -0.0384,
+    "top": 0.7262
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Bol Sütlü Çikolata - İçindekiler: Şeker, tam yağlı süttozu, kakao yağı, kakao kitlesi, yağsız süttozu, süt yağı, emülgatör",
+    "left": 0.0365,
+    "top": 0.0452,
+    "right": 0.9484,
+    "bottom": 0.3553,
+    "slope": 0.0628
+   },
+   {
+    "text": "(ayçiçek lesitini), tuz, doğal aroma verici (vanilya). (Findık, antep fıstığı, badem ve buğday içerebilir). Kakao kuru maddesi en",
+    "left": 0.0409,
+    "top": 0.3208,
+    "right": 0.944,
+    "bottom": 0.5296,
+    "slope": -0.0
+   },
+   {
+    "text": "az %29'dur. Süt kuru maddesi en az %30'dur. Türk Gıda Kodeksi Kakao ve Çikolata Ürünleri Tebliği'ne uygundur. Urünlerimizin",
+    "left": 0.0431,
+    "top": 0.5283,
+    "right": 0.9397,
+    "bottom": 0.7547,
+    "slope": -0.0
+   },
+   {
+    "text": "icbirinde domuz vačı ve katkılan voktur. Gıda İsletmecisi/Food Business Operator: NESTLỂ TÜRKÍYE GIDA SANAYİ AS.",
+    "left": 0.0541,
+    "top": 0.6786,
+    "right": 0.9376,
+    "bottom": 0.9655,
+    "slope": 0.0422
+   }
+  ]
+ }
+}

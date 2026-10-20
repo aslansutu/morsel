@@ -1,0 +1,89 @@
+{
+ "code": "8690504023135",
+ "name": "Ülker Napoliten 33 G",
+ "truth": "Sugar, whole milk powder, cocoa butter, cocoa mass, skimmed milk powder, emulsifier (soy lecithin), flavouring. Cocoa solids: 32% minimum. May contain traces of nuts, peanuts, egg products and gluten.",
+ "otherLanguages": [
+  "Şeker, tam yağlı süttozu, kakao yağı, kakao kitlesi, yağsız süttozu, emülgatör (soya lesitini), aroma verici. Kakao kuru maddesi en az %32'dir. Eser miktarda sert kabuklu meyveler, yerfıstığı, yumurta ürünü ve gluten içerebilir."
+ ],
+ "contains": [
+  "en:milk",
+  "en:soybeans"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:peanuts",
+  "en:eggs",
+  "en:gluten"
+ ],
+ "note": "Turkish then English. The English heading is bold and Apple Vision on a Mac misses it, so it reads the Turkish list: the other language, not wrong. Corrected to the photo.",
+ "lines": {
+  "vision-macos": [
+   {
+    "slope": -0.3352,
+    "right": 0.9991,
+    "text": "TR Sütli Çikolata, Içindekiler. Seker, tam yağlı süttozu, kakao yağı, kakao kitlesi, yağsız sütozu, emülgatör (soya lesitini), aroma verici. Kakao kuru maddesi en az %32.",
+    "left": 0.0069,
+    "top": 0.0144,
+    "bottom": 0.5608
+   },
+   {
+    "text": "dir. Eser miktarda sert kabuklu meyvelor, yemistığı, yumurta ürünü ve gluten içerebilir. EN Milk Chocolate, In",
+    "top": 0.3313,
+    "slope": -0.309,
+    "left": 0.004,
+    "right": 0.6239,
+    "bottom": 0.7606
+   },
+   {
+    "right": 0.7765,
+    "text": "mass, skimmed milk powder, emulsifier (soy lecithin), flavouring. Cocoa solids: 32% minimum. May contain traces of nuts, pea",
+    "left": -0.0003,
+    "top": 0.5321,
+    "bottom": 0.9494,
+    "slope": -0.2813
+   },
+   {
+    "bottom": 0.7601,
+    "right": 0.9991,
+    "text": "ts, egg products and gluten.",
+    "left": 0.7947,
+    "top": 0.4444,
+    "slope": -0.3367
+   },
+   {
+    "bottom": 0.9836,
+    "left": 0.8692,
+    "right": 0.9491,
+    "slope": 0,
+    "top": 0.8689,
+    "text": "laza adinia"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "TR Suttu Çikolata, Içindekiler. Şeker, tam yağlı süttozu, kakao yağı, kakao kitlesi, yağsız sittozu, emülgator (soya lesitini), aroma verici. Kakao kuru maddesi en az %32",
+    "left": 0.0083,
+    "top": 0.0177,
+    "right": 0.9985,
+    "bottom": 0.5912,
+    "slope": -0.3456
+   },
+   {
+    "text": "lir. Eser miktarda sert kabuklu meyveler, yernstğı, yumurta ürünú ve gluten içerebili. EN Milk Chocolate, Ingredients: Sugar, whole milk powder, cocoa butter, cocoa",
+    "left": 0.006,
+    "top": 0.2155,
+    "right": 0.9983,
+    "bottom": 0.7516,
+    "slope": -0.2952
+   },
+   {
+    "text": "mass, skimmed milk powder, emulsifier (soy lecithin), flavouring. Cocoa solids: 32% minimum. May contain traces of nuts, peanuts, egg products and gluten.",
+    "left": -0.0004,
+    "top": 0.4791,
+    "right": 0.9982,
+    "bottom": 0.961,
+    "slope": -0.2515
+   }
+  ]
+ }
+}

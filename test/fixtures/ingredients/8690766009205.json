@@ -1,0 +1,286 @@
+{
+ "code": "8690766009205",
+ "name": "Çizi Peynirli Kraker",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "The photo shows the back without the list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 0.3706,
+    "slope": 0,
+    "bottom": 0.3566,
+    "text": "BZE IG",
+    "left": 0.327,
+    "top": 0.3197
+   },
+   {
+    "text": "0408",
+    "bottom": 0.4057,
+    "left": 0.3314,
+    "slope": 0,
+    "right": 0.3634,
+    "top": 0.3689
+   },
+   {
+    "bottom": 0.4102,
+    "left": 0.465,
+    "slope": -0.0306,
+    "right": 0.615,
+    "text": "690766 009205",
+    "top": 0.3631
+   },
+   {
+    "slope": -0.0469,
+    "right": 0.78,
+    "left": 0.641,
+    "top": 0.1305,
+    "text": "Net: 70 g e",
+    "bottom": 0.2536
+   },
+   {
+    "slope": 0.1484,
+    "text": "Made in Turkey",
+    "left": 0.6578,
+    "top": 0.3249,
+    "right": 0.7332,
+    "bottom": 0.3783
+   },
+   {
+    "bottom": 0.4098,
+    "right": 0.7427,
+    "top": 0.3689,
+    "text": "TURKIYE üretimidir.",
+    "slope": 0,
+    "left": 0.6483
+   },
+   {
+    "text": "MÜSTERİ İLETİŞİM MERKEZİ",
+    "top": 0.2866,
+    "bottom": 0.3115,
+    "right": 0.9142,
+    "left": 0.8256,
+    "slope": 0
+   },
+   {
+    "top": 0.3154,
+    "bottom": 0.3649,
+    "left": 0.7587,
+    "slope": -0.0057,
+    "text": "ÜLKER",
+    "right": 0.8241
+   },
+   {
+    "bottom": 0.332,
+    "right": 0.9055,
+    "slope": 0,
+    "top": 0.311,
+    "text": "CONSUMER SERVICE",
+    "left": 0.8328
+   },
+   {
+    "text": "+90 212 567 1 567",
+    "left": 0.8227,
+    "right": 0.9157,
+    "top": 0.3361,
+    "slope": 0,
+    "bottom": 0.3648
+   },
+   {
+    "top": 0.3689,
+    "right": 0.9157,
+    "bottom": 0.3934,
+    "slope": 0,
+    "left": 0.827,
+    "text": "www.ulker.com.tr"
+   },
+   {
+    "left": 0.6657,
+    "top": 0.8197,
+    "text": "po",
+    "right": 0.6846,
+    "bottom": 0.8525,
+    "slope": 0
+   },
+   {
+    "left": 0.6977,
+    "top": 0.8197,
+    "right": 0.7122,
+    "text": "le r",
+    "slope": 0,
+    "bottom": 0.8484
+   },
+   {
+    "slope": 0,
+    "left": 0.6483,
+    "top": 0.8648,
+    "right": 0.7093,
+    "text": "nazelnuts",
+    "bottom": 0.8975
+   },
+   {
+    "text": "кЕпе",
+    "left": 0.7369,
+    "right": 0.7602,
+    "slope": 0,
+    "bottom": 0.8238,
+    "top": 0.7992
+   },
+   {
+    "top": 0.8237,
+    "left": 0.7195,
+    "right": 0.7631,
+    "bottom": 0.8689,
+    "text": "Lif / Fibre",
+    "slope": 0
+   },
+   {
+    "top": 0.873,
+    "left": 0.7195,
+    "bottom": 0.9098,
+    "right": 0.7529,
+    "text": "Protein",
+    "slope": 0
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "lurke",
+    "left": 0.3476,
+    "top": 0.225,
+    "right": 0.3831,
+    "bottom": 0.2625,
+    "slope": -0.0
+   },
+   {
+    "text": "SZE",
+    "left": 0.3299,
+    "top": 0.3208,
+    "right": 0.3506,
+    "bottom": 0.3583,
+    "slope": -0.0
+   },
+   {
+    "text": "0408",
+    "left": 0.3284,
+    "top": 0.3625,
+    "right": 0.3639,
+    "bottom": 0.4083,
+    "slope": -0.0
+   },
+   {
+    "text": "8",
+    "left": 0.4453,
+    "top": 0.3708,
+    "right": 0.4571,
+    "bottom": 0.4083,
+    "slope": -0.0
+   },
+   {
+    "text": "690766 009205",
+    "left": 0.4675,
+    "top": 0.3662,
+    "right": 0.6169,
+    "bottom": 0.4085,
+    "slope": -0.0
+   },
+   {
+    "text": "Net: 70 g e",
+    "left": 0.6433,
+    "top": 0.1335,
+    "right": 0.7755,
+    "bottom": 0.2361,
+    "slope": -0.0241
+   },
+   {
+    "text": "UKKMAL",
+    "left": 0.6746,
+    "top": 0.2667,
+    "right": 0.7175,
+    "bottom": 0.3083,
+    "slope": -0.0
+   },
+   {
+    "text": "Made in Turkey",
+    "left": 0.6575,
+    "top": 0.3197,
+    "right": 0.7331,
+    "bottom": 0.3812,
+    "slope": 0.2012
+   },
+   {
+    "text": "TURKIYE üretimidir.",
+    "left": 0.6475,
+    "top": 0.3665,
+    "right": 0.743,
+    "bottom": 0.4167,
+    "slope": 0.0939
+   },
+   {
+    "text": "MÜSTER ILETISİM MERKEZ",
+    "left": 0.8254,
+    "top": 0.2875,
+    "right": 0.9127,
+    "bottom": 0.3129,
+    "slope": -0.0
+   },
+   {
+    "text": "CONSUMER SERVICE",
+    "left": 0.8328,
+    "top": 0.3125,
+    "right": 0.9053,
+    "bottom": 0.3333,
+    "slope": -0.0
+   },
+   {
+    "text": "ÜLKER -90 212 567 1 567",
+    "left": 0.7585,
+    "top": 0.3157,
+    "right": 0.916,
+    "bottom": 0.3764,
+    "slope": 0.0626
+   },
+   {
+    "text": "www.uiker.com.tr",
+    "left": 0.8254,
+    "top": 0.3708,
+    "right": 0.9157,
+    "bottom": 0.3958,
+    "slope": -0.0
+   },
+   {
+    "text": "ame and hazeinuts",
+    "left": 0.5991,
+    "top": 0.8622,
+    "right": 0.7086,
+    "bottom": 0.9004,
+    "slope": -0.0
+   },
+   {
+    "text": "Lif / Fibre",
+    "left": 0.7189,
+    "top": 0.8249,
+    "right": 0.7633,
+    "bottom": 0.8712,
+    "slope": -0.0
+   },
+   {
+    "text": "Protein",
+    "left": 0.7204,
+    "top": 0.875,
+    "right": 0.7544,
+    "bottom": 0.9167,
+    "slope": -0.0
+   },
+   {
+    "text": "? rg'* rt\"4¥.",
+    "left": 0.1603,
+    "top": 0.0931,
+    "right": 0.2163,
+    "bottom": 0.1166,
+    "slope": -0.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "code": "8690504065395",
+ "name": "Ülker Laviva Filled Chocolate with Biscuits 35 g",
+ "truth": "Sugar, vegetable fat (palm), whole milk powder, wheat flour, cocoa mass, cocoa butter, fat reduced cocoa powder (5%), hazelnut puree, emulsifiers (soy lecithin, polyglycerol polyricinoleate), corn starch, invert sugar syrup, skimmed milk powder, salt, flavourings, raising agents (sodium hydrogen carbonate, disodium diphosphate), whey powder (milk), butter oil (milk). May contain traces of other nuts, egg products and peanuts.",
+ "contains": [
+  "en:milk",
+  "en:gluten",
+  "en:nuts",
+  "en:soybeans"
+ ],
+ "traces": [
+  "en:eggs",
+  "en:peanuts"
+ ],
+ "note": "Turkish then English; the English list is the one Morsel reads.",
+ "lines": {
+  "vision-macos": [
+   {
+    "slope": 0.023,
+    "top": 0.319,
+    "right": 0.9886,
+    "left": 0.09,
+    "text": "kolatalı (7043), Bitter Çıkolatalı (702) Dolgulu (%40) ve Kakaolu Bisküvili Bar, Içindokller: Şeker, bitkisel yağ (palm), tam yağlı süttozu, buğday unu, кака kitlesi, kakao",
+    "bottom": 0.3706
+   },
+   {
+    "bottom": 0.3993,
+    "text": "y azaltılmış какао tozu (o), tındık puresi, emulgatörier (soya lesitini, poligliserol polirisinoleat), mısır nişastası, invert şeker şuruou, yagsız suttozı, uz, arolla verıciler,",
+    "top": 0.346,
+    "slope": 0.027,
+    "right": 0.9857,
+    "left": 0.0725
+   },
+   {
+    "top": 0.3723,
+    "text": "kabalar (sodyum hıdrojen karbonat, disodyum difosfat), peyniraltı suyu tozu (süt), sade yağ (süt). Eser miktarda sert kabuklu meyveler, yumurta ürünü ve yer lıstıgı ıçerebilir.",
+    "right": 0.9798,
+    "bottom": 0.4249,
+    "slope": 0.0233,
+    "left": 0.0551
+   },
+   {
+    "bottom": 0.4529,
+    "right": 0.9725,
+    "text": "E/with Milk Chocolate (43%), Dark Chocolate (%2) Filling (40%) and Cocoa Biscuit, Ingredients: Sugar, vegetable fat (palm), whole milk powder, wheattour, cocoa mass,",
+    "slope": 0.0246,
+    "left": 0.0507,
+    "top": 0.3993
+   },
+   {
+    "right": 0.9681,
+    "top": 0.4301,
+    "slope": 0.0162,
+    "text": "cog Dutter, tat reduceo cocoa powder (5%), hazelnut puree, emulsifiers (soy lecithin, polyglycerol polyricinoleate), corn starch, invert sugar syrup, skimmed mikpowder, salt,",
+    "bottom": 0.4752,
+    "left": 0.0464
+   },
+   {
+    "right": 0.9652,
+    "bottom": 0.5055,
+    "left": 0.0391,
+    "top": 0.4533,
+    "slope": 0.0183,
+    "text": "favorings, raising agents (sodium hydrogen carbonate, disodium diphosphate), whey powder (milk), butter oil (milk). May contain traces of other nuts, egg producs and pearurs."
+   },
+   {
+    "right": 0.0679,
+    "bottom": 0.3435,
+    "left": 0.0595,
+    "text": "Tk",
+    "slope": 0,
+    "top": 0.3262
+   },
+   {
+    "slope": 0,
+    "left": 0.0558,
+    "text": "yag",
+    "top": 0.355,
+    "bottom": 0.3772,
+    "right": 0.0711
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "kolatalı (%43), Bitter Çikolatalı (%2) Dolgulu (%40) ve Kakaolu Bisküvili Bar, İçımdokiler: Şeker, bitkişel yağ (palm), tam yağlı süttozu, buğday uu, kakao kitlesi, kakao",
+    "left": 0.086,
+    "top": 0.3117,
+    "right": 0.9895,
+    "bottom": 0.3747,
+    "slope": 0.0257
+   },
+   {
+    "text": "vağ azaltılmış kakao tozu (%5), fındık püresi, emülgatörler (soya lesitini, poligliserol polirisinoleat), mısır nişastası, invert şeker şurubu, yağsız süttozu tuz, aroma vericiler,",
+    "left": 0.0581,
+    "top": 0.3437,
+    "right": 0.9829,
+    "bottom": 0.3942,
+    "slope": 0.0244
+   },
+   {
+    "text": "kabalar (sodyum hidrojen karbonat, disodyum difosfat), peyniraltı suyu tozu (süt), sade yağ (süt). Eser miktarda sert kabuklu meyveler, yumurta ürünü ve yer ıısugı ıçerebilir.",
+    "left": 0.0538,
+    "top": 0.3709,
+    "right": 0.9786,
+    "bottom": 0.423,
+    "slope": 0.0264
+   },
+   {
+    "text": "ED/with Milk Chocolate (43%), Dark Chocolate (%2) Filling (40%) and Cocoa Biscuit, Ingredients: Sugar, vegetable fat (palm), whole milk powder, wheat flour, cocoa mass",
+    "left": 0.0516,
+    "top": 0.3965,
+    "right": 0.9722,
+    "bottom": 0.4499,
+    "slope": 0.0238
+   },
+   {
+    "text": "coca butter, fat reduced cocoa powder (5%), hazelnut puree, emulsifiers (soy lecithin, polyglycerol polyricinoleate), corn starch, invert sugar syrup, skimmed milk powder, salt,",
+    "left": 0.0429,
+    "top": 0.4201,
+    "right": 0.97,
+    "bottom": 0.4771,
+    "slope": 0.0222
+   },
+   {
+    "text": "favourings, raising agents (sodium hydrogen carbonate, disodium diphosphate), whey powder (milk), butter oil (milk). May contain traces of other nuts, egg producsand pearuts.",
+    "left": 0.0407,
+    "top": 0.4507,
+    "right": 0.9635,
+    "bottom": 0.5035,
+    "slope": 0.0182
+   },
+   {
+    "text": "Tk",
+    "left": 0.0595,
+    "top": 0.3258,
+    "right": 0.0679,
+    "bottom": 0.3435,
+    "slope": -0.0
+   }
+  ]
+ }
+}

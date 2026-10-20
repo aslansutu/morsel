@@ -1,0 +1,222 @@
+{
+ "code": "8690504135913",
+ "name": "ülker çikolata",
+ "truth": "Sugar, wheat flour, vegetable fats (palm, palm kernel), hazelnuts puree (9,5%), whole milk powder, cocoa butter, cocoa mass, corn starch, whey powder (milk), emulsifiers (ammonium phosphatides, soy lecithin, polyglycerol polyricinoleate), salt, skimmed milk powder, cocoa powder, egg white powder, flavourings, raising agents (ammonium hydrogen carbonate, sodium hydrogen carbonate). May contain traces of other nuts and peanuts.",
+ "contains": [
+  "en:gluten",
+  "en:nuts",
+  "en:milk",
+  "en:soybeans",
+  "en:eggs"
+ ],
+ "traces": [
+  "en:peanuts"
+ ],
+ "note": "Corrected to the photo. The manufacturer follows the list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "emulgatoner (amony um te",
+    "left": 0.0551,
+    "top": 0.0189,
+    "bottom": 0.0973,
+    "slope": -0.0604,
+    "right": 0.2545
+   },
+   {
+    "text": "ra lesitini",
+    "left": 0.3384,
+    "bottom": 0.0598,
+    "slope": -0.1146,
+    "top": -0.0067,
+    "right": 0.413
+   },
+   {
+    "text": ", pongisero, pom sine",
+    "left": 0.4128,
+    "bottom": 0.0649,
+    "top": 0.0,
+    "slope": 0,
+    "right": 0.5799
+   },
+   {
+    "bottom": 0.2018,
+    "top": 0.035,
+    "text": "kakao tozu, yumurta akı tozu, aroma vericiler, kabartıcılar (amonyum hidrojen karbonat, sodyum",
+    "left": 0.055,
+    "slope": -0.0774,
+    "right": 0.7968
+   },
+   {
+    "bottom": 0.283,
+    "slope": -0.061,
+    "text": "hidrojen karbonat). Eser miktarda sert kabuklu meyveler ve yer fıstığı içerebilir.",
+    "left": 0.055,
+    "top": 0.1331,
+    "right": 0.8185
+   },
+   {
+    "top": 0.2343,
+    "text": "EN Milk chocolate (36%) coated wafer with hazelnut cream (43%), Ingredients: Sugar, wheat flour,",
+    "right": 0.8373,
+    "slope": -0.0399,
+    "left": 0.0594,
+    "bottom": 0.3712
+   },
+   {
+    "bottom": 0.4766,
+    "slope": -0.0586,
+    "text": "vegetable fats (palm, palm kernel), hazelnuts puree (9,5%), whole milk powder, cocoa butter, cocoa mass,",
+    "top": 0.3245,
+    "left": 0.0579,
+    "right": 0.8548
+   },
+   {
+    "top": 0.413,
+    "slope": -0.0737,
+    "right": 0.8753,
+    "left": 0.0579,
+    "bottom": 0.5796,
+    "text": "corn starch, whey powder (milk), emulsifiers (ammonium phosphatides, soy lecithin, polyglycerol"
+   },
+   {
+    "slope": -0.0625,
+    "top": 0.511,
+    "right": 0.8941,
+    "left": 0.0579,
+    "text": "polyricinoleate), salt, skimmed milk powder, cocoa powder, egg white powder, flavourings, raising agents",
+    "bottom": 0.6776
+   },
+   {
+    "top": 0.6122,
+    "text": "(ammonium hydrogen carbonate, sodium hydrogen carbonate). May contain traces of other nuts and peanuts.",
+    "left": 0.0579,
+    "bottom": 0.7732,
+    "slope": -0.0547,
+    "right": 0.9159
+   },
+   {
+    "top": 0.7294,
+    "right": 0.8463,
+    "bottom": 0.9074,
+    "slope": -0.0823,
+    "left": 0.2539,
+    "text": "Üretic / Manufacturer: Ülker Çikolata Sanayi A.Ş. Davutpaşa Cad. No: 10 34015"
+   },
+   {
+    "bottom": 0.9955,
+    "top": 0.8739,
+    "right": 0.474,
+    "left": 0.257,
+    "slope": -0.0732,
+    "text": "Zeytinburnu/İstanbul/Turkey /"
+   },
+   {
+    "right": 0.7244,
+    "slope": -0.2031,
+    "text": "Kayit No: TR-34-K 011995",
+    "top": 0.864,
+    "bottom": 0.9875,
+    "left": 0.5344
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "emuigatoner amonyum ros",
+    "left": 0.0557,
+    "top": 0.0,
+    "right": 0.261,
+    "bottom": 0.0911,
+    "slope": -0.1062
+   },
+   {
+    "text": "kakao tozu, yumurta akı tozu, aroma vericiler, kabartıcılar (amonyum hidrojen karbonat, sodyum",
+    "left": 0.0537,
+    "top": 0.0464,
+    "right": 0.7933,
+    "bottom": 0.1877,
+    "slope": -0.0501
+   },
+   {
+    "text": "hidrojen karbonat).",
+    "left": 0.0535,
+    "top": 0.1712,
+    "right": 0.2265,
+    "bottom": 0.2829,
+    "slope": -0.0811
+   },
+   {
+    "text": "Eser miktarda sert kabuklu meyveler ve yer listigi icerebilir.",
+    "left": 0.224,
+    "top": 0.1529,
+    "right": 0.8169,
+    "bottom": 0.2434,
+    "slope": -0.0301
+   },
+   {
+    "text": "EN Milk chocolate (36%) coated wafer with hazelnut cream (43%), Ingredients: Sugar, wheat flour,",
+    "left": 0.0559,
+    "top": 0.2432,
+    "right": 0.832,
+    "bottom": 0.3581,
+    "slope": -0.0225
+   },
+   {
+    "text": "vegetable fats (palm, palm kernel), hazelnuts puree (9,5%), whole milk powder, cocoa butter, cocoa mass,",
+    "left": 0.0536,
+    "top": 0.3146,
+    "right": 0.8536,
+    "bottom": 0.4729,
+    "slope": -0.0572
+   },
+   {
+    "text": "corn starch. whey powder (milk. emulsifiers ammonium phosphatides, soy lecithin, polyglycerol",
+    "left": 0.0541,
+    "top": 0.434,
+    "right": 0.871,
+    "bottom": 0.5441,
+    "slope": -0.0397
+   },
+   {
+    "text": "polyricinoleate), salt, skimmed milk powder, cocoa powder, egg white powder, flavourings, raising agents",
+    "left": 0.0558,
+    "top": 0.5193,
+    "right": 0.8882,
+    "bottom": 0.6667,
+    "slope": -0.0631
+   },
+   {
+    "text": "(ammonium hydrogen carbonate, sodium hydrogen carbonate). May contain traces of other nuts and peanuts.",
+    "left": 0.0601,
+    "top": 0.6114,
+    "right": 0.9118,
+    "bottom": 0.7568,
+    "slope": -0.0644
+   },
+   {
+    "text": "Üretici / Manufacturer: Ülker Çikolata Sanayi A.Ş. Davutpaşa Cad. No: 10 34015",
+    "left": 0.2542,
+    "top": 0.7576,
+    "right": 0.8407,
+    "bottom": 0.9042,
+    "slope": -0.0277
+   },
+   {
+    "text": "leytinburnu/Istanbul/",
+    "left": 0.2626,
+    "top": 0.8865,
+    "right": 0.4163,
+    "bottom": 0.9927,
+    "slope": -0.1088
+   },
+   {
+    "text": "Işletme Kayıt-No, TR-34-K=01 1995",
+    "left": 0.4652,
+    "top": 0.8709,
+    "right": 0.7223,
+    "bottom": 0.9905,
+    "slope": -0.1003
+   }
+  ]
+ }
+}

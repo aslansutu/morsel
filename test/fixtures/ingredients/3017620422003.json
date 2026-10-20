@@ -1,0 +1,86 @@
+{
+ "code": "3017620422003",
+ "name": "Nutella",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "The photo shows the front and nutrition, no ingredient list: reading nothing is right.",
+ "lines": {
+  "vision-macos": [
+   {
+    "slope": -0.0485,
+    "bottom": 0.6759,
+    "text": "nutella",
+    "top": 0.5364,
+    "right": 0.8424,
+    "left": 0.1568
+   },
+   {
+    "top": 0.6304,
+    "slope": 0.1781,
+    "right": 0.3019,
+    "bottom": 0.6682,
+    "text": "FERRERO",
+    "left": 0.1738
+   },
+   {
+    "top": 0.6568,
+    "left": 0.7785,
+    "right": 0.8633,
+    "bottom": 0.6956,
+    "text": "2278 kJ/ 546 1",
+    "slope": -0.3859
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "hutella",
+    "left": 0.1553,
+    "top": 0.5479,
+    "right": 0.8217,
+    "bottom": 0.6721,
+    "slope": -0.0337
+   },
+   {
+    "text": "1590",
+    "left": 0.8238,
+    "top": 0.586,
+    "right": 0.8506,
+    "bottom": 0.597,
+    "slope": -0.0
+   },
+   {
+    "text": "339K.",
+    "left": 0.8199,
+    "top": 0.6078,
+    "right": 0.8506,
+    "bottom": 0.6228,
+    "slope": -0.0
+   },
+   {
+    "text": "BY K.",
+    "left": 0.8161,
+    "top": 0.6205,
+    "right": 0.8506,
+    "bottom": 0.636,
+    "slope": -0.0
+   },
+   {
+    "text": "FERRERO",
+    "left": 0.1722,
+    "top": 0.6309,
+    "right": 0.3056,
+    "bottom": 0.669,
+    "slope": 0.1514
+   },
+   {
+    "text": "2278 kJ/.",
+    "left": 0.7865,
+    "top": 0.6698,
+    "right": 0.8421,
+    "bottom": 0.6926,
+    "slope": -0.225
+   }
+  ]
+ }
+}

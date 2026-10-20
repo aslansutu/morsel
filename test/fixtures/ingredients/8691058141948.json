@@ -1,0 +1,414 @@
+{
+ "code": "8691058141948",
+ "name": "Sirma Dogal Kaynak Suyu",
+ "truth": null,
+ "contains": [],
+ "traces": [],
+ "note": "A water label: no ingredient list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "left": 0.5784,
+    "bottom": 0.1983,
+    "top": 0.1617,
+    "text": "TE*",
+    "right": 0.6765,
+    "slope": 0
+   },
+   {
+    "top": 0.2083,
+    "right": 0.674,
+    "bottom": 0.245,
+    "text": "ITE*",
+    "slope": 0,
+    "left": 0.5441
+   },
+   {
+    "text": "Mg/L",
+    "bottom": 0.2084,
+    "slope": -0.068,
+    "left": 0.7608,
+    "top": 0.1606,
+    "right": 0.8793
+   },
+   {
+    "slope": 0,
+    "left": 0.7689,
+    "top": 0.2146,
+    "text": "mgA",
+    "bottom": 0.2505,
+    "right": 0.8831
+   },
+   {
+    "slope": 0,
+    "text": "T",
+    "left": 0.1373,
+    "top": 0.7983,
+    "right": 0.1642,
+    "bottom": 0.8233
+   },
+   {
+    "bottom": 0.6694,
+    "text": "：3.82",
+    "slope": 0,
+    "top": 0.6379,
+    "left": 0.5293,
+    "right": 0.6767
+   },
+   {
+    "top": 0.6837,
+    "right": 0.6719,
+    "slope": 0,
+    "bottom": 0.7129,
+    "text": "：1.7",
+    "left": 0.5238
+   },
+   {
+    "top": 0.735,
+    "left": 0.5245,
+    "text": ": uygun",
+    "right": 0.7034,
+    "bottom": 0.765,
+    "slope": 0
+   },
+   {
+    "top": 0.7761,
+    "right": 0.7067,
+    "text": ": uygun",
+    "bottom": 0.8116,
+    "slope": -0.0126,
+    "left": 0.5214
+   },
+   {
+    "left": 0.5165,
+    "text": ": yapılmad",
+    "top": 0.8172,
+    "right": 0.7682,
+    "bottom": 0.8528,
+    "slope": 0.0046
+   },
+   {
+    "text": "*Tespit Edilemedi",
+    "top": 0.8567,
+    "right": 0.6347,
+    "bottom": 0.9156,
+    "slope": 0.0533,
+    "left": 0.2778
+   },
+   {
+    "right": 0.8824,
+    "left": 0.2941,
+    "text": "th",
+    "top": 0.42,
+    "bottom": 0.9,
+    "slope": 0
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Gesterge Parar",
+    "left": 0.2346,
+    "top": 0.0914,
+    "right": 0.5872,
+    "bottom": 0.1495,
+    "slope": 0.0272
+   },
+   {
+    "text": "Alüminyum",
+    "left": 0.1352,
+    "top": 0.1582,
+    "right": 0.4086,
+    "bottom": 0.197,
+    "slope": -0.0
+   },
+   {
+    "text": "Amonyun",
+    "left": 0.133,
+    "top": 0.199,
+    "right": 0.3759,
+    "bottom": 0.2532,
+    "slope": 0.0462
+   },
+   {
+    "text": "Klerur",
+    "left": 0.1333,
+    "top": 0.2504,
+    "right": 0.2872,
+    "bottom": 0.2925,
+    "slope": 0.0426
+   },
+   {
+    "text": "Mar",
+    "left": 0.1298,
+    "top": 0.481,
+    "right": 0.2248,
+    "bottom": 0.521,
+    "slope": 0.0524
+   },
+   {
+    "text": "Koku",
+    "left": 0.1264,
+    "top": 0.5281,
+    "right": 0.2602,
+    "bottom": 0.5697,
+    "slope": 0.0619
+   },
+   {
+    "text": "Silie",
+    "left": 0.1849,
+    "top": 0.582,
+    "right": 0.3057,
+    "bottom": 0.6117,
+    "slope": 0.0592
+   },
+   {
+    "text": "Sulfat",
+    "left": 0.1288,
+    "top": 0.6181,
+    "right": 0.2822,
+    "bottom": 0.6627,
+    "slope": 0.0705
+   },
+   {
+    "text": "Sodyum",
+    "left": 0.1246,
+    "top": 0.6606,
+    "right": 0.3174,
+    "bottom": 0.7149,
+    "slope": 0.0973
+   },
+   {
+    "text": "Tat",
+    "left": 0.1297,
+    "top": 0.7091,
+    "right": 0.2152,
+    "bottom": 0.7435,
+    "slope": -0.0
+   },
+   {
+    "text": "Bubanitik",
+    "left": 0.1262,
+    "top": 0.7498,
+    "right": 0.3645,
+    "bottom": 0.8002,
+    "slope": 0.0705
+   },
+   {
+    "text": "301",
+    "left": 0.1253,
+    "top": 0.7927,
+    "right": 0.2323,
+    "bottom": 0.8363,
+    "slope": 0.0
+   },
+   {
+    "text": "eteIPr",
+    "left": 0.6108,
+    "top": 0.1099,
+    "right": 0.7722,
+    "bottom": 0.1358,
+    "slope": -0.0
+   },
+   {
+    "text": ": TE*",
+    "left": 0.5411,
+    "top": 0.1592,
+    "right": 0.6772,
+    "bottom": 0.1983,
+    "slope": -0.0
+   },
+   {
+    "text": ": TE*",
+    "left": 0.5411,
+    "top": 0.2091,
+    "right": 0.6772,
+    "bottom": 0.2458,
+    "slope": -0.0
+   },
+   {
+    "text": ":1.03",
+    "left": 0.5307,
+    "top": 0.2596,
+    "right": 0.7,
+    "bottom": 0.2979,
+    "slope": -0.0
+   },
+   {
+    "text": "wygun",
+    "left": 0.538,
+    "top": 0.3147,
+    "right": 0.731,
+    "bottom": 0.3517,
+    "slope": -0.0
+   },
+   {
+    "text": "1240",
+    "left": 0.5316,
+    "top": 0.3556,
+    "right": 0.6804,
+    "bottom": 0.3922,
+    "slope": -0.0
+   },
+   {
+    "text": "177",
+    "left": 0.5316,
+    "top": 0.403,
+    "right": 0.6551,
+    "bottom": 0.4397,
+    "slope": -0.0
+   },
+   {
+    "text": "Mg/L",
+    "left": 0.7516,
+    "top": 0.1578,
+    "right": 0.8815,
+    "bottom": 0.2094,
+    "slope": -0.0851
+   },
+   {
+    "text": "mg/l",
+    "left": 0.7595,
+    "top": 0.2155,
+    "right": 0.8766,
+    "bottom": 0.25,
+    "slope": -0.0
+   },
+   {
+    "text": "mg/l",
+    "left": 0.7563,
+    "top": 0.2651,
+    "right": 0.8671,
+    "bottom": 0.2996,
+    "slope": -0.0
+   },
+   {
+    "text": "uS/cm",
+    "left": 0.7247,
+    "top": 0.3556,
+    "right": 0.8671,
+    "bottom": 0.3922,
+    "slope": -0.0
+   },
+   {
+    "text": "F TE*",
+    "left": 0.5231,
+    "top": 0.4923,
+    "right": 0.6637,
+    "bottom": 0.5354,
+    "slope": -0.0324
+   },
+   {
+    "text": "E eyeun",
+    "left": 0.5253,
+    "top": 0.5492,
+    "right": 0.7152,
+    "bottom": 0.5842,
+    "slope": -0.0
+   },
+   {
+    "text": ": 14",
+    "left": 0.5285,
+    "top": 0.5925,
+    "right": 0.6582,
+    "bottom": 0.6228,
+    "slope": -0.0
+   },
+   {
+    "text": "28E :",
+    "left": 0.5281,
+    "top": 0.6359,
+    "right": 0.6776,
+    "bottom": 0.6696,
+    "slope": 0.0
+   },
+   {
+    "text": "ClS",
+    "left": 0.5222,
+    "top": 0.6832,
+    "right": 0.6392,
+    "bottom": 0.7155,
+    "slope": 0.0
+   },
+   {
+    "text": ": uygun",
+    "left": 0.5222,
+    "top": 0.7325,
+    "right": 0.7057,
+    "bottom": 0.7675,
+    "slope": -0.0
+   },
+   {
+    "text": ": uygun",
+    "left": 0.5158,
+    "top": 0.7758,
+    "right": 0.7025,
+    "bottom": 0.8103,
+    "slope": -0.0
+   },
+   {
+    "text": "Eyapılmad",
+    "left": 0.5121,
+    "top": 0.8172,
+    "right": 0.7635,
+    "bottom": 0.8536,
+    "slope": -0.0
+   },
+   {
+    "text": "*Tespit Edilem",
+    "left": 0.2743,
+    "top": 0.8558,
+    "right": 0.5815,
+    "bottom": 0.9118,
+    "slope": 0.0627
+   },
+   {
+    "text": "Me/L",
+    "left": 0.7437,
+    "top": 0.4569,
+    "right": 0.8449,
+    "bottom": 0.4914,
+    "slope": -0.0
+   },
+   {
+    "text": "He/L",
+    "left": 0.7326,
+    "top": 0.4972,
+    "right": 0.8465,
+    "bottom": 0.5413,
+    "slope": -0.0757
+   },
+   {
+    "text": "mg/L",
+    "left": 0.7304,
+    "top": 0.5906,
+    "right": 0.8563,
+    "bottom": 0.637,
+    "slope": -0.0757
+   },
+   {
+    "text": "me/L",
+    "left": 0.731,
+    "top": 0.6401,
+    "right": 0.8513,
+    "bottom": 0.6767,
+    "slope": -0.0
+   },
+   {
+    "text": "mg/L",
+    "left": 0.7278,
+    "top": 0.6832,
+    "right": 0.8449,
+    "bottom": 0.7198,
+    "slope": -0.0
+   },
+   {
+    "text": "th",
+    "left": 0.2941,
+    "top": 0.42,
+    "right": 0.8824,
+    "bottom": 0.9,
+    "slope": -0.0
+   }
+  ]
+ }
+}

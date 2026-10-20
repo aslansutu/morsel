@@ -1,0 +1,162 @@
+{
+ "code": "8680908020113",
+ "name": "Soya Soslu Hazır Noodle",
+ "truth": "Noodles: Wheat Flour (Gluten), Vegetable Oil (Palm), Salt, Acidity Regulator (Potassium Carbonate, Sodium Polyphospate, Sodium Carbonate), Thickener (Guar Gum), Colouring Agent (Riboflavin). Seasoning Powder: Sugar, Salt, Flavour Enhancer (Monosodium Glutamate) Garlic Powder, Artificial Beef Flavour Powder, Onion Powder, Yeast Extract (Saccharomyces cerevisiae), Caramel. Chili Powder. Oil: Vegetable Oil (Palm), Onion, Sweet Soy Sauce (Contains Sesame). (< %2). Allergen: Contains Wheat Protein (Gluten), Soy Bean and Sesame",
+ "contains": [
+  "en:gluten",
+  "en:soybeans",
+  "en:sesame-seeds"
+ ],
+ "traces": [],
+ "note": "No \"Ingredients\" heading on this crop: Morsel reads nothing (missed, not wrong).",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.0798,
+    "right": 0.9591,
+    "text": "Noodles: Wheat Flour (Gluten), Vegetable Oil (Palm), Salt, Acidity Regulator",
+    "slope": 0.1257,
+    "bottom": 0.2928,
+    "left": 0.0186
+   },
+   {
+    "left": 0.0189,
+    "bottom": 0.386,
+    "text": "(Fotassium Carbonate, Sodium Polyphospate, Sodium Carbonate), Thickener (Guar",
+    "top": 0.1804,
+    "right": 0.9575,
+    "slope": 0.1201
+   },
+   {
+    "slope": 0.1158,
+    "right": 0.4652,
+    "text": "Gum), Colouring Agent (Riboflavin).",
+    "left": 0.0234,
+    "top": 0.2841,
+    "bottom": 0.4171
+   },
+   {
+    "right": 0.9529,
+    "slope": 0.106,
+    "bottom": 0.5658,
+    "top": 0.3753,
+    "left": 0.0262,
+    "text": "Seasoning Powder: Sugar, Salt, Flavour Enhancer (Monosodium Glutamate)"
+   },
+   {
+    "left": 0.0305,
+    "slope": 0.0949,
+    "text": "Garlic Powder, Artificial Beef Flavour Powder, Onion Powder, Yeast Extract",
+    "top": 0.4696,
+    "bottom": 0.6552,
+    "right": 0.9587
+   },
+   {
+    "right": 0.6557,
+    "text": "(Saccharomyces cerevisiae), Caramel. Chili Powder.",
+    "top": 0.556,
+    "left": 0.0376,
+    "slope": 0.127,
+    "bottom": 0.7206
+   },
+   {
+    "bottom": 0.8158,
+    "text": "Dil: Vegetable Dil (Palm), Onion, Sweet Soy Sauce",
+    "slope": 0.1668,
+    "right": 0.6555,
+    "top": 0.6266,
+    "left": 0.0429
+   },
+   {
+    "bottom": 0.8521,
+    "text": "(Contains Sesame). (< %2).",
+    "slope": 0.251,
+    "right": 0.3997,
+    "top": 0.6981,
+    "left": 0.0558
+   },
+   {
+    "bottom": 1.0075,
+    "slope": 0.1782,
+    "left": 0.0625,
+    "text": "Allergen: Contains Wheat Protein (Gluten), Soy Bean and Seshme",
+    "top": 0.768,
+    "right": 0.862
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Noodles: Wheat Flour (Gluten), Vegetable Oil (Palm), Salt, Acidity Regulation",
+    "left": 0.0164,
+    "top": 0.0854,
+    "right": 0.9581,
+    "bottom": 0.2962,
+    "slope": 0.1221
+   },
+   {
+    "text": "(Fotassium Carbonate, Sodium Polyphospate, Sodium Carbonate), Thickener (Guar",
+    "left": 0.0182,
+    "top": 0.1809,
+    "right": 0.9581,
+    "bottom": 0.3908,
+    "slope": 0.1174
+   },
+   {
+    "text": "Gum), Colouring Agent (Riboflavin).",
+    "left": 0.0217,
+    "top": 0.281,
+    "right": 0.465,
+    "bottom": 0.4218,
+    "slope": 0.1209
+   },
+   {
+    "text": "Seasoning Powder: Sugar, Salt, Flavour Enhancer (Monosodium Glutamate",
+    "left": 0.0272,
+    "top": 0.3733,
+    "right": 0.9488,
+    "bottom": 0.565,
+    "slope": 0.1066
+   },
+   {
+    "text": "Garlic Powder, Artificial Beef Flavour Powder, Onion Powder, Yeast Extract",
+    "left": 0.0309,
+    "top": 0.4692,
+    "right": 0.956,
+    "bottom": 0.6526,
+    "slope": 0.0932
+   },
+   {
+    "text": "(Saccharomyces cerevisiael, Caramel. Chili Powder.",
+    "left": 0.0396,
+    "top": 0.5554,
+    "right": 0.6552,
+    "bottom": 0.7165,
+    "slope": 0.1277
+   },
+   {
+    "text": "Dil: Vegetable Di (Palm), Onion. Sweet Soy Sauce",
+    "left": 0.0443,
+    "top": 0.6302,
+    "right": 0.6549,
+    "bottom": 0.8153,
+    "slope": 0.1595
+   },
+   {
+    "text": "(Contains Sesame). (< %2).",
+    "left": 0.0548,
+    "top": 0.6996,
+    "right": 0.3977,
+    "bottom": 0.8485,
+    "slope": 0.2377
+   },
+   {
+    "text": ": Contains Wheat Protein (Gluten), Soy Bean and Sesame",
+    "left": 0.156,
+    "top": 0.793,
+    "right": 0.864,
+    "bottom": 0.9953,
+    "slope": 0.1538
+   }
+  ]
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "code": "8690787561010",
+ "name": "Tadım Sportif Bar",
+ "truth": "RAW PUMPKIN SEED KERNELS %20, ROASTED PEANUTS %15, ROASTED ALMONDS %15, CRANBERRY %15, [DRIED CRANBERIES, APPLE JUICE CONCENTRATE, VEGETABLE OIL (SUNFLOWER)], INVERT SUGAR SYRUP, OATS %5, PUFFED RICE, SUGAR, HONEY %3, VEGETABLE OIL (PALM), MALTODEXTRIN, EMULSIFER AGENT (SOY LECITHIN) May contain traces of pistachio, hazelnut, walnut, pecan, cashew and wheat gluten.",
+ "contains": [
+  "en:peanuts",
+  "en:nuts",
+  "en:gluten",
+  "en:soybeans"
+ ],
+ "traces": [],
+ "note": "Turkish list, English list, then both may-contain lines; all capitals. Corrected to the photo.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "PARTİ SERİ NO. 04.21",
+    "left": 0.1187,
+    "top": 0.496,
+    "bottom": 0.6688,
+    "slope": -34.0301,
+    "right": 0.1333
+   },
+   {
+    "right": 0.9187,
+    "slope": 0.0236,
+    "text": "TI SPORT BAR İÇİNDEKİLER: ÇİĞ KABAK ÇEKİRDEĞI İÇİ %20, KAVRULMUŞ YER FISTIĞI ⅜15, KAVRULMUŞ BADEM %15, CRANBERRY %15, IÇRANBERRY, ELMA SUYU KONSANTRESI, BITISE AG",
+    "bottom": 0.4807,
+    "left": 0.1467,
+    "top": 0.427
+   },
+   {
+    "text": "AYÇICEKI, VERT ŞEKER SURUBU, YULAF %5, PIRINÇ PATLAGI, ŞEKER, BAL %3, BITKISEL YAG (PALM), MALTODEKSTRIN, EMULGATOR (SOYA LESITINI) LEBL SPORTIVE BAR INGREDIENTS: RAN PIPON",
+    "left": 0.1423,
+    "bottom": 0.5137,
+    "slope": 0.0173,
+    "top": 0.4609,
+    "right": 0.926
+   },
+   {
+    "bottom": 0.5226,
+    "slope": 0,
+    "top": 0.4806,
+    "text": "SEEĞ",
+    "left": 0.141,
+    "right": 0.1584
+   },
+   {
+    "text": "ERNELS %20, ROASTED PEANUTS %15, ROASTED ALMONDS %15, CRANBERRY %15, IDRIED CRANBERIES, APPLE JUICE CONCENTRATE, VEGETABLE OIL (SUNFLOWERI, INVERT SUGARSIUE",
+    "slope": 0.0129,
+    "left": 0.1656,
+    "top": 0.4916,
+    "right": 0.9172,
+    "bottom": 0.5381
+   },
+   {
+    "slope": 0.0189,
+    "text": "OATS %S, PUFTED RICE, SUGAR, HONEY %3, VEGETABLE OIL (PALM), MALTODEXTRIN, EMULSIFER AGENT (SOY LECITHIN)",
+    "top": 0.5185,
+    "bottom": 0.5651,
+    "left": 0.1409,
+    "right": 0.6367
+   },
+   {
+    "left": 0.1394,
+    "right": 0.6077,
+    "top": 0.5708,
+    "bottom": 0.6209,
+    "slope": 0.0233,
+    "text": "Eser miktarda antep fıstığı, fındık, ceviz, pikan cevizi, kaju fıstığı ve buğday gluteni içerebilir."
+   },
+   {
+    "slope": -0.0212,
+    "bottom": 0.6002,
+    "top": 0.5598,
+    "right": 0.8098,
+    "left": 0.7149,
+    "text": "MENŞEİ: TÜRKİYE"
+   },
+   {
+    "right": 0.8532,
+    "left": 0.7151,
+    "top": 0.5935,
+    "slope": 0,
+    "text": "TÜRKİYE'DE ÜRETİLMİŞTİR",
+    "bottom": 0.629
+   },
+   {
+    "right": 0.5641,
+    "bottom": 0.6531,
+    "slope": 0.0258,
+    "left": 0.1393,
+    "text": "May contain traces of pistachio, hazelnut, walnut, pecan, cashew and wheat gluten.",
+    "top": 0.6039
+   },
+   {
+    "bottom": 0.6581,
+    "slope": 0,
+    "left": 0.7137,
+    "text": "PRODUCED IN TURKEY",
+    "top": 0.6289,
+    "right": 0.8372
+   },
+   {
+    "top": 0.6514,
+    "slope": 0,
+    "text": "İŞLETME KAYIT NO: TR",
+    "left": 0.6279,
+    "right": 0.7631,
+    "bottom": 0.6774
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "PARTİ SERİ NO: 04.21",
+    "left": 0.1189,
+    "top": 0.5034,
+    "right": 0.1305,
+    "bottom": 0.6633,
+    "slope": -44.4167
+   },
+   {
+    "text": "EE SPORT",
+    "left": 0.1407,
+    "top": 0.4292,
+    "right": 0.1876,
+    "bottom": 0.4628,
+    "slope": -0.0
+   },
+   {
+    "text": "(AYCICEK),",
+    "left": 0.1426,
+    "top": 0.4625,
+    "right": 0.182,
+    "bottom": 0.4958,
+    "slope": -0.0
+   },
+   {
+    "text": "BAR İÇİNDEKİLER: ÇİĞ KABAK ÇEKİRDEĞİ İÇİ %20, KAVRULMUŞ YER FIŞTIĞI %15, KAVRULMUŞ BADEM %15, CRANBERRY %15, IÇRANBERRY, ELMA SUYU KONSANTRESİ, BTİSE IAG",
+    "left": 0.1894,
+    "top": 0.4243,
+    "right": 0.9194,
+    "bottom": 0.4793,
+    "slope": 0.0154
+   },
+   {
+    "text": "SEED",
+    "left": 0.1407,
+    "top": 0.4875,
+    "right": 0.1595,
+    "bottom": 0.5208,
+    "slope": -0.0
+   },
+   {
+    "text": "KERNEL",
+    "left": 0.1595,
+    "top": 0.4917,
+    "right": 0.1895,
+    "bottom": 0.5208,
+    "slope": -0.0
+   },
+   {
+    "text": "VERT ŞEKER ŞURUBÜ, YULAF %5, PİRİNÇ PATLAĞI, ŞEKER, BAL %3, BİTKİSEL YAĞ (PALM), MALTODEKSTRİN,EMÜLGATÖR (SOYA LESİTİNİ) EEI SPORTIVE BAR INGREDIENTS: RAN PLMPON",
+    "left": 0.1913,
+    "top": 0.4596,
+    "right": 0.925,
+    "bottom": 0.5064,
+    "slope": 0.009
+   },
+   {
+    "text": "OATS",
+    "left": 0.1388,
+    "top": 0.5208,
+    "right": 0.1651,
+    "bottom": 0.55,
+    "slope": -0.0
+   },
+   {
+    "text": "S %20, ROASTED PEANUTS %15, ROASTED ALMONDS %15, CRANBERRY %15, IDRIED CRANBERIES, APPLE JUICE CONCENTRATE, VEGETABLE OIL (SUNFLOWERI), INVERT SUGARSRUP",
+    "left": 0.1875,
+    "top": 0.485,
+    "right": 0.9157,
+    "bottom": 0.5421,
+    "slope": 0.0231
+   },
+   {
+    "text": "FED RICE, SUGAR, HONEY %3, VEGETABLE OIL (PALM), MALTODEXTRIN, EMULSIFER AGENT (SOY LECITHIN)",
+    "left": 0.1931,
+    "top": 0.5204,
+    "right": 0.6343,
+    "bottom": 0.5644,
+    "slope": 0.0187
+   },
+   {
+    "text": "farda antep fıstığı, fındık, ceviz, pikan cevizi, kaju fıstığı ve buğday gluteni içerebilir.",
+    "left": 0.1764,
+    "top": 0.5792,
+    "right": 0.606,
+    "bottom": 0.6125,
+    "slope": -0.0
+   },
+   {
+    "text": "MENŞEİ: TÜRKİYE",
+    "left": 0.7111,
+    "top": 0.5625,
+    "right": 0.8086,
+    "bottom": 0.6,
+    "slope": -0.0
+   },
+   {
+    "text": "traces of pistachio, hazelnut, walnut, pecan, cashew and wheat gluten.",
+    "left": 0.1894,
+    "top": 0.6075,
+    "right": 0.5611,
+    "bottom": 0.6481,
+    "slope": 0.0158
+   },
+   {
+    "text": "TÜRKİYE'DE ÜRETİLMİŞTİR",
+    "left": 0.7111,
+    "top": 0.5958,
+    "right": 0.8518,
+    "bottom": 0.6333,
+    "slope": -0.0
+   },
+   {
+    "text": "PRODUCED IN TURKEY",
+    "left": 0.7111,
+    "top": 0.6292,
+    "right": 0.8368,
+    "bottom": 0.6545,
+    "slope": -0.0
+   },
+   {
+    "text": "İŞLETME KAYIT NO: TR",
+    "left": 0.6266,
+    "top": 0.6498,
+    "right": 0.7617,
+    "bottom": 0.6792,
+    "slope": -0.0
+   },
+   {
+    "text": "1スパ-000882",
+    "left": 0.7711,
+    "top": 0.6583,
+    "right": 0.8443,
+    "bottom": 0.7,
+    "slope": -0.0
+   }
+  ]
+ }
+}

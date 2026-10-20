@@ -1,0 +1,153 @@
+{
+ "code": "8683417000126",
+ "name": "SARELLE",
+ "truth": "Şeker, Bitkisel Yağlar (Pamuk, Ayçiçek), Fındık (%13), Yağsız Süt Tozu, Kakao Tozu (%5), Peynir Altı Suyu Tozu, Kakao Kitlesi, Laktoz (Sütten), Emülgatör (Ayçiçek Lesitini), Doğal Aroma Verici (Vanilya). İz miktarda diğer sert kabuklu meyveler içerebilir.",
+ "contains": [
+  "en:nuts",
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "Corrected to the photo; Open Food Facts has another recipe. A curved jar: text recognition splits one line in two.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.0256,
+    "slope": 0.0347,
+    "text": "Kakaolu Fındık Ezmesi Içindekiler, Şeker, Bitkisel Yağlar (Pamuk, Ayçiçek), Fındık (%13), Yağsız",
+    "right": 0.9823,
+    "bottom": 0.2276,
+    "left": 0.0123
+   },
+   {
+    "top": 0.1915,
+    "bottom": 0.3676,
+    "text": "Süt Tozu, Kakao Tozu (%5), Peynir Altı Suyu Tozu, Kakao Kitlesi, Laktoz (Sütten), Emülgatör",
+    "right": 0.9777,
+    "slope": 0.0137,
+    "left": 0.016
+   },
+   {
+    "top": 0.3488,
+    "slope": -0.0575,
+    "right": 0.2172,
+    "left": 0.0221,
+    "bottom": 0.505,
+    "text": "(Ayçicek, Lesitini), -"
+   },
+   {
+    "top": 0.3452,
+    "slope": 0,
+    "right": 0.9759,
+    "left": 0.2116,
+    "text": "Doğal Aroma Verici (Vanilya)., Iz miktarda diğer sert kabuklu meyveler,",
+    "bottom": 0.5125
+   },
+   {
+    "slope": 0.0329,
+    "text": "içerebilir, Trans yağ içermemektedir-",
+    "top": 0.4964,
+    "right": 0.4019,
+    "left": 0.0204,
+    "bottom": 0.6521
+   },
+   {
+    "slope": 0.0481,
+    "right": 0.9689,
+    "bottom": 0.6641,
+    "left": 0.3962,
+    "top": 0.4919,
+    "text": "• 18-220C de muhafaza ediniz. Kokudan ve nemden uzak"
+   },
+   {
+    "left": 0.023,
+    "bottom": 0.7986,
+    "slope": 0.0338,
+    "top": 0.6342,
+    "text": "tutunuz. Urünlerimizde domuz yağı ve",
+    "right": 0.4172
+   },
+   {
+    "left": 0.4132,
+    "right": 0.969,
+    "slope": -0.0522,
+    "text": "katkıları yoktur, Işletme Kayıt No: TR-52-K-000180, Türk.",
+    "bottom": 0.8221,
+    "top": 0.6384
+   },
+   {
+    "right": 0.3712,
+    "left": 0.0261,
+    "top": 0.7685,
+    "slope": 0.1458,
+    "bottom": 0.9666,
+    "text": "Gıda Kodeksi ne uygun üretilmiştır:"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Kakağlu Fındık Ezmesi lçindekiler: Şeker, Bitkisel Yağlar (Pamuk, Ayçiçek), Fındık (%13), Yağsız",
+    "left": 0.0124,
+    "top": 0.0356,
+    "right": 0.9824,
+    "bottom": 0.2186,
+    "slope": 0.0188
+   },
+   {
+    "text": "-Süt Tozu, Kakao Tozu (%5); Peynir Alti: Suyu Tozu, Kakao Kitlesi, Laktoz (Sütten)",
+    "left": 0.0078,
+    "top": 0.1451,
+    "right": 0.8754,
+    "bottom": 0.4152,
+    "slope": 0.075
+   },
+   {
+    "text": "'Laktoz-(Sütten), Emülgatör",
+    "left": 0.7124,
+    "top": 0.2036,
+    "right": 0.9782,
+    "bottom": 0.3581,
+    "slope": 0.02
+   },
+   {
+    "text": "Ayçicek, Lesitini); Doğal Aroma Verici (Vanilya). İz miktarda: diğer sert\"kabuklu- meyveler",
+    "left": 0.025,
+    "top": 0.335,
+    "right": 0.975,
+    "bottom": 0.5099,
+    "slope": -0.0
+   },
+   {
+    "text": "içerebilir Trans yağ içermemektedir, 18-22 °C de muhafaza ediniz.",
+    "left": 0.0197,
+    "top": 0.4847,
+    "right": 0.7115,
+    "bottom": 0.6544,
+    "slope": 0.0122
+   },
+   {
+    "text": "-Kokudan ve nemden uzak",
+    "left": 0.7093,
+    "top": 0.5095,
+    "right": 0.9689,
+    "bottom": 0.6442,
+    "slope": -0.0208
+   },
+   {
+    "text": "tutunuz. Urünlérimizde domuz yağı ve katkıları yoktur,-Işletme Kayıt No: TR-52-K-000180. Türk",
+    "left": 0.0218,
+    "top": 0.638,
+    "right": 0.9657,
+    "bottom": 0.8089,
+    "slope": 0.0081
+   },
+   {
+    "text": "- Gıda Kodeksi'ne uygun üretilmiştir A",
+    "left": 0.0208,
+    "top": 0.7692,
+    "right": 0.4083,
+    "bottom": 0.9425,
+    "slope": -0.0
+   }
+  ]
+ }
+}

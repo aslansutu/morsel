@@ -1,0 +1,654 @@
+{
+ "code": "8690533034010",
+ "name": "Crax Sade Çubuk Kraker",
+ "truth": "Buğday Unu (Gluten), Bitkisel Yağ (Palm, Ayçiçek, Pamuk, Kanola), Tuz, İnvert Şeker Şurubu, Asitlik Düzenleyici (Sodyum Hidroksit), Yaş Maya, Emülgatör (Yağ Asitlerinin Mono ve Digliseritlerinin Mono ve Diasetil Tartarik Asit Esterleri), Un İşlem Maddesi (Sodyum Metabisülfit). Eser miktarda Kereviz, Susam, Süt Ürünü ve Yumurta içerebilir.",
+ "contains": [
+  "en:gluten",
+  "en:sulphur-dioxide-and-sulphites"
+ ],
+ "traces": [
+  "en:celery",
+  "en:sesame-seeds",
+  "en:milk",
+  "en:eggs"
+ ],
+ "note": "Corrected to the photo. Glare and four languages; the list wraps around the Azerbaijani one.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 0.4279,
+    "bottom": 0.1674,
+    "left": 0.1629,
+    "text": "‹RAKER - İçindekiler Buğday Unu (Gluten), Bitkisel Yağ (P-",
+    "top": 0.0914,
+    "slope": 0.0407
+   },
+   {
+    "right": 0.1524,
+    "top": 0.1688,
+    "slope": -0.0172,
+    "text": "Moto ve Digliser",
+    "left": 0.0818,
+    "bottom": 0.2154
+   },
+   {
+    "text": "min Mono ve Diase Al artarik Asit Esterleri), Un Işlem M.",
+    "right": 0.4169,
+    "left": 0.1604,
+    "slope": 0.0586,
+    "top": 0.1483,
+    "bottom": 0.2161
+   },
+   {
+    "slope": -0.0643,
+    "text": "em, Ayçiçek, Pamuk, Kanola), Tuz, Invert Şeker Şurubu, Asitı düzenleyici Sodyum Hidroksit), Vaş Maya, Emül gatör Yağ Asise in",
+    "top": 0.075,
+    "bottom": 0.1776,
+    "left": 0.4286,
+    "right": 0.923
+   },
+   {
+    "right": 0.4046,
+    "slope": -0.0479,
+    "top": 0.1968,
+    "bottom": 0.2772,
+    "text": "Tarkibi: Buğda Unu (Olüten), Bitki Menşali Yağ (Palma, Günabaxan, Pam",
+    "left": 0.0782
+   },
+   {
+    "right": 0.9279,
+    "slope": -0.0916,
+    "text": "alesi (Sodyum Metabisüft). Eser miktarda Kereviz, Susalim te Ürünü ve Yumurta içerebılı rED CRA-ÇUBUO KRANER-",
+    "left": 0.4236,
+    "bottom": 0.2294,
+    "top": 0.1074
+   },
+   {
+    "top": 0.2554,
+    "left": 0.0758,
+    "text": "va Digliseridarinin Mono va Diase d Tartarin Turşusu Efirlari), Un Emalı Mi",
+    "right": 0.3959,
+    "bottom": 0.3258,
+    "slope": -0.0345
+   },
+   {
+    "slope": -0.17,
+    "bottom": 0.2818,
+    "text": "Kanola), Duz, İnvert Şakar Sirobu, Turşuluq Tanzimlayicisi (Natrium Hidroksiddan), Taza Ma",
+    "top": 0.1605,
+    "left": 0.4223,
+    "right": 0.8031
+   },
+   {
+    "bottom": 0.2395,
+    "text": "mulqator (Yağ Turşularının Mono",
+    "left": 0.8111,
+    "top": 0.1753,
+    "right": 0.9305,
+    "slope": 0.1236
+   },
+   {
+    "right": 0.8679,
+    "bottom": 0.3227,
+    "text": "(Natrium Metabisulfit). Terkibinda cüzi miqdarda Karaviz, Künçüt, Süd Mahsulu va Yumurta ola bilar.",
+    "slope": -0.1179,
+    "left": 0.4259,
+    "top": 0.2091
+   },
+   {
+    "left": 0.0746,
+    "bottom": 0.3814,
+    "top": 0.3027,
+    "right": 0.4131,
+    "slope": -0.0332,
+    "text": "معلوب, منظم الحموضة ;,هيدروكسيد الصوديوم), خميرة طازجة, مستحلب ;,استرات"
+   },
+   {
+    "top": 0.2468,
+    "right": 0.9293,
+    "slope": -0.1143,
+    "text": "الامصبعات كراكر المحتويات: دقيق القمح (جلوتين), زيت نباتي النخيل دوار المس القن كانولالحا",
+    "left": 0.426,
+    "bottom": 0.3782
+   },
+   {
+    "left": 0.1724,
+    "right": 0.9294,
+    "text": "حدي وثنانى اسيتيل حمض الطر طريك لأحادي وثنائي جلسريدات للأحماض الدهنية), مادة محسنة للدقيق ;,ميتابيكيرتيت الصوديوم). قد يحتوي على أثارة من الكرفس، السمسم، مشتق الحليب والبيض",
+    "top": 0.3013,
+    "bottom": 0.456,
+    "slope": -0.0845
+   },
+   {
+    "slope": -0.0895,
+    "text": "La Üretic Firma. Eti Gıda Sanayi ve Ticaret A. Ş. Kraker Fabrikası Organize Sanayi Bölgesi Mümtaz Zeytinoğlu Bulvar No:3 Eskişehir / Türkiye LaZ» Istehsalçının Adı va Yertaşdiyi Yer. Et ida Sanaye ve TiraratA, Kaker Fabri",
+    "right": 0.9281,
+    "left": 0.0707,
+    "bottom": 0.5151,
+    "top": 0.3604
+   },
+   {
+    "left": 0.0685,
+    "top": 0.4779,
+    "bottom": 0.5505,
+    "text": "Organiza Sanaye Bölgasi Mümtaz Zeytunoğlu Bulvarı No:3 Eskişahar / Türkiye",
+    "slope": -0.0283,
+    "right": 0.3861
+   },
+   {
+    "slope": -0.1202,
+    "top": 0.4076,
+    "text": "1 المصنع: شركة أتي التضامنية والتجارية لصناعة الأغذية - اورغانيزا سانايي بولجاسي ممتاز زيتن اوغلو بولفاري 3ايسكيشهير - تركيا",
+    "left": 0.3941,
+    "right": 0.9318,
+    "bottom": 0.5492
+   },
+   {
+    "top": 0.469,
+    "left": 0.0682,
+    "bottom": 0.6334,
+    "text": "nz İdxaiç: \"Veysaloğlu\" MMC, Azarbaycan, Bakı şah., Nizami ray., Keşla gas.„ 2-ci Enina 2. AZ 1029. Tel: (+99412)5143030, Faks: (+99412)5143636. Email: info @veyseloglu. az",
+    "right": 0.8902,
+    "slope": -0.1
+   },
+   {
+    "top": 0.5105,
+    "right": 0.9362,
+    "left": 0.0938,
+    "bottom": 0.7565,
+    "text": "0 ستور في السفر شركة الرو الران لمستر 0 ملكية ال / 51 .092874151 13 المستار في الرا تويركة المام ا يريستج ن 2 0.000,",
+    "slope": -0.1117
+   },
+   {
+    "bottom": 0.88,
+    "text": "TS2383 Biskuvi",
+    "left": 0.0612,
+    "right": 0.1312,
+    "slope": -0.0242,
+    "top": 0.82
+   },
+   {
+    "bottom": 0.9515,
+    "text": "İşlete Kayıt No: TR-26-K-000058",
+    "left": 0.058,
+    "top": 0.8599,
+    "right": 0.2285,
+    "slope": -0.1831
+   },
+   {
+    "bottom": 1.0134,
+    "top": 0.9341,
+    "right": 0.1712,
+    "left": 0.0559,
+    "slope": -0.2582,
+    "text": "Tinidila Cesidi: Sade"
+   },
+   {
+    "left": 0.2733,
+    "right": 0.2953,
+    "bottom": 0.8417,
+    "text": "TR",
+    "slope": 0,
+    "top": 0.8083
+   },
+   {
+    "text": "Türkiye'de üretilmiştir.",
+    "top": 0.7864,
+    "right": 0.4242,
+    "left": 0.3049,
+    "bottom": 0.8489,
+    "slope": -0.0339
+   },
+   {
+    "right": 0.5208,
+    "left": 0.4963,
+    "top": 0.7625,
+    "bottom": 0.8004,
+    "slope": 0,
+    "text": "› Net:"
+   },
+   {
+    "text": "40 g",
+    "bottom": 0.7934,
+    "slope": -0.1259,
+    "left": 0.5839,
+    "right": 0.6391,
+    "top": 0.7144
+   },
+   {
+    "slope": 0,
+    "bottom": 0.7375,
+    "text": "TRANS YAĞ",
+    "top": 0.6917,
+    "left": 0.6765,
+    "right": 0.7255
+   },
+   {
+    "bottom": 0.7761,
+    "slope": 0.1478,
+    "left": 0.6784,
+    "top": 0.7259,
+    "text": "IÇERMEZ",
+    "right": 0.7199
+   },
+   {
+    "top": 0.6952,
+    "right": 0.8579,
+    "bottom": 0.7464,
+    "slope": 0.0165,
+    "text": "0800 211 0 384",
+    "left": 0.7867
+   },
+   {
+    "text": "RO ET",
+    "bottom": 0.7838,
+    "left": 0.7512,
+    "right": 0.7819,
+    "slope": 0,
+    "top": 0.7417
+   },
+   {
+    "left": 0.7866,
+    "bottom": 0.7999,
+    "slope": -0.0066,
+    "text": "0216 651 0 384",
+    "right": 0.858,
+    "top": 0.7476
+   },
+   {
+    "left": 0.4967,
+    "top": 0.7872,
+    "right": 0.5844,
+    "text": "• Netto kütlasi: 40 g.",
+    "bottom": 0.8569,
+    "slope": -0.3036
+   },
+   {
+    "text": "AZ",
+    "bottom": 0.9,
+    "top": 0.8625,
+    "left": 0.2733,
+    "slope": 0,
+    "right": 0.2953
+   },
+   {
+    "left": 0.3035,
+    "bottom": 0.9156,
+    "slope": -0.1688,
+    "top": 0.8265,
+    "text": "Türkiyeda istehsal olunmuşdur: LAZ",
+    "right": 0.4971
+   },
+   {
+    "left": 0.2721,
+    "top": 0.9167,
+    "bottom": 0.975,
+    "right": 0.3529,
+    "slope": 0,
+    "text": "صنع فى تركيا"
+   },
+   {
+    "text": "الوزن الصافي: 40غ 101",
+    "left": 0.47,
+    "top": 0.7984,
+    "right": 0.5987,
+    "bottom": 0.944,
+    "slope": -0.6182
+   },
+   {
+    "text": "www.etietieti.com",
+    "left": 0.7375,
+    "bottom": 0.9217,
+    "slope": -0.0694,
+    "right": 0.8776,
+    "top": 0.854
+   },
+   {
+    "text": "TR",
+    "right": 0.4876,
+    "top": 0.7761,
+    "bottom": 0.806,
+    "slope": 0,
+    "left": 0.4765
+   },
+   {
+    "top": 0.9246,
+    "right": 0.3774,
+    "left": 0.365,
+    "text": "SA",
+    "bottom": 0.9534,
+    "slope": 0
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Moto ve Diglisere",
+    "left": 0.0796,
+    "top": 0.161,
+    "right": 0.1545,
+    "bottom": 0.2182,
+    "slope": -0.0399
+   },
+   {
+    "text": "KRAKER-İçindekiler Bugday Unu (Gluten), Bitkisel Yağ (Pz3n, Ayçiçek, Pamuk, Kanola), Tuz, İnvert Şeker Şurubu, AsitlıkDüzenleyici (Sodyum Hidroksit), Yaş Maya, Emulgatör (Yağ Asiteriniry",
+    "left": 0.1592,
+    "top": 0.0822,
+    "right": 0.9241,
+    "bottom": 0.1814,
+    "slope": -0.0207
+   },
+   {
+    "text": "*nin Mono ve DiaseAl Tartarik Asit Esterleri), Un İşlem Mr",
+    "left": 0.1592,
+    "top": 0.1457,
+    "right": 0.4205,
+    "bottom": 0.2153,
+    "slope": 0.0428
+   },
+   {
+    "text": "Tarkibi: Buğda Unü (Qlüten), Bitki enşali Yağ (Palma, Günabaxan, Pam",
+    "left": 0.0771,
+    "top": 0.1985,
+    "right": 0.407,
+    "bottom": 0.2765,
+    "slope": -0.0319
+   },
+   {
+    "text": "slesi (Sodyum Metabisülfit). Eser miktarda Kereviz, Susama, it Ürüni ve Vumurta içerebln FL CRAX-ÇUBUO KRAER-",
+    "left": 0.4211,
+    "top": 0.1074,
+    "right": 0.9279,
+    "bottom": 0.2297,
+    "slope": -0.0916
+   },
+   {
+    "text": "va Digliseridlarinin Mono va Diaseal lartarin Turşusu Efirlari), Un Emalı M",
+    "left": 0.0758,
+    "top": 0.2555,
+    "right": 0.3947,
+    "bottom": 0.3258,
+    "slope": -0.0345
+   },
+   {
+    "text": "Kanola), Duz, Invert Şakar Sirobu, Turşuluq Tanzimlayicisi (Natrium Hidroksiddan), Taza Mai",
+    "left": 0.4188,
+    "top": 0.1615,
+    "right": 0.8057,
+    "bottom": 0.2824,
+    "slope": -0.1639
+   },
+   {
+    "text": "amulqator (Yağ Turşularının Mono",
+    "left": 0.8134,
+    "top": 0.1752,
+    "right": 0.9306,
+    "bottom": 0.2413,
+    "slope": 0.1581
+   },
+   {
+    "text": "(Natrium Metabisulfit). Tarkibinda cüzi miqdarda Karaviz, Küncüt, Süd Mahsuluiva Yumurta ola bilar.",
+    "left": 0.4248,
+    "top": 0.2112,
+    "right": 0.8679,
+    "bottom": 0.322,
+    "slope": -0.1158
+   },
+   {
+    "text": "بمقلوب, منظم الحموضة (هيدروكسيد الصوديوم), خميرة طازجة, مسَحلب (استرات",
+    "left": 0.0746,
+    "top": 0.3033,
+    "right": 0.4156,
+    "bottom": 0.3842,
+    "slope": -0.0294
+   },
+   {
+    "text": "مصبعات كراكر - المحتويات: دقيق القمح (جلوتين), زيت نباتي (النخيل, دوار الشمس, القطن, الكانولا), ملح, شراب ال D C",
+    "left": 0.4259,
+    "top": 0.2454,
+    "right": 0.9292,
+    "bottom": 0.3783,
+    "slope": -0.1146
+   },
+   {
+    "text": "احاي وثنالي اسيتيل حمض الطرطريك لأحادي وثنائي جلسريدات للاحماض الدهنية), مادة محسنة للدقيق (ميتابيكيرتيت الصوديوم). قد يحوي على أثارة من الكرفس، السمسم، مشتّق الحليب والبيض",
+    "left": 0.1724,
+    "top": 0.3013,
+    "right": 0.9305,
+    "bottom": 0.4549,
+    "slope": -0.0856
+   },
+   {
+    "text": "TR Uretici Fima: Eti Gıda Sanayi ve Ticaret A.Ş. Kraker Fabrikası Organize Sanayi Bölgesi Mümtaz Zeytinoğlu Bulvan No:3 Eskişehir /Türkiye LAZ",
+    "left": 0.0733,
+    "top": 0.3917,
+    "right": 0.6598,
+    "bottom": 0.5097,
+    "slope": -0.0869
+   },
+   {
+    "text": "•Istehsalçının Adı va YerlaşdiyiYer: Eti Qida Sanaye va Ticarat A.S Kraker Fabriki",
+    "left": 0.6555,
+    "top": 0.3757,
+    "right": 0.9266,
+    "bottom": 0.4314,
+    "slope": -0.0548
+   },
+   {
+    "text": "Organiza Sanaye Bölgasi Mümtaz Zeytunoğlu Bulvarı No:3 Eskişahar / Türkiye",
+    "left": 0.0685,
+    "top": 0.4789,
+    "right": 0.3861,
+    "bottom": 0.5505,
+    "slope": -0.0285
+   },
+   {
+    "text": "المصنع: شركة أتي التضامنية والتجارية لصناعة الأغذية - اورغانيزا سانايي بولجاسى ممتاز زيتن اوغلو بولفاري 3ايسكيشهير -تركيا )",
+    "left": 0.3966,
+    "top": 0.4081,
+    "right": 0.9317,
+    "bottom": 0.543,
+    "slope": -0.1179
+   },
+   {
+    "text": "IZ İdxaiç: \"Veysaloğlu MMC, Azarbaycan, Bakı şah., Nizami ray., Keşla qas, 2-ci Enina 2.AZ 1029. Tel: (+99412)5143030. Faks: (+99412)5143636. Email info@veyseloglu.az",
+    "left": 0.0682,
+    "top": 0.4706,
+    "right": 0.8914,
+    "bottom": 0.6327,
+    "slope": -0.0978
+   },
+   {
+    "text": "المستورد في المغرب: بريستيج فود للتوزيع الدار البيض،D",
+    "left": 0.0941,
+    "top": 0.6018,
+    "right": 0.4083,
+    "bottom": 0.6865,
+    "slope": -0.0489
+   },
+   {
+    "text": "ghodsyster-jo.com ükc",
+    "left": 0.0757,
+    "top": 0.6701,
+    "right": 0.2393,
+    "bottom": 0.7402,
+    "slope": -0.0648
+   },
+   {
+    "text": "‹ المستورد في الأردن : شركة النظام الم",
+    "left": 0.2644,
+    "top": 0.6425,
+    "right": 0.4724,
+    "bottom": 0.7332,
+    "slope": -0.1124
+   },
+   {
+    "text": "ي ستود في تسية شركة زلموط اتان المستلزي02 م ا 1ف 02372157- ل",
+    "left": 0.4109,
+    "top": 0.5064,
+    "right": 0.9362,
+    "bottom": 0.7081,
+    "slope": -0.1342
+   },
+   {
+    "text": "TS 2383 Biskuvi",
+    "left": 0.0622,
+    "top": 0.8184,
+    "right": 0.1314,
+    "bottom": 0.8779,
+    "slope": -0.0361
+   },
+   {
+    "text": "Işletnve Kayıt No: TR-26-K-000058",
+    "left": 0.0581,
+    "top": 0.8631,
+    "right": 0.2285,
+    "bottom": 0.9518,
+    "slope": -0.1831
+   },
+   {
+    "text": "/Tini arlu Cesidi: Sade",
+    "left": 0.052,
+    "top": 0.9351,
+    "right": 0.1711,
+    "bottom": 1.0136,
+    "slope": -0.2464
+   },
+   {
+    "text": "ITR",
+    "left": 0.2721,
+    "top": 0.8083,
+    "right": 0.2953,
+    "bottom": 0.8417,
+    "slope": -0.0
+   },
+   {
+    "text": "Türkiye'de üretilmiştir.",
+    "left": 0.3047,
+    "top": 0.7816,
+    "right": 0.4243,
+    "bottom": 0.8539,
+    "slope": -0.1172
+   },
+   {
+    "text": "TR",
+    "left": 0.4755,
+    "top": 0.775,
+    "right": 0.4914,
+    "bottom": 0.8083,
+    "slope": -0.0
+   },
+   {
+    "text": ">Net:",
+    "left": 0.4951,
+    "top": 0.7625,
+    "right": 0.5208,
+    "bottom": 0.8042,
+    "slope": -0.0
+   },
+   {
+    "text": "40 g C",
+    "left": 0.5825,
+    "top": 0.6966,
+    "right": 0.6595,
+    "bottom": 0.8082,
+    "slope": -0.4533
+   },
+   {
+    "text": "TRANS YAĞ",
+    "left": 0.6765,
+    "top": 0.6917,
+    "right": 0.7255,
+    "bottom": 0.7379,
+    "slope": -0.0
+   },
+   {
+    "text": "İÇERMEZ",
+    "left": 0.6801,
+    "top": 0.725,
+    "right": 0.7218,
+    "bottom": 0.775,
+    "slope": -0.0
+   },
+   {
+    "text": "0800 211 0 384",
+    "left": 0.7867,
+    "top": 0.6956,
+    "right": 0.8579,
+    "bottom": 0.7461,
+    "slope": -0.0077
+   },
+   {
+    "text": "LOETI",
+    "left": 0.7512,
+    "top": 0.7375,
+    "right": 0.7831,
+    "bottom": 0.7833,
+    "slope": -0.0
+   },
+   {
+    "text": "0216 651 0 384",
+    "left": 0.7866,
+    "top": 0.748,
+    "right": 0.858,
+    "bottom": 0.802,
+    "slope": 0.0565
+   },
+   {
+    "text": "-Netto kütlasi: 40 q.",
+    "left": 0.4969,
+    "top": 0.7894,
+    "right": 0.5855,
+    "bottom": 0.8576,
+    "slope": -0.2742
+   },
+   {
+    "text": "AZ",
+    "left": 0.2745,
+    "top": 0.8667,
+    "right": 0.2953,
+    "bottom": 0.9,
+    "slope": -0.0
+   },
+   {
+    "text": "Türkiyeda istehsal olunmuşdur.: LAZ",
+    "left": 0.3033,
+    "top": 0.8278,
+    "right": 0.4933,
+    "bottom": 0.9151,
+    "slope": -0.1635
+   },
+   {
+    "text": "صنع في تركيا",
+    "left": 0.2745,
+    "top": 0.9208,
+    "right": 0.3505,
+    "bottom": 0.9794,
+    "slope": -0.0
+   },
+   {
+    "text": "الوزن الصافي: 40",
+    "left": 0.4712,
+    "top": 0.7889,
+    "right": 0.5968,
+    "bottom": 0.9425,
+    "slope": -0.7771
+   },
+   {
+    "text": "www.etietieti.com",
+    "left": 0.7375,
+    "top": 0.8541,
+    "right": 0.8777,
+    "bottom": 0.924,
+    "slope": -0.068
+   },
+   {
+    "text": "SA",
+    "left": 0.365,
+    "top": 0.9246,
+    "right": 0.3774,
+    "bottom": 0.9534,
+    "slope": -0.0
+   }
+  ]
+ }
+}

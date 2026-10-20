@@ -1,0 +1,392 @@
+{
+ "code": "8691641080036",
+ "name": "Şekerli Fındık Ezmesi",
+ "truth": "HAZELNUT (70%), sugar (30%).",
+ "contains": [
+  "en:nuts"
+ ],
+ "traces": [],
+ "note": "Turkish then English, each with storage after it.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "K",
+    "left": 0.8857,
+    "right": 0.9244,
+    "slope": 0,
+    "bottom": 0.2238,
+    "top": 0.186
+   },
+   {
+    "bottom": 0.2725,
+    "slope": -0.0391,
+    "top": 0.2318,
+    "right": 0.6197,
+    "text": "TR FİSKOBİRLİK ŞEKERLİ FINDIK EZMESİ",
+    "left": 0.2176
+   },
+   {
+    "text": "İçindekiler: FINDIK (%70), şeker (%30).",
+    "left": 0.2141,
+    "top": 0.2611,
+    "right": 0.584,
+    "bottom": 0.2971,
+    "slope": -0.0293
+   },
+   {
+    "left": 0.2144,
+    "right": 0.5899,
+    "text": "Tavsiye Edilen Tüketim Tarihi (T.E.T.T) ve",
+    "bottom": 0.3168,
+    "slope": -0.0266,
+    "top": 0.2836
+   },
+   {
+    "left": 0.2183,
+    "right": 0.5121,
+    "text": "Parti No (P) kapağın üzerindedir.",
+    "slope": -0.0203,
+    "top": 0.308,
+    "bottom": 0.3375
+   },
+   {
+    "right": 0.7272,
+    "top": 0.3259,
+    "text": "Güneş ışığından koruyunuz. Serin yerde muhałaza ediniz.",
+    "bottom": 0.3578,
+    "slope": -0.0254,
+    "left": 0.2242
+   },
+   {
+    "text": "DİKKAT! ÜRÜN ÜZERİNDEKİ YAĞ TABAKAS! FINDIĞIN DOGAL YAGI OLUP",
+    "left": 0.2262,
+    "top": 0.3478,
+    "right": 0.8514,
+    "bottom": 0.3821,
+    "slope": -0.0183
+   },
+   {
+    "left": 0.2229,
+    "bottom": 0.407,
+    "text": "BOZULMA BELİRTİSİ DEĞİLDİR.",
+    "top": 0.3794,
+    "right": 0.5039,
+    "slope": 0
+   },
+   {
+    "left": 0.2341,
+    "bottom": 0.4485,
+    "right": 0.6963,
+    "slope": -0.0172,
+    "text": "GB FISKOBİRLİK HAZELNUT PASTE WITH SUGAR",
+    "top": 0.4181
+   },
+   {
+    "slope": -0.0126,
+    "top": 0.4443,
+    "text": "Ingredients: HAZELNUT (70%), sugar (30%).",
+    "left": 0.2303,
+    "bottom": 0.4756,
+    "right": 0.6186
+   },
+   {
+    "slope": -0.0046,
+    "text": "Protect from sunshine. Keep in a cool plece.",
+    "left": 0.2324,
+    "top": 0.4662,
+    "right": 0.6222,
+    "bottom": 0.4922
+   },
+   {
+    "bottom": 0.5197,
+    "text": "WARNING! THE OIL LAYER ON THE PRODUCT IS THE NATURAL OIL OF HAZELNUT",
+    "left": 0.2337,
+    "top": 0.4735,
+    "right": 0.8502,
+    "slope": -0.029
+   },
+   {
+    "left": 0.2383,
+    "text": "AND IT IS NOT AN INDICATION OF DETERIORATION.",
+    "top": 0.5115,
+    "right": 0.6416,
+    "bottom": 0.5372,
+    "slope": -0.0039
+   },
+   {
+    "bottom": 0.5757,
+    "left": 0.238,
+    "text": "İŞLETME KAYIT NO: TR-28-K-008542",
+    "top": 0.5493,
+    "right": 0.5564,
+    "slope": 0.0096
+   },
+   {
+    "text": "GIDA İŞLETMECİSİNİN TİCARİ UNVANI: FİSKOBİRLİK",
+    "left": 0.242,
+    "top": 0.565,
+    "right": 0.6825,
+    "bottom": 0.5933,
+    "slope": -0.0075
+   },
+   {
+    "right": 0.8762,
+    "slope": -0.0377,
+    "left": 0.2414,
+    "text": "ADRES: Gaziler Mahallesi Atatürk Bulvari No:499 Merkez-Giresun / TÜRKIYE",
+    "top": 0.5649,
+    "bottom": 0.6222
+   },
+   {
+    "text": "Tel: +90 454 215 04 09 (3hat) Faks: +90 454 215 04 13",
+    "right": 0.7252,
+    "left": 0.2439,
+    "bottom": 0.6338,
+    "top": 0.6016,
+    "slope": -0.0094
+   },
+   {
+    "slope": -0.0287,
+    "right": 0.8213,
+    "left": 0.2455,
+    "text": "e-posta: fiskobirilikefit@fiskobirlikefit.com www.fiskobirlikefit.com.",
+    "bottom": 0.6593,
+    "top": 0.6115
+   },
+   {
+    "right": 0.4297,
+    "bottom": 0.6744,
+    "slope": 0.0484,
+    "text": "Menşe Ülke: TÜRKİVE",
+    "top": 0.6422,
+    "left": 0.2462
+   },
+   {
+    "slope": 0,
+    "right": 0.4896,
+    "text": "ي ب ب ب ™٣",
+    "top": 0.6733,
+    "left": 0.2489,
+    "bottom": 0.7144
+   },
+   {
+    "bottom": 0.7132,
+    "slope": -0.0789,
+    "left": 0.5801,
+    "top": 0.6471,
+    "text": "Net: 300 g e",
+    "right": 0.8227
+   },
+   {
+    "text": "T5 CIC/SMII",
+    "top": 0.5919,
+    "left": 0.8893,
+    "right": 0.9424,
+    "bottom": 0.6125,
+    "slope": -0.25
+   },
+   {
+    "text": "HELAL",
+    "top": 0.6045,
+    "slope": -0.075,
+    "left": 0.8692,
+    "right": 0.9548,
+    "bottom": 0.6366
+   },
+   {
+    "text": "حلال",
+    "right": 0.9283,
+    "bottom": 0.6541,
+    "slope": 0,
+    "left": 0.907,
+    "top": 0.6395
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "TR FİSKOBİRLİK ŞEKERLİ FINDIK EZMESİ",
+    "left": 0.2113,
+    "top": 0.2329,
+    "right": 0.619,
+    "bottom": 0.2725,
+    "slope": -0.0306
+   },
+   {
+    "text": "İçindekiler: FINDIK (%7O), şeker (%30).",
+    "left": 0.2143,
+    "top": 0.2614,
+    "right": 0.584,
+    "bottom": 0.298,
+    "slope": -0.0312
+   },
+   {
+    "text": "Tavsiye Edilen Tüketim Tarihi (T.E.T.T) ve",
+    "left": 0.2143,
+    "top": 0.2814,
+    "right": 0.59,
+    "bottom": 0.3186,
+    "slope": -0.0354
+   },
+   {
+    "text": "Parti No (P) kapağın üzerindedir.",
+    "left": 0.2149,
+    "top": 0.3075,
+    "right": 0.512,
+    "bottom": 0.3378,
+    "slope": -0.02
+   },
+   {
+    "text": "Guneş ışıgından koruyunuz. Serin yerde muhaiaza edıniz",
+    "left": 0.2179,
+    "top": 0.3265,
+    "right": 0.722,
+    "bottom": 0.3602,
+    "slope": -0.0281
+   },
+   {
+    "text": "DİKKAT! ÜRÜN ÜZERİNDEKİ YAĞ TABAKASI FINDIĞIN DOĞAL YAĞI OLUP",
+    "left": 0.2206,
+    "top": 0.3456,
+    "right": 0.8542,
+    "bottom": 0.383,
+    "slope": -0.0213
+   },
+   {
+    "text": "BOZULMA BELİRTİSİ DEĞİLDİR.",
+    "left": 0.2209,
+    "top": 0.3747,
+    "right": 0.506,
+    "bottom": 0.4077,
+    "slope": -0.0089
+   },
+   {
+    "text": "CB FİSKOBİRLİK HAZELNUT PASTE WITH SUGAR",
+    "left": 0.2265,
+    "top": 0.4179,
+    "right": 0.6932,
+    "bottom": 0.4494,
+    "slope": -0.0156
+   },
+   {
+    "text": "ingredients: HAZELNUT (70%), sugar (30%).",
+    "left": 0.2297,
+    "top": 0.4476,
+    "right": 0.6152,
+    "bottom": 0.4745,
+    "slope": -0.0099
+   },
+   {
+    "text": "Protect from sunshine. Keep in a cooi plece.",
+    "left": 0.2299,
+    "top": 0.4698,
+    "right": 0.6178,
+    "bottom": 0.4893,
+    "slope": -0.0
+   },
+   {
+    "text": "WARNING! THE OIL LAYER ON THE PRODUCT IS THE NATURAL OIL OF HAZELNUT",
+    "left": 0.2318,
+    "top": 0.4715,
+    "right": 0.8522,
+    "bottom": 0.5211,
+    "slope": -0.0288
+   },
+   {
+    "text": "AND IT IS NOT AN INDICATION OF DETERIORATION.",
+    "left": 0.2353,
+    "top": 0.5101,
+    "right": 0.6412,
+    "bottom": 0.5396,
+    "slope": -0.0122
+   },
+   {
+    "text": "IŞLETME KAYIT NO: TR-28-K-008542",
+    "left": 0.2353,
+    "top": 0.5494,
+    "right": 0.5548,
+    "bottom": 0.5767,
+    "slope": 0.0073
+   },
+   {
+    "text": "GIDA İŞLETMECİSİNİN TİCARİ UNVANI: FİSKOBIRLIK",
+    "left": 0.2384,
+    "top": 0.5665,
+    "right": 0.6841,
+    "bottom": 0.5939,
+    "slope": -0.0056
+   },
+   {
+    "text": "ADRES: Gaziler Mahallesi Atatürk Bulvarı No:499 Merkez-Giresun/ TURKYE",
+    "left": 0.2404,
+    "top": 0.564,
+    "right": 0.8758,
+    "bottom": 0.6236,
+    "slope": -0.0387
+   },
+   {
+    "text": "Tel: +90 454 215 04 09 (3hat) Faks: +90 454 215 04 13",
+    "left": 0.2412,
+    "top": 0.6011,
+    "right": 0.7246,
+    "bottom": 0.6339,
+    "slope": -0.0093
+   },
+   {
+    "text": "T5 OIC/SM",
+    "left": 0.888,
+    "top": 0.5928,
+    "right": 0.9368,
+    "bottom": 0.6124,
+    "slope": -0.15
+   },
+   {
+    "text": "*posta: fiskobirlikefit@fiskobirlikefit.com www.fiskobirlikefit.com",
+    "left": 0.2466,
+    "top": 0.6137,
+    "right": 0.8174,
+    "bottom": 0.6559,
+    "slope": -0.0275
+   },
+   {
+    "text": "HELAL",
+    "left": 0.8654,
+    "top": 0.6005,
+    "right": 0.9565,
+    "bottom": 0.6393,
+    "slope": -0.1364
+   },
+   {
+    "text": "Menşe Ülke: TÜRKIYE",
+    "left": 0.2482,
+    "top": 0.6429,
+    "right": 0.4266,
+    "bottom": 0.6722,
+    "slope": 0.0577
+   },
+   {
+    "text": "Net: 300g e",
+    "left": 0.5794,
+    "top": 0.6481,
+    "right": 0.8226,
+    "bottom": 0.7091,
+    "slope": -0.0714
+   },
+   {
+    "text": "7 Net: 300g e",
+    "left": 0.2742,
+    "top": 0.6365,
+    "right": 0.8209,
+    "bottom": 0.7265,
+    "slope": -0.0
+   },
+   {
+    "text": "ij",
+    "left": 0.4656,
+    "top": 0.9201,
+    "right": 0.5093,
+    "bottom": 0.9549,
+    "slope": -0.0
+   }
+  ]
+ }
+}

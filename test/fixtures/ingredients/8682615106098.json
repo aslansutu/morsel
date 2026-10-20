@@ -1,0 +1,169 @@
+{
+ "code": "8682615106098",
+ "name": "FINDIK PARÇACIKLI KAKAOLU KREMA",
+ "truth": "Hazelnut (40%), Sugar, vegetable oil (cottonseed oil, sunflower oil), cocoa powder (6%), milk powder, emulsifier (sunflower lecithin), flavoring (vanillin). Allergen Warning: Contains Lactose and hazelnut.",
+ "contains": [
+  "en:nuts",
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "Turkish and English lists, then both allergen warnings: the English list keeps the English warning only.",
+ "lines": {
+  "vision-macos": [
+   {
+    "text": "(indekler: Findık (640), Şeker, bitkisel yağ (pamuk, ayiçek), kakao tozu 9%di),",
+    "right": 0.8932,
+    "slope": -0.0629,
+    "left": 0.1491,
+    "top": 0.3897,
+    "bottom": 0.551
+   },
+   {
+    "text": "süt tozu, emülgatör (avcicek lesitini), aroma verici (vanilin).",
+    "right": 0.7292,
+    "left": 0.1542,
+    "top": 0.5041,
+    "bottom": 0.5826,
+    "slope": 0
+   },
+   {
+    "slope": -0.0056,
+    "text": "sut tozu, emülgatör (ayçiçek lestini), aroma verici (vanilin).",
+    "top": 0.5044,
+    "left": 0.1482,
+    "right": 0.7384,
+    "bottom": 0.6008
+   },
+   {
+    "text": "Ingredients: Hazelnut (40%), Sugar, vegetable oil (cottonseed oil, sunflower oil,",
+    "bottom": 0.6945,
+    "slope": -0.0721,
+    "left": 0.1493,
+    "top": 0.5213,
+    "right": 0.8957
+   },
+   {
+    "left": 0.1518,
+    "right": 0.9108,
+    "bottom": 0.7762,
+    "text": "cocoa powder (6%), milk powder, emulsifier (sunflower lecithin), flavoring (vanillin.",
+    "slope": -0.0884,
+    "top": 0.5808
+   },
+   {
+    "left": 0.1567,
+    "right": 0.5477,
+    "text": "Alerjen Uyarısı: Laktoz ve fındık içerir.",
+    "top": 0.7402,
+    "bottom": 0.8598,
+    "slope": 0.1096
+   },
+   {
+    "left": 0.1575,
+    "right": 0.6779,
+    "top": 0.8079,
+    "bottom": 0.9296,
+    "slope": 0.0491,
+    "text": "Allergen Warning: Contains Lactose and hazelnut."
+   },
+   {
+    "bottom": 1.0123,
+    "slope": 0.0888,
+    "text": "ORTALAMA ENERJİ VE RESIN 1100 a icin",
+    "top": 0.8942,
+    "left": 0.165,
+    "right": 0.5761
+   },
+   {
+    "right": 0.8677,
+    "bottom": 0.997,
+    "slope": 0,
+    "top": 0.8055,
+    "text": "0609",
+    "left": 0.8445
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Indekler: Findık (9640), Şeker, bitkisel yağ (pamuk, ayçiçek, kaka 0ozu (%).",
+    "left": 0.147,
+    "top": 0.3947,
+    "right": 0.8915,
+    "bottom": 0.5466,
+    "slope": -0.0521
+   },
+   {
+    "text": "süt toz, emülgatör (ayçiçek lesitini), aroma verici (vanilin).",
+    "left": 0.1493,
+    "top": 0.4998,
+    "right": 0.7371,
+    "bottom": 0.6017,
+    "slope": 0.0075
+   },
+   {
+    "text": "Ingredients: Hazelnut (40%), Sugar, vegetable oil (cottonseed oil, sunflower oil),",
+    "left": 0.1508,
+    "top": 0.5196,
+    "right": 0.8962,
+    "bottom": 0.6941,
+    "slope": -0.0691
+   },
+   {
+    "text": "cocoa powder (6%), milk powder, emulsifier (sunflower lecithin), flavoring (vanillin).",
+    "left": 0.1526,
+    "top": 0.5806,
+    "right": 0.9109,
+    "bottom": 0.7755,
+    "slope": -0.0919
+   },
+   {
+    "text": "Alerjen Uyarısı: Laktoz ve fındık içerir.",
+    "left": 0.1576,
+    "top": 0.7404,
+    "right": 0.5512,
+    "bottom": 0.8569,
+    "slope": 0.1033
+   },
+   {
+    "text": "Allergen Warning: Contains Lactose and hazelnut.",
+    "left": 0.1583,
+    "top": 0.8077,
+    "right": 0.6759,
+    "bottom": 0.9306,
+    "slope": 0.0502
+   },
+   {
+    "text": "ORTALAMA ENERJİ VE BESİN",
+    "left": 0.1651,
+    "top": 0.9044,
+    "right": 0.4357,
+    "bottom": 1.0128,
+    "slope": 0.1651
+   },
+   {
+    "text": "100 a icin",
+    "left": 0.452,
+    "top": 0.9437,
+    "right": 0.564,
+    "bottom": 0.9979,
+    "slope": -0.0377
+   },
+   {
+    "text": "lated",
+    "left": 0.6733,
+    "top": 0.9083,
+    "right": 0.6912,
+    "bottom": 0.9958,
+    "slope": 0.0
+   },
+   {
+    "text": "06098",
+    "left": 0.8446,
+    "top": 0.7542,
+    "right": 0.8685,
+    "bottom": 0.9958,
+    "slope": 0.0
+   }
+  ]
+ }
+}

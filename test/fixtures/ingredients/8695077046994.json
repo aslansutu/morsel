@@ -1,0 +1,160 @@
+{
+ "code": "8695077046994",
+ "name": "Kakaolu Fındıklı Krema",
+ "truth": "Beyaz Şeker, Bitkisel Yağ (Ayçiçek, Pamuk), Fındık Püresi (%13), Kakao Tozu (%7,3), Yağsız Süttozu, Peynir Altı Suyu Tozu (Süt Ürünü), Emülgatör (Soya Lesitini), Fındık Aroma Vericisi. Alerjen Uyarısı: Eser Miktarda Gluten, Yumurta, Yer Fıstığı, Antep Fıstığı Susam, Sülfit, İçerebilir.",
+ "contains": [
+  "en:nuts",
+  "en:milk",
+  "en:soybeans"
+ ],
+ "traces": [
+  "en:gluten",
+  "en:eggs",
+  "en:peanuts",
+  "en:sesame-seeds",
+  "en:sulphur-dioxide-and-sulphites"
+ ],
+ "note": "",
+ "lines": {
+  "vision-macos": [
+   {
+    "left": 0.0189,
+    "right": 0.9114,
+    "bottom": 0.2978,
+    "top": 0.0542,
+    "slope": 0.1009,
+    "text": "Harras Kakaolu Fındıklı (%13) Krema - İçindekiler:"
+   },
+   {
+    "left": 0.0227,
+    "text": "Beyaz Şeker, Bitkisel Yağ (Ayçicek, Pamuk), Findık Püresi (%13),",
+    "top": 0.183,
+    "bottom": 0.4359,
+    "right": 0.988,
+    "slope": 0.0926
+   },
+   {
+    "slope": 0.1359,
+    "text": "Kakao Tozu (%7,3), Yagsız Suttozu, Peynir Altı Suyu Tozu",
+    "right": 0.9051,
+    "left": 0.0235,
+    "top": 0.3035,
+    "bottom": 0.5766
+   },
+   {
+    "top": 0.4131,
+    "left": 0.0237,
+    "text": "(Süt Ürünü), Emülgatör (Soya Lesitin), Findık Aroma Vericisi.",
+    "right": 0.9491,
+    "bottom": 0.7003,
+    "slope": 0.101
+   },
+   {
+    "right": 0.8264,
+    "slope": 0.167,
+    "top": 0.5408,
+    "left": 0.0277,
+    "text": "Alerjen Uyansı: Eser Miktarda Gluten, Yumurta,",
+    "bottom": 0.8087
+   },
+   {
+    "top": 0.6538,
+    "right": 0.8479,
+    "bottom": 0.9507,
+    "slope": 0.161,
+    "left": 0.0269,
+    "text": "Yer Fistigı, Antep Fistigı Susam, Sülfit, Içerebilir•"
+   },
+   {
+    "right": 0.7855,
+    "bottom": 1.0962,
+    "text": "Domuz ve domuz ürünleri muhtevivatı icermez.",
+    "top": 0.7658,
+    "slope": 0.2194,
+    "left": 0.0243
+   },
+   {
+    "left": 0.0213,
+    "bottom": 1.0449,
+    "slope": 0.7636,
+    "top": 0.8758,
+    "text": "TavsiNe",
+    "right": 0.1275
+   },
+   {
+    "text": "E",
+    "top": 0.8528,
+    "bottom": 0.9358,
+    "slope": 0,
+    "right": 0.9985,
+    "left": 0.9782
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "Harras Kakaolu Fındıklı (%13) Krema - İçindekiler:",
+    "left": 0.0219,
+    "top": 0.052,
+    "right": 0.9134,
+    "bottom": 0.3022,
+    "slope": 0.099
+   },
+   {
+    "text": "Bejaz Şeker, Bitkisel Yağ (Ayçiçek, Pamuk), Findık Püresi (%13),",
+    "left": 0.0201,
+    "top": 0.1687,
+    "right": 0.9919,
+    "bottom": 0.4502,
+    "slope": 0.089
+   },
+   {
+    "text": "Kakao Tozu (%73), Yağsız Süttozu, Peynir Alt Suyu Tozu",
+    "left": 0.0223,
+    "top": 0.2892,
+    "right": 0.9085,
+    "bottom": 0.595,
+    "slope": 0.1297
+   },
+   {
+    "text": "(Sit Ürüni), Emülgatör (Soya Lesitin), Findik Aroma Vericisi.",
+    "left": 0.0216,
+    "top": 0.4098,
+    "right": 0.9486,
+    "bottom": 0.7034,
+    "slope": 0.1027
+   },
+   {
+    "text": "Alerien Uyanıı: Eser Miktarda Gluten, Yumurta,",
+    "left": 0.0212,
+    "top": 0.5227,
+    "right": 0.8277,
+    "bottom": 0.8332,
+    "slope": 0.173
+   },
+   {
+    "text": "Yer Fıstıgı, Antep Fıstiğı Susam, Sülfit, Içerebilir•",
+    "left": 0.0253,
+    "top": 0.6514,
+    "right": 0.8468,
+    "bottom": 0.9533,
+    "slope": 0.1615
+   },
+   {
+    "text": "Tavsin oa",
+    "left": 0.0,
+    "top": 0.8871,
+    "right": 0.1843,
+    "bottom": 0.996,
+    "slope": -0.0
+   },
+   {
+    "text": "Domuz ve domuz ürünleri muhtevivatıicermez.",
+    "left": 0.0224,
+    "top": 0.766,
+    "right": 0.7824,
+    "bottom": 1.1055,
+    "slope": 0.2253
+   }
+  ]
+ }
+}

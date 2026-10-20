@@ -1,0 +1,256 @@
+{
+ "code": "8691225153521",
+ "name": "Keçi Sütü Ağırlıklı Ezine Peyniri",
+ "truth": "Pastörize keçi sütü (%45), koyun sütü (%40), inek sütü (%15), peynir mayası ve tuz. Kuru maddede en az %45 süt yağı içerir.",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "Corrected to the photo. A second column beside the list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "left": 0.173,
+    "top": -0.0,
+    "text": "Derlenmesi ve lati pudan geyneren",
+    "right": 0.4886,
+    "bottom": 0.0667,
+    "slope": 0
+   },
+   {
+    "bottom": 0.1872,
+    "text": "İçindekiler. Pastörize keçi sütü (%45), koyun sütü (%40), inek",
+    "slope": -0.0521,
+    "top": 0.034,
+    "left": 0.1716,
+    "right": 0.6923
+   },
+   {
+    "slope": -0.038,
+    "text": "BRC Standardı şartları",
+    "right": 0.9256,
+    "top": 0.0059,
+    "left": 0.7079,
+    "bottom": 0.1404
+   },
+   {
+    "bottom": 0.3023,
+    "slope": -0.0693,
+    "top": 0.1513,
+    "text": "sütü (%15), peynir mayası ve tuz. Kuru maddede en az %45 süt",
+    "right": 0.6902,
+    "left": 0.1759
+   },
+   {
+    "right": 0.9225,
+    "bottom": 0.2312,
+    "slope": 0.0488,
+    "text": "altında üretilmistir.",
+    "top": 0.1083,
+    "left": 0.7079
+   },
+   {
+    "top": 0.2397,
+    "text": "rağı içerir. Seri numarası (SrNO), Uretim Tarihi (URT) Paketleme",
+    "left": 0.1825,
+    "bottom": 0.4143,
+    "slope": -0.0952,
+    "right": 0.7004
+   },
+   {
+    "bottom": 0.5336,
+    "slope": -0.1574,
+    "top": 0.2789,
+    "text": "arhi (PKT) ve Son Tüketim Tarihi (STT) ambalajdadır. Son Tüketici Danışma Hattı",
+    "right": 0.9424,
+    "left": 0.1912
+   },
+   {
+    "right": 0.6933,
+    "top": 0.4526,
+    "bottom": 0.6102,
+    "slope": -0.0741,
+    "text": "tüketim tarihinden önce tüketilmelidir. +2 ile +4°C'de muhafaza",
+    "left": 0.1759
+   },
+   {
+    "left": 0.7372,
+    "bottom": 0.5475,
+    "text": "0800 211 20 20",
+    "top": 0.4358,
+    "right": 0.9039,
+    "slope": 0.0204
+   },
+   {
+    "bottom": 0.6965,
+    "left": 0.1783,
+    "slope": -0.0135,
+    "text": "ediniz. Üretim tarihinden itibaren en az 365 gün olgunlaştınlarak",
+    "top": 0.573,
+    "right": 0.6952
+   },
+   {
+    "right": 0.8735,
+    "slope": 0,
+    "text": "444 36 53",
+    "top": 0.5625,
+    "bottom": 0.6753,
+    "left": 0.7676
+   },
+   {
+    "right": 0.6944,
+    "slope": -0.0763,
+    "text": "piyasaya arz edilmiştir, TAHSİLDAROĞLU SÜT ÜRÜNLERİ SAN",
+    "left": 0.1778,
+    "top": 0.648,
+    "bottom": 0.8247
+   },
+   {
+    "right": 0.6974,
+    "text": "ve TiC. A.Ş. tesislerinde Türk Gıda Kodeksi Peynir Tebliğine",
+    "left": 0.1793,
+    "top": 0.7892,
+    "slope": -0.0215,
+    "bottom": 0.9188
+   },
+   {
+    "left": 0.1816,
+    "text": "uvoun olarak üretilmistir. Mense Ulke: Türkiye",
+    "top": 0.9037,
+    "right": 0.5535,
+    "bottom": 0.9963,
+    "slope": 0
+   },
+   {
+    "left": 0.6529,
+    "slope": -0.0142,
+    "top": 0.7897,
+    "bottom": 0.9978,
+    "right": 0.9352,
+    "text": "dine 250mA"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "İçindekiler. Pastörize keçi süti (%45), koyun süti (%40), inek",
+    "left": 0.1708,
+    "top": 0.0352,
+    "right": 0.6927,
+    "bottom": 0.1915,
+    "slope": -0.0527
+   },
+   {
+    "text": "BRC Standardı şartları",
+    "left": 0.7084,
+    "top": 0.0064,
+    "right": 0.9265,
+    "bottom": 0.1356,
+    "slope": 0.0318
+   },
+   {
+    "text": "sitü (%15), peynir mayası ve tuz. Kuru maddedę en az %45 süt",
+    "left": 0.1744,
+    "top": 0.1266,
+    "right": 0.6922,
+    "bottom": 0.2973,
+    "slope": -0.0929
+   },
+   {
+    "text": "altında üretilmiştir.",
+    "left": 0.7086,
+    "top": 0.1125,
+    "right": 0.9242,
+    "bottom": 0.2253,
+    "slope": -0.0
+   },
+   {
+    "text": "yağı içerir. Seri numarası (SrNO), Uretim Tarihi (URT) Paketleme",
+    "left": 0.1763,
+    "top": 0.2608,
+    "right": 0.6905,
+    "bottom": 0.4095,
+    "slope": -0.052
+   },
+   {
+    "text": "Tarihi (PKT) ve Son Tüketim Tarhi (STT) ambalajdadır. Son",
+    "left": 0.1765,
+    "top": 0.3727,
+    "right": 0.6902,
+    "bottom": 0.4754,
+    "slope": -0.0184
+   },
+   {
+    "text": "Tüketici Danışma Hattı",
+    "left": 0.6977,
+    "top": 0.3208,
+    "right": 0.9447,
+    "bottom": 0.4464,
+    "slope": -0.0
+   },
+   {
+    "text": "tüketim tarihinden önce tüketilmelidir. +2 ile +4°C'de muhafaza",
+    "left": 0.1762,
+    "top": 0.4512,
+    "right": 0.6948,
+    "bottom": 0.6133,
+    "slope": -0.0839
+   },
+   {
+    "text": "0800 211 20 20",
+    "left": 0.7377,
+    "top": 0.4348,
+    "right": 0.9048,
+    "bottom": 0.5486,
+    "slope": 0.0327
+   },
+   {
+    "text": "ediniz. Üretim tarihinden ltibaren en az 365 gün olgunlaştırılarak",
+    "left": 0.1776,
+    "top": 0.5716,
+    "right": 0.6957,
+    "bottom": 0.7009,
+    "slope": -0.0164
+   },
+   {
+    "text": "444 36 53",
+    "left": 0.7681,
+    "top": 0.5613,
+    "right": 0.8755,
+    "bottom": 0.6721,
+    "slope": 0.023
+   },
+   {
+    "text": "piyasaya arz edilmiştir. TAHSİLDAROĞLU SÜT ÜRÜNLERİ SAN",
+    "left": 0.1783,
+    "top": 0.658,
+    "right": 0.6958,
+    "bottom": 0.8198,
+    "slope": -0.0633
+   },
+   {
+    "text": "ve TIC. AŞ. tesislerinde Türk Gıda Kodeksi Peynir Tebliği'ne",
+    "left": 0.1797,
+    "top": 0.7891,
+    "right": 0.6989,
+    "bottom": 0.919,
+    "slope": -0.022
+   },
+   {
+    "text": "uvaun olarak üretilmistir. Mense Ulke: Türkiye",
+    "left": 0.1809,
+    "top": 0.8997,
+    "right": 0.5536,
+    "bottom": 0.9959,
+    "slope": -0.0
+   },
+   {
+    "text": "dine 250g0",
+    "left": 0.653,
+    "top": 0.7903,
+    "right": 0.9374,
+    "bottom": 1.0014,
+    "slope": -0.039
+   }
+  ]
+ }
+}

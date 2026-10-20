@@ -1,0 +1,112 @@
+{
+ "code": "5411188124689",
+ "name": "Oat No Sugars",
+ "truth": "Water, Oat [9.9%], Sunflower oil, Soluble corn fibre, Calcium [Calcium carbonate], Sea salt, Stabiliser [Gellan gum], Potassium iodide, Vitamins B2, D2.",
+ "contains": [
+  "en:gluten"
+ ],
+ "traces": [],
+ "note": "Corrected to the photo; Open Food Facts has an older recipe.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.0298,
+    "bottom": 0.217,
+    "slope": -0.0317,
+    "right": 0.9006,
+    "text": "INGREDIENTS: Water, Oat",
+    "left": 0.005
+   },
+   {
+    "left": -0.0017,
+    "right": 0.9904,
+    "bottom": 0.3979,
+    "text": "(9.9%), Sunflower oil, Soluble",
+    "top": 0.1664,
+    "slope": -0.0628
+   },
+   {
+    "bottom": 0.5569,
+    "right": 0.9668,
+    "slope": -0.0635,
+    "top": 0.3372,
+    "text": "corn fibre, Calcium (Calcium",
+    "left": 0.0103
+   },
+   {
+    "top": 0.4845,
+    "slope": -0.0787,
+    "left": 0.0155,
+    "right": 0.9081,
+    "bottom": 0.7134,
+    "text": "carbonate), Sea salt, Stabi-"
+   },
+   {
+    "right": 0.9731,
+    "bottom": 0.8612,
+    "text": "liser (Gellan gum], Potassium",
+    "slope": -0.068,
+    "top": 0.6389,
+    "left": -0.0015
+   },
+   {
+    "left": -0.0013,
+    "slope": -0.0565,
+    "top": 0.8012,
+    "right": 0.8003,
+    "text": "iodide, Vitamins B2, D2.",
+    "bottom": 1.0033
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "INGREDIENTS: Water, Oat",
+    "left": 0.011,
+    "top": 0.0415,
+    "right": 0.8946,
+    "bottom": 0.2165,
+    "slope": -0.0315
+   },
+   {
+    "text": "(9.9%), Sunflower oil, Soluble",
+    "left": -0.0015,
+    "top": 0.1664,
+    "right": 0.9904,
+    "bottom": 0.3979,
+    "slope": -0.0628
+   },
+   {
+    "text": "corn fibre, Calcium (Calcium",
+    "left": 0.0102,
+    "top": 0.3356,
+    "right": 0.967,
+    "bottom": 0.5576,
+    "slope": -0.0655
+   },
+   {
+    "text": "carbonate), Sea salt, Stabi-",
+    "left": 0.0155,
+    "top": 0.4845,
+    "right": 0.9081,
+    "bottom": 0.7134,
+    "slope": -0.0787
+   },
+   {
+    "text": "liser (Gellan gum), Potassium",
+    "left": -0.0015,
+    "top": 0.6389,
+    "right": 0.9729,
+    "bottom": 0.8612,
+    "slope": -0.068
+   },
+   {
+    "text": "iodide, Vitamins B2, D2.",
+    "left": 0.0046,
+    "top": 0.8012,
+    "right": 0.8003,
+    "bottom": 1.0033,
+    "slope": -0.0565
+   }
+  ]
+ }
+}

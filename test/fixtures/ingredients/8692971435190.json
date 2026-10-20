@@ -1,0 +1,128 @@
+{
+ "code": "8692971435190",
+ "name": "İçim white cheese 900g",
+ "truth": "Pastörize inek sütü, peynir kültürü, stabilizör (kalsiyum klorür), peynir mayası, tuz, koruyucu (potasyum sorbat).",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "Centred lines.",
+ "lines": {
+  "vision-macos": [
+   {
+    "right": 0.6931,
+    "bottom": 0.2407,
+    "text": "İçm Tam Yağlı Taze Beyaz Peynir",
+    "slope": -0.0183,
+    "left": 0.2598,
+    "top": 0.0902
+   },
+   {
+    "text": "İçindekiler: Pastörize inek sütü, peynir kültürü, stabilizör (kalsiyum klorür),",
+    "bottom": 0.4109,
+    "top": 0.2001,
+    "left": 0.0409,
+    "slope": -0.0483,
+    "right": 0.9062
+   },
+   {
+    "text": "peynir mayası, tuz, koruyucu (potasyum sorbat).",
+    "bottom": 0.5486,
+    "right": 0.7422,
+    "left": 0.2199,
+    "top": 0.3229,
+    "slope": -0.1563
+   },
+   {
+    "bottom": 0.6577,
+    "text": "Son tüketim tarihi (STT) ve parti no (P) ambalaj üzerinde olup son tüketim tarihinden",
+    "slope": -0.0801,
+    "left": 0.0321,
+    "top": 0.4553,
+    "right": 0.9194
+   },
+   {
+    "left": 0.0335,
+    "right": 0.9219,
+    "top": 0.5765,
+    "slope": -0.0738,
+    "bottom": 0.7778,
+    "text": "önce tüketilmelidir. Buzdolabında (+4°C'de) saklayınız. Yüksek kalsiyum kaynağıdır."
+   },
+   {
+    "bottom": 0.9132,
+    "left": 0.0351,
+    "slope": -0.0666,
+    "top": 0.7123,
+    "right": 0.9209,
+    "text": "Uretia: Ak Gıda San. ve Tic. A.Ş. İbni Melek OSB Mahallesi Tosbi Yol, 18 Sokak, No: 3 Tire, Izmir"
+   },
+   {
+    "top": 0.8654,
+    "slope": -0.0739,
+    "bottom": 1.0547,
+    "left": 0.0508,
+    "right": 0.9096,
+    "text": "Enseù ua Rocin \"ñolori| 1 AAn icin |100g iên PA* |1 porsivon ión (60a) | 1 porsivon ion RA*"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "İçim Tam Yağlı Taze Beyaz Peynir",
+    "left": 0.2583,
+    "top": 0.0898,
+    "right": 0.6932,
+    "bottom": 0.2458,
+    "slope": -0.0238
+   },
+   {
+    "text": "İçindekiler: Pastörize inek sütü, peynir kültürü, stabilizör (kalsiyum klorür),",
+    "left": 0.041,
+    "top": 0.2002,
+    "right": 0.9062,
+    "bottom": 0.4069,
+    "slope": -0.0483
+   },
+   {
+    "text": "peynir mayası, tuz, koruyucu (potasyum sorbat).",
+    "left": 0.2199,
+    "top": 0.3202,
+    "right": 0.7423,
+    "bottom": 0.5476,
+    "slope": -0.1513
+   },
+   {
+    "text": "Son tüketim tarihi (STT) ve parti no (P) ambalaj üzerinde olup son tüketim tarihinden",
+    "left": 0.0306,
+    "top": 0.4554,
+    "right": 0.9194,
+    "bottom": 0.6602,
+    "slope": -0.0748
+   },
+   {
+    "text": "önce tüketilmelidir. Buzdolabında (+4°C'de) saklayınız. Yüksek kalsiyum kaynağıdır.",
+    "left": 0.0335,
+    "top": 0.5794,
+    "right": 0.9219,
+    "bottom": 0.7784,
+    "slope": -0.0678
+   },
+   {
+    "text": "Uretici: Ak Gıda San. ve Tic. A.S. İbni Melek OSB Mahallesi Tosbi Yol, 18 Sokak, No: 3 Tire, Izmir",
+    "left": 0.0351,
+    "top": 0.7133,
+    "right": 0.9209,
+    "bottom": 0.9094,
+    "slope": -0.0606
+   },
+   {
+    "text": "Tnar ua Racin Öžalaril100n irin l100a ian Pf* 1 porsivon iån (60a) /1 porsivon icn RA*",
+    "left": 0.048,
+    "top": 0.8612,
+    "right": 0.911,
+    "bottom": 1.0496,
+    "slope": -0.0672
+   }
+  ]
+ }
+}

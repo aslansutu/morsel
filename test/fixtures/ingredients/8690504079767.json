@@ -1,0 +1,117 @@
+{
+ "code": "8690504079767",
+ "name": "Pöti",
+ "truth": "Sugar, wheat flour, water, vegetable fat (palm), invert sugar syrup, egg, humectant (glycerol), starch, carrot (2,3%), glucose syrup, raising agents (disodium diphosphate, sodium hydrogen carbonate), fat reduced cocoa powder, salt, preservatives (potassium sorbate, sodium propionate, sorbic acid), cinnamon (0,3%), emulsifiers (mono and diglycerides of fatty acids, soy lecithin), thickener (guar gum), whey powder (milk), acidity regulator (citric acid), flavouring. May contain traces of hazelnuts.",
+ "contains": [
+  "en:gluten",
+  "en:eggs",
+  "en:soybeans",
+  "en:milk"
+ ],
+ "traces": [
+  "en:nuts"
+ ],
+ "note": "Open Food Facts' text, checked against the photo.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": -0.0027,
+    "bottom": 0.2558,
+    "left": 0.0099,
+    "slope": 0.0492,
+    "right": 0.9843,
+    "text": "EN Carrot and Cinnamon Cake, Ingredients: Sugar, wheat flour, water, vegetable fat (palm),"
+   },
+   {
+    "bottom": 0.3667,
+    "text": "anvert sugar syrup, egg, humectant (glycerol), starch, carrot (2,3%), glucose syrup, raising",
+    "top": 0.2015,
+    "right": 0.984,
+    "slope": 0,
+    "left": 0.0058
+   },
+   {
+    "top": 0.3356,
+    "bottom": 0.5212,
+    "text": "agents (disodium diphosphate, sodium hydrogen carbonate), fat reduced cocoa powder, sait,",
+    "right": 0.987,
+    "left": 0.0101,
+    "slope": -0.0193
+   },
+   {
+    "bottom": 0.7082,
+    "top": 0.4609,
+    "slope": -0.0435,
+    "text": "preservatives (potassium sorbate, sodium propionate, sorbic acid), cinnamon (0,3%),",
+    "left": 0.0129,
+    "right": 0.9958
+   },
+   {
+    "text": "emulsifiers (mono and diglycerides of fatty acids, soy lecithin), thickener (guar gum), whey",
+    "bottom": 0.8459,
+    "top": 0.6106,
+    "right": 0.9973,
+    "left": 0.0115,
+    "slope": -0.033
+   },
+   {
+    "right": 0.9987,
+    "bottom": 1.0004,
+    "slope": -0.0276,
+    "text": "powder (milk), acidity regulator (citric acid), flavouring. May contain traces of hazelnuts.",
+    "left": 0.01,
+    "top": 0.765
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "EN Carrot and Cinnamon Cake, Ingredients: Sugar, wheat flour, water, vegetable fat (palm),",
+    "left": 0.0125,
+    "top": -0.0208,
+    "right": 0.9853,
+    "bottom": 0.2524,
+    "slope": 0.0671
+   },
+   {
+    "text": "invert sugar syrup, egg, humectant (glycerol), starch, carrot (2,3%), glucose syrup, raising",
+    "left": -0.0,
+    "top": 0.1978,
+    "right": 0.9871,
+    "bottom": 0.3516,
+    "slope": -0.0
+   },
+   {
+    "text": "agents (disodium diphosphate, sodium hydrogen carbonate), fat reduced cocoa powder, salt,",
+    "left": 0.0085,
+    "top": 0.3275,
+    "right": 0.9894,
+    "bottom": 0.5216,
+    "slope": -0.0247
+   },
+   {
+    "text": "preservatives (potassium sorbate, sodium propionate, sorbic acid), cinnamon (0,3%),",
+    "left": 0.0107,
+    "top": 0.4802,
+    "right": 0.9937,
+    "bottom": 0.6779,
+    "slope": -0.0481
+   },
+   {
+    "text": "emulsifiers (mono and diglycerides of fatty acids, soy lecithin), thickener (guar gum), whey",
+    "left": 0.0106,
+    "top": 0.603,
+    "right": 0.9981,
+    "bottom": 0.8343,
+    "slope": -0.0363
+   },
+   {
+    "text": "powder (milk), acidity regulator (citric acid, flavouring. May contain traces of hazelnuts.",
+    "left": 0.0105,
+    "top": 0.7403,
+    "right": 0.9981,
+    "bottom": 1.0044,
+    "slope": -0.0541
+   }
+  ]
+ }
+}

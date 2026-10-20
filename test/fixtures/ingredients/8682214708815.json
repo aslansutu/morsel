@@ -1,0 +1,80 @@
+{
+ "code": "8682214708815",
+ "name": "Mis Labne",
+ "truth": "Pastörize inek sütü, pastörize inek sütü kreması, yoğurt kültürü, tuz.",
+ "contains": [
+  "en:milk"
+ ],
+ "traces": [],
+ "note": "Dates and storage follow the list.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.1125,
+    "right": 0.6413,
+    "bottom": 0.3577,
+    "text": "MİS LABNE - TAM YAĞLI TAZE PEYNİR",
+    "slope": 0.0667,
+    "left": 0.0637
+   },
+   {
+    "left": 0.0591,
+    "text": "İÇİNDEKİLER: Pastörize inek sütü, pastörize inek sütü kreması, yoğurt",
+    "right": 0.9481,
+    "bottom": 0.6338,
+    "top": 0.3077,
+    "slope": 0.1198
+   },
+   {
+    "right": 0.948,
+    "top": 0.5238,
+    "bottom": 0.7993,
+    "text": "kültürü, tuz. Son tüketim tarihi (STT) ve parti no (P) ambalaj üzerinde olup",
+    "left": 0.0593,
+    "slope": 0.0636
+   },
+   {
+    "bottom": 0.9986,
+    "left": 0.0577,
+    "top": 0.6642,
+    "text": "son tüketim tarihinden önce tüketilmelidir. Buzdolabında (+4 °C'de) saklayınız.",
+    "right": 0.9949,
+    "slope": 0.1125
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "MİS LABNE - TAM YAĞLI TAZE PEYNİR",
+    "left": 0.0645,
+    "top": 0.1216,
+    "right": 0.6425,
+    "bottom": 0.3647,
+    "slope": 0.0473
+   },
+   {
+    "text": "İÇİNDEKİLER: Pastörize inek sütü, pastörize inek sütü kreması, yoğurt",
+    "left": 0.0578,
+    "top": 0.3079,
+    "right": 0.9488,
+    "bottom": 0.6221,
+    "slope": 0.0969
+   },
+   {
+    "text": "kültürü, tuz. Son tüketim tarihi (STT) ve parti no (P) ambalaj üzerinde olup",
+    "left": 0.06,
+    "top": 0.5146,
+    "right": 0.9487,
+    "bottom": 0.8012,
+    "slope": 0.0634
+   },
+   {
+    "text": "son tüketim tarihinden önce tüketilmelidir. Buzdolabında (+4 °C'de) saklayınız.",
+    "left": 0.0577,
+    "top": 0.6827,
+    "right": 0.9963,
+    "bottom": 1.0027,
+    "slope": 0.1067
+   }
+  ]
+ }
+}

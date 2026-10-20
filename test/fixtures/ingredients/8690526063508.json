@@ -1,0 +1,654 @@
+{
+ "code": "8690526063508",
+ "name": "Eti Burçak Milk Chocolate Biscuits 114 g",
+ "truth": "Bisküvi %71 (Buğday Unu (Gluten), Tam Buğday Unu (Gluten) %24, Bitkisel Yağ (Palm, Ayçiçek, Pamuk, Kanola), Şeker, İnvert Şeker Şurubu, Yağsız Süt Tozu, Kabartıcılar (Amonyum Hidrojen Karbonat, Sodyum Hidrojen Karbonat, Sodyum Asit Pirofosfat), Pastörize Yumurta, Arpa Maltı Ekstraktı (Gluten), Kepek (Gluten), Tuz, Aroma Vericiler, Emülgatör (Mono ve Digliseritlerin Diasetil Tartarik Asit Esterleri), Renklendirici (Sade Karamel)), Sütlü Çikolata %29 [Şeker, Tam Yağlı Süt Tozu, Kakao Yağı, Kakao Kitlesi, Tereyağı (Süt Ürünü), Bitkisel Yağ (Palm), Yağsız Süt Tozu, Emülgatörler (Ayçiçek Lesitini, Poligliserol Polirisinoleat), Aroma Verici (Vanilin). Süt Kuru Maddesi En Az %30, Kakao Kuru Maddesi En Az %27'dir]. Eser miktarda Fındık, Soya ürünü ve Susam içerebilir.",
+ "contains": [
+  "en:gluten",
+  "en:milk",
+  "en:eggs"
+ ],
+ "traces": [
+  "en:nuts",
+  "en:soybeans",
+  "en:sesame-seeds"
+ ],
+ "note": "Turkish then Azerbaijani, nutrition table beside; a creased wrapper, so recognition is poor.",
+ "lines": {
+  "vision-macos": [
+   {
+    "top": 0.0374,
+    "right": 0.5775,
+    "bottom": 0.067,
+    "left": 0.2423,
+    "slope": 0,
+    "text": "tı NO su paketin ön yüzündedir. Doğrudan guneş ışıgına maruz bırakmayınız."
+   },
+   {
+    "left": 0.1154,
+    "bottom": 0.1057,
+    "slope": 0.0214,
+    "right": 0.579,
+    "top": 0.0349,
+    "text": "Jerde muhafaza ediniz. Urünlerimizin Hiçbir Çesidıne Alkol, Domuz Yağı ve Türevleri Katılmamıştır"
+   },
+   {
+    "right": 0.2677,
+    "left": 0.1027,
+    "top": 0.0988,
+    "text": "ádati va partıya nomrasi: gablaşdır",
+    "bottom": 0.1549,
+    "slope": -0.0332
+   },
+   {
+    "right": 0.2915,
+    "left": 0.2746,
+    "text": "วัท!",
+    "top": 0.1082,
+    "bottom": 0.1379,
+    "slope": 0
+   },
+   {
+    "right": 0.4283,
+    "top": 0.093,
+    "text": "on üzündadir. Bilavacite nüna",
+    "left": 0.2942,
+    "bottom": 0.1354,
+    "slope": -0.047
+   },
+   {
+    "top": 0.1,
+    "right": 0.5366,
+    "left": 0.4577,
+    "bottom": 0.1418,
+    "text": "an tasirindan gon",
+    "slope": 0
+   },
+   {
+    "top": 0.1083,
+    "bottom": 0.1417,
+    "text": "yun",
+    "left": 0.5352,
+    "right": 0.5549,
+    "slope": 0
+   },
+   {
+    "left": 0.3718,
+    "bottom": 0.1714,
+    "text": "uz yaul",
+    "top": 0.1495,
+    "slope": 0,
+    "right": 0.4141
+   },
+   {
+    "text": "d van mali",
+    "right": 0.4592,
+    "bottom": 0.1714,
+    "left": 0.4141,
+    "slope": 0,
+    "top": 0.1495
+   },
+   {
+    "left": 0.4845,
+    "slope": 0,
+    "bottom": 0.1714,
+    "top": 0.1456,
+    "text": "Istilada el",
+    "right": 0.531
+   },
+   {
+    "left": 0.5352,
+    "top": 0.1456,
+    "bottom": 0.1792,
+    "right": 0.5521,
+    "text": "Ima",
+    "slope": 0
+   },
+   {
+    "left": 0.7958,
+    "top": 0.0667,
+    "right": 0.8887,
+    "text": "Türkiye de üretilmiştir.",
+    "bottom": 0.1044,
+    "slope": 0
+   },
+   {
+    "bottom": 0.125,
+    "right": 0.8634,
+    "left": 0.7944,
+    "top": 0.1,
+    "text": "Mansavi fikive",
+    "slope": 0
+   },
+   {
+    "slope": 0,
+    "left": 0.9085,
+    "right": 0.9507,
+    "text": "TRANS YAG",
+    "top": 0.0786,
+    "bottom": 0.1044
+   },
+   {
+    "bottom": 0.1306,
+    "text": "ICERMEZ",
+    "left": 0.9151,
+    "top": 0.0988,
+    "slope": 0.174,
+    "right": 0.9483
+   },
+   {
+    "slope": 0.0077,
+    "left": 0.0338,
+    "text": "> BURÇAK - SUTLU ÇIKOLATALI BISKUVI - Içindekiler: Biskuvi o/T Buğu DyUnU (GUten Tm Zug nay UH (Gluten) %24, Bitkisel Yağ (Palm, Ayçiçek, Pamuk, Kanola), Seker, Invert seker",
+    "right": 0.8141,
+    "bottom": 0.4471,
+    "top": 0.4028
+   },
+   {
+    "top": 0.4445,
+    "bottom": 0.4985,
+    "slope": -0.0123,
+    "text": "Şurubu, Yagsız Sut Tozu, Kabartıcılar (Amonyum Hidrojen Karbonat, Sodyum Hidrojen Kalunal, Sodyum Asit Pirofostat), Pastörize Yumurta, Arpa Maltı Ekstraktı (Gluten), Kepek",
+    "left": 0.0112,
+    "right": 0.8155
+   },
+   {
+    "slope": -0.0485,
+    "top": 0.4121,
+    "left": 0.828,
+    "bottom": 0.4612,
+    "text": "Enerj ve Besin Oğeleri (100g da)/100g mal",
+    "right": 0.9706
+   },
+   {
+    "text": "Enerj/Enerji Dayari (kJ/kcal-kC/kkal)",
+    "bottom": 0.517,
+    "left": 0.828,
+    "right": 0.9707,
+    "top": 0.4609,
+    "slope": -0.0704
+   },
+   {
+    "top": 0.5029,
+    "right": 0.8849,
+    "bottom": 0.5495,
+    "slope": -0.0561,
+    "text": "Vağ /g (g-g)",
+    "left": 0.8292
+   },
+   {
+    "slope": 0,
+    "text": "Doymuş Yağ /Doymuş Yag (g-q",
+    "top": 0.5412,
+    "bottom": 0.575,
+    "left": 0.8352,
+    "right": 0.9535
+   },
+   {
+    "top": 0.5745,
+    "slope": -0.1096,
+    "left": 0.8378,
+    "text": "Irans Yağ /Trans (g-q",
+    "right": 0.9158,
+    "bottom": 0.6202
+   },
+   {
+    "left": 0.8324,
+    "right": 0.9521,
+    "bottom": 0.6458,
+    "text": "Karbonhidrat / Karbohidrat (g-q",
+    "top": 0.6121,
+    "slope": 0
+   },
+   {
+    "slope": 0,
+    "bottom": 0.6833,
+    "text": "Sekerler / Sakar (g-q)",
+    "top": 0.6542,
+    "left": 0.838,
+    "right": 0.9155
+   },
+   {
+    "right": 0.8791,
+    "text": "Lif / Lif (g-q)",
+    "slope": 0,
+    "bottom": 0.72,
+    "left": 0.8309,
+    "top": 0.685
+   },
+   {
+    "bottom": 0.7125,
+    "top": 0.675,
+    "slope": 0,
+    "right": 0.9761,
+    "text": "/0.90",
+    "left": 0.9577
+   },
+   {
+    "right": 0.907,
+    "slope": 0,
+    "left": 0.831,
+    "text": "Protein / Zülal (g-q)",
+    "bottom": 0.7583,
+    "top": 0.7204
+   },
+   {
+    "bottom": 0.8003,
+    "slope": 0,
+    "top": 0.7625,
+    "text": "Tuz / Duz (g-q)",
+    "right": 0.8901,
+    "left": 0.831
+   },
+   {
+    "bottom": 0.8927,
+    "text": "darı: min. 27%.). Tarkibinda az miqdarda fındıą, soya mahsulu va küncüt ola bilar.",
+    "right": 0.4102,
+    "left": 0.0236,
+    "slope": -0.0967,
+    "top": 0.7993
+   },
+   {
+    "text": "in",
+    "top": 0.1018,
+    "bottom": 0.1314,
+    "slope": 0,
+    "left": 0.5737,
+    "right": 0.5815
+   },
+   {
+    "top": 0.067,
+    "left": 0.7807,
+    "bottom": 0.0876,
+    "slope": 0,
+    "text": "IR",
+    "right": 0.7903
+   },
+   {
+    "slope": 0,
+    "left": 0.0166,
+    "right": 0.027,
+    "bottom": 0.433,
+    "top": 0.4059,
+    "text": "TR"
+   },
+   {
+    "bottom": 0.567,
+    "text": "Ir41uteff), Tuz, Aroma Veii(iler, Emulgator (Mono ve Digliseiitlerin DiaseiilTartaiik Asit Esteileri), Renklendiri(i (Sade Karamel)), Suilu [ikolata %29 [5ekei, Tam YagliSutTozu, Kakaoyaiao K",
+    "left": 0.0165,
+    "right": 0.8056,
+    "top": 0.4845,
+    "slope": 0
+   },
+   {
+    "top": 0.5284,
+    "bottom": 0.5902,
+    "right": 0.7852,
+    "slope": 0,
+    "text": "Kiilesi, Tereyagi (Sut brunu), Bitkisel Yag (Palm), Yagsizsut Tozu, Emulgatorler (Ay[i(ek Le5itini, Poligliserol Polirisinoleat), Aroma!eri(I Ivanilin). Sut Kuru Maddesi En Az %30, Ka",
+    "left": 0.0195
+   },
+   {
+    "left": 0.8056,
+    "slope": 0,
+    "top": 0.5387,
+    "text": "ulu",
+    "bottom": 0.5631,
+    "right": 0.8173
+   },
+   {
+    "text": "AZ",
+    "left": 0.3814,
+    "slope": 0,
+    "top": 0.5902,
+    "bottom": 0.6147,
+    "right": 0.3915
+   },
+   {
+    "bottom": 0.634,
+    "slope": 0,
+    "left": 0.0165,
+    "text": "Maddesi En Az % 27'dirl. Eser miktarda Findil Soyo urunu ve Susam iferebilir. ￿BuR{AK- SUDLU 5OKOLADII PE(ENYE . Taikibi; pefenye Il% Ibugda unu (qliitenj, tam bugda unu",
+    "right": 0.8179,
+    "top": 0.5722
+   },
+   {
+    "right": 0.8188,
+    "bottom": 0.6946,
+    "slope": 0,
+    "text": "{qluten) 24%, biiki man5ali yagi (palma, 9unabaxan, pambiq, raps), sakai, invert 5èkar 5èrbati, yagsizlasdirilmii quru sud, yumsaldicilai (ammonium hidrokaibonat, natnum hidrokarbonat,",
+    "top": 0.6173,
+    "left": 0.0151
+   },
+   {
+    "top": 0.6611,
+    "right": 0.8184,
+    "left": 0.0151,
+    "bottom": 0.7358,
+    "slope": 0,
+    "text": "natrium dihidropiiofosfat), pasteriza edilmis yumurta, arpa samanisi ekrtrakti (qluten), kapak (qluten), duz, tabii Ilè identik aromahzatoilar, emulqatoi (mono va diqliseiidlaiinin"
+   },
+   {
+    "bottom": 0.7861,
+    "slope": 0,
+    "text": "iasetil tartarin tursusu efirlaii), ianglayici (sada karamel)1, sudlu sokolad 29r)/0 [5akar, tam yagli quru sud, kakao yagi, kakao kutlasi: kara ya\"1 (sudmahsuluj, biiki fflaniali yagi (palffla),",
+    "left": 0.0185,
+    "top": 0.7036,
+    "right": 0.8184
+   },
+   {
+    "top": 0.7552,
+    "bottom": 0.8351,
+    "left": 0.0228,
+    "text": "gsizlaidirilmii quru sud, emulqatoilay (gunabaxan lesitini, poliqliseiin polirisinolat), tabii ila Idenlik aiomalizator (vanilin). Sud mahsu",
+    "slope": 0,
+    "right": 0.6358
+   },
+   {
+    "bottom": 0.8003,
+    "top": 0.7487,
+    "right": 0.8184,
+    "slope": 0,
+    "left": 0.6384,
+    "text": "unun miqdaii: min. 30%, kakao mthsulunun"
+   }
+  ],
+  "vision-ios-simulator": [
+   {
+    "text": "etim tarini (TETU) ve Partı No su paketin ön yüzündedir. Doğrudan guneş ışıgına maruz bırakmayınız",
+    "left": 0.1254,
+    "top": 0.0374,
+    "right": 0.5775,
+    "bottom": 0.0709,
+    "slope": -0.0
+   },
+   {
+    "text": "rerde munataza edınız. Urünlerimızın Hiçbir Cesidine Alkol, Domw? yağı ve Türevleri Katılmamıştır",
+    "left": 0.1169,
+    "top": 0.0667,
+    "right": 0.5789,
+    "bottom": 0.0958,
+    "slope": -0.0
+   },
+   {
+    "text": "adati va partiya nomrası: qablaşdı anır ön üzündadir. Rilava cita aüina",
+    "left": 0.0999,
+    "top": 0.0934,
+    "right": 0.4297,
+    "bottom": 0.155,
+    "slope": -0.0332
+   },
+   {
+    "text": "aun tasitindan goi yun",
+    "left": 0.4574,
+    "top": 0.0995,
+    "right": 0.5567,
+    "bottom": 0.1453,
+    "slope": 0.0954
+   },
+   {
+    "text": "TIn",
+    "left": 0.569,
+    "top": 0.1083,
+    "right": 0.5817,
+    "bottom": 0.1375,
+    "slope": -0.0
+   },
+   {
+    "text": "muz yagl",
+    "left": 0.3704,
+    "top": 0.1456,
+    "right": 0.4113,
+    "bottom": 0.1792,
+    "slope": -0.0
+   },
+   {
+    "text": "oyan man.",
+    "left": 0.4085,
+    "top": 0.1456,
+    "right": 0.4606,
+    "bottom": 0.1792,
+    "slope": -0.0
+   },
+   {
+    "text": "arnstirada equlmal",
+    "left": 0.4732,
+    "top": 0.1456,
+    "right": 0.5535,
+    "bottom": 0.1833,
+    "slope": -0.0
+   },
+   {
+    "text": "Türkiye de üretilmiştir.",
+    "left": 0.7958,
+    "top": 0.0667,
+    "right": 0.8873,
+    "bottom": 0.1044,
+    "slope": -0.0
+   },
+   {
+    "text": "Mansavi: firkive",
+    "left": 0.7944,
+    "top": 0.0954,
+    "right": 0.8634,
+    "bottom": 0.125,
+    "slope": -0.0
+   },
+   {
+    "text": "TRANS YAG",
+    "left": 0.9085,
+    "top": 0.0786,
+    "right": 0.9507,
+    "bottom": 0.1044,
+    "slope": -0.0
+   },
+   {
+    "text": "IÇERMEZ",
+    "left": 0.9141,
+    "top": 0.1,
+    "right": 0.9479,
+    "bottom": 0.1292,
+    "slope": -0.0
+   },
+   {
+    "text": "1R",
+    "left": 0.0141,
+    "top": 0.4083,
+    "right": 0.0282,
+    "bottom": 0.4417,
+    "slope": -0.0
+   },
+   {
+    "text": "• BURÇAK - SUTEU ÇİKOLATALI BİSKÜVI - İçındekiler: Bisküvi %71 [Bugday Uny(nuten) Trin Bugdery Uau (Gluten) %24, Bitkisel Yağ (Palm, Ayçiçek, Pamuk, Kanola), Şeker, Inverrş eker",
+    "left": 0.0337,
+    "top": 0.3944,
+    "right": 0.8155,
+    "bottom": 0.4626,
+    "slope": 0.018
+   },
+   {
+    "text": "Şurubu, Yağsız Süt Tozu, Kabartıcılar (Amonyum Hidrojen Karbonat, Sodyum Hidrojen Kaluial, sodyum Asit Pirofosfat), Pastörize Yumurta, Arpa Maltr Ekstraktı (Gluten), Kepek",
+    "left": 0.0112,
+    "top": 0.4321,
+    "right": 0.817,
+    "bottom": 0.5015,
+    "slope": -0.0125
+   },
+   {
+    "text": "Enerij ve Besin Öğeleri (100g da)/100g mal",
+    "left": 0.8282,
+    "top": 0.4124,
+    "right": 0.9704,
+    "bottom": 0.4588,
+    "slope": -0.0
+   },
+   {
+    "text": "Enerj/Enerji Dayari (kJ/kcal-kC/kkal)",
+    "left": 0.828,
+    "top": 0.4608,
+    "right": 0.9707,
+    "bottom": 0.5123,
+    "slope": -0.058
+   },
+   {
+    "text": "Yag /ag (g-q",
+    "left": 0.831,
+    "top": 0.5077,
+    "right": 0.8831,
+    "bottom": 0.5417,
+    "slope": -0.0
+   },
+   {
+    "text": "Doymuş Yag /Doymuş Yag (g-q)",
+    "left": 0.8351,
+    "top": 0.5397,
+    "right": 0.9537,
+    "bottom": 0.5776,
+    "slope": -0.0519
+   },
+   {
+    "text": "Trans Yağ /Trans (g-9",
+    "left": 0.8366,
+    "top": 0.5786,
+    "right": 0.9169,
+    "bottom": 0.6173,
+    "slope": -0.0
+   },
+   {
+    "text": "Karbonhidrat / Karbohidrat (g-q)",
+    "left": 0.8308,
+    "top": 0.6092,
+    "right": 0.9537,
+    "bottom": 0.6488,
+    "slope": -0.0616
+   },
+   {
+    "text": "Şekerler/Şakar (g-q)",
+    "left": 0.8378,
+    "top": 0.6498,
+    "right": 0.9157,
+    "bottom": 0.688,
+    "slope": -0.0722
+   },
+   {
+    "text": "Lif / Lif (g-q",
+    "left": 0.8309,
+    "top": 0.6849,
+    "right": 0.8791,
+    "bottom": 0.7198,
+    "slope": -0.0
+   },
+   {
+    "text": "10,90",
+    "left": 0.9577,
+    "top": 0.6708,
+    "right": 0.9761,
+    "bottom": 0.7125,
+    "slope": -0.0
+   },
+   {
+    "text": "Protein / Zülal (g-q)",
+    "left": 0.831,
+    "top": 0.7204,
+    "right": 0.907,
+    "bottom": 0.7583,
+    "slope": -0.0
+   },
+   {
+    "text": "Tuz / Duz (g-q)",
+    "left": 0.8308,
+    "top": 0.758,
+    "right": 0.8904,
+    "bottom": 0.7994,
+    "slope": 0.0169
+   },
+   {
+    "text": "ydarr: min. 27%.]. Tarkibinda az miqdarda fındıą, soya mahsulu va küncüt ola bilar.",
+    "left": 0.0222,
+    "top": 0.8021,
+    "right": 0.4101,
+    "bottom": 0.8919,
+    "slope": -0.092
+   },
+   {
+    "text": "Ir41uteff), Tuz, Aroma Veii(iler, Emulgator (Mono ve Digliseiitlerin DiaseiilTartaiik Asit Esteileri), Renklendiri(i (Sade Karamel)), Suilu [ikolata %29 [5ekei, Tam YagliSutTozu, Kakaoyaiao K",
+    "left": 0.0165,
+    "top": 0.4845,
+    "right": 0.8056,
+    "bottom": 0.567,
+    "slope": -0.0
+   },
+   {
+    "text": "Kiilesi, Tereyagi (Sut brunu), Bitkisel Yag (Palm), Yagsizsut Tozu, Emulgatorler (Ay[i(ek Le5itini, Poligliserol Polirisinoleat), Aroma!eri(I Ivanilin). Sut Kuru Maddesi En Az %30, Ka",
+    "left": 0.0195,
+    "top": 0.5284,
+    "right": 0.7852,
+    "bottom": 0.5902,
+    "slope": -0.0
+   },
+   {
+    "text": "ulu",
+    "left": 0.8056,
+    "top": 0.5387,
+    "right": 0.8173,
+    "bottom": 0.5631,
+    "slope": -0.0
+   },
+   {
+    "text": "AZ",
+    "left": 0.3814,
+    "top": 0.5902,
+    "right": 0.3915,
+    "bottom": 0.6147,
+    "slope": -0.0
+   },
+   {
+    "text": "Maddesi En Az % 27'dirl. Eser miktarda Findil Soyo urunu ve Susam iferebilir. ￿BuR{AK- SUDLU 5OKOLADII PE(ENYE . Taikibi; pefenye Il% Ibugda unu (qliitenj, tam bugda unu",
+    "left": 0.0165,
+    "top": 0.5722,
+    "right": 0.8179,
+    "bottom": 0.634,
+    "slope": -0.0
+   },
+   {
+    "text": "{qluten) 24%, biiki man5ali yagi (palma, 9unabaxan, pambiq, raps), sakai, invert 5èkar 5èrbati, yagsizlasdirilmis quru sud, yumsaldicilai (ammonium hidrokaibonat, natnum hidrokarbonat,",
+    "left": 0.0151,
+    "top": 0.6173,
+    "right": 0.8188,
+    "bottom": 0.6946,
+    "slope": -0.0
+   },
+   {
+    "text": "natrium dihidropiiofosfat), pasteriza edilmis yumurta, arpa samanisi ekrtrakti (qluten), kapak (qluten), duz, tabii Ilè identik aromahzatoilar, emulqatoi (mono va diqliseiidlaiinin",
+    "left": 0.0151,
+    "top": 0.6611,
+    "right": 0.8184,
+    "bottom": 0.7358,
+    "slope": -0.0
+   },
+   {
+    "text": "iasetil tartarin tursusu efirlaii), ianglayici (sada karamel)1, sudlu sokolad 29r)/0 [5akar, tam yagli quru sud, kakao yagi, kakao kutlasi: kara ya\"1 (sudmahsuluj, biiki fflaniali yagi (palffla),",
+    "left": 0.0185,
+    "top": 0.7036,
+    "right": 0.8184,
+    "bottom": 0.7861,
+    "slope": -0.0
+   },
+   {
+    "text": "gsizlaidirilmii quru sud, emulqatoilay (gunabaxan lesitini, poliqliseiin polirisinolat), tabii ila Idenlik aiomalizator (vanilin). Sud mahsu",
+    "left": 0.0228,
+    "top": 0.7552,
+    "right": 0.6358,
+    "bottom": 0.8351,
+    "slope": -0.0
+   },
+   {
+    "text": "unun miqdaii: min. 30%, kakao mthsulunun",
+    "left": 0.6384,
+    "top": 0.7487,
+    "right": 0.8184,
+    "bottom": 0.8003,
+    "slope": -0.0
+   }
+  ]
+ }
+}
