@@ -61,11 +61,11 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
 - iOS: prefix commands with `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer`
   (`xcode-select` still points at the Command Line Tools). Plugins resolve through Swift
   Package Manager.
-- iOS simulator: "iPhone Duo", UDID `C7FFE678-DB2A-440F-B880-237C322CD1D1`, the only model
-  the iOS 27.1 runtime supports. Xcode 27's simulator app is DeviceHub. It has no camera, so
-  no document scanner, and Vision's cut-out fails there ("Could not create inference context").
-  Screenshots: `xcrun simctl io <udid> screenshot --display=primary`; without the flag it
-  captures a second display that is always black.
+- iOS simulator: "iPhone 17 Pro" on the iOS 26.5 runtime, UDID
+  `CCCE5A39-ACE9-40D8-8298-27716F5CBB23` (the iOS 27.1 runtime and its "iPhone Duo" were removed
+  on 2026-10-20 to free disk). Xcode 27's simulator app is DeviceHub. It has no camera, so no
+  document scanner; Vision's cut-out failed on the iOS 27.1 simulator ("Could not create
+  inference context"). Screenshots: `xcrun simctl io <udid> screenshot`.
 - Don't run other `flutter` commands while an iOS build runs: they regenerate
   `ios/Flutter/ephemeral` and the build fails on missing files.
 - Android: the owner's Galaxy S22 Ultra, adb id `R5CT60CS8KE`, over USB, or over wireless

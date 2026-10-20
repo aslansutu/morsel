@@ -21,12 +21,12 @@ the phone. One Flutter codebase for iOS, Android and the web.
   <tr>
     <td align="center"><img src="docs/screenshots/product.png" width="190" alt="Nutella's product page: Nutri-Score E, processing 3, palm oil and added sugars flagged, fat, saturated fat and sugars high"><br><sub>Answer first</sub></td>
     <td align="center"><img src="docs/screenshots/not-found.png" width="190" alt="A barcode Open Food Facts doesn't have: the mascot, and a button to read the label"><br><sub>Not found? Read the label</sub></td>
-    <td align="center"><img src="docs/screenshots/review.png" width="190" alt="Check the label: a photo of a nutrition table above the values read from it, 6 of 8 found"><br><sub>Check what was read</sub></td>
+    <td align="center"><img src="docs/screenshots/review.png" width="190" alt="Check the label: a photo of a nutrition table above the values read from it, 5 of 8 found and the rest left empty"><br><sub>Check what was read</sub></td>
     <td align="center"><img src="docs/screenshots/history.png" width="190" alt="History: five scans from today, each with its photo and Nutri-Score"><br><sub>History, on the device</sub></td>
   </tr>
 </table>
 
-<sub>iOS simulator. Product and label photos from Open Food Facts, CC BY-SA.</sub>
+<sub>iPhone 17 Pro simulator. Product and label photos from Open Food Facts, CC BY-SA.</sub>
 
 </div>
 
