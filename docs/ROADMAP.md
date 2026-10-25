@@ -51,7 +51,7 @@ The owner decides what's built next; nothing below "Next" is approved until they
   can also continue anonymous using a predefined morsel account", then: "mark the anonymous user
   feature as pending and only create the feature that allows users to create their OFF account
   on their own phone." Anonymous sending is below, pending. Writes go to the staging server.
-  On branch `off-contributions`, not pushed. Verified by unit and widget tests with Open Food
+  Merged into main on 2026-10-25 from `off-contributions`. Verified by unit and widget tests with Open Food
   Facts faked, the Keychain and photo preparation on the iOS simulator, and an Android release
   build; nothing sent to Open Food Facts yet (needs an account, below).
 
@@ -124,14 +124,15 @@ Asked for on 2026-10-19, not started:
 
 Built on 2026-10-25 (see *Done*); how it works is in docs/ARCHITECTURE.md.
 
-**Before pushing the `off-contributions` branch** (asked for as "note to check that we need to
-create an account before we push"):
+**Before switching to production.** The owner first asked to "note to check that we need to
+create an account before we push", then, merging into main: "each user will create their own OFF
+account so no need to add here into the code." What's still unproven is a real send:
 
-- [ ] **Create an Open Food Facts account on staging**, in the app's *Create an account* form,
-  which is itself the first test of it, or at `https://world.openfoodfacts.net/cgi/user.pl`.
-  Staging accounts are separate from production ones. If the owner keeps its password, it goes
-  in the KB vault (`kb_secret`), never in the repo.
-- [ ] **Sign in with it on a phone and send one of each case**: a new product from a label, a
+- [ ] **On a phone, create an account on staging** in the app's *Create an account* form, which is
+  itself its first real test (or at `https://world.openfoodfacts.net/cgi/user.pl`). Staging
+  accounts are separate from production ones. A tester's password stays on their phone, or in
+  the KB vault (`kb_secret`), never in the repo.
+- [ ] **Sign in with it and send one of each case**: a new product from a label, a
   correction, a newer photo, a wrong password, airplane mode then back. Check the results on
   `https://world.openfoodfacts.net/product/<barcode>`. Three things the tests can't show: that
   an empty `selected` entry (`{"front": {"en": {}}}`) selects an upload uncropped; that

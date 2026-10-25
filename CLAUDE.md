@@ -71,9 +71,9 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
 - Device tests (`integration_test/`) launch the app, and the runner may uninstall it
   afterwards. On the owner's phone that wipes their history: ask first.
 
-**Before pushing** the `off-contributions` work (or anything that writes to Open Food Facts):
-create an Open Food Facts account on the server it writes to (staging today), sign in with it on
-a phone, and send one of each case. docs/ROADMAP.md, "Sending to Open Food Facts: what's left".
+**Before switching writes to production** (`offWriteHost`): on a phone, create or sign in to an
+account on staging and send one of each case; nothing has been sent from a phone yet. Accounts are
+each user's own, so the code holds none. docs/ROADMAP.md, "Sending to Open Food Facts: what's left".
 
 **Build and run** — commands in README.md
 - iOS: prefix commands with `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer`
