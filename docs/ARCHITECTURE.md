@@ -1,7 +1,7 @@
 # Morsel — architecture
 
 Scan a food barcode → see how healthy it is. Photograph a nutrition label → extract the
-numbers on-device → contribute them. iOS, Android and a web companion.
+numbers on-device → send them to Open Food Facts if you like. iOS, Android and a web companion.
 
 ## One Flutter codebase
 
@@ -22,6 +22,8 @@ Three native apps would build and test every feature three times.
 | On-device LLM (later) | `flutter_gemma` (LiteRT-LM), blocked: ROADMAP | Gemma 4 / 3n | Gemma 4 / 3n | WebGPU |
 | Label scan, OCR, cut-out | own `morsel/vision` channel | ML Kit       | Apple Vision + VisionKit | — |
 | Photo picking         | `image_picker`                | ✓            | ✓            | —           |
+| Sending to Open Food Facts | API v3 photo upload, v2 edit form | ✓      | ✓            | —           |
+| Password storage      | own `morsel/vision` channel   | Keystore     | Keychain     | —           |
 | Settings + history    | `shared_preferences`          | ✓            | ✓            | ✓           |
 | Panel HTML            | `flutter_widget_from_html_core` | ✓          | ✓            | ✓           |
 
@@ -108,6 +110,48 @@ packages bring JNI on Android (the family behind the shared_preferences_android 
 and an FFI build step on iOS that fails while `xcode-select` points at the Command Line
 Tools.
 
+**Sending to Open Food Facts** — on the product page, *Send to Open Food Facts* (where a saved
+label fills something in) or *Improve on Open Food Facts* (anything else) opens one form,
+`lib/contribute_screen.dart`: three photo slots (front, ingredients, nutrition), name, brand,
+quantity, the nutrition table and the ingredient list with its language. It starts from what Open
+Food Facts has, the label filling the gaps, and the label's photos come along where they back up
+what it fills in. Only what differs from Open Food Facts is sent, and the form says what that is
+and whose name it goes under before anything goes. `lib/contributions.dart` keeps it on the phone
+until Open Food Facts confirms it: photos first, then the fields, each step marked done so a retry
+never sends a photo twice; network errors, 429 and 5xx retry with backoff (30 s doubling to
+30 min, eight tries, then *Try again*); any other answer is shown and not retried.
+
+What goes, and how (checked against the live API spec and the staging server on 2026-10-25):
+
+- Photos: `POST /api/v3/product/{code}/images`, base64, with `selected` naming each field and
+  its language. One upload per file: the label photo can be both the nutrition and the
+  ingredients photo, and Open Food Facts refuses an image it already has. The upload creates
+  the product if needed; the old photo stays in the product's history. Before sending, the
+  phone redraws each photo upright at up to 2400 px (`forUpload`), so none of the original's
+  metadata goes: no location, camera or date. Android's encoder writes no EXIF at all; iOS's
+  writes a fresh one with only orientation, resolution, colour space and pixel size (read back
+  from the simulator on 2026-10-25).
+- Fields: `POST /cgi/product_jqm2.pl`, the v2 edit form, the one write that takes nutrition
+  (v3.5 reworks nutrition and is still unfinished). Name to the field the page shows it from
+  (`product_name_en`, else `product_name_<lang>`); `add_brands` where Open Food Facts has no
+  brand, `brands` only to replace a list the user has seen; `quantity`;
+  `ingredients_text_<language>`, the language from the list's heading; `lang` for a new
+  product. Nutrition goes as the whole table the form shows, `nutriment_<id>` with its unit and
+  `nutrition_data_per` `100g` or `100ml`, whenever any value in it changed. The server keeps
+  each basis as its own input set, so per-100 g values don't mix with a product's per-serving
+  ones, and an empty value clears a nutrient.
+- Every write: `user_id` and `password` (the username, never the email), `app_name`,
+  `app_version`, a `comment` saying what was sent, and with the shared account an `app_uuid`
+  (random, made once per install) so moderators can block one person without blocking Morsel.
+- Answers: wrong credentials are HTTP 403 (HTML from v2, JSON from v3); v2 says
+  `{"status": 0, "status_verbose": …}` with HTTP 200, v3 `"status": "failure"`. Sign-in is
+  checked with `POST /cgi/session.pl` (200, or 403).
+
+Accounts: the user's own, signed in under Settings → Open Food Facts (password in the iOS
+Keychain, or encrypted with an Android Keystore key, through `morsel/vision`); otherwise
+Morsel's shared account from `--dart-define-from-file`. A build without one asks people to sign
+in. Not on the web: no camera, no secure storage.
+
 **Storage** — no backend yet. Open Food Facts is the product database. Settings and the
 scan history (newest first, capped at 200, one row per barcode) live in
 `shared_preferences` on the device; so do the labels the user saved, with their photos in
@@ -132,8 +176,10 @@ nutrition facts, the ingredient list. A backend is added only when the web compa
   `categories_tags`, and their nutrient thresholds are halved.
 - The old search endpoint (`/api/v2/search`) returned 503 while product lookups worked;
   don't build features on it. search.openfoodfacts.org answered.
-- Writes (uploads) go to the staging server `world.openfoodfacts.net` until the flow is
-  proven. Production edits are public and immediately visible.
+- Writes go to the staging server `world.openfoodfacts.net` until the flow is proven
+  (`offWriteHost`). Staging has its own accounts and wants basic auth `off`/`off` on every
+  request. Production edits are public and immediately visible. Reads stay on production,
+  so what's sent to staging never shows on the product page.
 
 ## Open questions
 

@@ -31,7 +31,8 @@ import java.util.concurrent.Executors
 
 /**
  * The `morsel/vision` channel (lib/vision.dart) on Google ML Kit: document scanner,
- * text recognition and subject cut-out. Everything runs on the device.
+ * text recognition and subject cut-out; also photos made ready to send, and
+ * [Secrets]. Everything runs on the device.
  */
 class LabelVision(private val activity: Activity) : MethodChannel.MethodCallHandler {
     private val background = Executors.newSingleThreadExecutor()
@@ -39,6 +40,7 @@ class LabelVision(private val activity: Activity) : MethodChannel.MethodCallHand
     private val segmenter by lazy {
         SubjectSegmentation.getClient(SubjectSegmenterOptions.Builder().enableForegroundBitmap().build())
     }
+    private val secrets by lazy { Secrets(activity) }
     private var pendingScan: MethodChannel.Result? = null
 
     override fun onMethodCall(call: MethodCall, result: MethodChannel.Result) {
@@ -47,6 +49,16 @@ class LabelVision(private val activity: Activity) : MethodChannel.MethodCallHand
             "scanDocument" -> scanDocument(result)
             "readText" -> readText(call.arguments as String, result)
             "cutOut" -> cutOut(call.arguments as String, result)
+            "forUpload" -> inBackground(result) { forUpload(call.arguments as String, 2400) }
+            "readSecret" -> inBackground(result) { secrets.read(call.arguments as String) }
+            "writeSecret" -> inBackground(result) {
+                secrets.write(call.argument<String>("name")!!, call.argument<String>("value")!!)
+                null
+            }
+            "deleteSecret" -> inBackground(result) {
+                secrets.delete(call.arguments as String)
+                null
+            }
             else -> result.notImplemented()
         }
     }
@@ -204,6 +216,17 @@ class LabelVision(private val activity: Activity) : MethodChannel.MethodCallHand
             )
         }
         return out
+    }
+
+    /**
+     * [path] upright, at most [maxSide] px across, as a new JPEG: Bitmap.compress
+     * writes no EXIF, so no location or camera details go with it.
+     */
+    private fun forUpload(path: String, maxSide: Int): String {
+        val image = loadUpright(path, maxSide)
+        val scale = minOf(1f, maxSide.toFloat() / maxOf(image.width, image.height))
+        if (scale == 1f) return save(image)
+        return save(Bitmap.createScaledBitmap(image, (image.width * scale).toInt(), (image.height * scale).toInt(), true))
     }
 
     /** Decodes [path] to at most about [maxSide] px across, turned the way the camera held it. */

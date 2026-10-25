@@ -92,10 +92,11 @@ judging the food.
 8. **Confirm a scan** with a haptic tick, and pause the camera while a product is open
    (battery, and no second barcode firing).
 9. **Every dead end has a next step:** no camera → type the barcode; not found → read
-   the label, or scan another; no scanner → choose a photo; network error → try again.
+   the label, scan another, or add it to Open Food Facts; no scanner → choose a photo; network error → try again.
 10. **Undo over "are you sure?"** for removing a scan, clearing history, and turning
     history off.
-11. **Private by default.** History stays on the device; turning it off forgets it.
+11. **Private by default.** History stays on the device; turning it off forgets it. Nothing
+    goes to Open Food Facts unless the user sends it, after seeing what goes and under whose name.
 
 ## Screens
 
@@ -122,7 +123,13 @@ camera (denied, simulator, desktop browser) the tab says why and offers *Type ba
    ingredient list is not available for this product yet.* and *Read the ingredients*.
 6. Details — how the Nutri-Score was calculated, why it's (ultra-)processed, additives,
    environment. Open Food Facts' own localized explanations.
-7. Source line: *Data from Open Food Facts · updated <date>* and the barcode. Facts from
+7. A card for Open Food Facts (phones only): *Share what you read* with *Send to Open Food
+   Facts* where the page shows facts from the user's label, else *Something wrong or missing?*
+   with *Improve on Open Food Facts*. Under it, the last send for this product: *Sending…*,
+   *Couldn't reach Open Food Facts. Morsel will try again.*, *Open Food Facts didn't take it:
+   <reason>* with *Try again*, or *Sent to Open Food Facts on <date>: 2 photos and the
+   nutrition facts.* Icons stay neutral: these aren't food verdicts.
+8. Source line: *Data from Open Food Facts · updated <date>* and the barcode. Facts from
    the user's label say so — *Nutrition facts from your photo of the label · saved
    <date> · Edit*, or *Ingredients from…*, or *Nutrition facts and ingredients from…* — with
    the photo a tap away. A product only the label knows shows its name, photo, allergen
@@ -141,6 +148,24 @@ once one is used), then the allergens the list names, rewritten as the user corr
 for the ingredients alone has no nutrition part. *Save* needs a value or the list, and under
 it *Saved only on this phone.*
 
+**Improve on Open Food Facts** (*Add to Open Food Facts* for a product it doesn't have) — one
+line on what the form is for, then *Photos*: three slots, Front · Ingredients · Nutrition, each
+showing the new photo (*New*, *Remove*) or Open Food Facts' (*On Open Food Facts*, *Replace*) or
+nothing (*None yet*, *Add*); the front is a photo, the other two use the document scanner.
+*Product*: name, brand, quantity. *Per 100 g* or *Per 100 ml*: the label form's nutrient fields.
+*Ingredients*: the list and *Language of the list*. Fields start from Open Food Facts, the saved
+label filling its gaps. At the bottom, what will go — *Sends 3 photos, the name and the
+nutrition facts.*, or *Change something above to send it.* — then *Send to Open Food Facts*
+(*Sign in to send* when the build has no shared account), whose name it goes under (*Sent as
+alice.*, or *Sent through Morsel's account, not under your name.* with *Sign in to be credited*), and the licences: data under the Open
+Database License, photos under CC BY-SA, only photos you took. While writes go to the test
+server, the page says so.
+
+**Open Food Facts account** — signed out: why to sign in (credit; without it Morsel's account
+sends), username (*Not your email*) and password with autofill, *Sign in*, which checks them with
+Open Food Facts, *Create an account*, and where the password is kept. Signed in: the username,
+*Sign out*, and what happens after.
+
 **Nutrient meter** — three equal zones, low · moderate · high, using Open Food Facts'
 thresholds per 100 g (fat 3/20, saturated fat 1.5/5, sugars 5/12.5, salt 0.3/1.5; halved
 for drinks — `@nutrient_levels` in their `Food.pm`). The dot sits inside the zone Open Food
@@ -153,4 +178,4 @@ Separate empty states for "no scans yet" and "history is off".
 
 **Settings** — *Country*: automatic from the device region, or a searchable list with
 flags ("turk" finds Türkiye). *Remember scans*: on by default; off deletes history, with
-undo.
+undo. *Open Food Facts* → *Account*: who sends (phones only).

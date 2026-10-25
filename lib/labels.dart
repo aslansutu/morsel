@@ -14,6 +14,7 @@ class LabelEntry {
     required this.savedAt,
     this.name,
     this.ingredients,
+    this.ingredientsLanguage,
     this.labelFile,
     this.photoFile,
     this.ingredientsFile,
@@ -28,6 +29,7 @@ class LabelEntry {
         savedAt: DateTime.parse(json['savedAt'] as String),
         name: json['name'] as String?,
         ingredients: json['ingredients'] as String?,
+        ingredientsLanguage: json['ingredientsLanguage'] as String?,
         labelFile: json['labelFile'] as String?,
         photoFile: json['photoFile'] as String?,
         ingredientsFile: json['ingredientsFile'] as String?,
@@ -47,6 +49,9 @@ class LabelEntry {
   /// The ingredient list as the user checked it.
   final String? ingredients;
 
+  /// The language of [ingredients], from its heading; null when typed.
+  final String? ingredientsLanguage;
+
   /// Photo file names inside the store's folder. [ingredientsFile] only when
   /// the list was read from a photo of its own.
   final String? labelFile;
@@ -60,6 +65,7 @@ class LabelEntry {
         'savedAt': savedAt.toIso8601String(),
         'name': name,
         'ingredients': ingredients,
+        'ingredientsLanguage': ingredientsLanguage,
         'labelFile': labelFile,
         'photoFile': photoFile,
         'ingredientsFile': ingredientsFile,
@@ -114,6 +120,7 @@ class LabelStore extends ChangeNotifier {
       savedAt: entry.savedAt,
       name: entry.name,
       ingredients: entry.ingredients,
+      ingredientsLanguage: entry.ingredientsLanguage,
       labelFile: await keep(labelImage, old?.labelFile, 'label'),
       photoFile: await keep(productImage, old?.photoFile, 'photo'),
       ingredientsFile: await keep(ingredientsImage, old?.ingredientsFile, 'ingredients'),

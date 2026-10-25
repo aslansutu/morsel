@@ -21,7 +21,8 @@ import VisionKit
 }
 
 /// The `morsel/vision` channel (lib/vision.dart): VisionKit's document scanner,
-/// Vision text recognition and subject cut-out. Everything runs on the device.
+/// Vision text recognition and subject cut-out, photos made ready to send, and
+/// the Keychain. Everything runs on the device.
 class LabelVision: NSObject, VNDocumentCameraViewControllerDelegate {
   private let channel: FlutterMethodChannel
   private var pendingScan: FlutterResult?
@@ -44,6 +45,17 @@ class LabelVision: NSObject, VNDocumentCameraViewControllerDelegate {
       inBackground(result) { try Self.readText(Self.load(call.arguments)) }
     case "cutOut":
       inBackground(result) { try Self.cutOut(Self.load(call.arguments)) }
+    case "forUpload":
+      inBackground(result) { try Self.save(Self.upright(Self.load(call.arguments), maxSide: 2400)) }
+    case "readSecret":
+      result(Keychain.read(call.arguments as! String))
+    case "writeSecret":
+      let args = call.arguments as! [String: String]
+      result(Keychain.write(args["name"]!, args["value"]!)
+        ? nil : FlutterError(code: "keychain_failed", message: "Couldn't save to the Keychain.", details: nil))
+    case "deleteSecret":
+      Keychain.delete(call.arguments as! String)
+      result(nil)
     default:
       result(FlutterMethodNotImplemented)
     }
@@ -164,6 +176,21 @@ class LabelVision: NSObject, VNDocumentCameraViewControllerDelegate {
     }
   }
 
+  // MARK: Photos to send
+
+  /// [image] redrawn upright, at most [maxSide] px across: a new image, so none of
+  /// the original's metadata (location, camera) goes with it.
+  private static func upright(_ image: UIImage, maxSide: CGFloat) -> UIImage {
+    let scale = min(1, maxSide / max(image.size.width, image.size.height))
+    let format = UIGraphicsImageRendererFormat()
+    format.scale = 1
+    format.opaque = true
+    let size = CGSize(width: (image.size.width * scale).rounded(), height: (image.size.height * scale).rounded())
+    return UIGraphicsImageRenderer(size: size, format: format).image { _ in
+      image.draw(in: CGRect(origin: .zero, size: size))
+    }
+  }
+
   // MARK: Helpers
 
   private func inBackground(_ result: @escaping FlutterResult, _ work: @escaping () throws -> Any?) {
@@ -211,5 +238,35 @@ class LabelVision: NSObject, VNDocumentCameraViewControllerDelegate {
     }
     try data.write(to: url)
     return url.path
+  }
+}
+
+/// Small secrets in the Keychain, readable only on this device while it's unlocked.
+enum Keychain {
+  private static func query(_ name: String) -> [String: Any] {
+    [kSecClass as String: kSecClassGenericPassword, kSecAttrService as String: "morsel", kSecAttrAccount as String: name]
+  }
+
+  static func read(_ name: String) -> String? {
+    var query = query(name)
+    query[kSecReturnData as String] = true
+    query[kSecMatchLimit as String] = kSecMatchLimitOne
+    var item: CFTypeRef?
+    guard SecItemCopyMatching(query as CFDictionary, &item) == errSecSuccess, let data = item as? Data else {
+      return nil
+    }
+    return String(data: data, encoding: .utf8)
+  }
+
+  static func write(_ name: String, _ value: String) -> Bool {
+    delete(name)
+    var query = query(name)
+    query[kSecValueData as String] = Data(value.utf8)
+    query[kSecAttrAccessible as String] = kSecAttrAccessibleWhenUnlockedThisDeviceOnly
+    return SecItemAdd(query as CFDictionary, nil) == errSecSuccess
+  }
+
+  static func delete(_ name: String) {
+    SecItemDelete(query(name) as CFDictionary)
   }
 }

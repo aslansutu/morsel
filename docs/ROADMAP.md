@@ -37,6 +37,22 @@ The owner decides what's built next; nothing below "Next" is approved until they
   tag per version once the starting version is picked. Open Food Facts credentials, once there
   are any, never go in the repo.
 
+- **Sending to Open Food Facts** (2026-10-25), asked for as "if there is a missing product or a
+  just wrong or missing information or just an out dated picture, our app should be able to
+  give OFF the data they need to keep their systems updated the way they want." The product page
+  offers *Send to Open Food Facts* for what a saved label fills in, and *Improve on Open Food
+  Facts* for corrections and newer photos: front, ingredients and nutrition photos, name, brand,
+  quantity, nutrition per 100 g or 100 ml, the ingredient list in its language. Only what
+  differs from Open Food Facts is sent, the way Open Food Facts asks apps to (docs/ARCHITECTURE.md):
+  selected photos, `add_` for tags beside none, a queue that retries only what the server
+  couldn't answer, app name, version and per-install id, photos without metadata. Accounts are
+  the owner's hybrid: "A user can open their own account, if not they can also continue
+  anonymous using a predefined morsel account." Sign-in is optional (Settings → Open Food
+  Facts; the password in the Keychain or Keystore); otherwise Morsel's shared account, built in
+  from a file outside git. Writes go to the staging server. Verified by unit and widget tests
+  with Open Food Facts faked; not yet sent to staging from a phone (needs the shared account,
+  below).
+
 ## Next: the on-device model (the rest of step 2), blocked on a decision
 
 The plan from 2026-10-18: an optional *Label reader* download in Settings, Gemma 4 E2B
@@ -77,7 +93,6 @@ Facts gathered on 2026-10-18. Re-check them before relying on them; this area mo
 ## Later
 
 - **Step 3** — on iPhones with Apple Intelligence, Apple's built-in model instead of the download.
-- **Upload** what was read, once the owner picks where to. Open Food Facts researched below.
 
 Asked for on 2026-10-19, not started:
 
@@ -103,75 +118,54 @@ Asked for on 2026-10-19, not started:
   inside a 48 px thumbnail would fight it. Open question: also show the ingredients and
   nutrition photos Open Food Facts has, which is how to check its data against the pack.
 
-## Contributing to Open Food Facts (researched 2026-10-19, not started)
+## Sending to Open Food Facts: what's left
 
-Asked for: adding products it doesn't have, adding missing information to products it has,
-and updating what's there, such as the photo. From the API docs and the v3 OpenAPI spec on
-2026-10-19. The v3 write API is marked "still under development": re-check before building.
+Built on 2026-10-25 (see *Done*); how it works is in docs/ARCHITECTURE.md. Before it counts as
+proven:
 
-Morsel already does the hard half. *Read the label* and *Read the ingredients* appear exactly
-where Open Food Facts lacks data, read the user's own photos and keep the result on the phone.
-Contributing is one more step: *Send to Open Food Facts* on a saved label.
+- **A staging account for Morsel's shared account** (owner): sign up at
+  `https://world.openfoodfacts.net/cgi/user.pl`, put it in `off_account.json` (README.md, kept
+  out of git) and in the KB vault, build with `--dart-define-from-file=off_account.json`. Until
+  then a build can only send after the user signs in, with a staging account of their own.
+- **Try it on a phone against staging**: a new product from a label, a correction, a newer
+  photo, a wrong password, airplane mode then back. Two things the tests can't show: that an
+  empty `selected` entry (`{"front": {"en": {}}}`) selects an upload uncropped, and that
+  `product_jqm2.pl` takes the form URL-encoded (the spec says multipart; both reached the
+  server's credential check on 2026-10-25).
+- **Production** (owner's call): `offWriteHost` → `world.openfoodfacts.org`, a production
+  account for Morsel's shared one (staging accounts don't carry over), and Open Food Facts' API
+  usage form. Production edits are public at once. Then reads show what was sent: the label no
+  longer fills in what Open Food Facts now has.
 
-**The three cases**, all against the staging server `world.openfoodfacts.net` until proven:
+**Later, asked for as "keep the rest in the roadmap and plan it out in the future"** — what
+Open Food Facts takes that Morsel doesn't send yet, most useful first:
 
-- *A product it doesn't have.* `POST /api/v3/product/{code}/images` with a photo (base64;
-  JPEG, PNG, GIF or HEIC, at least 640×160 px) creates the product, and the same call can
-  select the photo as the `front`, `ingredients` or `nutrition` photo for a language, with an
-  optional crop. Then `PATCH /api/v3/product/{code}` with the name, quantity, language,
-  ingredient text and categories. Nutrition values aren't in v3's write schema yet (v3.5 is
-  reworking nutrition), so they go through the v2 form endpoint `POST /cgi/product_jqm2.pl`:
-  `nutriment_<name>` and `nutriment_<name>_unit`, `nutrition_data_per=100g` or `serving`,
-  `serving_size`, `no_nutrition_data=on` when the pack has none.
-- *Missing information on a product it has.* Send only the fields that are empty, which Morsel
-  already knows: they're what makes it offer *Read the label*. Never send back a field the user
-  hasn't seen: in v2 a tag field without the `add_` prefix replaces what's there
-  (`add_categories` appends), and in v3 `packagings` replaces while `packagings_add` merges.
-- *A newer photo.* Upload it and select it in the same call. An upload alone isn't shown when a
-  photo is already selected for that field. Selecting is non-destructive: the old photo stays
-  in the product's history.
-
-Photos alone help: Open Food Facts reads every upload with OCR, and its Robotoff bot proposes
-ingredients, nutrition, brands and categories from them for people to confirm.
-
-**Rules that come with writing:**
-
-- Accounts: a username (never the email) and password on each write, or a session cookie that
-  only works from one IP, which a phone doesn't keep. No OAuth yet (the docs say "in the
-  future"). Staging and production have separate accounts; staging also needs basic auth
-  `off`/`off`.
-- Apps send `app_name`, `app_version` and `app_uuid` (a salted random id per user, so
-  moderators can block one user without blocking the app), a User-Agent of the form
-  `Morsel/<version> (<contact email>)`, and register on Open Food Facts' API usage form.
-- Queue writes on the phone and drop them only when the server confirms; retry with backoff on
-  network errors, 429 and 5xx, never on other 4xx. Writes have no rate limit; product reads
-  are 15 a minute per IP.
-- Photos are published under CC BY-SA and data under ODbL, and edits are public under the
-  account's name. Only photos the user took, which Morsel's are.
-- `PATCH /api/v3/product/test` checks a write without saving it: the first test for the flow.
-
-**What it changes here.** CLAUDE.md's "nothing leaves the phone except Open Food Facts
-lookups" gains "and what the user chooses to send": per label, never automatic, showing exactly
-what goes. The password belongs in the iOS Keychain and Android Keystore through the app's own
-channel, not in `shared_preferences`. The official Dart package `openfoodfacts` (3.31.0;
-depends on `http`, `json_annotation`, `meta`, `path`; saves products, uploads and crops photos)
-passes the no-JNI/FFI rule, but three calls also fit in `lib/off_client.dart` beside the reads.
-
-Sources: [API introduction](https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/),
-[adding missing products](https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/tutorials/adding-missing-products/),
-[uploading photos](https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/tutorial-uploading-photo-to-a-product/),
-[v3 OpenAPI spec](https://github.com/openfoodfacts/openfoodfacts-server/blob/main/docs/api/ref/api-v3.yaml),
-[API change log](https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/ref-api-and-product-schema-change-log/).
+1. **Categories.** A new product gets no Nutri-Score or Green-Score without one. A search field
+   on OFF's `GET /api/v3/taxonomy_suggestions?tagtype=categories&string=…&lc=en` (the same
+   suggestions as its website), sent as `add_categories` beside none, or as the whole list when
+   the user has seen and edited Open Food Facts'. Needs the product's `categories` read too.
+2. **Serving size, and nutrition per serving.** `serving_size`, and the table per serving where
+   the pack has no per-100 g column (US labels): `nutrition_data_per=serving`. The label parser
+   already knows when a label is per serving (`Basis.unknown`) and only warns today.
+3. **"No nutrition facts on the pack"** (`no_nutrition_data=on`): fresh produce, water, spices.
+   Today the page asks for a label that doesn't exist.
+4. **Labels** (organic, fair trade, vegan; `add_labels`) and **origins**: both feed the
+   Green-Score. Same search field as categories, `tagtype=labels`.
+5. **A packaging photo** (the fourth `selected` field), and later the structured packaging
+   (`packagings_add` in v3: shape, material, recycling), the rest of the Green-Score.
+6. **Generic name** (`generic_name_<lang>`, the legal name: "hazelnut spread with cocoa"),
+   **stores** and **countries where sold** (`add_stores`, `add_countries`, from Settings →
+   Country).
+7. **Robotoff's questions** (`/api/v1/questions/{code}` on robotoff.openfoodfacts.org): yes/no
+   checks of what its AI read from photos, a quick way to help with no typing.
 
 ## Decisions waiting on the owner
 
-- Where uploads go: Open Food Facts (public and open-licensed, needs an account; writes go to
-  the staging server `world.openfoodfacts.net` until the flow is proven) or a private store.
 - What the web companion is for: history, editing, label upload from a desktop?
-- A contact email in the Open Food Facts User-Agent (`Morsel/<version>` for now).
-- Whose account sends to Open Food Facts: the owner's own (the only user today; edits are
-  credited to them and no shared password ships in the app), or one Morsel account with an
-  `app_uuid` per install (no sign-in for users, but its password is inside the app).
+- A contact email in the Open Food Facts User-Agent: "Leave it out for now" (2026-10-25), so
+  `Morsel/<version>`. Open Food Facts asks for one; worth adding before production.
+- When writes move from staging to production, and the production account for Morsel's
+  shared one (above).
 - The version to start from. Proposed: 0.3.0, one minor version per *Done* milestone so far.
 - Proposed and not approved: more sources when Open Food Facts has nothing (Open Beauty
   Facts / Open Products Facts, then USDA for the US); Open Prices; Türkiye's adulteration list.

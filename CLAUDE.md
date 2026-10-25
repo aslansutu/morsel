@@ -24,12 +24,18 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
 - `lib/product_screen.dart` — the product page; fills in a saved label where Open Food Facts lacks nutrition or ingredients.
 - `lib/history_screen.dart`, `lib/settings_screen.dart`, `lib/settings.dart` (Settings, History, ScanRecord).
 - `lib/vision.dart` — the `morsel/vision` channel: document scanner, text recognition, subject
-  cut-out, the app's folder. Native sides: `ios/Runner/AppDelegate.swift` (Apple Vision,
-  VisionKit), `android/app/src/main/kotlin/dev/atakanonol/morsel/LabelVision.kt` (ML Kit).
+  cut-out, the app's folder, photos made ready to send (`forUpload`), `Secrets`. Native sides:
+  `ios/Runner/AppDelegate.swift` (Apple Vision, VisionKit, Keychain),
+  `android/app/src/main/kotlin/dev/atakanonol/morsel/LabelVision.kt` (ML Kit) and `Secrets.kt`
+  (Keystore).
 - `lib/label_parser.dart` — recognised text → nutrition values; `lib/ingredients.dart` —
   recognised text → the ingredient list, and the allergens a list names;
   `lib/label_screen.dart` — the review form; `lib/labels.dart` — LabelStore, saved labels on
   the device.
+- `lib/contribute_screen.dart` — what goes to Open Food Facts, checked before it's sent;
+  `lib/contributions.dart` — the queue that sends it; `lib/account.dart` — the user's Open Food
+  Facts account, or Morsel's shared one. Writes go to the staging server (`offWriteHost` in
+  `lib/off_client.dart`) until the owner says production.
 - `lib/brand.dart` (mascot, scan glyph), `lib/theme.dart`, `lib/format.dart`, `lib/countries.dart`.
 
 ## Rules
@@ -39,8 +45,11 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
   doesn't follow it and it rewrites every line. Match the code around you.
 - UI and UX follow docs/DESIGN.md. The ones most easily broken: green, amber and red mean
   food verdicts only; never colour alone; every dead end has a next step; undo over "are you sure?".
-- Private by default: nothing leaves the phone except Open Food Facts lookups. History and
-  saved labels stay on the device.
+- Private by default: nothing leaves the phone except Open Food Facts lookups and what the user
+  chooses to send to Open Food Facts, shown before it goes. History and saved labels stay on the
+  device. Photos are sent through `forUpload` (none of the original's metadata, so no location). The Open Food Facts
+  password lives in the Keychain or Keystore, never in preferences; Morsel's shared account
+  comes from `--dart-define-from-file=off_account.json` and never goes in the repo.
 - Native features go through the `morsel/vision` channel, not plugins that need CocoaPods.
 - No plugins built on JNI or FFI: `flutter pub deps --style=compact | grep -E '^- (objective_c|jni) '`
   must print nothing. JNI crashed Android release builds (why `shared_preferences_android`
