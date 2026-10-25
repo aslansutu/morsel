@@ -74,7 +74,13 @@ final _sentence = RegExp(r'[.•;!?]\s+|\s[-–]\s');
 /// moves on to storage, nutrition or the next language. A label in several
 /// languages gives its [language] list, or else the first. Null when the photo
 /// has no heading to start from: an empty field beats someone else's text.
-String? readIngredients(List<TextLine> lines, {String language = appLanguage}) {
+String? readIngredients(List<TextLine> lines, {String language = appLanguage}) =>
+    readIngredientList(lines, language: language)?.text;
+
+/// [readIngredients], with the language of the list's heading: Open Food Facts
+/// keeps each language's list apart.
+({String text, String language})? readIngredientList(List<TextLine> lines,
+    {String language = appLanguage}) {
   // Lines in reading order, levelled by the photo's median slope, then joined
   // into rows: text recognition can return one printed line as several, side
   // by side. Lines that overlap across are rows of their own however close:
@@ -171,7 +177,8 @@ String? readIngredients(List<TextLine> lines, {String language = appLanguage}) {
   }
   text = text.replaceAll(RegExp(r'\s+'), ' ').replaceFirst(RegExp(r'^[\s:;.,•-]+'), '');
   text = _trim(text, heading.langs).replaceFirst(RegExp(r'[\s,;•-]+$'), '');
-  return text.length < 3 ? null : text;
+  if (text.length < 3) return null;
+  return (text: text, language: heading.langs.contains(language) ? language : heading.langs.first);
 }
 
 typedef _Heading = ({int end, Set<String> langs});

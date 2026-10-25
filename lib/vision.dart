@@ -11,6 +11,19 @@ const _channel = MethodChannel('morsel/vision');
 /// shared_preferences_android pin) and an FFI build step.
 Future<Directory> appFolder() async => Directory((await _channel.invokeMethod<String>('appFolder'))!);
 
+/// Small secrets, such as the Open Food Facts password: in the iOS Keychain, or
+/// encrypted with an Android Keystore key. Never in preferences, which backups copy.
+class Secrets {
+  const Secrets();
+
+  Future<String?> read(String name) => _channel.invokeMethod<String>('readSecret', name);
+
+  Future<void> write(String name, String value) =>
+      _channel.invokeMethod<void>('writeSecret', {'name': name, 'value': value});
+
+  Future<void> delete(String name) => _channel.invokeMethod<void>('deleteSecret', name);
+}
+
 /// A line of text read from a photo. Box edges are fractions of the image size,
 /// measured from the top left.
 class TextLine {
@@ -81,4 +94,9 @@ class Vision {
   /// The photo's main subject, cut out onto white, as a new image file; null when
   /// the photo has no clear subject.
   Future<String?> cutOut(String imagePath) => _channel.invokeMethod<String>('cutOut', imagePath);
+
+  /// A copy of the photo to send to Open Food Facts: upright, at most 2400 px
+  /// across, a JPEG without the original's metadata, so no location leaves with it.
+  Future<String> forUpload(String imagePath) async =>
+      (await _channel.invokeMethod<String>('forUpload', imagePath))!;
 }

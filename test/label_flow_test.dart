@@ -219,6 +219,7 @@ void main() {
     expect(find.text('Read the ingredients'), findsNothing);
     final reloaded = LabelStore(await SharedPreferences.getInstance(), Directory('${dir.path}/store'));
     expect(reloaded[_code]?.ingredients, _ingredientList);
+    expect(reloaded[_code]?.ingredientsLanguage, 'en');
   });
 
   testWidgets('a product with nutrition facts but no ingredient list gets only the list', (tester) async {

@@ -48,6 +48,13 @@ void main() {
       expect(readIngredients(_page([('Allergy advice: see ingredients in bold.', 0.05, 0.9)])), isNull);
     });
 
+    test("the list comes with its heading's language", () {
+      expect(readIngredientList(_page([('İçindekiler: Şeker, tuz.', 0.05, 0.9)]))?.language, 'tr');
+      expect(readIngredientList(_page([('Zutaten: Zucker, Salz.', 0.05, 0.9)]))?.language, 'de');
+      // "Ingredients" is English and French alike: the app's language wins.
+      expect(readIngredientList(_page([('Ingredients: Sugar, salt.', 0.05, 0.9)]))?.language, 'en');
+    });
+
     test('another column beside the list stays out', () {
       expect(
         readIngredients([

@@ -42,8 +42,12 @@ the phone. One Flutter codebase for iOS, Android and the web.
   ingredients for it, photograph the label. Text recognition runs on the phone, reads the
   per 100 g column in seven languages, picks out the ingredient list and finds the EU's 14
   allergens. You check every value against the photo before it's saved.
-- **Private by default.** No account, no backend. History and saved labels stay on the device;
-  the only thing that leaves the phone is the Open Food Facts lookup.
+- **Send it to Open Food Facts.** Share what you read off a label, correct a wrong value or send a
+  newer photo, so everyone who scans the product gets it. You see exactly what goes before it
+  goes, and only what you changed is sent, under your own Open Food Facts account, which you can
+  create without leaving the app.
+- **Private by default.** No Morsel account, no backend. History and saved labels stay on the
+  device; what leaves the phone is the Open Food Facts lookup, and what you choose to send.
 - **No dead ends.** No camera? Type the barcode. Not found? Read the label. Deleted a scan? Undo.
 - **Light and dark.** A plum & oat palette, with every text colour measured to WCAG AA.
 
@@ -73,6 +77,7 @@ flowchart LR
     parse --> review["You check each value"]
     review --> saved[("Saved on this phone")]
     saved --> page
+    page -->|"if you choose"| send["Send to Open Food Facts"]
 ```
 
 A saved label fills in only what Open Food Facts lacks. The document scanner, text recognition
@@ -84,6 +89,8 @@ than plugins.
 | Barcode scanning | `mobile_scanner` | Apple Vision | ML Kit | ZXing |
 | Product data | Open Food Facts API v2 | ✓ | ✓ | ✓ |
 | Label scan, text recognition, cut-out | `morsel/vision` | Apple Vision, VisionKit | ML Kit | — |
+| Sending to Open Food Facts | API v3 photo upload, v2 edit form | ✓ | ✓ | — |
+| The Open Food Facts password | `morsel/vision` | Keychain | Keystore | — |
 | Photo picking | `image_picker` | ✓ | ✓ | — |
 | Settings and history | `shared_preferences` | ✓ | ✓ | ✓ |
 
@@ -121,6 +128,10 @@ adb install -r build/app/outputs/flutter-apk/app-release.apk  # -r keeps the app
 flutter build web --no-wasm-dry-run                            # web
 ```
 
+Sending to Open Food Facts needs the user's own account (Settings → Open Food Facts, or the
+*Create an account* form). While writes go to Open Food Facts' test server, that's an account
+made there. The app carries no credentials of its own.
+
 ## Tests
 
 ```sh
@@ -150,10 +161,14 @@ lib/
 ├── ingredients.dart       recognised text → ingredient list and allergens
 ├── label_screen.dart      the review form
 ├── labels.dart            saved labels on the device
+├── contribute_screen.dart what goes to Open Food Facts, checked before it's sent
+├── contributions.dart     the queue that sends it, retrying until Open Food Facts confirms
+├── account.dart           the user's Open Food Facts account: sign in, or create one
 ├── vision.dart            the morsel/vision channel
 └── …                      history, settings, theme, brand
-ios/Runner/AppDelegate.swift                                        Apple Vision, VisionKit
+ios/Runner/AppDelegate.swift                                        Apple Vision, VisionKit, Keychain
 android/app/src/main/kotlin/dev/atakanonol/morsel/LabelVision.kt    ML Kit
+android/app/src/main/kotlin/dev/atakanonol/morsel/Secrets.kt        Keystore
 test/fixtures/             recognised text of real label photos, with the true values
 tool/brand_icons.py        every app icon, drawn from one geometry
 ```
@@ -170,8 +185,9 @@ tool/brand_icons.py        every app icon, drawn from one geometry
 ## Roadmap
 
 Next is an optional on-device model (Gemma 4 E2B) for labels that text recognition alone can't
-read. Later: Apple's built-in model on iPhones that have it, and sending what you read to Open
-Food Facts. Details in [docs/ROADMAP.md](docs/ROADMAP.md).
+read. Later: Apple's built-in model on iPhones that have it, and sending more to Open Food Facts
+(categories, which a new product needs for its Nutri-Score). Details in
+[docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## License
 

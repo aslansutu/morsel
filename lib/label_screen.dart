@@ -34,6 +34,23 @@ Future<String?> pickLabelImage(BuildContext context, Vision vision) async {
   return null;
 }
 
+/// Asks whether to take a photo or choose one, and returns the image file, or
+/// null if the user backed out.
+Future<String?> pickPhoto(BuildContext context, Vision vision) async {
+  final source = await showModalBottomSheet<ImageSource>(
+    context: context,
+    showDragHandle: true,
+    builder: (_) => const _SourceSheet(cameraLabel: 'Take a photo', cameraIcon: Icons.photo_camera_outlined),
+  );
+  if (source == null || !context.mounted) return null;
+  try {
+    return await vision.pickPhoto(source);
+  } on PlatformException catch (e) {
+    if (context.mounted) _say(context, "Couldn't open that: ${e.message}");
+  }
+  return null;
+}
+
 /// Shows a photo full screen, pinch to zoom.
 Future<void> showPhoto(BuildContext context, String path) => Navigator.of(context).push(
       MaterialPageRoute(
@@ -49,6 +66,35 @@ Future<void> showPhoto(BuildContext context, String path) => Navigator.of(contex
 void _say(BuildContext context, String message) => ScaffoldMessenger.of(context)
   ..hideCurrentSnackBar()
   ..showSnackBar(SnackBar(content: Text(message)));
+
+/// The nutrients a form asks for, in label order: id, name, unit, and whether
+/// it's a sub-row ("of which sugars").
+const nutrientFields = [
+  ('energy-kcal', 'Energy', 'kcal', false),
+  ('fat', 'Fat', 'g', false),
+  ('saturated-fat', 'Saturated fat', 'g', true),
+  ('carbohydrates', 'Carbohydrates', 'g', false),
+  ('sugars', 'Sugars', 'g', true),
+  ('fiber', 'Fibre', 'g', false),
+  ('proteins', 'Protein', 'g', false),
+  ('salt', 'Salt', 'g', false),
+];
+
+/// 30.9, 0.107, 12: the value as typed, without a trailing ".0".
+String plainAmount(double v) => v == v.roundToDouble() ? v.toInt().toString() : '$v';
+
+/// [text] as a number, with a decimal comma or point; null when it isn't one.
+double? parseAmount(String text) => double.tryParse(text.trim().replaceAll(',', '.'));
+
+/// Why [text] can't be an amount in [unit] per 100 g; null when it can, or is empty.
+String? checkNutrient(String? text, String unit) {
+  if (text == null || text.trim().isEmpty) return null;
+  final v = parseAmount(text);
+  if (v == null) return 'Not a number';
+  if (unit == 'g' && v > 100) return 'Over 100 g';
+  if (unit == 'kcal' && v > 950) return 'Too high';
+  return null;
+}
 
 /// The review form: what was read off the label, under the photo, for the user
 /// to check before it's saved.
@@ -87,21 +133,11 @@ class LabelScreen extends StatefulWidget {
 }
 
 class _LabelScreenState extends State<LabelScreen> {
-  static const _fields = [
-    ('energy-kcal', 'Energy', 'kcal', false),
-    ('fat', 'Fat', 'g', false),
-    ('saturated-fat', 'Saturated fat', 'g', true),
-    ('carbohydrates', 'Carbohydrates', 'g', false),
-    ('sugars', 'Sugars', 'g', true),
-    ('fiber', 'Fibre', 'g', false),
-    ('proteins', 'Protein', 'g', false),
-    ('salt', 'Salt', 'g', false),
-  ];
-
   final _form = GlobalKey<FormState>();
   final _values = {for (final id in labelNutrients) id: TextEditingController()};
   late final _name = TextEditingController(text: widget.entry?.name);
   late final _ingredients = TextEditingController(text: widget.entry?.ingredients);
+  late var _listLanguage = widget.entry?.ingredientsLanguage;
   late var _labelImage = widget.labelImage;
   late var _perMl = widget.entry?.perMl ?? false;
   late var _photo = widget.store.productPhoto(widget.code)?.path;
@@ -127,7 +163,7 @@ class _LabelScreenState extends State<LabelScreen> {
       _read();
     } else {
       for (final MapEntry(:key, :value) in entry.values.entries) {
-        _values[key]?.text = _plain(value);
+        _values[key]?.text = plainAmount(value);
       }
     }
   }
@@ -141,10 +177,6 @@ class _LabelScreenState extends State<LabelScreen> {
     _ingredients.dispose();
     super.dispose();
   }
-
-  static String _plain(double v) => v == v.roundToDouble() ? v.toInt().toString() : '$v';
-
-  static double? _number(String text) => double.tryParse(text.trim().replaceAll(',', '.'));
 
   Future<List<TextLine>> _readText(String image) async {
     try {
@@ -162,7 +194,7 @@ class _LabelScreenState extends State<LabelScreen> {
     final lines = await _readText(_labelImage);
     if (!mounted) return;
     final reading = parseLabel(lines);
-    final list = readIngredients(lines);
+    final list = readIngredientList(lines);
     setState(() {
       _reading = false;
       if (widget.nutrition) {
@@ -170,13 +202,14 @@ class _LabelScreenState extends State<LabelScreen> {
         _basis = reading.basis;
         _perMl = reading.basis == Basis.per100ml;
         for (final id in labelNutrients) {
-          _values[id]!.text = switch (reading.values[id]) { final v? => _plain(v), null => '' };
+          _values[id]!.text = switch (reading.values[id]) { final v? => plainAmount(v), null => '' };
         }
       }
       if (widget.ingredients && (list != null || _ingredients.text.trim().isEmpty)) {
         _listFound = list != null;
         if (list != null) {
-          _ingredients.text = list;
+          _ingredients.text = list.text;
+          _listLanguage = list.language;
           _ingredientsImage = null;
         }
       }
@@ -187,13 +220,16 @@ class _LabelScreenState extends State<LabelScreen> {
     final image = await pickLabelImage(context, widget.vision);
     if (image == null || !mounted) return;
     setState(() => _readingList = true);
-    final list = readIngredients(await _readText(image));
+    final list = readIngredientList(await _readText(image));
     if (!mounted) return;
     setState(() {
       _readingList = false;
       _ingredientsImage = image;
       _listFound = list != null;
-      if (list != null) _ingredients.text = list;
+      if (list != null) {
+        _ingredients.text = list.text;
+        _listLanguage = list.language;
+      }
     });
   }
 
@@ -205,19 +241,7 @@ class _LabelScreenState extends State<LabelScreen> {
   }
 
   Future<void> _addPhoto() async {
-    final source = await showModalBottomSheet<ImageSource>(
-      context: context,
-      showDragHandle: true,
-      builder: (_) => const _SourceSheet(cameraLabel: 'Take a photo', cameraIcon: Icons.photo_camera_outlined),
-    );
-    if (source == null || !mounted) return;
-    final String? path;
-    try {
-      path = await widget.vision.pickPhoto(source);
-    } on PlatformException catch (e) {
-      if (mounted) _say(context, "Couldn't open that: ${e.message}");
-      return;
-    }
+    final path = await pickPhoto(context, widget.vision);
     if (path == null || !mounted) return;
     setState(() => _cutting = true);
     String? cut;
@@ -234,19 +258,10 @@ class _LabelScreenState extends State<LabelScreen> {
     if (cut == null) _say(context, "Couldn't pick out the product, so the photo stays as it is.");
   }
 
-  String? _check(String? text, String unit) {
-    if (text == null || text.trim().isEmpty) return null;
-    final v = _number(text);
-    if (v == null) return 'Not a number';
-    if (unit == 'g' && v > 100) return 'Over 100 g';
-    if (unit == 'kcal' && v > 950) return 'Too high';
-    return null;
-  }
-
   Future<void> _save() async {
     if (!_form.currentState!.validate()) return;
     final values = {
-      for (final MapEntry(:key, :value) in _values.entries) key: ?_number(value.text),
+      for (final MapEntry(:key, :value) in _values.entries) key: ?parseAmount(value.text),
     };
     final list = _ingredients.text.trim();
     if ((!widget.nutrition || values.isEmpty) && (!widget.ingredients || list.isEmpty)) {
@@ -268,6 +283,8 @@ class _LabelScreenState extends State<LabelScreen> {
         savedAt: DateTime.now(),
         name: widget.newProduct ? _name.text.trim() : null,
         ingredients: widget.ingredients ? (list.isEmpty ? null : list) : entry?.ingredients,
+        ingredientsLanguage:
+            widget.ingredients ? (list.isEmpty ? null : _listLanguage) : entry?.ingredientsLanguage,
       ),
       labelImage: _labelImage,
       productImage: widget.newProduct ? _photo : null,
@@ -362,51 +379,7 @@ class _LabelScreenState extends State<LabelScreen> {
                 onSelectionChanged: (s) => setState(() => _perMl = s.first),
               ),
               const SizedBox(height: 12),
-              Card(
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  child: Column(
-                    children: [
-                      for (final (id, label, unit, sub) in _fields)
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 4),
-                          child: Row(
-                            children: [
-                              Expanded(
-                                child: Padding(
-                                  padding: EdgeInsets.only(left: sub ? 16 : 0),
-                                  // The field carries the name for screen readers.
-                                  child: ExcludeSemantics(child: Text(label, style: text.bodyLarge)),
-                                ),
-                              ),
-                              SizedBox(
-                                width: 136,
-                                child: Semantics(
-                                  label: label,
-                                  child: TextFormField(
-                                    controller: _values[id],
-                                    enabled: !_reading,
-                                    keyboardType: const TextInputType.numberWithOptions(decimal: true),
-                                    inputFormatters: [FilteringTextInputFormatter.allow(RegExp(r'[0-9.,]'))],
-                                    textAlign: TextAlign.end,
-                                    style: text.bodyLarge?.copyWith(fontFeatures: tabular),
-                                    decoration: InputDecoration(
-                                      isDense: true,
-                                      hintText: '—',
-                                      suffixText: unit,
-                                      border: const OutlineInputBorder(),
-                                    ),
-                                    validator: (t) => _check(t, unit),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                    ],
-                  ),
-                ),
-              ),
+              NutrientFields(controllers: _values, enabled: !_reading),
             ],
             if (widget.ingredients) ...[
               const SizedBox(height: 28),
@@ -527,6 +500,66 @@ class _LabelScreenState extends State<LabelScreen> {
             const SizedBox(height: 8),
             Text('Saved only on this phone.',
                 textAlign: TextAlign.center, style: text.bodySmall?.copyWith(color: muted)),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// A field per nutrient in [nutrientFields], right-aligned with its unit, the
+/// sub-rows indented as on the label.
+class NutrientFields extends StatelessWidget {
+  const NutrientFields({super.key, required this.controllers, this.enabled = true});
+
+  /// By nutrient id.
+  final Map<String, TextEditingController> controllers;
+  final bool enabled;
+
+  @override
+  Widget build(BuildContext context) {
+    final text = Theme.of(context).textTheme;
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        child: Column(
+          children: [
+            for (final (id, label, unit, sub) in nutrientFields)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 4),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsets.only(left: sub ? 16 : 0),
+                        // The field carries the name for screen readers.
+                        child: ExcludeSemantics(child: Text(label, style: text.bodyLarge)),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 136,
+                      child: Semantics(
+                        label: label,
+                        child: TextFormField(
+                          controller: controllers[id],
+                          enabled: enabled,
+                          keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                          inputFormatters: [FilteringTextInputFormatter.allow(RegExp(r'[0-9.,]'))],
+                          textAlign: TextAlign.end,
+                          style: text.bodyLarge?.copyWith(fontFeatures: tabular),
+                          decoration: InputDecoration(
+                            isDense: true,
+                            hintText: '—',
+                            suffixText: unit,
+                            border: const OutlineInputBorder(),
+                          ),
+                          validator: (t) => checkNutrient(t, unit),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
           ],
         ),
       ),

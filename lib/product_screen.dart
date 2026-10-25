@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'brand.dart';
+import 'contribute_screen.dart';
+import 'contributions.dart';
 import 'format.dart';
 import 'ingredients.dart';
 import 'label_screen.dart';
@@ -82,6 +84,7 @@ class ProductScreen extends StatefulWidget {
     this.country,
     this.onLoaded,
     this.labels,
+    this.contributions,
     this.vision = const Vision(),
   });
 
@@ -91,6 +94,9 @@ class ProductScreen extends StatefulWidget {
 
   /// Labels read on this device; null where Morsel can't read labels (the web).
   final LabelStore? labels;
+
+  /// What goes to Open Food Facts; null where Morsel doesn't send (the web).
+  final ContributionQueue? contributions;
   final Vision vision;
 
   /// Called after every completed lookup, found or not.
@@ -145,6 +151,24 @@ class _ProductScreenState extends State<ProductScreen> {
     widget.onLoaded?.call(_withLabel(lookup));
   }
 
+  /// Sends Open Food Facts what the user knows: their label, a correction, a newer photo.
+  Future<void> _contribute(ProductLookup lookup) async {
+    final sent = await Navigator.of(context).push<bool>(MaterialPageRoute(
+      builder: (_) => ContributeScreen(
+        code: widget.code,
+        product: lookup.product,
+        label: _labelFor(lookup.product),
+        queue: widget.contributions!,
+        labels: widget.labels!,
+        vision: widget.vision,
+      ),
+    ));
+    if (sent != true || !mounted) return;
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(const SnackBar(content: Text('Sending to Open Food Facts')));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -193,6 +217,14 @@ class _ProductScreenState extends State<ProductScreen> {
                         ),
                         const SizedBox(height: 8),
                         scanAnother,
+                        // For a pack with no table or list to read, photos and a name still help.
+                        if (widget.contributions != null) ...[
+                          const SizedBox(height: 8),
+                          TextButton(
+                            onPressed: () => _contribute(lookup),
+                            child: const Text('Add it to Open Food Facts'),
+                          ),
+                        ],
                       ],
                     ),
             );
@@ -206,6 +238,8 @@ class _ProductScreenState extends State<ProductScreen> {
             photo: widget.labels?.productPhoto(widget.code),
             labelPhoto: widget.labels?.labelPhoto(widget.code),
             onReadLabel: readLabel,
+            contributions: widget.labels == null ? null : widget.contributions,
+            onContribute: () => _contribute(lookup),
           );
         },
       ),
@@ -223,6 +257,8 @@ class _ProductView extends StatelessWidget {
     this.photo,
     this.labelPhoto,
     this.onReadLabel,
+    this.contributions,
+    this.onContribute,
   });
 
   final String code;
@@ -239,6 +275,10 @@ class _ProductView extends StatelessWidget {
 
   /// Reads the label, or edits it once saved; null where labels can't be read.
   final VoidCallback? onReadLabel;
+
+  /// Null where Morsel doesn't send to Open Food Facts.
+  final ContributionQueue? contributions;
+  final VoidCallback? onContribute;
 
   @override
   Widget build(BuildContext context) {
@@ -295,6 +335,10 @@ class _ProductView extends StatelessWidget {
           ),
         ],
         const SizedBox(height: 24),
+        if (contributions case final queue?) ...[
+          _Contribute(code: code, queue: queue, fromLabel: label != null, onOpen: onContribute!),
+          const SizedBox(height: 24),
+        ],
         if ((label, fills) case (final label?, final fills?))
           _LabelSource(label: label, known: known, fills: fills, labelPhoto: labelPhoto, onEdit: onReadLabel),
         if (known) _Footer(code: code, product: product) else _Barcode(code),
@@ -943,6 +987,60 @@ class _Footer extends StatelessWidget {
         const SizedBox(height: 2),
         Text('Barcode $code', style: style?.copyWith(fontFeatures: tabular)),
       ],
+    );
+  }
+}
+
+/// Sending to Open Food Facts what the user knows, and how the last one went.
+class _Contribute extends StatelessWidget {
+  const _Contribute({required this.code, required this.queue, required this.fromLabel, required this.onOpen});
+
+  final String code;
+  final ContributionQueue queue;
+
+  /// The page shows facts from the user's label, which Open Food Facts lacks.
+  final bool fromLabel;
+  final VoidCallback onOpen;
+
+  @override
+  Widget build(BuildContext context) {
+    final text = Theme.of(context).textTheme;
+    return ListenableBuilder(
+      listenable: queue,
+      builder: (context, _) {
+        final last = queue.latest(code);
+        final share = fromLabel && last?.state != ContributionState.sent;
+        return Card(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(share ? 'Share what you read' : 'Something wrong or missing?',
+                    style: text.titleSmall?.copyWith(fontWeight: FontWeight.w600)),
+                const SizedBox(height: 4),
+                Text(
+                  share
+                      ? "Open Food Facts doesn't have what you read off the label. Send it, and everyone "
+                          'who scans this product gets it.'
+                      : 'Send Open Food Facts a correction or a newer photo, for everyone who scans this product.',
+                  style: text.bodyMedium,
+                ),
+                const SizedBox(height: 12),
+                FilledButton.tonalIcon(
+                  onPressed: onOpen,
+                  icon: Icon(share ? Icons.upload_outlined : Icons.edit_outlined),
+                  label: Text(share ? 'Send to Open Food Facts' : 'Improve on Open Food Facts'),
+                ),
+                if (last != null) ...[
+                  const SizedBox(height: 12),
+                  ContributionStatus(contribution: last, onRetry: () => queue.retry(last)),
+                ],
+              ],
+            ),
+          ),
+        );
+      },
     );
   }
 }

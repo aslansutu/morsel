@@ -5,7 +5,9 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'account.dart';
 import 'brand.dart';
+import 'contributions.dart';
 import 'history_screen.dart';
 import 'labels.dart';
 import 'off_client.dart';
@@ -19,10 +21,27 @@ import 'vision.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
-  // Reading labels needs the phone's camera and text recognition, so not on the web.
-  final labels = kIsWeb ? null : LabelStore(prefs, Directory('${(await appFolder()).path}/labels'));
+  final client = OffClient();
+  // Reading labels and sending photos need the phone's camera, text recognition
+  // and secure storage, so not on the web.
+  final folder = kIsWeb ? null : await appFolder();
+  final labels = folder == null ? null : LabelStore(prefs, Directory('${folder.path}/labels'));
+  final contributions = folder == null
+      ? null
+      : ContributionQueue(
+          prefs,
+          Directory('${folder.path}/contributions'),
+          client: client,
+          account: OffAccount(prefs),
+        );
+  // Whatever didn't go last time.
+  contributions?.send();
   runApp(MorselApp(
-      client: OffClient(), settings: Settings(prefs), history: History(prefs), labels: labels));
+      client: client,
+      settings: Settings(prefs),
+      history: History(prefs),
+      labels: labels,
+      contributions: contributions));
 }
 
 class MorselApp extends StatelessWidget {
@@ -32,6 +51,7 @@ class MorselApp extends StatelessWidget {
     required this.settings,
     required this.history,
     this.labels,
+    this.contributions,
     this.initialTab = DockTab.scan,
   });
 
@@ -39,6 +59,7 @@ class MorselApp extends StatelessWidget {
   final Settings settings;
   final History history;
   final LabelStore? labels;
+  final ContributionQueue? contributions;
   final DockTab initialTab;
 
   @override
@@ -48,7 +69,12 @@ class MorselApp extends StatelessWidget {
       theme: morselTheme(Brightness.light),
       darkTheme: morselTheme(Brightness.dark),
       home: Shell(
-          client: client, settings: settings, history: history, labels: labels, initialTab: initialTab),
+          client: client,
+          settings: settings,
+          history: history,
+          labels: labels,
+          contributions: contributions,
+          initialTab: initialTab),
     );
   }
 }
@@ -63,6 +89,7 @@ class Shell extends StatefulWidget {
     required this.history,
     required this.initialTab,
     this.labels,
+    this.contributions,
   });
 
   final OffClient client;
@@ -70,6 +97,7 @@ class Shell extends StatefulWidget {
   final History history;
   final DockTab initialTab;
   final LabelStore? labels;
+  final ContributionQueue? contributions;
 
   @override
   State<Shell> createState() => _ShellState();
@@ -87,6 +115,7 @@ class _ShellState extends State<Shell> {
           client: widget.client,
           country: widget.settings.effectiveCountry,
           labels: widget.labels,
+          contributions: widget.contributions,
           onLoaded: (lookup) {
             if (widget.settings.rememberScans) widget.history.record(ScanRecord.fromLookup(lookup));
           },
@@ -110,7 +139,8 @@ class _ShellState extends State<Shell> {
             onOpenSettings: () => _go(DockTab.settings),
           ),
         DockTab.scan => ScanTab(onCode: _open),
-        DockTab.settings => SettingsScreen(settings: widget.settings, history: widget.history),
+        DockTab.settings =>
+          SettingsScreen(settings: widget.settings, history: widget.history, contributions: widget.contributions),
       },
       bottomNavigationBar: Dock(current: _tab, onSelect: _go),
     );
