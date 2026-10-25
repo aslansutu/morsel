@@ -75,7 +75,6 @@ class _Server {
   }
 }
 
-const _shared = (user: 'morsel', password: 'shared-pw');
 
 void main() {
   late Directory dir;
@@ -90,13 +89,15 @@ void main() {
   });
   tearDown(() => dir.deleteSync(recursive: true));
 
-  ContributionQueue queue(_Server server, {bool shared = true}) => ContributionQueue(
-        prefs,
-        Directory('${dir.path}/queue'),
-        client: server.client,
-        account: OffAccount(prefs, shared: shared ? _shared : null, secrets: secrets),
-        vision: _FakeVision(dir),
-      );
+  /// The queue, sending as alice unless [signedIn] is false.
+  ContributionQueue queue(_Server server, {bool signedIn = true}) {
+    if (signedIn) {
+      prefs.setString('offUser', 'alice');
+      secrets.values['offPassword'] = 'secret-pw';
+    }
+    return ContributionQueue(prefs, Directory('${dir.path}/queue'),
+        client: server.client, account: OffAccount(prefs, secrets: secrets), vision: _FakeVision(dir));
+  }
 
   // A 1×1 PNG: the screens show the photos.
   String photo(String name) => (File('${dir.path}/$name')
@@ -116,27 +117,24 @@ void main() {
       final body = jsonDecode(request.body) as Map<String, dynamic>;
       expect(body['user_id'], 'alice');
       expect(body['app_name'], 'Morsel');
-      // A user's own account needs no id telling them apart.
-      expect(body.containsKey('app_uuid'), isFalse);
       expect(body['selected'], {
         'nutrition': {'tr': <String, dynamic>{}},
         'ingredients': {'tr': <String, dynamic>{}},
       });
     });
 
-    test("product fields go through the edit form, with the shared account's per-install id", () async {
+    test('product fields go through the edit form, with who sent them', () async {
       final server = _Server();
       await server.client.editProduct(_code, {'quantity': '500 g'},
-          as: const OffCredentials('morsel', 'pw', appUuid: 'abc'), comment: 'Morsel: the quantity');
+          as: const OffCredentials('alice', 'pw'), comment: 'Morsel: the quantity');
       final request = server.writes.single;
       expect(request.url.path, '/cgi/product_jqm2.pl');
       expect(request.bodyFields, {
         'code': _code,
-        'user_id': 'morsel',
+        'user_id': 'alice',
         'password': 'pw',
         'app_name': 'Morsel',
         'app_version': isA<String>(),
-        'app_uuid': 'abc',
         'comment': 'Morsel: the quantity',
         'quantity': '500 g',
       });
@@ -215,27 +213,63 @@ void main() {
     test('signing in checks the password with Open Food Facts and keeps it in secure storage, not preferences',
         () async {
       final server = _Server()..write = (_) => http.Response('<html>Signed in</html>', 200);
-      final account = OffAccount(prefs, shared: _shared, secrets: secrets);
+      final account = OffAccount(prefs, secrets: secrets);
       await account.signIn(server.client, 'alice', 'secret-pw');
       expect(server.writes.single.url.path, '/cgi/session.pl');
       expect(account.user, 'alice');
       expect(secrets.values.values, contains('secret-pw'));
       expect(prefs.getKeys().map((k) => '${prefs.get(k)}').join(), isNot(contains('secret-pw')));
       final as = (await account.credentials())!;
-      expect((as.user, as.password, as.appUuid), ('alice', 'secret-pw', null));
+      expect((as.user, as.password), ('alice', 'secret-pw'));
     });
 
-    test('a wrong password stores nothing; without signing in, the shared account goes with an id per install',
-        () async {
+    test('a wrong password stores nothing, and nothing can be sent without signing in', () async {
       final server = _Server()..write = (_) => http.Response('<html>Error</html>', 403);
-      final account = OffAccount(prefs, shared: _shared, secrets: secrets);
+      final account = OffAccount(prefs, secrets: secrets);
       await expectLater(account.signIn(server.client, 'alice', 'wrong'), throwsA(isA<OffRefused>()));
       expect(account.user, isNull);
       expect(secrets.values, isEmpty);
-      final as = (await account.credentials())!;
-      expect(as.user, 'morsel');
-      expect(as.appUuid, hasLength(32));
-      expect(OffAccount(prefs, shared: _shared, secrets: secrets).appUuid, as.appUuid);
+      expect(account.canSend, isFalse);
+      expect(await account.credentials(), isNull);
+    });
+
+    test("creating an account sends Open Food Facts' sign-up form, then signs in to confirm it", () async {
+      final server = _Server()..write = (_) => http.Response('<html>Welcome</html>', 200);
+      final account = OffAccount(prefs, secrets: secrets);
+      await account.signUp(server.client,
+          user: 'alice', name: 'Alice', email: 'alice@example.org', password: 'secret-pw', newsletter: false);
+      expect(server.writes.map((r) => r.url.path), ['/cgi/user.pl', '/cgi/session.pl']);
+      expect(server.writes.first.bodyFields, {
+        'userid': 'alice',
+        'name': 'Alice',
+        'email': 'alice@example.org',
+        'password': 'secret-pw',
+        'confirm_password': 'secret-pw',
+        'action': 'process',
+        'type': 'add',
+        '.submit': 'Register',
+      });
+      expect(account.user, 'alice');
+      // The email went to Open Food Facts, and nowhere on the phone.
+      expect(prefs.getKeys().map((k) => '${prefs.get(k)}').join(), isNot(contains('alice@example.org')));
+    });
+
+    test('a refused sign-up says why and signs nothing in', () async {
+      // Staging's answer to a bad email on 2026-10-25: Keycloak's error inside an HTTP 500 page.
+      final server = _Server()
+        ..write = (_) => http.Response(
+            '<h1>Software error:</h1>\n<pre>{&quot;field&quot;:&quot;email&quot;,&quot;errorMessage&quot;:'
+            '&quot;error-invalid-email&quot;,&quot;params&quot;:[&quot;email&quot;,&quot;x&quot;]} at '
+            '/opt/product-opener/lib/ProductOpener/Keycloak.pm line 235.</pre>',
+            500);
+      final account = OffAccount(prefs, secrets: secrets);
+      await expectLater(
+          account.signUp(server.client, user: 'alice', name: 'Alice', email: 'x', password: 'secret-pw', newsletter: true),
+          throwsA(isA<OffRefused>().having((e) => e.message, 'message', "That email address doesn't look right.")));
+      expect(server.writes.map((r) => r.url.path), ['/cgi/user.pl']);
+      expect(server.writes.single.bodyFields['newsletter'], 'on');
+      expect(account.user, isNull);
+      expect(secrets.values, isEmpty);
     });
   });
 
@@ -301,8 +335,7 @@ void main() {
       expect(uploads[1].$1, contains('-label-'));
       expect(uploads[1].$2, {'ingredients': {'tr': <String, dynamic>{}}, 'nutrition': {'tr': <String, dynamic>{}}});
       final fields = server.at('/cgi/product_jqm2.pl').single.bodyFields;
-      expect(fields, containsPair('user_id', 'morsel'));
-      expect(fields, containsPair('app_uuid', hasLength(32)));
+      expect(fields, containsPair('user_id', 'alice'));
       expect(fields, containsPair('product_name_tr', 'Fındık kreması'));
       expect(fields, containsPair('add_brands', 'Kardelen'));
       expect(fields, containsPair('ingredients_text_tr', 'Şeker, FINDIK (%13)'));
@@ -355,7 +388,7 @@ void main() {
       expect(server.at('/api/v3/product/$_code/images'), isEmpty);
       final fields = server.at('/cgi/product_jqm2.pl').single.bodyFields;
       expect(
-        fields.keys.where((k) => !const ['code', 'user_id', 'password', 'app_name', 'app_version', 'app_uuid', 'comment'].contains(k)),
+        fields.keys.where((k) => !const ['code', 'user_id', 'password', 'app_name', 'app_version', 'comment'].contains(k)),
         unorderedEquals(['brands', 'nutrition_data_per', 'nutriment_fat', 'nutriment_fat_unit', 'nutriment_sugars', 'nutriment_sugars_unit']),
       );
       expect(fields['brands'], 'Ferrero, Nutella');
@@ -371,7 +404,7 @@ void main() {
         home: ContributeScreen(
           code: _code,
           product: null,
-          queue: queue(server, shared: false),
+          queue: queue(server, signedIn: false),
           labels: LabelStore(prefs, Directory('${dir.path}/labels')),
           vision: _FakeVision(dir),
         ),
@@ -385,7 +418,47 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.widgetWithText(FilledButton, 'Send to Open Food Facts'), findsOneWidget);
-      expect(find.text('Sent as alice.'), findsOneWidget);
+      expect(find.text('Sent as alice, and public under that name.'), findsOneWidget);
+    });
+
+    testWidgets('an account made in the app needs the terms agreed, then sends straight away', (tester) async {
+      tall(tester);
+      final server = _Server()..write = (_) => http.Response('<html>Welcome</html>', 200);
+      await tester.pumpWidget(MaterialApp(
+        theme: morselTheme(Brightness.light),
+        home: ContributeScreen(
+          code: _code,
+          product: null,
+          queue: queue(server, signedIn: false),
+          labels: LabelStore(prefs, Directory('${dir.path}/labels')),
+          vision: _FakeVision(dir),
+        ),
+      ));
+      await tester.tap(find.widgetWithText(FilledButton, 'Sign in to send'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.widgetWithText(OutlinedButton, 'Create an account'));
+      await tester.pumpAndSettle();
+
+      await tester.enterText(find.widgetWithText(TextFormField, 'Username'), 'Alice B');
+      await tester.enterText(find.widgetWithText(TextFormField, 'Name'), 'Alice');
+      await tester.enterText(find.widgetWithText(TextFormField, 'Email'), 'alice@example.org');
+      await tester.enterText(find.widgetWithText(TextFormField, 'Password'), 'secret-pw');
+      await tester.tap(find.widgetWithText(FilledButton, 'Create account'));
+      await tester.pumpAndSettle();
+      // Open Food Facts' username rules and its terms, checked before anything is sent.
+      expect(find.text('Only lowercase letters, digits and dashes'), findsOneWidget);
+      expect(find.text('Agree to the terms to create an account'), findsOneWidget);
+      expect(server.writes, isEmpty);
+
+      await tester.enterText(find.widgetWithText(TextFormField, 'Alice B'), 'alice-b');
+      await tester.tap(find.text("I agree to Open Food Facts' "));
+      await tester.tap(find.widgetWithText(FilledButton, 'Create account'));
+      await tester.pumpAndSettle();
+
+      expect(server.writes.map((r) => r.url.path), ['/cgi/user.pl', '/cgi/session.pl']);
+      // Back where sending needed it, signed in.
+      expect(find.text('Sent as alice-b, and public under that name.'), findsOneWidget);
+      expect(find.widgetWithText(FilledButton, 'Send to Open Food Facts'), findsOneWidget);
     });
   });
 }

@@ -145,15 +145,18 @@ prints `INGREDIENTS <barcode> <lines as JSON>` for each photo. `vision-macos` co
 | Test | Why it's needed |
 |---|---|
 | a photo goes to the staging server, selected for each field in its language, with who sent it | An upload that isn't selected doesn't show where a photo already is; writes must stay on staging until production is chosen; Open Food Facts asks apps to say who they are. |
-| product fields go through the edit form, with the shared account's per-install id | The one write that takes nutrition; without `app_uuid` moderators could only block all of Morsel. |
+| product fields go through the edit form, with who sent them | The one write that takes nutrition, and Open Food Facts asks apps to name themselves on every write. |
 | what Open Food Facts refuses is not retried; what it can't answer is | Open Food Facts' rule for apps. Its refusals come in three shapes (403 HTML, 200 with status 0, 400 with "failure"), copied from staging. |
 | a contribution waits on the phone until Open Food Facts confirms it, sending no photo twice | Nothing is lost to a dropped connection or a restart, and a retry after the photos went doesn't upload them again (Open Food Facts refuses a duplicate image). Also checks every upload went through `forUpload`, which strips location. |
 | a refusal is shown and not retried until the user tries again | A wrong password must reach the user, not loop in the background. |
 | signing in checks the password with Open Food Facts and keeps it in secure storage, not preferences | Preferences are plain files that backups copy. |
-| a wrong password stores nothing; without signing in, the shared account goes with an id per install | A failed sign-in mustn't half-sign the user in; the id must stay the same across launches to mean anything to moderators. |
+| a wrong password stores nothing, and nothing can be sent without signing in | A failed sign-in mustn't half-sign the user in, and the app has no account of its own to fall back on. |
+| creating an account sends Open Food Facts' sign-up form, then signs in to confirm it | Open Food Facts pretends to accept sign-ups that look like spam, so only the sign-in proves the account exists; the email must not be kept on the phone. |
+| a refused sign-up says why and signs nothing in | Staging's Keycloak refuses with an HTTP 500 page holding JSON (copied from 2026-10-25); read as a server error, the user would never learn their email was the problem. |
 | a label for an unknown product goes as one upload for both of its photos, then its facts | The whole flow from the product page: the label's photos and facts, the pack's language, `add_brands` beside none, the whole nutrition table, and the status line afterwards. |
 | only what the user changes is sent: a corrected brand, and nutrition as the whole table | Sending a field the user didn't touch would overwrite someone else's work with a stale copy. |
-| without an account to send with, it asks the user to sign in first | A build without Morsel's shared account must lead to sign-in, not a dead button. |
+| without an account to send with, it asks the user to sign in first | Sending needs the user's own account: the button must lead to sign-in, not be dead. |
+| an account made in the app needs the terms agreed, then sends straight away | Open Food Facts' terms must be agreed and its username rules met before anything is sent; afterwards the user is back where sending needed an account, signed in. |
 
 ### integration_test/ — on a phone or simulator
 
@@ -212,8 +215,12 @@ new product without a name, an empty form, photos without an ingredient list. St
 
 **Sending to Open Food Facts**
 - An HTTP 200 sign-in answer that is really an error page → not signed in.
-- A contribution queued, then the user signs out with no shared account → *Sign in to Open Food
-  Facts to send this.*, and it goes once they sign in.
+- A contribution queued, then the user signs out → *Sign in to Open Food Facts to send this.*,
+  and it goes once they sign in.
+- A sign-up Open Food Facts answers with HTTP 200 but whose sign-in fails (taken for spam, or
+  waiting for an email) → *Open Food Facts didn't sign the new account in…*, nothing stored.
+- A username that's taken (Keycloak's "User exists with same username") → *That username is
+  taken.*
 - Eight failed tries → no more automatic tries, *Try again* shown.
 - A saved photo deleted before it's sent → refused with "A photo is missing from the phone."
 - The Keystore key gone after a backup restore → signed out, not a crash.

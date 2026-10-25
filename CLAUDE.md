@@ -33,9 +33,11 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
   `lib/label_screen.dart` — the review form; `lib/labels.dart` — LabelStore, saved labels on
   the device.
 - `lib/contribute_screen.dart` — what goes to Open Food Facts, checked before it's sent;
-  `lib/contributions.dart` — the queue that sends it; `lib/account.dart` — the user's Open Food
-  Facts account, or Morsel's shared one. Writes go to the staging server (`offWriteHost` in
-  `lib/off_client.dart`) until the owner says production.
+  `lib/contributions.dart` — the queue that sends it; `lib/account.dart` — the user's own Open
+  Food Facts account, signed in or created in the app (`SignUpScreen` in
+  `lib/settings_screen.dart`). Writes go to the staging server (`offWriteHost` in
+  `lib/off_client.dart`) until the owner says production. Sending without an account, through
+  one Morsel account, is pending: docs/ROADMAP.md.
 - `lib/brand.dart` (mascot, scan glyph), `lib/theme.dart`, `lib/format.dart`, `lib/countries.dart`.
 
 ## Rules
@@ -47,9 +49,12 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
   food verdicts only; never colour alone; every dead end has a next step; undo over "are you sure?".
 - Private by default: nothing leaves the phone except Open Food Facts lookups and what the user
   chooses to send to Open Food Facts, shown before it goes. History and saved labels stay on the
-  device. Photos are sent through `forUpload` (none of the original's metadata, so no location). The Open Food Facts
-  password lives in the Keychain or Keystore, never in preferences; Morsel's shared account
-  comes from `--dart-define-from-file=off_account.json` and never goes in the repo.
+  device. Photos are sent through `forUpload` (none of the original's metadata, so no location).
+  The user's Open Food Facts password lives in the Keychain or Keystore, never in preferences.
+- No secret ships in the app. Anything in the APK or IPA, a `--dart-define`, native resources or
+  obfuscated code can be read in a teardown, and the repo is public. A credential the app would
+  use on behalf of every user (a shared Open Food Facts account) lives on a server that adds it,
+  never in the binary or the repo.
 - Native features go through the `morsel/vision` channel, not plugins that need CocoaPods.
 - No plugins built on JNI or FFI: `flutter pub deps --style=compact | grep -E '^- (objective_c|jni) '`
   must print nothing. JNI crashed Android release builds (why `shared_preferences_android`
@@ -65,6 +70,10 @@ on a Galaxy S22 Ultra and the iOS simulator, and decides what gets built next.
   from elsewhere on the pack, no invented allergen.
 - Device tests (`integration_test/`) launch the app, and the runner may uninstall it
   afterwards. On the owner's phone that wipes their history: ask first.
+
+**Before pushing** the `off-contributions` work (or anything that writes to Open Food Facts):
+create an Open Food Facts account on the server it writes to (staging today), sign in with it on
+a phone, and send one of each case. docs/ROADMAP.md, "Sending to Open Food Facts: what's left".
 
 **Build and run** — commands in README.md
 - iOS: prefix commands with `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer`

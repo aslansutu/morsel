@@ -46,6 +46,3 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
-
-# Morsel's shared Open Food Facts account, for --dart-define-from-file (README.md)
-off_account.json

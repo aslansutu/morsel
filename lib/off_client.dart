@@ -26,18 +26,13 @@ class OffRefused extends OffException {
   OffRefused(super.message);
 }
 
-/// Who a contribution is sent as: the user's own Open Food Facts account, or
-/// Morsel's shared one.
+/// The user's own Open Food Facts account, which a contribution is sent and credited as.
 class OffCredentials {
-  const OffCredentials(this.user, this.password, {this.appUuid});
+  const OffCredentials(this.user, this.password);
 
   /// The username, never the email: Open Food Facts asks for it.
   final String user;
   final String password;
-
-  /// A random id per install, sent with the shared account only, so Open Food
-  /// Facts' moderators can block one person without blocking Morsel.
-  final String? appUuid;
 }
 
 /// Where contributions go: Open Food Facts' staging server until the flow is
@@ -135,7 +130,6 @@ class OffClient {
         'password': as.password,
         'app_name': 'Morsel',
         'app_version': _version,
-        'app_uuid': ?as.appUuid,
       };
 
   /// Checks a username and password. Throws [OffRefused] when they're wrong.
@@ -143,6 +137,57 @@ class OffClient {
     final res = await _client.post(Uri.https(offWriteHost, '/cgi/session.pl'),
         headers: _writeHeaders, body: {'user_id': user, 'password': password});
     _checkWrite(res);
+  }
+
+  /// Creates an Open Food Facts account through its sign-up form, with the
+  /// fields its own apps send. Throws [OffRefused] with its reason when it says
+  /// no. Its answer can't confirm the account exists, since it pretends to
+  /// accept what looks like spam: sign in afterwards to be sure.
+  Future<void> signUp(
+      {required String user,
+      required String name,
+      required String email,
+      required String password,
+      required bool newsletter}) async {
+    final res = await _client.post(
+      Uri.https(offWriteHost, '/cgi/user.pl'),
+      headers: _writeHeaders,
+      body: {
+        'userid': user,
+        'name': name,
+        'email': email,
+        'password': password,
+        'confirm_password': password,
+        // "on", as a browser sends it: Open Food Facts takes newsletter=1 for a spam bot.
+        if (newsletter) 'newsletter': 'on',
+        'action': 'process',
+        'type': 'add',
+        '.submit': 'Register',
+      },
+    );
+    if (_signUpRefusal(res.body) case final reason?) throw OffRefused(reason);
+    if (res.statusCode == 429 || res.statusCode >= 500) {
+      throw OffException('Open Food Facts returned HTTP ${res.statusCode}');
+    }
+    if (res.statusCode >= 400) throw OffRefused('Open Food Facts returned HTTP ${res.statusCode}');
+  }
+
+  /// Why Open Food Facts refused a sign-up: a JSON error from Keycloak, its new
+  /// login server, inside an HTTP 500 page (staging, 2026-10-25), or the error
+  /// list of its older form. Null when the answer names no error.
+  static String? _signUpRefusal(String body) {
+    final keycloak = RegExp(r'(errorMessage|error_description)(?:&quot;|"):(?:&quot;|")(.+?)(?:&quot;|")')
+        .firstMatch(body);
+    if (keycloak != null) {
+      return switch (keycloak[2]!) {
+        'error-invalid-email' => "That email address doesn't look right.",
+        'User exists with same username' => 'That username is taken.',
+        final reason => 'Open Food Facts said: $reason',
+      };
+    }
+    final list = RegExp(r'error_list\.tt\.html -->(.*?)<!-- end', dotAll: true).firstMatch(body);
+    final text = list?[1]!.replaceAll(RegExp(r'<[^>]*>'), ' ').replaceAll(RegExp(r'\s+'), ' ').trim();
+    return text == null || text.isEmpty ? null : text;
   }
 
   /// Uploads a photo of product [code] and selects it as the product's photo

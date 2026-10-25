@@ -325,27 +325,20 @@ class _ContributeScreenState extends State<ContributeScreen> {
                       child: Text(account.canSend ? 'Send to Open Food Facts' : 'Sign in to send'),
                     ),
                     const SizedBox(height: 12),
-                    if (account.user case final user?)
-                      Text('Sent as $user.', style: text.bodySmall?.copyWith(color: muted))
-                    else if (account.canSend)
-                      Wrap(
-                        crossAxisAlignment: WrapCrossAlignment.center,
-                        children: [
-                          Text("Sent through Morsel's account, not under your name. ",
-                              style: text.bodySmall?.copyWith(color: muted)),
-                          InkWell(
-                            onTap: _signIn,
-                            child: Text('Sign in to be credited',
-                                style: text.bodySmall?.copyWith(
-                                    color: Theme.of(context).colorScheme.primary,
-                                    decoration: TextDecoration.underline)),
-                          ),
-                        ],
-                      ),
+                    Text(
+                      switch (account.user) {
+                        final user? => 'Sent as $user, and public under that name.',
+                        null => 'Sending needs an Open Food Facts account, so what you send is credited to you. '
+                            'Creating one takes a minute.',
+                      },
+                      style: text.bodySmall?.copyWith(color: muted),
+                    ),
                     const SizedBox(height: 4),
                     Text(
-                      'Open Food Facts publishes it for anyone to use: data under the Open Database '
-                      'License, photos under CC BY-SA. Send only photos you took.'
+                      // Open Food Facts' terms: contributions go irrevocably under the Database
+                      // Contents License (the database is ODbL), photos under CC BY-SA.
+                      'Open Food Facts publishes it for anyone to use, for good: data under the '
+                      'Database Contents License, photos under CC BY-SA. Send only photos you took.'
                       '${offWriteHost == 'world.openfoodfacts.net' ? " While Morsel is tested, it goes to Open Food Facts' test server." : ''}',
                       style: text.bodySmall?.copyWith(color: muted),
                     ),

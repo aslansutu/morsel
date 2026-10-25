@@ -141,16 +141,36 @@ What goes, and how (checked against the live API spec and the staging server on 
   each basis as its own input set, so per-100 g values don't mix with a product's per-serving
   ones, and an empty value clears a nutrient.
 - Every write: `user_id` and `password` (the username, never the email), `app_name`,
-  `app_version`, a `comment` saying what was sent, and with the shared account an `app_uuid`
-  (random, made once per install) so moderators can block one person without blocking Morsel.
+  `app_version`, and a `comment` saying what was sent.
 - Answers: wrong credentials are HTTP 403 (HTML from v2, JSON from v3); v2 says
   `{"status": 0, "status_verbose": …}` with HTTP 200, v3 `"status": "failure"`. Sign-in is
   checked with `POST /cgi/session.pl` (200, or 403).
 
-Accounts: the user's own, signed in under Settings → Open Food Facts (password in the iOS
-Keychain, or encrypted with an Android Keystore key, through `morsel/vision`); otherwise
-Morsel's shared account from `--dart-define-from-file`. A build without one asks people to sign
-in. Not on the web: no camera, no secure storage.
+Accounts: the user's own, always, so what they send is credited to them. Settings → Open Food
+Facts (or *Sign in to send* on the form) signs in or creates one; the password goes in the iOS
+Keychain, or is encrypted with an Android Keystore key, through `morsel/vision`. The app carries
+no credentials of its own: sending without an account, through one Morsel account, is pending
+(docs/ROADMAP.md) because its password would have to live on a server. Not on the web: no
+camera, no secure storage.
+
+Creating an account in the app (`SignUpScreen`) posts Open Food Facts' own sign-up form,
+`POST /cgi/user.pl` with `userid`, `name`, `email`, `password`, `confirm_password`,
+`action=process`, `type=add`, `.submit=Register`, the fields its official Dart SDK sends.
+Learned on staging on 2026-10-25, without creating an account:
+
+- Account creation now goes through Keycloak, Open Food Facts' new login server
+  (`ProductOpener/Keycloak.pm`). A field Keycloak rejects comes back as HTTP 500, a "Software
+  error" page with its JSON inside: `{"field":"email","errorMessage":"error-invalid-email",…}`.
+  The older form (still on production, perhaps) lists errors as HTML between
+  `error_list.tt.html` comments. Morsel reads both.
+- Open Food Facts pretends to accept what looks like spam (a filled hidden `faxnumber`,
+  `newsletter=1`, a spammy name) and creates nothing. So the answer can't confirm an account;
+  Morsel signs in with it straight after, and only that counts. The newsletter is sent as `on`,
+  as a browser sends it, and only when the user ticks it.
+- Its rules, checked in the form first: username of lowercase letters, digits and dashes, at
+  most 40; name 2 to 60 characters; password at least 6 (Keycloak may ask more, and says so).
+  The terms of use are at `/terms-of-use`; the form needs them agreed. The email goes to Open
+  Food Facts and isn't kept on the phone.
 
 **Storage** — no backend yet. Open Food Facts is the product database. Settings and the
 scan history (newest first, capped at 200, one row per barcode) live in

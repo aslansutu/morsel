@@ -155,16 +155,26 @@ nothing (*None yet*, *Add*); the front is a photo, the other two use the documen
 *Product*: name, brand, quantity. *Per 100 g* or *Per 100 ml*: the label form's nutrient fields.
 *Ingredients*: the list and *Language of the list*. Fields start from Open Food Facts, the saved
 label filling its gaps. At the bottom, what will go — *Sends 3 photos, the name and the
-nutrition facts.*, or *Change something above to send it.* — then *Send to Open Food Facts*
-(*Sign in to send* when the build has no shared account), whose name it goes under (*Sent as
-alice.*, or *Sent through Morsel's account, not under your name.* with *Sign in to be credited*), and the licences: data under the Open
-Database License, photos under CC BY-SA, only photos you took. While writes go to the test
+nutrition facts.*, or *Change something above to send it.* — then *Send to Open Food Facts*,
+or *Sign in to send* before the user has an account; whose name it goes under (*Sent as alice,
+and public under that name.*, or that sending needs an account and creating one takes a
+minute); and the licences, from Open Food Facts' terms: for good, data under the Database
+Contents License, photos under CC BY-SA, only photos you took. While writes go to the test
 server, the page says so.
 
-**Open Food Facts account** — signed out: why to sign in (credit; without it Morsel's account
-sends), username (*Not your email*) and password with autofill, *Sign in*, which checks them with
-Open Food Facts, *Create an account*, and where the password is kept. Signed in: the username,
-*Sign out*, and what happens after.
+**Open Food Facts account** — signed out: why to sign in (sending needs it; credit), username
+(*Not your email*) and password with autofill, *Sign in*, which checks them with Open Food
+Facts, then *New to Open Food Facts?* and *Create an account*, and where the password is kept.
+Signed in: the username, *Sign out*, and what happens after.
+
+**Create an account** — what the account is for (*What you send is published under your
+username.*), then username (*Public. Lowercase letters, digits and dashes.*), name, email
+(*Goes only to Open Food Facts. Morsel doesn't keep it.*), password (*At least 6 characters*),
+all checked in the form against Open Food Facts' rules before anything is sent. *Send me Open
+Food Facts' newsletter*, off by default. *I agree to Open Food Facts' terms of use*, linked,
+required. *Create account* signs in with the new account and returns to where sending needed
+it. Open Food Facts' refusal is shown in its words (*That username is taken.*). The way out if
+the form fails: *Or create it on the Open Food Facts website*.
 
 **Nutrient meter** — three equal zones, low · moderate · high, using Open Food Facts'
 thresholds per 100 g (fat 3/20, saturated fat 1.5/5, sugars 5/12.5, salt 0.3/1.5; halved

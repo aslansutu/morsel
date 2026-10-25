@@ -44,8 +44,8 @@ the phone. One Flutter codebase for iOS, Android and the web.
   allergens. You check every value against the photo before it's saved.
 - **Send it to Open Food Facts.** Share what you read off a label, correct a wrong value or send a
   newer photo, so everyone who scans the product gets it. You see exactly what goes before it
-  goes, and only what you changed is sent: under your own Open Food Facts account if you sign
-  in, or through Morsel's.
+  goes, and only what you changed is sent, under your own Open Food Facts account, which you can
+  create without leaving the app.
 - **Private by default.** No Morsel account, no backend. History and saved labels stay on the
   device; what leaves the phone is the Open Food Facts lookup, and what you choose to send.
 - **No dead ends.** No camera? Type the barcode. Not found? Read the label. Deleted a scan? Undo.
@@ -128,14 +128,9 @@ adb install -r build/app/outputs/flutter-apk/app-release.apk  # -r keeps the app
 flutter build web --no-wasm-dry-run                            # web
 ```
 
-People who don't sign in to Open Food Facts send through Morsel's own account. Builds get it
-from a file kept out of git (`off_account.json` is in `.gitignore`); without it, sending needs
-a sign-in. While writes go to Open Food Facts' test server, the account is one made there.
-
-```sh
-echo '{"OFF_SHARED_USER": "<username>", "OFF_SHARED_PASSWORD": "<password>"}' > off_account.json
-flutter build apk --release --target-platform android-arm64 --dart-define-from-file=off_account.json
-```
+Sending to Open Food Facts needs the user's own account (Settings → Open Food Facts, or the
+*Create an account* form). While writes go to Open Food Facts' test server, that's an account
+made there. The app carries no credentials of its own.
 
 ## Tests
 
@@ -168,7 +163,7 @@ lib/
 ├── labels.dart            saved labels on the device
 ├── contribute_screen.dart what goes to Open Food Facts, checked before it's sent
 ├── contributions.dart     the queue that sends it, retrying until Open Food Facts confirms
-├── account.dart           the user's Open Food Facts account, or Morsel's
+├── account.dart           the user's Open Food Facts account: sign in, or create one
 ├── vision.dart            the morsel/vision channel
 └── …                      history, settings, theme, brand
 ios/Runner/AppDelegate.swift                                        Apple Vision, VisionKit, Keychain

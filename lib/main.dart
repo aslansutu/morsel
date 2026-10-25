@@ -18,11 +18,6 @@ import 'settings_screen.dart';
 import 'theme.dart';
 import 'vision.dart';
 
-// Morsel's shared Open Food Facts account, for users who don't sign in; from
-// --dart-define-from-file (README.md), never in the repo.
-const _sharedUser = String.fromEnvironment('OFF_SHARED_USER');
-const _sharedPassword = String.fromEnvironment('OFF_SHARED_PASSWORD');
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final prefs = await SharedPreferences.getInstance();
@@ -37,8 +32,7 @@ Future<void> main() async {
           prefs,
           Directory('${folder.path}/contributions'),
           client: client,
-          account: OffAccount(prefs,
-              shared: _sharedUser.isEmpty ? null : (user: _sharedUser, password: _sharedPassword)),
+          account: OffAccount(prefs),
         );
   // Whatever didn't go last time.
   contributions?.send();
